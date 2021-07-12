@@ -1,0 +1,53 @@
+<div class="toc-container" table-of-contents-container>
+  
+  <div class="toc-header">
+    <a class="toc-close-button" onclick="hideTableOfContents()">
+      <img src="{{ "./images/COMPOST_Assets_X_blk-1.png" | relURL }}">
+    </a>
+    <a class="compost-logo" href="{{ relref . "/" }}">
+      <img src="{{ "./images/COMPOST_Logo_1920BLK 1.png" | relURL }}">
+    </a>
+    <a class="mushroom" href="{{ relref . "support-us" }}">
+      <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}" webmon-mushroom>
+    </a>
+  </div>
+  
+  <div class="toc-body">
+    
+    <div class="toc-nav-links">
+      <div class="worm-link">
+        <img class="worm-image">
+        <a href="{{ relref . "/" }}">Issue 01</a>
+      </div>
+      <div class="worm-link">
+        <img class="worm-image">
+        <a href="{{ relref . "about" }}">About</a>
+      </div>
+      <div class="worm-link">
+        <img class="worm-image">
+        <a href="{{ relref . "support-us" }}">Support Us</a>
+      </div>
+    </div>
+    
+    <div class="toc-pieces">
+      {{ $pieceSequence := index .Site.Data "piece-sequence" }}
+      {{ range $pageName := $pieceSequence }}
+          {{ $page := $.Site.GetPage $pageName }}
+          <a href="{{$page.Permalink}}" class="toc-piece-tile">
+            <div class="toc-piece-image"></div>
+            <div class="toc-piece-title">{{$page.Title}}</div>
+          </a>
+      {{ end }}
+    </div>
+
+    <div class="toc-footer-container">
+      {{ partial "footer-content.html" . }}
+    </div>
+
+    <div class="toc-mushrooms">
+      <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">
+    </div>
+
+  </div>
+
+</div>

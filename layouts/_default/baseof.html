@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="monetization" content="{{ .Site.Params.webmonPaymentPointer }}">
+
+    <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
+
+    {{ $mainStylesheet := resources.Get "sass/main.scss" | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $mainStylesheet.Permalink }}">
+    
+    <title>
+      {{ block "title" . }}{{ .Site.Title }}{{ end }}
+    </title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-top">
+        <a class="hamburger-worm" onclick="showTableOfContents()">
+          <img src="{{ "./images/COMPOST_Assets_SNKhmbrgr_WHT.png" | relURL }}">
+        </a>
+        <a class="compost-logo" href="{{ relref . "/" }}">
+          <img src="{{ "./images/COMPOST_Logo_1920WHT 1.png" | relURL }}">
+        </a>
+        <a class="mushroom" href="{{ relref . "support-us" }}">
+          <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}" webmon-mushroom>
+        </a>
+      </div>
+    </header>
+    
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    
+    <div class="mushrooms-container">
+      <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">
+    </div>
+
+    <div class="footer-container">
+      <!-- <img class="footer-background" src="{{ "./images/COMPOST_Assets_Footer.png" | relURL }}"> -->
+      {{ partial "footer-content.html" . }}
+    </div>
+
+    {{ partial "table-of-contents.html" . }}
+
+    <script src="{{ (resources.Get "js/vendor/nanohtml.min.js").RelPermalink }}"></script>
+    <script src="{{ (resources.Get "js/main.js").RelPermalink }}"></script>
+    
+    {{ block "scripts" . }}{{ end }}
+  </body>
+</html>

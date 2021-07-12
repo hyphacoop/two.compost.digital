@@ -1,0 +1,261 @@
+@import './fonts.scss';
+
+$desktop-header-height: 325px;
+$mobile-header-height: 160px;
+$desktop-logo-height: 127px;
+$mobile-logo-height: 60px;
+$desktop-column-width: 780px;
+$footnote-column-width: 220px;
+$link-color: #336633;
+
+$title-sans-serif: 'Open Sans', sans-serif;
+
+$desktop-width: $desktop-column-width;
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+html, body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Source Serif Pro', serif;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+
+  @include desktop {
+    font-size: 22px;
+  }
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: $link-color;
+}
+
+a:visited {
+  color: $link-color;
+}
+
+.main-header {
+  height: $mobile-header-height;
+  box-sizing: border-box;
+  padding: 0px 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-image: url('../images/COMPOST_Assets_Header2.png');
+  background-position: center bottom;
+  background-size: auto 100%;
+  margin-bottom: -40px;
+
+  @include desktop {
+    height: $desktop-header-height;
+    margin-bottom: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    height: $desktop-logo-height;
+
+    .compost-logo {
+      position: absolute;
+      left: 50%;
+      top: 10px;
+      transform: translateX(-50%);
+      height: $mobile-logo-height;
+
+      @include desktop {
+        height: $desktop-logo-height;
+        top: 20px;
+      }
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .hamburger-worm {
+      margin-top: 20px;
+      margin-left: 10px;
+      height: 40px;
+
+      @include desktop {
+        margin-top: 40px;
+        margin-left: 20px;
+        height: 73px;  
+      }
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .mushroom {
+      position: absolute;
+      right: 10px;
+      top: 20px;
+      height: 40px;
+
+      @include desktop {
+        top: 40px;
+        right: 30px;
+        height: 73px;  
+      }
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+main {
+  // min-height: calc(100% - #{$mobile-header-height});
+  
+  @include desktop {
+    min-height: calc(100% - #{$desktop-header-height});
+  }
+
+  /* The home container and the images inside (cover, mushrooms, footer) have width 100%.
+     If the viewport gets bigger than our cover image size, then we set the
+     max-width to the width of the cover image, and center everything. */
+
+  .home-container {
+    margin: 0px auto;
+    width: 100%;
+    
+    @media (min-width: 1920px) {
+      max-width: 1920px;  
+    }
+    
+    .cover-image-container {
+      width: 100%;
+      
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .piece-container {
+    position: relative;
+    width: 100%;
+    padding: 0px 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+
+    @include desktop {
+      width: $desktop-column-width;
+      margin: 0px auto;
+    }
+
+    &.has-footnotes {
+      transform: translateX(-100px);
+    }
+
+    h1 {
+      font-family: $title-sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.3em;
+    }
+
+    .author-name {
+      font-family: $title-sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .bio-separator {
+      width: 50%;
+      height: 1px;
+      background: black;
+      margin: 40px auto;
+    }
+
+    .footnote-link {
+      font-weight: bold;
+    }
+
+    .footnotes-container {
+      position: absolute;
+      font-size: 14px;
+      top: 0px;
+      left: $desktop-column-width;
+      width: $footnote-column-width;
+      margin-left: 40px;
+
+      .footnote {
+        word-break: break-word;
+      }
+    }
+  }
+
+  .prev-and-next-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin: 0px 10px;
+    }
+  }
+}
+
+.mushrooms-container {
+  margin: 0px auto;
+  width: 100%;
+
+  // Bring the mushrooms closer to the footer
+  margin-bottom: -40px;
+  
+  @media (min-width: 1920px) {
+    max-width: 1920px;  
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.footer-container {
+  width: 100%;
+  
+  @media (min-width: 1920px) {
+    margin: 0px auto;
+    max-width: 1920px;  
+  }
+  
+  background-image:
+    linear-gradient( rgba(255,255,255,.9), rgba(255,255,255,.9) ),
+    url('../images/COMPOST_Assets_Footer.png');
+  background-position: center top;
+  background-size: cover;
+  
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  box-sizing: border-box;
+  padding-top: 40px;
+
+  @include desktop {
+    padding-top: 190px;
+    height: 500px;
+  }
+}
+
+@import './table-of-contents.scss';
+@import './footer-content.scss';
+
