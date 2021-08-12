@@ -1,5 +1,5 @@
 ---
-title: Compost Issue One
+title: Compost Issue Two
 ---
 
 This is the homepage
