@@ -1,0 +1,15 @@
+bamboo:
+  alt: Bamboo
+  url: ./images/dividers/bamboo-tiny.gif
+blackberries:
+  alt: Blackberries
+  url: ./images/dividers/black-berries-tiny.gif
+nettles:
+  alt: Nettles
+  url: ./images/dividers/nettles-solid-tiny.gif
+stick_1:
+  alt: Stick
+  url: ./images/dividers/stick1.gif
+stick_2:
+  alt: Stick
+  url: ./images/dividers/stick2.gif

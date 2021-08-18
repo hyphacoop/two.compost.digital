@@ -798,6 +798,21 @@ main {
   }
 }
 
+.animated-gif {
+  margin: 80px 0px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+
+  figure {
+    text-align: center;
+  }
+
+  &.inline {
+    display: inline-block;
+    margin: 0px;
+  }
+}
+
 
 @import './table-of-contents.scss';
 @import './footer-content.scss';
