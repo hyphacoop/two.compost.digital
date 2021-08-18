@@ -20,7 +20,7 @@ Energies toward peer-to-peer decentralisation are rising again. Riding this fres
 
 This experimental essay explores the similarities between the client-server network architecture and the historical expropriation of the commons, both of which forced the creation of a working class and moneyed intermediation.
 
-{{< anigif name="tinyworm-3" >}}
+{{< anigif name="nettles" >}}
 
 ## Stolen Lands
 
