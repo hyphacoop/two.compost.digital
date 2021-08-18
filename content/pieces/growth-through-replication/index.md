@@ -1,20 +1,10 @@
 ---
-title: The Salt of the Cosmos
-author: Tal Milovina
-description: Frolicking through lithium-powered spaces, we flirt with the possibility of escaping the tidy capture of a regime intent on determining normality and value.
-titleImageUrl: ./images/title-images/tal-cover-700x350.jpg
-titleImageAlt: A birds-eye view of a salt flat 
-titleImageCaption: Image by Coordenação-Geral de Observação da Terra/INPE (CC BY-SA 2.0)
-tableOfContentsImageUrl: ./images/title-images/tal-cover-700x350.jpg
-tableOfContentsImageAlt: A birds-eye view of a salt flat
-endingImageUrl: ./images/angelica-gifs/mushroom_computer.gif
-endingImageAlt: A mushroom chilling in front of laptop
-footnotesUrl: "footnotes.json"
-customClass: tals-piece
+title: Growth Through Replication
+author: Author
 ---
 
->_For Judy_  
->_For Rose_  
+>_For Judy_
+>_For Rose_
 
 1.  The Google image search for Salar de Uyuni is dazzling. The pictures are so white your eyes hurt. The spaciousness is almost terrifying. You can’t help but think that a place so full of emptiness must contain mirages: tricks of the light, secret delusions, passages to indeterminate places and unruly desires. The dried up lake looks like it could go on forever and ever. Everything here is in your head.{{< footnote "[1]" >}}
 
@@ -78,7 +68,7 @@ customClass: tals-piece
 
     In August of 2019, the Bargersville Indiana police department put a Tesla Model 3 patrol car on the streets. A few months later, police in Westport, Connecticut paid $52,290 to include one of the same lithium-powered vehicles in their automotive fleet. As activists call for a full-government mobilization to respond to the climate crisis and abolitionists call for an end to systems of imprisonment and policing, cops are turning to the “clean air” vehicles as a “cost-saving” measure. Blue is backing green; and Musk is backing Blue.
 
-20. I have no doubt that the hallucinations of psychosis are proof of ways of being beyond the liberal democratic human. The destabilizing experience of ever-shifting moods is evidence that the “self” is neither singular nor fixed. The expansive nothingness of dissociation — the inability to speak, the refusal to function — an assertion of those beautiful socialites that persist in the face of extinction. I’m not here to romanticize this but, if “stable” emerges out of the conditions which produce its opposite and “sanity” is a stand-in for being brought into subjecthood, then for most of us “I” will never materialize. 
+20. I have no doubt that the hallucinations of psychosis are proof of ways of being beyond the liberal democratic human. The destabilizing experience of ever-shifting moods is evidence that the “self” is neither singular nor fixed. The expansive nothingness of dissociation — the inability to speak, the refusal to function — an assertion of those beautiful socialites that persist in the face of extinction. I’m not here to romanticize this but, if “stable” emerges out of the conditions which produce its opposite and “sanity” is a stand-in for being brought into subjecthood, then for most of us “I” will never materialize.
 
     There is no treatment for a subject-position that relies on everything that it is not; no “wellness” to be found in manuals that produce the self in relation to the Other. Medicalization, I think, splits open the promise of the “we.” Ushering in a ward of “I’s,” the DSM eradicates the potential of existing in intimate relationships with ourselves, or the world around. In this sense, medicalization makes possible not only the pathology of bipolar but also the extraction of lithium to begin with.
 

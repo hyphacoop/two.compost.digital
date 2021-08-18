@@ -1,15 +1,6 @@
 ---
-title: Seeding the Wild
-author: magma collective
-description: In peer-to-peer technologies we 'seed' for one another. This essay is an invitation to take such nature metaphors even further into future visions and efforts towards sustainable, diverse, rich and wild network ecosystems.
-tableOfContentsImageUrl: ./images/title-images/magma-collective-700x350.png
-tableOfContentsImageAlt: A poofy dandelion floats over a dense network graph. 
-titleImageUrl: ./images/title-images/magma-collective-700x350.png
-titleImageCaption: Image via magma collective
-titleImageAlt: A poofy dandelion floats over a dense network graph. 
-endingImageUrl: ./images/angelica-gifs/dandelion.gif
-endingImageAlt: A patch of dandelions
-footnotesUrl: "footnotes.json"
+title: The Blue Marbles Smile Project
+author: Author
 ---
 
 {{< rawhtml >}}

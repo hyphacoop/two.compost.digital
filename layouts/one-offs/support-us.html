@@ -3,16 +3,18 @@ COMPOST: {{ .Params.title }}
 {{ end }}
 
 {{ define "body-class" }}
-light-squiggle-background
+pattern-background
 {{ end }}
 
 {{ define "main" }}
 <div class="main-column support-us-page">
-  <h1 id="support-us">{{ .Page.Title }}</h1>
+  <h1 id="support-us header-with-icon">
+    <span>{{ .Page.Title }}</span>
+    <img src="{{ "./images/dividers/black-berries-tiny.gif" | relURL }}" alt="decorative. An animated berry" />
+  </h1>
   <p>We are building on the digital commons by publishing our work freely and stewarding tools for anyone to use. If you like what we’re doing, consider supporting us!</p>
 
   <section class="donation-callout support-us-section">
-    <img src="{{ "./images/angelica-gifs/blue_flower.gif" | relURL }}" alt="decorative dancing flowers">
     <div class="donation-buttons">
       <div class="button-row">
         <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
@@ -28,8 +30,8 @@ light-squiggle-background
 
   <section class="support-us-section">
     <div class="animated-gif">
-      <figure>
-        <img src="{{ "./images/angelica-gifs/map.gif" | relURL }}" alt="decorative. A cartoon four-leave clover and flower hunt for treasure.">
+      <figure class="text-center">
+        <img src="{{ "./images/dividers/stick1.gif" | relURL }}" alt="decorative. A cartoon four-leave clover and flower hunt for treasure.">
       </figure>
     </div>
     <h2 id="digital-bake-sale">Digital Bake Sale</h2>
@@ -55,8 +57,8 @@ light-squiggle-background
 
   <section class="support-us-section">
     <div class="animated-gif">
-      <figure>
-        <img src="{{ "./images/angelica-gifs/worm_computer.gif" | relURL }}" alt="A happy worm types on a laptop using his head.">
+      <figure class="text-center">
+        <img src="{{ "./images/dividers/stick2.gif" | relURL }}" alt="decorative. A cartoon four-leave clover and flower hunt for treasure.">
       </figure>
     </div>
     <h2 id="web-monetization">Web Monetization</h2>
@@ -87,7 +89,6 @@ light-squiggle-background
 
 </div>
 {{ end }}
-
 
 {{ define "scripts" }}
 <script>
