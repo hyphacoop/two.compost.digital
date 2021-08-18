@@ -1,16 +1,28 @@
 @import './fonts.scss';
 
-$desktop-header-height: 325px;
 $mobile-header-height: 160px;
-$desktop-logo-height: 127px;
+$desktop-header-height: 200px;
 $mobile-logo-height: 60px;
+$desktop-logo-height: 90px;
+$desktop-homepage-width: 1200px;
 $desktop-column-width: 780px;
 $footnote-column-width: 220px;
-$link-color: #336633;
-
+$compost-green: #336633;
+$link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
+$skinny-italic-sans-serif: 'Work Sans', sans-serif;
+$monospace: 'Roboto Mono', monospace;
 
 $desktop-width: $desktop-column-width;
+
+$header-z-index: 10;
+$toc-z-index: 20;
+
+@mixin small {
+  @media (min-width: 800px) {
+    @content;
+  }
+}
 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
@@ -18,10 +30,29 @@ $desktop-width: $desktop-column-width;
   }
 }
 
+@mixin homepage-desktop {
+  @media (min-width: calc(#{$desktop-homepage-width} + 40px)) {
+    @content;
+  }
+}
+
+@mixin title-style {
+  font-family: $title-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@mixin skinny-italic-style {
+  font-family: $skinny-italic-sans-serif;
+  font-weight: 100;
+}
+
+
 html, body {
-  margin: 0px;
-  width: 100%;
-  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   font-family: 'Source Serif Pro', serif;
 
@@ -42,6 +73,382 @@ a {
 
 a:visited {
   color: $link-color;
+}
+
+body {
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  overflow-x: hidden;
+
+  &.grey-background {
+    background: rgba(230, 230, 230, 0.1);
+  }
+
+  &.pattern-background {
+    background-image: url('../images/background/background-dithered.png');
+    background-size: contain;
+  }
+}
+
+main {
+  @include desktop {
+    min-height: calc(100% - #{$mobile-header-height});
+  }
+
+  .home-container {
+    width: 100%;
+    overflow: hidden;
+
+    .above-the-fold-container {
+
+      @include small {
+        border-bottom: 1px dashed;
+      }
+
+      .above-the-fold-content {
+        position: relative;
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        box-sizing: border-box;
+
+        @include small {
+          margin: 0px auto;
+          flex-direction: row;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-bottom: 40px;
+          font-size: 18px;
+        }
+
+        @include desktop {
+          height: 100vh;
+          font-size: 21px;
+          padding-top: 80px;
+        }
+
+        @media (min-width: 2400px) {
+          height: auto;
+          padding-bottom: 80px;
+        }
+
+        // Special break point for above-the-fold-content to make it fit
+        // the fixed height
+        @media (max-width: 1000px) {
+          font-size: 18px !important;
+        }
+
+        @include homepage-desktop {
+          width: $desktop-homepage-width;
+        }
+
+        .cover-image-container {
+          width: 100%;
+
+          @include small {
+            height: 90%;
+            width: auto;
+          }
+
+          img {
+            width: 100%;
+
+            @include small {
+              width: 300px;
+              height: auto;
+              border: 1px solid $compost-green;
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+
+            @include desktop {
+              height: 100%;
+              width: auto;
+            }
+
+            @media (min-width: 2400px) {
+              height: auto;
+              max-width: 600px;
+            }
+          }
+        }
+
+        .compost-description {
+          font-family: $title-sans-serif;
+          padding: 40px 20px;
+          background-image:
+            linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+            url('../images/COMPOST_Pattern_A1.jpg');
+          border-bottom: 1px solid;
+          border-top: 1px solid;
+
+          // Fixes a weird gap on mobile
+          position: relative;
+          top: -8px;
+
+          h1 {
+            display: inline-block;
+            @include skinny-italic-style;
+            font-size: 3.0em;
+            margin-bottom: 0px;
+            border-bottom: 1px dashed;
+          }
+
+          @include small {
+            background-image: none;
+            border: none;
+            top: 0px;
+            margin-left: 40px;
+            padding: 0px;
+            h1 {
+              margin-top: 0px;
+            }
+          }
+
+          @include homepage-desktop {
+            margin-left: 80px;
+          }
+        }
+
+        .gap-worm {
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+
+          @include small {
+            display: block;
+          }
+
+          img {
+            width: 60px;
+            margin: 0px auto;
+          }
+        }
+      }
+    }
+
+    .home-toc-pieces-container {
+      padding-top: 60px;
+      // background-image:
+      //   linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
+      //   url('../images/COMPOST_Pattern_A2.jpg');
+
+      @include homepage-desktop {
+        padding-top: 80px;
+      }
+
+      .home-toc-pieces-content {
+        margin: 0px auto;
+        padding: 0px 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &::after {
+          content: "";
+          flex-basis: 350px;
+        }
+
+        @include homepage-desktop {
+          width: $desktop-homepage-width;
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+
+        .toc-piece-tile {
+          margin-bottom: 60px;
+          color: black;
+          text-decoration: none;
+
+          @include homepage-desktop {
+            margin-bottom: 40px;
+          }
+
+          .toc-piece-title {
+            width: 350px;
+            margin-top: 8px;
+            margin-bottom: 6px;
+            @include title-style;
+            font-weight: bold;
+            font-size: 1.4em;
+
+            @include homepage-desktop {
+              font-size: 1.2em;
+              margin-bottom: 14px;
+            }
+          }
+
+          .toc-piece-author {
+            @include title-style;
+            letter-spacing: 0.2em;
+            margin-bottom: 12px;
+
+            @include homepage-desktop {
+              font-size: 0.8em;
+              margin-bottom: 20px;
+            }
+          }
+
+          .toc-piece-image {
+            width: 100%;
+            margin-bottom: 12px;
+
+            @include homepage-desktop {
+              margin-bottom: 20px;
+            }
+
+            @media (min-width: 370px) {
+              width: 350px;
+              height: 175px;
+            }
+
+            img {
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+              width: 100%;
+              max-height: 100%;
+            }
+          }
+
+          .toc-piece-description {
+            @include homepage-desktop {
+              font-size: 0.8em;
+            }
+            @media (min-width: 370px) {
+              width: 350px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main-column {
+    position: relative;
+    width: 100%;
+    padding: 0px 20px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    padding-top: 20px;
+
+    @include small {
+      padding-top: 20px;
+      width: $desktop-column-width;
+      margin: 0px auto;
+    }
+
+    @include desktop {
+      padding-top: 30px;
+    }
+
+  }
+
+  .piece-container, .main-column {
+
+    .piece-title-image {
+      img {
+        // border: 1px solid $compost-green;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        width: 100%;
+
+        &.no-shadow {
+          box-shadow: none;
+        }
+      }
+    }
+
+    code {
+      font-size: 0.8rem;
+      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      word-wrap: normal;
+      font-family: $monospace;
+    }
+
+    pre {
+      padding: 16px 20px;
+      font-size: 0.8rem;
+      overflow: auto;
+      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      word-wrap: normal;
+    }
+
+    h1 {
+      @include title-style;
+      margin-bottom: 0.3em;
+    }
+
+    h2 {
+      @include title-style;
+      font-weight: 400;
+      font-size: 1.3em;
+      margin-top: 2.0em;
+
+      &.piece-subtitle {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    .author-name {
+      font-family: $title-sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .gif-ending {
+      text-align: center;
+      margin: 40px 0px;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+
+      @include desktop {
+        margin: 120px 0px;
+      }
+    }
+
+    .bio-separator {
+      width: 50%;
+      height: 1px;
+      background: black;
+      margin: 40px auto;
+    }
+
+    .footnote-link {
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .footnotes-container {
+      position: absolute;
+      font-size: 0.7em;
+      // font-weight: 300;
+      top: 0px;
+      left: $desktop-column-width;
+      width: $footnote-column-width;
+      margin-left: 40px;
+      color: #888;
+
+      .footnote {
+        word-break: break-word;
+
+        .footnote-number {
+          font-weight: bold;
+          color: #777;
+        }
+      }
+    }
+  }
 }
 
 .main-header {
@@ -255,6 +662,142 @@ main {
     height: 500px;
   }
 }
+
+/* support us page styles */
+
+.support-us-page {
+  font-family: $title-sans-serif;
+}
+
+.header-with-icon {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 80px;
+
+    @include desktop {
+      height: auto;
+    }
+  }
+}
+
+.support-us-section {
+  margin: 40px 0px;
+
+  @include desktop {
+    margin: 80px 0px;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.donation-callout {
+  .donation-callout-content {
+    font-family: $title-sans-serif;
+    font-size: 1.2em;
+  }
+
+  .donation-buttons {
+    margin-top: 20px;
+
+    .button-row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+
+      .donation-button {
+        background: $compost-green;
+        font-family: $title-sans-serif;
+        border-radius: 6px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        flex-grow: 0;
+        padding: 14px 20px;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 0.8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        box-sizing: border-box;
+        height: 63px;
+        width: 50%;
+        text-decoration: none;
+
+        // @include desktop {
+        //   width: 160px;
+        // }
+
+        &.full-width {
+          width: 100%;
+        }
+
+        &:hover {
+          background: scale-color($compost-green, $lightness: -30%, $saturation: 10%);
+        }
+      }
+    }
+  }
+}
+
+.fundraising-goals {
+  font-family: $title-sans-serif;
+
+  .goal-container {
+    margin-bottom: 20px;
+
+    .goal-label {
+      font-weight: bold;
+    }
+
+    .goal-description {
+      font-size: 16px;
+      padding: 8px;
+    }
+
+    .goal-bar {
+      position: relative;
+      box-shadow: 0px 0px 0px 3px black inset;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      height: 74px;
+      box-sizing: border-box;
+
+      .goal-innards {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        width: 0px;
+        background: $compost-green;
+        opacity: 0.3;
+        z-index: -1;
+        transition: width 0.5s ease-out;
+      }
+
+      .goal-checkmark {
+        position: absolute;
+        right: 20px;
+        font-size: 36px;
+        background: black;
+        color: white;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
 
 @import './table-of-contents.scss';
 @import './footer-content.scss';

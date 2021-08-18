@@ -1,6 +1,6 @@
 ---
-title: The Salt of the Cosmos
-author: Tal
+title: Growth Through Replication
+author: Author
 footnotesUrl: "footnotes.json"
 ---
 

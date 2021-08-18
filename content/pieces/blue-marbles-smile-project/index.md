@@ -1,6 +1,6 @@
 ---
-title: Seeding the Wild
-author: Magma Collective
+title: The Blue Marbles Smile Project
+author: Author
 ---
 
 ![](dandelion-seeds.png)

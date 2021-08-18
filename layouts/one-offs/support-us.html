@@ -1,32 +1,99 @@
-{{ define "main" }}
-  <div>
-    
-    <h1>COMPOST is an artist-run cooperative</h1>
-    <p>If you like what we're doing, support us with a tip!</p>
-    
-    <section>
-      <h1>2021 Fundraising Goals</h1>
-      <div id="fundraising-goals"></div>
-    </section>
-    
-    <section>
-      <h1>Issue 1 Finances</h1>
-      <p>As of <span todays-date></span> COMPOST Issue 1 has raised:</p>
-      <h2 amount-raised></h2>
-      <img src="finances-pie.png">
-    </section>
-
-    <section>
-      <p>Help us keep our starship in orbit!</p>
-    </section>
-
-    <a href="{{.Site.Home.Permalink}}">Go Home</a>
-    
-  </div>
+{{ define "title" }}
+COMPOST: {{ .Params.title }}
 {{ end }}
 
+{{ define "body-class" }}
+pattern-background
+{{ end }}
+
+{{ define "main" }}
+<div class="main-column support-us-page">
+  <h1 id="support-us header-with-icon">
+    <span>{{ .Page.Title }}</span>
+    <img src="{{ "./images/dividers/black-berries-tiny.gif" | relURL }}" alt="decorative. An animated berry" />
+  </h1>
+  <p>We are building on the digital commons by publishing our work freely and stewarding tools for anyone to use. If you like what we’re doing, consider supporting us!</p>
+
+  <section class="donation-callout support-us-section">
+    <div class="donation-buttons">
+      <div class="button-row">
+        <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
+          target="_blank">Become a subscriber</a>
+        <a class="donation-button" href="#web-monetization">Get Web Monetization</a>
+      </div>
+      <div class="button-row">
+        <a class="donation-button" href="https://opencollective.com/compost" target="_blank">Contribute money</a>
+        <a class="donation-button" href="https://gitcoin.co/grants/1385/compost" target="_blank">Contribute crypto</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="support-us-section">
+    <div class="animated-gif">
+      <figure class="text-center">
+        <img src="{{ "./images/dividers/stick1.gif" | relURL }}" alt="decorative. A cartoon four-leave clover and flower hunt for treasure.">
+      </figure>
+    </div>
+    <h2 id="digital-bake-sale">Digital Bake Sale</h2>
+    <p>We need your support to ensure the future sustainability of our magazine and <a href="https://distributed.press"
+        target="_blank">Distributed Press</a>.</p>
+    <p><span amount-raised></span> We hope to raise $30,000 by August 1st of 2021 and before launching Issue Two.</p>
+    <p><a class="donation-button" href="#support-us">Contribute</a> to help us hit our fundraising goals.</p>
+    <div class="fundraising-goals">
+      {{ $goals := index .Site.Data "fundraising-goals" }}
+      {{ range $goal := $goals }}
+      <div class="goal-container">
+        <div class="goal-bar">
+          <div class="goal-innards"></div>
+          <div class="goal-label">{{ $goal.label }}</div>
+        </div>
+        <div class="goal-description"><strong>${{ $goal.amountCAD }}</strong> {{ $goal.description }}</div>
+      </div>
+      {{ end }}
+    </div>
+    <p>Beyond these goals, additional funds will give all contributors, artists, and designers a $200 bonus and any
+      remaining funds will be used in the development of future COMPOST issues.</p>
+  </section>
+
+  <section class="support-us-section">
+    <div class="animated-gif">
+      <figure class="text-center">
+        <img src="{{ "./images/dividers/stick2.gif" | relURL }}" alt="decorative. A cartoon four-leave clover and flower hunt for treasure.">
+      </figure>
+    </div>
+    <h2 id="web-monetization">Web Monetization</h2>
+    <p>Readers shouldn’t have to wade through intrusive ads or paywalls to read this magazine. We don’t want your data
+      nor do we want to restrict access to COMPOST. <a href="https://webmonetization.org/" target="_blank">Web
+        Monetization</a> is another way for
+      supporters like you to send us micropayments (fractions of a cent) as you view this website.</p>
+    <h3 id="how-does-it-work">How does it work?</h3>
+    <p>Web Monetization is an emerging standard for web browsers. At the moment, you need to download a browser extension to make it work. We’ve found that getting a <a href="https://coil.com/signup" target="_blank">Coil membership</a> is the easiest way to get started with Web Monetization. With a $5 monthly membership, you can also support hundreds of other Web Monetization websites like <a href="https://cinnamon.video" target="_blank">Cinnamon</a>, <a href="https://www.ampled.com" target="_blank">Ampled</a>, <a href="https://eraseallkittens.com" target="_blank">Erase All Kittens</a>, and <a href="https://www.ladyspikemedia.com" target="_blank">Ladyspike Media</a>.</p>
+
+    <h3 id="setup-coil">Setup Coil</h3>
+    <table>
+      <tr>
+        <td>
+          <ol>
+            <li>Visit <a href="https://coil.com/signup" target="_blank">https://coil.com/signup</a> and signup.</li>
+            <li>Go to Settings and enter the "Membership" menu item.</li>
+            <li>Add your credit card and subscribe. It's $5 a month.</li>
+            <li>Download the extension for any browser of your choice.</li>
+          </ol>
+        </td>
+        <td><img src="{{ "./images/Mushroom_WM_BLK-forever-only-151px.gif" | relURL }}" alt="Monetization mushroom: a dollar sign rises from the mushroom like a spore"></td>
+      </tr>
+    </table>
+    <p>If everything works, you’ll see the Web Monetization mushroom animating with a dollar sign at the top right
+      corner of the screen.</p>
+  </section>
+
+</div>
+{{ end }}
 
 {{ define "scripts" }}
-  {{ $js := resources.Get "js/contribute.js" }}
-  <script src="{{ $js.Permalink }}"></script>
+<script>
+  var goals = JSON.parse({{ (index .Site.Data "fundraising-goals") | jsonify }})
+</script>
+{{ $js := resources.Get "js/support-us.js" }}
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}
