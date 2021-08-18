@@ -661,8 +661,7 @@ main {
 
 .support-us-section {
   margin: 40px 0px;
-  @i
-  nclude desktop {
+  @include desktop {
     margin: 80px 0px;
   }
 }
@@ -790,6 +789,10 @@ main {
   }
 }
 
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
 
 @import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';

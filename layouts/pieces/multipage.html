@@ -1,0 +1,43 @@
+{{ define "main" }}
+  
+  <div class="piece-container">
+    {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
+
+    <h1>{{.Params.title}}</h1>
+
+    <div class="author-name">{{ $author.name }}</div>
+
+    {{ .Content }}
+
+    {{ if isset .Params "links" }}
+      <ul class="list-unstyled">
+      {{ range .Params.links }}
+          <li>
+              <a href="{{.to}}">{{.text}}</a>
+          </li>
+      {{ end }}
+      </ul>
+    {{ end }}
+
+    <!-- Footnotes -->
+    <div class="footnotes-container"></div>
+
+    {{ if isset .Params "footnotesurl" }}
+      <script>
+        var footnotes = JSON.parse({{ (.Resources.GetMatch .Params.footnotesUrl).Content }})
+      </script>
+    {{ end }}
+
+    {{ if isset .Params "footnotes" }}
+      <script>
+        var footnotes = JSON.parse({{ .Params.footnotes | jsonify }})
+      </script>
+    {{ end }}
+  </div>
+
+{{ end }}
+
+{{ define "scripts" }}
+  {{ $js := resources.Get "js/footnotes.js" }}
+  <script src="{{ $js.Permalink }}"></script>
+{{ end }}
