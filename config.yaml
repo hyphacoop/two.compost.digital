@@ -1,8 +1,9 @@
 baseURL: ""
 languageCode: "en-us"
-title: "Compost | Issue 2"
+title: "COMPOST"
 relativeURLs: true
 params:
   webmonPaymentPointer: "$ilp.uphold.com/JriKiJXi72az"
 permalinks:
   one-offs: "/:filename/"
+  pieces: "/:filename/"

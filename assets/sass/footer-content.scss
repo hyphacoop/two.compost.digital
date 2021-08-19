@@ -5,24 +5,48 @@
   display: flex;
   flex-wrap: wrap;
   font-family: $title-sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.7em;
+  line-height: 1.4em;
 
   @include desktop {
-    width: auto;
+    width: $desktop-homepage-width;
+    flex-wrap: nowrap;
   }
 
   .footer-column {
-    margin-right: 80px;
-    margin-bottom: 40px;
+    flex-basis: 10%;
+    margin-bottom: 30px;
+    flex-shrink: 1;
+    flex-grow: 1;
 
     @include desktop {
-      margin-bottom: 0px;
+      margin-bottom: 40px;
+      padding: 0px 20px;
+    }
+
+    p {
+      &:first-child {
+        margin-top: 0px;
+      }
+    }
+
+    &.bigger-column {
+      flex-basis: 100%;
+      flex-grow: 2;
+
+      @include desktop {
+        flex-basis: 25%;
+      }
     }
 
     .footer-column-header {
       // font-size: 1rem;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+
+      @include desktop {
+        margin-bottom: 20px;
+      }
     }
   }
 }

@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="monetization" content="{{ .Site.Params.webmonPaymentPointer }}">
 
+    <!-- In the future, we may want to override this with piece-specific info -->
+    <meta property="og:type" content="website" />
+    {{ block "og" . }}
+      <meta property="og:title" content="COMPOST Issue 01: Fertile Grounds" />
+      <meta property="og:url" content="https://one.compost.digital" />
+      <meta property="og:image" content="https://one.compost.digital/images/COMPOST_Assets_OpenGraph-logo1080.png" />
+      <meta property="og:description" content="A magazine about the digital commons providing fertile ground for creative and collective experimentation." />
+    {{ end }}
+
     <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
 
-    {{ $mainStylesheet := resources.Get "sass/main.scss" | resources.ToCSS }}
-    <link rel="stylesheet" href="{{ $mainStylesheet.Permalink }}">
+    <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ToCSS).Permalink }}">
     
+    {{ block "head" . }}{{ end }}
+
     <title>
       {{ block "title" . }}{{ .Site.Title }}{{ end }}
     </title>
   </head>
-  <body>
+  <body class="{{ block "body-class" . }}{{ end }}">
     <header class="main-header">
-      <div class="header-top">
-        <a class="hamburger-worm" onclick="showTableOfContents()">
-          <img src="{{ "./images/COMPOST_Assets_SNKhmbrgr_WHT.png" | relURL }}">
+      <div class="header-top" role="Navigation" >
+        <a class="hamburger-worm" href="" onclick="showTableOfContents(event)" title="Table of Contents" aria-label="Show Table of Contents">
+          <img src="{{ "./images/COMPOST_Assets_hmbrgr_WHT2.png" | relURL }}" alt="3 squiggly worms" >
         </a>
         <a class="compost-logo" href="{{ relref . "/" }}">
-          <img src="{{ "./images/COMPOST_Logo_1920WHT 1.png" | relURL }}">
+          <img src="{{ "./images/COMPOST_Logo_1920WHT_1.png" | relURL }}" title="Home" alt="COMPOST">
         </a>
-        <a class="mushroom" href="{{ relref . "support-us" }}">
-          <img src="{{ "./images/Compost_Mushroom2.gif" | relURL }}" webmon-mushroom>
+        <a class="mushroom" href="{{ relref . "support-us" }}" title="Support Us">
+          <img src="{{ "./images/Mushroom_WM-1x.gif" | relURL }}" alt="mushroom" webmon-mushroom-white>
         </a>
       </div>
     </header>
@@ -33,14 +43,14 @@
       {{ block "main" . }}{{ end }}
     </main>
     
-    <div class="mushrooms-container">
-      <img src="{{ "./images/COMPOST_Assets_Mushrooms.png" | relURL }}">
-    </div>
+    <div class="mushrooms-container"></div>
 
     <div class="footer-container">
       <!-- <img class="footer-background" src="{{ "./images/COMPOST_Assets_Footer.png" | relURL }}"> -->
       {{ partial "footer-content.html" . }}
     </div>
+
+    <div class="mobile-footnotes-container" aria-live="polite" aria-label="Footnotes" role="region"></div>
 
     {{ partial "table-of-contents.html" . }}
 
