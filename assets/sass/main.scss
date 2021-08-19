@@ -12,6 +12,7 @@ $link-color: $compost-green;
 $title-sans-serif: 'Open Sans', sans-serif;
 $skinny-italic-sans-serif: 'Work Sans', sans-serif;
 $monospace: 'Roboto Mono', monospace;
+$bg-img-path: '../images/background/background-dithered.png';
 
 $header-z-index: 10;
 $toc-z-index: 20;
@@ -156,7 +157,7 @@ body {
   }
 
   &.pattern-background {
-    background-image: url('../images/background/background-dithered.png');
+    background-image: url($bg-img-path);
     background-size: contain;
   }
 }
@@ -250,9 +251,7 @@ main {
         .compost-description {
           font-family: $title-sans-serif;
           padding: 40px 20px;
-          background-image:
-            linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
-            url('../images/COMPOST_Pattern_A1.jpg');
+          background-image: url($bg-img-path);
           border-bottom: 1px solid;
           border-top: 1px solid;
 
@@ -609,9 +608,6 @@ main {
     .above-the-fold-container {
       
       @include small {
-        background-image:
-          linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
-          url('../images/COMPOST_Pattern_A1.jpg');
         border-bottom: 1px dashed;
       }
 
