@@ -1,6 +1,7 @@
 ---
 title: The Blue Marbles Smile Project
 author: Andi Wong & Margaret Warren
+layout: special-images
 ---
 
 In the Summer of 2019, we - Andi Wong and Margaret Warren met for the first time at one of the Friday lunches at the Internet Archive on Funston Street in San Francisco. The context of their meeting was in planning art activities for the upcoming Decentralized Web Camp to be held at The Mushroom Farm.
