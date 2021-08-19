@@ -1,0 +1,108 @@
+.image-flip-container {
+  perspective: 1000px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  cursor: pointer;
+
+  img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .image-flip {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    object-fit: cover;
+
+    .front, .back {
+      backface-visibility: hidden;
+      top: 0;
+      left: 0;
+    }
+
+    .front {
+      z-index: 2;
+      transform: rotateY(0deg);
+
+      .image-label {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.75);
+        padding: 6px;
+        font-family: $monospace;
+        font-size: 0.75em;
+        color: white;
+        text-align: center;
+      }
+    }
+
+    .back {
+      transform: rotateY(180deg);
+      position: absolute;
+
+      .background {
+        background-size: contain;
+        transform: rotateY(180deg);
+        opacity: 0.2;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+          filter: blur(2px);
+        }
+      }
+
+      .foreground {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+
+        .metadata {
+          padding: 20px;
+          font-size: 0.9em;
+          font-family: $monospace;
+
+          .title {
+            font-weight: bold;
+          }
+
+          .table-container {
+            .table-item {
+              display: flex;
+              border-bottom: 1px solid black;
+              font-size: 0.8em;
+
+              .label {
+                flex: 0 1 30%;
+                padding: 5px;
+                font-weight: bold;
+              }
+
+              .info {
+                flex: 1 1 auto;
+                padding: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.image-flip-container.hover .image-flip {
+  transform: rotateY(180deg);
+}
+
+.image-flip-container, .front, .back {
+  max-width: 100%;
+  width: 100%;
+}

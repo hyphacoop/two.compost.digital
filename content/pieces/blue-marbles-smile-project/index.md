@@ -1,103 +1,67 @@
 ---
 title: The Blue Marbles Smile Project
-author: Author
+author: Andi Wong & Margaret Warren
 ---
 
-{{< rawhtml >}}
- <br />
- <figure class="has-shadow">
-    <img src="dandelion-seeds.png" style="max-height:450px;"
-         alt="Two seeds begin their journey of floating away from a poofy dandelion."/>
-	<figcaption><p>Image via magma collective</p></figcaption>
-  </figure>
-{{< /rawhtml >}}
+In the Summer of 2019, we - Andi Wong and Margaret Warren met for the first time at one of the Friday lunches at the Internet Archive on Funston Street in San Francisco. The context of their meeting was in planning art activities for the upcoming Decentralized Web Camp to be held at The Mushroom Farm.
 
-_Two dandelion seeds float on a gentle summer breeze. One settles in an open meadow, another is blown across a fence into a flower patch._
+It was there that Andi first shared a blue marble with Margaret. But that is not where this story begins and it’s certainly not the end.
 
-In peer-to-peer networks, we ‘seed’ for one another. We spread our bytes like weeds, criss-crossing fenced-in property and open meadows alike, in our effort to grow digital abundance {{< footnote "digital abundance" >}}.
+This story is non-linear and organically expanding. Like mushrooms in a Fairy Circle. Like when the web used to have something called web rings.  Like Bucky Balls: nano particles of carbon atoms in a spherical structure. Like the new vision of the web: decentralized and linked through nodes and edges. A synchronistic murmuration of inspirations and enchantment.
 
-Energies toward peer-to-peer decentralisation are rising again. Riding this fresh breeze, we wonder if these nature analogies can lift us away from the monocultures of platform giants towards a flourishing technological biodiversity.
+The ancient Greeks first declared the sphere the most perfect form and proclaimed it was the shape of the earth and all the planets. Then on December 7, 1972, the crew of the Apollo 17 spacecraft made this vision evident when it made this image of the earth, nicknamed “The Blue Marble,” on December 7, 1972.
 
-This experimental essay explores the similarities between the client-server network architecture and the historical expropriation of the commons, both of which forced the creation of a working class and moneyed intermediation.
+{{< imgflip
+  file="blue_marbles_1.jpg"
+  alt="a photo of the earth made by the crew of Apollo 17 at a distance of about 29,000 kilometers (18,000 miles) from the planet's surface"
+  title="Apollo 17: Blue Marble (Dec 7, 1972)"
+  description="One of the most widely known photographs of Earth, this image was taken by the crew of the final Apollo mission as the crew made its way to the Moon. Dubbed the “Blue Marble,” Earth is revealed as both a vast planet home to billions of creatures and a beautiful orb capable of fitting into the pocket of the universe."
+  copyright_notice="1972 NASA"
+  copyright_terms="Public Domain Content"
+  creator="NASA" >}}
 
-{{< anigif name="nettles" >}}
+{{< imgflip
+  file="blue_marbles_2.jpg"
+  alt="Blue Marbles Project: Synergy defined by Buckminster Fuller (2014)"
+  title="Blue Marbles Project: Synergy defined by Buckminster Fuller (2014)"
+  description=`
+  "SYNERGY is the behavior of whole systems not predicted, suggested or inferred by any parts of the SYSTEM when those parts are considered ONLY SEPARATELY considered one by one separately by themselves. Six tubes have nothing that tells you they will make a tetrahedron. The milk cartons one by one do not tell you of their associated beauty as a complex sphere. They are not beautiful when a few come together, but as they become associated in an orderly manner they become more interesting, but only attain full beauty by completion of the sphere." - Buckminster Fuller, November 4, 1974
+  Artist Aiko Cuneo brought the definition of "Synergy," written in Buckminster Fuller's own hand, to share at the Tinkering Studio. Aiko's mother artist Ruth Asawa, a student of Buckminster Fuller, was the first Artist in Residency at the Exploratorium in 1974, conducting workshops where she and groups of young people made complex geometric structures with empty milk cartons. Forty years later, Aiko was there to lead her own "Milk Cartons Reimagined" Workshop. https://www.exploratorium.edu/tinkering/blog/2014/09/11/tinkering-social-club-milk-cartons-re-imagined-with-aiko-cuneo
+  `
+  copyright_notice="2014 Andi Wong"
+  copyright_terms="Attribution-ShareAlike Creative Commons"
+  creator="Andi Wong" >}}
 
-## Stolen Lands
+Now jump to 2009 when a marine biologist, Dr. Wallace J. Nichols, known simply as “J” had an ambitious idea to hand his friend LeBaron Myers a blue marble. That simple act became an idea which then became a movement. A low-tech-slow-motion global art project with a seemingly staggering goal of passing a blue marble through the hands of every (yes, every) person on OUR Blue Marble earth, and along with each passing - a simple message of gratitude and reminder that everything we do on our water planet matters.
 
-In England, over the course of a few centuries, lands that were held and cared for by communities in common were expropriated, fenced in and enclosed as private property to be owned by a small elite {{< footnote "small elite" >}}. This process of transforming shared interdependent ecologies into separate, scarce and privately owned ‘things’ was encoded into property law and violently exported across the world in a continuous and unceasing process of colonisation.
+{{< imgflip
+  file="blue_marbles_3.jpg"
+  alt="Dr. Wallace J Nichols and a blue marble"
+  title="Dr. Nichols holding a blue marble"
+  description="Dr. Nichols is currently a senior fellow at the Middlebury Institute of International Studies’ Center for the Blue Economy, and a research associate at the California Academy of Sciences. He is a cofounder of Ocean Revolution, an international network of young ocean advocates and Grupo Tortuguero de las Californias, an international sea turtle conservation network. From his page: https://www.wallacejnichols.org/130/blue-marbles.html" >}}
 
-What is tragic is not the commons {{< footnote "tragic is not the commons" >}}. It’s the fact that so many of us are forced to adopt such protocols of private property, in order to protect ourselves from each other under conditions of proliferating mistrust.
 
-Though the mistrust is valid. In the realm of digital technology, it is commonly known that today’s tech giants have built much of their empires on a code commons {{< footnote "a code commons">}}. The open meadows of collaboratively written code and generously shared repositories, published under permissive licences, are treated as fair game — and fenced off into proprietary products. But now more as bait to capture into monopoly services {{< footnote "monopoly services">}}. How can I prevent my work from being expropriated without care if I don’t put a price on it? Must we guard our gardens with fences?
+Dr. Nichols is an innovative and entrepreneurial scientist.  In 1996, J placed a satellite-tag on an adult female loggerhead sea turtle that was released into the wild after being rescued in Baja, Mexico. Adelita, named after a local fisherman’s daughter, was the first animal tracked across the Pacific Ocean, traveling over 9,000 miles from Baja, Mexico to her place of birth in Sendai, Japan. Thanks to the Internet, Adelita’s journey was followed by children everywhere.
 
-This is perhaps one of the reasons that the recent generation of peer-to-peer technologies are overwhelmingly about determining and enforcing forms of digital scarcity and private property through blockchains and smart contracts: to protect our efforts, creations and communities against expropriation. Now we are liberated to make private property of our own data before it enters the market — a depressing response to data extractivism. Won't using the master's tools reflect back an oppressive system through a splintered mirror? Proliferating property relations, forcing the conditions for monetisation across every click, packet switch, and interaction? {{< footnote interaction >}} Or will decentralisation and peer-to-peer technologies produce a rich enough ground to grow new forms of economies? The popular imagination seems stuck in taking revenge on the system by zealously surpassing it in new get-rich-fast games. “Have fun staying poor”, as bitcoiners like to say in the latest bitrush. This is hardly a call for change in a world tumbling into unprecedented inequalities.
+In 2010, Andi went to hear J talk about sea turtles, after an introductory email exchange about water. She wrote to ask J about his view of the changing waters of the Gulf of Mexico, after seeing his iCNN video report online. She was planning field trips to introduce schoolchildren to the Impressionists at the deYoung Museum in San Francisco. One of the artworks on display was Claude Monet’s “Impression, Sunrise,” the 1872 painting which gave the Impressionist movement its name. Monet’s loose brushstrokes of color depicted his hometown waters shimmering with the intense light of an orange sun.
 
-_The first seed landed in the meadow and took root, flowering amongst the wild grasses._
+J often asks people the question: ‘Where is your water?’ to kick off a conversation.
+What is the special place where you find you go to the water’s edge? For some, it might be the neighborhood swimming pool. Others might answer that they go kayaking or sailing, or they think of a tropical island paradise where they go on vacation. Garden hoses, public fountains, opened fire hydrant, or ocean surf… Really, there is no wrong answer.
 
-_The second seed began its germination but withered when one Wednesday afternoon, weed killer was sprayed across the beds. This bed was for tulips only you see, meant to be cut next Monday and sold in the latest tulip frenzy._
+Scientists and teachers spend a lot of time crafting thoughtful open-ended questions when they want more than a simple “yes” or “no” answer.
 
-The commons are cared for by the those that directly inhabit and gain from its wealth. But these are repeatedly fenced in, the soils stolen for monocultures, monocrops, monobytes, streamlined by singular metrics of value. Who cares about the wild lands and the living when you can sell tulips! {{< footnote "tulips" >}}
+When J asked Andi this question, she really had to think before answering. Andi writes:
 
-{{< figure src="dandelion-commons.png" class="has-shadow" alt="A crows-eye view of a small village. One road leads to an arena with a towering dandelion in it. Other roads lead to a dense network graph." caption="Image via magma collective">}}
+> My water begins in a small town in the California Delta called Locke, a historic rural Chinese-American community in the United States. The town of Locke was built in 1915 by Chinese residents, after the Chinatown in nearby Walnut Grove was destroyed by fire. I enjoyed lazy childhood summers in Locke, staying with my grandparents in their home on Main Street, where my cousins and I had the run of the wooden plank walkways and the back alleys of this tiny four-block town. Locke was our Wild West, a place where we could roam and play until sundown, and we children grew up with very little knowledge of the extreme challenges faced by our families: The Page Act of 1875, The Chinese Exclusion Act of 1882, The Geary Act of 1892, The Alien Law of 1913 which prohibited the Chinese from owning land. There, in this isolated town, my mother’s family made it through The Great Depression and World War II. In the 40’s and 50’s, young people left Locke for the suburbs, searching for greater opportunity and better living conditions, and the town aged.
 
-## Unwilding: from meadows to monocultures
+{{< imgflip
+  file="blue_marbles_4.jpg"
+  alt="The Blue Marbles Project: Locke Chinese School (2015)"
+  title="The Blue Marbles Project: Locke Chinese School (2015)"
+  description="On the 100th Anniversary Celebration of Locke, California, The Blue Marble was among the visitors to the tiny one-room schoolhouse which served as a language school for the children of Locke. The Kuo Ming School in Locke was opened in 1926, with funding from the Nationalist Party of China. The children of Locke came here to learn Cantonese reading and writing skills after their regular school day attending school in Walnut Grove, where the elementary schools were segregated into Asian and Caucasian classes. In 1954, with support from the Joe Shoong Foundation, the Chinese School was renovated and renamed the Joe Shoong School. The school closed in the mid-eighties due to the decreased youth population and lack of enrollment."
+  copyright_notice="2015 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
 
-The digital commons are only just emerging. But they should already have been thriving. When the internet first came along it looked like an immensely liberating tool, poised to rebalance the power brought about by the press and consolidation of media ownership. People thought the internet would finally evolve the topology of information networks: from one-to-many to many-to-many.
-
-Anybody was able to host a website which would be accessible to the whole world. "Hello world!" we said, in anticipation of the abundant information commons the web would unleash. The commons would be free and liberating, impossible to dominate and control. But instead the internet gave rise to a small number of tech giants, with powers dwarfing print and broadcast media. Not only were these tech superpowers unshackled by geographical borders to reach audiences, the switch from one-way to two-way communication became a mechanism of mass coercion.
-
-Why did this tool, which allowed everybody to talk to everybody else, not lead to the creation of a thriving biodiversity of digital commons? How did giving everybody a voice open the door to data extractivism and digital monopoly monoculture?
-
-Power, politics, and plenty of other widely written about answers have been suggested. But our interest here is in the role of the client-server network model. Herein lies some of the technical context for how the network, digital and data commons have been born into servitude.
-
-In the early days of the World Wide Web, websites generally hosted content which was created by the people who set up the website. The client-server model made sense. Viewers interested in particular content, connected directly to the content creator’s website. In the era of the dot-com boom and early e-commerce, a website of a particular company generally offered products and services provided by that company. But with the advent of web platforms, the 'clients' of a website came to both provide and receive content, or in the case of e-commerce platforms, 'clients' can offer products and services as well as consume them. The platform itself provides a way for people to find each other, linking content creators with those who are interested or connecting sellers with buyers. Popular platforms tend to get even more popular over time, network effects kicked in as clients choose those platforms that expose them to a wider audience. Although hosting more users means higher operating costs to run expansive infrastructure, a variety of business models have proved to work well with this model, including fees and subscriptions, advertising and selling users' data. The tendency towards fewer and bigger platforms, combined with these incentives, has reduced the diversity of control of how the platforms operate.
-
-The resulting monocrop condition of our network infrastructures do not provide an easy ground for peer-to-peer technologies to flourish. Peer-to-peer protocol biodiversity is dosed with weed killer, while the client-server monocrop is fertilized.
-
-{{< anigif name="tinyworm-2" >}}
-
-#### Servers are easy to find and connect to
-
-The IP address space is limited, and home internet connections are often given dynamic (changing) IP addresses. This gave many of us our inferior role as 'clients'. We can consume services but not provide them, as we are not addressable to others. Furthermore, Network Address Tables (NAT) are very often used by routers to allow a number of devices in the home to share the same IP address. These factors make it very difficult to reliably connect to a home computer directly over the internet.
-
-_And yet, peer-to-peer is putting cracks in the concrete:_
-There are solutions to the problems around NAT traversal and peer discovery. A number of techniques exist for 'hole-punching' network address tables, in order to allow connections to be made between two computers, neither of which are directly connected to the internet. These generally rely on having some sort of 'rendez-vous server' used in order for the NAT to allow the connection. That is to say, the technique only works with 'help' from a server which is not behind a NAT, which means that although the server's role is minimal, it does not give us complete independence. However, techniques for peer discovery, such as distributed hash tables (DHTs) and 'gossip protocols' mean that we have a lot of flexibility about which server is used. We can have a dynamic 'pool' of cooperative servers, meaning the server we happen to use does not constitute a single point of failure. This minimises the degree of power the server operators have over the network.
-
-{{< anigif name="tinyworm-1" >}}
-
-#### Asymmetrical bandwidth
-
-Connections to private homes generally have greater download bandwidth than upload bandwidth. This means that you can get information from a data centre faster than you can get it from your neighbour. With the popular protocol HTTP, client requests tend to be small in comparison to server responses. So narrow upload bandwidth hinders people from serving content themselves.
-
-_And yet, under the concrete and in between the cracks, new life is growing:_
-Multiple-source 'swarming', as is used by peer-to-peer protocols like BitTorrent, can overcome the problem of asymmetrical upload/download bandwidth. By having a way of referring to an online resource other than by its physical location, it is possible to retrieve a single resource from sources in several physical locations. This means even those with limited bandwidth and low quality hardware can play a part in delivering data very quickly, because different parts can be delivered simultaneously from various locations.
-
-{{< anigif name="blue_flower" >}}
-
-#### Clients are getting thinner
-
-Increasing popularity of lightweight devices means more computing and storage is outsourced to central servers and data centres. Although the early years of home computing saw a swift rise in the storage capacity available to the average user, this trend was reversed. The demise of the desktop computer, the shift from rotating platter disks to solid state drives, and the introduction of mobile and tablet computing, all meant that we were more likely to store and retrieve data from a server in a data centre than from a device in our own home. The mobile platform is by far the most accessible form of home computing (you don’t even need a home), but it's also the one that leaves you most vulnerable to coercion as it requires storage capacity and computing power to be outsourced.
-
-_With care, light, nourishment, and time, these will grow into a new wilderness:_
-The shift toward lightweight computing has generally made peer-to-peer systems impractical, as consumer devices are designed to outsource their storage and other resources in favour of being compact. However, some developments in lightweight consumer hardware are actually very well suited to peer-to-peer. Modern ARM devices, such as the Raspberry Pi, offer a low-cost, efficient solution for self-hosting. They generally consume very little power, making it practical to run them continuously, and can often be connected to high capacity disks. Most importantly, these devices are generally designed to make it easy to change the operating system or firmware, giving great flexibility in how they can be used.
-
-Perhaps most significantly, cryptographic techniques allow us to verify the integrity of data regardless of where it is hosted. This opens the door to more collaborative 'consumer-provider' models of hosting, reducing our dependence on data centres and encouraging cooperative relationships between organisations.
-
-The infrastructure favours the client-server model. It may be called the "client-server" model, but most of us clients aren't really looking to connect to a "server." What we want is to connect to a website. More accurately, we want to connect to friends or content. This desire for connection however is currently owned by platform giants rolling out huge server farms that harvest the world for data, while we are held captive, force-fed through feeds.
-
-{{< figure src="seed-explosion.jpg" class="has-shadow" alt="An antenna explodes from the top of a tower like a dandelion ejecting all its seeds. Buildings and cars fly throuh the air, seemingly damaged by this explosion. A cloud-like mess of what is perhaps debris scatters the ground, with fish bones and empty bottles" caption="Image via magma collective">}}
-
-## Rewilding the Network Commons
-
-We have drifted away from the idea of a website being the self-published expressions of a group or an individual. Instead, we have landed in the monopoly monocrops: malls and concrete pavements of large technology platforms. The 'server' no longer represents content creators that ‘clients’ are intending to connect to. Actually, clients are usually looking for each other, but begrudgingly connecting to a server farm, with users connecting to platforms and communicating indirectly.
-
-In contrast, the peer-to-peer model turns addicted 'users' into active peers, giving people more control over the systems they use. This could also greatly reduce energy usage, as less devices are required to run collaborative applications. Private property necessitates monetisation, but a process of digital rewilding might help create diverse forests of digital wealth and plenty, unmediated by property and money relations. Yes, this was tried in the first iteration of peer-to-peer hopes of a post-scarcity world of plenty. What is different this time around is that we know that governance and the sustainability of our energy and efforts matter.
-
-This is a call to extend the peer-to-peer glossary and imagination — towards a digital wild. We are already _seeding_ for one another. What about _seed banks_? There have been efforts to try to ensure that not only the most popular seeds survive. Let's call these _seed banks_, where the more rare gems are maintained and passed on as generational wealth. Can we take inspiration from the radical histories of seed banks and, say Amaranth, to develop these further? {{< footnote "develop these further" >}}
-
-Biological terminology has also been appropriated in our current economic systems: _growth_ is a term that has been contorted into a singular metric of quantity that all too frequently and systematically destroys diversity. Can we reconfigure growth to mean richness in difference? Flourishing interdependent diversity of networks, network protocols and forms of interaction? What does this mean for digital _decay_, and can the decay of files, applications and networks become some form of _compost_, or what might be the most dignified form of digital death and rebirth?
-
-We are living a rebirth of peer-to-peer in a more mature form, acknowledging that sustainability matters and economic ideas need to be rethought to once again serve rather than poison the wild. Private property necessitates monetisation, but a process of digital rewilding might help create diverse forests of digital wealth unmediated by property and money relations. Peer-to-peer applications cannot be monetised in the same way traditional client-server applications can. They require radically different business models and require us to change our habits and ways of thinking. Perhaps new alliances and inspirations can form between the biological and technological, towards flourishing diversity and difference.
-
-{{< figure src="tree-tower-block.jpg" class="has-shadow" alt="A tree grows, taking over a building. Branches push through windows and overtake stairs. This growth seems less like a violence and more like a birth." caption="Image via magma collective">}}
+The town was purchased by a Hong Kong developer in 1977, with big plans to create a Chinese “theme park,” complete with yacht marina and condominiums. The plan was abandoned after a special zoning ordinance was established by the Sacramento Board of Supervisors to preserve the historic town in 1979. But by 2001, the town of Locke was slated to be condemned, due to water and sewer problems. Connie King, the unofficial “Mayor of Locke” was determined to save the town. She lobbied the Board, saying “if you remember the Chinese helped build the railroad, the Chinese built the levee, the Chinese start agriculture in California, and the Chinese built the town of Locke. You cannot condemn the town of Locke.”  In 2004, the citizens of Locke, including Auntie Connie, were finally able to purchase the land beneath their homes. When she passed away, volunteers paid tribute by turning her garden plot into a Chinese vegetable demonstration garden to educate the public about traditional Chinese vegetables and the history of the Pearl River Delta. Today, in 2021, Locke is one of 300 failing systems in California that routinely supply roughly 1 million people with contaminated drinking water. Testing has found that the town’s water supply is tainted with high levels of arsenic.
 

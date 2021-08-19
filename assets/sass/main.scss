@@ -54,6 +54,14 @@ $toc-z-index: 20;
   font-weight: 100;
 }
 
+<<<<<<< HEAD
+=======
+* {
+  box-sizing: border-box;
+}
+
+
+>>>>>>> baf1b9d... shortcode and scss for image flip feature
 html, body {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -1170,3 +1178,4 @@ main {
 @import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';
 @import './footer-content.scss';
+@import './image-flip.scss';
