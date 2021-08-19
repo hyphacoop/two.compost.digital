@@ -2,15 +2,15 @@
 {{ $class := .Get "class" }}
 {{ $alt := .Get "alt" }}
 {{ $title := .Get "title" }}
-{{ $description := .Get "description" }}
 {{ $copyright_notice := .Get "copyright_notice" }}
 {{ $copyright_terms := .Get "copyright_terms" }}
 {{ $creator := .Get "creator" }}
+{{ $id := .Get "id" }}
 
 <div class="image-flip-container {{ $class }}" onclick="this.classList.toggle('hover')">
   <div class="image-flip">
     <div class="front">
-      <img src="{{ $filename }}" alt="{{ $alt }}">
+      <img src="{{ $filename }}" alt="{{ $alt }}" id="{{ $id }}">
       <div class="image-label">Click to see metadata</div>
     </div>
     <div class="back">
@@ -20,7 +20,7 @@
       <div class="foreground">
         <div class="metadata">
           <p class="title">{{ $title }}</p>
-          <p>{{ $description }}</p>
+          <p>{{ .Inner }}</p>
           <div class="table-container">
             {{ if $creator }}
             <div class="table-item">
@@ -60,3 +60,4 @@
     </div>
   </div>
 </div>
+
