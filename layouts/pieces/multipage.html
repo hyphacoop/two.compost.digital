@@ -35,17 +35,26 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     <div class="author-name">{{ $author.name }}</div>
 
-    {{ .Content }}
+    <div class="multipage">
+      <div class="content">
+        {{ if isset .Params "chapter" }}
+          <h2 class="piece-chapter">{{ .Params.chapter }}</h2>
+        {{ end }}
 
-    {{ if isset .Params "links" }}
-      <ul class="list-unstyled">
-      {{ range .Params.links }}
-          <li>
-              <a href="{{.to}}">{{.text}}</a>
-          </li>
-      {{ end }}
-      </ul>
-    {{ end }}
+        {{ .Content }}
+
+        {{ if isset .Params "links" }}
+          <ul class="list-unstyled">
+          {{ range .Params.links }}
+              <li>
+                  <a href="{{.to}}">{{.text}}</a>
+              </li>
+          {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+      {{ partial "pagination.html" . }}
+    </div>
 
     {{ if isset .Params "endingimageurl" }}
       <div class="gif-ending">

@@ -526,6 +526,11 @@ main {
         margin-top: 0;
         margin-bottom: 20px;
       }
+
+      &.piece-chapter {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
     }
 
     .author-name {
@@ -545,7 +550,7 @@ main {
       image-rendering: pixelated;
 
       @include desktop {
-        margin: 120px 0px;
+        margin: 60px 0px;
       }
     }
 
@@ -556,6 +561,11 @@ main {
       margin: 40px auto;
     }
 
+    .bio {
+      font-size: 0.9em;
+      font-family: $skinny-italic-sans-serif;
+    }
+
     .footnote-link {
       font-weight: bold;
       text-decoration: none;
@@ -564,7 +574,6 @@ main {
     .footnotes-container {
       position: absolute;
       font-size: 0.7em;
-      // font-weight: 300;
       top: 0px;
       left: $desktop-column-width;
       width: $footnote-column-width;
@@ -577,6 +586,72 @@ main {
         .footnote-number {
           font-weight: bold;
           color: #777;
+        }
+      }
+    }
+
+    .multipage {
+      margin-top: 2em;
+      border: 1px solid rgba(0,0,0,0.2);
+      background: white;
+
+      .content {
+        padding: 1em;
+      }
+
+      pre, code {
+        background: inherit;
+        padding: 0;
+      }
+
+      .list-unstyled {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+
+        li {
+          padding-bottom: 0.5em;
+        }
+      }
+
+      .pagination {
+        ul {
+          display: flex;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+
+          li {
+            display: inline-flex;
+            list-style-type: none;
+            flex: 1 1 auto;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            padding: 0;
+
+            button {
+              height: 5px;
+              width: 100%;
+              background: rgba(0,0,0,0.2);
+              border-radius: 0;
+              padding: 0;
+              border: 0;
+            }
+
+            &:first-of-type {
+              border-left: none;
+            }
+
+            &:last-of-type {
+              border-right: none;
+            }
+
+            &.selected {
+              button {
+                background: $compost-primary;
+              }
+            }
+          }
         }
       }
     }
@@ -789,11 +864,6 @@ main {
     display: inline-block;
     margin: 0px;
   }
-}
-
-.list-unstyled {
-  list-style: none;
-  padding-left: 0;
 }
 
 @import './prev-and-next-buttons.scss';
