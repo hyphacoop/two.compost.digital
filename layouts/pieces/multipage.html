@@ -1,9 +1,37 @@
+{{ define "body-class" }}
+grey-background
+{{ end }}
+
+{{ define "og" }}
+  <meta property="og:title" content="COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}" />
+  <meta property="og:url" content="https://one.compost.digital{{ .Page.RelPermalink }}" />
+  <meta property="og:image" content="https://one.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
+  <meta property="og:description" content="{{ .Params.description }}" />
+{{ end }}
+
+{{ define "title" }}
+COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
+{{ end }}
+
 {{ define "main" }}
-  
-  <div class="piece-container">
+
+  <div class="piece-container main-column {{ .Params.customClass }}">
     {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
 
+    {{ if isset .Params "titleimageurl" }}
+      <div class="piece-title-image">
+        <figure>
+          <img src="{{ .Params.titleImageUrl | relURL }}" alt="{{ .Params.titleImageAlt }}">
+          <figcaption><p>{{ .Params.titleImageCaption }}</p></figcaption>
+        </figure>
+      </div>
+    {{ end }}
+
     <h1>{{.Params.title}}</h1>
+
+    {{ if isset .Params "subtitle" }}
+      <h2 class="piece-subtitle">{{ .Params.subtitle }}</h2>
+    {{ end }}
 
     <div class="author-name">{{ $author.name }}</div>
 
@@ -19,12 +47,23 @@
       </ul>
     {{ end }}
 
-    <div class="bio-separator"></div>
+    {{ if isset .Params "endingimageurl" }}
+      <div class="gif-ending">
+        <img src="{{ .Params.endingImageUrl | relURL }}" alt="{{ .Params.endingImageAlt }}">
+      </div>
+    {{ else }}
+      <div class="gif-ending">
+        <img src="{{ "./images/dividers/bamboo-tiny.gif" | relURL }}" alt="A small stick of bamboo">
+      </div>
+    {{ end }}
+
+    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
     {{ partial "prev-and-next-buttons.html" . }}
 
     <!-- Footnotes -->
     <div class="footnotes-container"></div>
+    <!-- See baseof.html for mobile-footnotes-container -->
 
     {{ if isset .Params "footnotesurl" }}
       <script>
@@ -42,6 +81,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-  {{ $js := resources.Get "js/footnotes.js" }}
-  <script src="{{ $js.Permalink }}"></script>
+  <script src="{{ (resources.Get "js/footnotes.js").RelPermalink }}"></script>
 {{ end }}

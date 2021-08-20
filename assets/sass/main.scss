@@ -496,17 +496,19 @@ main {
 
     code {
       font-size: 0.8rem;
-      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
       font-family: $monospace;
+      border-radius: 8px;
     }
 
     pre {
       padding: 16px 20px;
       font-size: 0.8rem;
       overflow: auto;
-      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
+      border-radius: 8px;
     }
 
     h1 {
