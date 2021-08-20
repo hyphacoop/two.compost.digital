@@ -4,9 +4,12 @@ bamboo:
 blackberries:
   alt: Blackberries
   url: ./images/dividers/black-berries-tiny.gif
-nettles:
+nettles_solid:
   alt: Nettles
   url: ./images/dividers/nettles-solid-tiny.gif
+nettles:
+  alt: Nettles
+  url: ./images/dividers/nettles-small-clear.gif
 stick_1:
   alt: Stick
   url: ./images/dividers/stick1.gif
