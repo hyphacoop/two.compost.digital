@@ -1,18 +1,17 @@
 {{ $order := .Params.order }}
 {{ $chapter := .Params.chapter }}
+{{ $pages := index .Site.Data "celine" }}
 
 <div class="pagination">
-  {{$order}}
   <ul class="list-unstyled">
-    {{ $pages := index .Site.Data "celine" }}
     {{ range $item := $pages }}
-      {{ if eq $chapter $item }}
+      {{ if eq $chapter $item.title }}
         <li class="selected">
-          <button title="{{$item}}"></button>
+          <a href="{{$item.link}}" title="{{$item.title}}"></button>
         </li>
       {{ else }}
         <li class="">
-          <button title="{{$item}}"></button>
+          <a href="{{$item.link}}" title="{{$item.title}}"></button>
         </li>
       {{ end }}
     {{ end }}

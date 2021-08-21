@@ -629,7 +629,7 @@ main {
             border-right: 1px solid white;
             padding: 0;
 
-            button {
+            a {
               height: 5px;
               width: 100%;
               background: rgba(0,0,0,0.2);
@@ -647,7 +647,7 @@ main {
             }
 
             &.selected {
-              button {
+              a {
                 background: $compost-primary;
               }
             }
