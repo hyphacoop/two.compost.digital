@@ -7,11 +7,11 @@
     {{ range $item := $pages }}
       {{ if eq $chapter $item.title }}
         <li class="selected">
-          <a href="{{$item.link}}" title="{{$item.title}}"></button>
+          <a href="{{$item.link}}" title="{{$item.title}}"></a>
         </li>
       {{ else }}
         <li class="">
-          <a href="{{$item.link}}" title="{{$item.title}}"></button>
+          <a href="{{$item.link}}" title="{{$item.title}}"></a>
         </li>
       {{ end }}
     {{ end }}

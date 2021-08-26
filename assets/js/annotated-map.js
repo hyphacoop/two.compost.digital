@@ -1,7 +1,7 @@
 async function initMap(id, imagePath, annotationsPath) {
   var viewer = window.viewer = OpenSeadragon({
     id: id,
-    prefixUrl: `../js/vendor/openseadragon-bin-2.4.2/images/`,
+    prefixUrl: `/js/vendor/openseadragon-bin-2.4.2/images/`,
     tileSources: {
       type: "image",
       url: imagePath
