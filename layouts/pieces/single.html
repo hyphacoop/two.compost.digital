@@ -3,14 +3,14 @@ grey-background
 {{ end }}
 
 {{ define "og" }}
-  <meta property="og:title" content="COMPOST Issue 01: {{ .Params.title }} by {{ .Params.author }}" />
+  <meta property="og:title" content="COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}" />
   <meta property="og:url" content="https://one.compost.digital{{ .Page.RelPermalink }}" />
   <meta property="og:image" content="https://one.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
   <meta property="og:description" content="{{ .Params.description }}" />
 {{ end }}
 
 {{ define "title" }}
-COMPOST Issue 01: {{ .Params.title }} by {{ .Params.author }}
+COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 {{ end }}
 
 {{ define "main" }}
@@ -43,7 +43,7 @@ COMPOST Issue 01: {{ .Params.title }} by {{ .Params.author }}
       </div>
     {{ else }}
       <div class="gif-ending">
-        <img src="{{ "./images/angelica-gifs/mantis_computer.gif" | relURL }}" alt="A cartoon praying mantis dancing in front of a laptop.">
+        <img src="{{ "./images/dividers/bamboo-tiny.gif" | relURL }}" alt="A small stick of bamboo">
       </div>
     {{ end }}
     
