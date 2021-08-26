@@ -496,17 +496,19 @@ main {
 
     code {
       font-size: 0.8rem;
-      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
       font-family: $monospace;
+      border-radius: 8px;
     }
 
     pre {
       padding: 16px 20px;
       font-size: 0.8rem;
       overflow: auto;
-      background: scale-color($compost-green, $lightness: 62%, $saturation: -20%);
+      background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
+      border-radius: 8px;
     }
 
     h1 {
@@ -521,6 +523,11 @@ main {
       margin-top: 2.0em;
 
       &.piece-subtitle {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      &.piece-chapter {
         margin-top: 0;
         margin-bottom: 20px;
       }
@@ -543,7 +550,7 @@ main {
       image-rendering: pixelated;
 
       @include desktop {
-        margin: 120px 0px;
+        margin: 60px 0px;
       }
     }
 
@@ -554,6 +561,11 @@ main {
       margin: 40px auto;
     }
 
+    .bio {
+      font-size: 0.9em;
+      font-family: $skinny-italic-sans-serif;
+    }
+
     .footnote-link {
       font-weight: bold;
       text-decoration: none;
@@ -562,7 +574,6 @@ main {
     .footnotes-container {
       position: absolute;
       font-size: 0.7em;
-      // font-weight: 300;
       top: 0px;
       left: $desktop-column-width;
       width: $footnote-column-width;
@@ -575,6 +586,72 @@ main {
         .footnote-number {
           font-weight: bold;
           color: #777;
+        }
+      }
+    }
+
+    .multipage {
+      margin-top: 2em;
+      border: 1px solid rgba(0,0,0,0.2);
+      background: white;
+
+      .content {
+        padding: 1em;
+      }
+
+      pre, code {
+        background: inherit;
+        padding: 0;
+      }
+
+      .list-unstyled {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+
+        li {
+          padding-bottom: 0.5em;
+        }
+      }
+
+      .pagination {
+        ul {
+          display: flex;
+          margin: 0;
+          padding: 0;
+          margin-top: 10px;
+
+          li {
+            display: inline-flex;
+            list-style-type: none;
+            flex: 1 1 auto;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            padding: 0;
+
+            a {
+              height: 5px;
+              width: 100%;
+              background: rgba(0,0,0,0.2);
+              border-radius: 0;
+              padding: 0;
+              border: 0;
+            }
+
+            &:first-of-type {
+              border-left: none;
+            }
+
+            &:last-of-type {
+              border-right: none;
+            }
+
+            &.selected {
+              a {
+                background: $compost-primary;
+              }
+            }
+          }
         }
       }
     }
@@ -661,8 +738,7 @@ main {
 
 .support-us-section {
   margin: 40px 0px;
-  @i
-  nclude desktop {
+  @include desktop {
     margin: 80px 0px;
   }
 }
@@ -789,7 +865,6 @@ main {
     margin: 0px;
   }
 }
-
 
 @import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';
