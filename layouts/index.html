@@ -1,5 +1,5 @@
 {{ define "body-class"}}
-light-squiggle-background
+pattern-background
 {{ end }}
 
 {{ define "main" }}
@@ -29,7 +29,7 @@ light-squiggle-background
               {{ if isset $page.Params "tableofcontentsimageurl" }}
                 <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}">
               {{ else }}
-                <img src="{{ "./images/defaults/default-toc-image.png" | relURL }}">
+                <img src="{{ "./images/defaults/default-toc-image-2.jpg" | relURL }}">
               {{ end }}
             </div>
             <div class="toc-piece-title">{{$page.Title}}</div>
@@ -39,6 +39,6 @@ light-squiggle-background
         {{ end }}
       </div>
     </div>
-    
   </div>
+</div>
 {{ end }}

@@ -33,7 +33,7 @@ async function render() {
   })
 
   let readableDate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(balances.timestamp))
-  
+
   document.querySelector('[amount-raised]').appendChild(html`
     <span>Our magazine has <code>CAD ${readableBalance}</code> in our bank account as of ${readableDate}.</span>
   `)

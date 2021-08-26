@@ -1,0 +1,63 @@
+{{ $filename := .Get "file" }}
+{{ $class := .Get "class" }}
+{{ $alt := .Get "alt" }}
+{{ $title := .Get "title" }}
+{{ $copyright_notice := .Get "copyright_notice" }}
+{{ $copyright_terms := .Get "copyright_terms" }}
+{{ $creator := .Get "creator" }}
+{{ $id := .Get "id" }}
+
+<div class="image-flip-container {{ $class }}" onclick="this.classList.toggle('hover')">
+  <div class="image-flip">
+    <div class="front">
+      <img src="{{ $filename }}" alt="{{ $alt }}" id="{{ $id }}">
+      <div class="image-label">Click to see metadata</div>
+    </div>
+    <div class="back">
+      <div class="background">
+        <img src="{{ $filename }}" alt="">
+      </div>
+      <div class="foreground">
+        <div class="metadata">
+          <p class="title">{{ $title }}</p>
+          <p>{{ .Inner }}</p>
+          <div class="table-container">
+            {{ if $creator }}
+            <div class="table-item">
+              <div class="label">
+                Creator
+              </div>
+              <div class="info">
+                {{ $creator }}
+              </div>
+            </div>
+            {{ end }}
+
+            {{ if $copyright_notice }}
+            <div class="table-item">
+              <div class="label">
+                Copyright notice
+              </div>
+              <div class="info">
+                {{ $copyright_notice }}
+              </div>
+            </div>
+            {{ end }}
+
+            {{ if $copyright_terms }}
+            <div class="table-item">
+              <div class="label">
+                Copyright terms
+              </div>
+              <div class="info">
+                {{ $copyright_terms }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
