@@ -674,12 +674,12 @@ main {
 
 .footer-container {
   width: 100%;
-  
+
   background-image:
     url('../images/COMPOST_Assets_Footer_faded.png');
   background-position: center top;
   background-size: cover;
-  
+
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
@@ -871,3 +871,4 @@ main {
 @import './footer-content.scss';
 @import './image-flip.scss';
 @import './openseadragon.scss';
+@import './cn-foraging-piece.scss'
