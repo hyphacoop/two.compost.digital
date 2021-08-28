@@ -1,8 +1,8 @@
 ---
 title: Morels are a good first mushroom
-chapter: '001'
-author: Celine
+author: Celine Nguyen
 layout: multipage
+customClass: cn-foraging-piece
 order: celine
 links:
   - text: Read the discussion
