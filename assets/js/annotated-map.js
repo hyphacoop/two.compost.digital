@@ -1,4 +1,4 @@
-async function initMap(id, imagePath, annotationsPath) {
+async function initMap(id, imagePath, annotationsPath, iconPath) {
   var viewer = window.viewer = OpenSeadragon({
     id: id,
     prefixUrl: `/js/vendor/openseadragon-bin-2.4.2/images/`,
@@ -29,9 +29,19 @@ async function initMap(id, imagePath, annotationsPath) {
     if (annotation) {
       let contentEl = html`
         <div class="mesh-map-info-content" onclick=${(e) => e.stopPropagation()}>
-          ${annotation.media.map(item => makeMediaElement(item))}
         </div>
       `
+
+      if (annotation.title) {
+        let titleEl = html`<p class="title">${annotation.title}</p>`
+        contentEl.appendChild(titleEl)
+      }
+
+      annotation.media.map(item => {
+        const mediaEl = makeMediaElement(item)
+        contentEl.appendChild(mediaEl)
+      })
+
       let textEl = html`<pre class="text"></pre>`
       textEl.innerHTML = annotation.text
       contentEl.appendChild(textEl)
@@ -47,17 +57,20 @@ async function initMap(id, imagePath, annotationsPath) {
       id: annotation.id,
       x: annotation.x / width + 0.025,
       y: 0.6 * annotation.y / height,
-      width: annotation.w / width,
-      height: 0.6 * annotation.h / height,
-      placement: 'CENTER',
+      placement: OpenSeadragon.Placement.RIGHT,
       checkResize: false,
       className: "mesh-marker"
     }
-    
-    let markerElement = html`<div
+
+
+    let markerElement = html`<img
       class="mesh-marker"
-      alt="Click to see annotation"
-      annotation-id="${annotation.id}"></div>`
+      src=${iconPath}
+      alt="Annotation marker"
+      annotation-id="${annotation.id}"
+      width="40"
+      height="40"
+      >`
 
     marker.element = markerElement
     viewer.addOverlay(marker)
@@ -68,7 +81,6 @@ async function initMap(id, imagePath, annotationsPath) {
     let el = event.originalEvent.target
     if (event.quick && el.classList.contains('mesh-marker')) {
       let annotation = annotations.find(a => a.id === parseInt(el.getAttribute('annotation-id')))
-      console.log("annotation", annotation)
       el.classList.add('visited')
       renderInfo(annotation)
       event.preventDefaultAction = true

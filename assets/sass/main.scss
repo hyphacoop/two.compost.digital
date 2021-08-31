@@ -509,6 +509,7 @@ main {
       background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
       border-radius: 8px;
+      font-family: $monospace;
     }
 
     h1 {

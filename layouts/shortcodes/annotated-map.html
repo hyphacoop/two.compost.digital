@@ -4,11 +4,12 @@
 {{ $class := .Get "class" }}
 {{ $imagePath := .Get "imagePath" }}
 {{ $annotationsPath := .Get "annotationsPath" }}
+{{ $iconPath := .Get "iconPath" }}
 
 <div class="mesh-map {{$class}}" id="{{$id}}" title="{{$title}}" alt="{{$alt}}"></div>
 
 <script src="{{ "js/vendor/openseadragon-bin-2.4.2/openseadragon.min.js" | relURL }}"></script>
 <script src="{{ (resources.Get "js/annotated-map.js").RelPermalink }}"></script>
 <script type="text/javascript">
-  initMap({{$id}}, {{$imagePath}}, {{$annotationsPath}});
+  initMap({{$id}}, {{$imagePath}}, {{$annotationsPath}}, {{$iconPath}});
 </script>

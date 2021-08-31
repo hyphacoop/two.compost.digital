@@ -11,15 +11,12 @@
 
 .mesh-marker {
   cursor: pointer;
-  width: 20px;
-  height: 20px;
-  background: transparentize($compost-primary, 0.7);
-  border: 2px solid $compost-primary;
+  width: 40px;
+  height: 40px;
   border-radius: 8px;
 
   &.visited {
-    border-color: $compost-secondary;
-    background: transparentize($compost-secondary, 0.7);
+    filter: grayscale(1);
   }
 }
 
@@ -41,6 +38,15 @@
     max-width: 100%;
     max-height: 400px;
     overflow-y: auto;
+    font-family: $monospace;
+
+    .title {
+      font-weight: bold;
+      font-size: 1.25em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      text-transform: none;
+    }
 
     @include desktop {
       max-width: 700px;
@@ -49,6 +55,8 @@
     img {
       margin-bottom: 10px;
       width: auto;
+      max-width: 100%;
+      max-height: 300px;
     }
 
     audio {
@@ -58,6 +66,7 @@
 
     .text {
       margin-bottom: 20px;
+      margin-top: 0;
       white-space: pre-wrap;
       padding: 0;
       font-size: 1em;

@@ -5,7 +5,7 @@ author: Celine
 layout: multipage
 order: celine
 links:
-  - text: Read the discussion → (002)
+  - text: Read the discussion
     to: '002'
 ---
 ```

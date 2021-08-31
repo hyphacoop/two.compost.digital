@@ -37,9 +37,6 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     <div class="multipage">
       <div class="content">
-        {{ if isset .Params "chapter" }}
-          <h2 class="piece-chapter">{{ .Params.chapter }}</h2>
-        {{ end }}
 
         {{ .Content }}
 
