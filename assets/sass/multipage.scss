@@ -1,6 +1,9 @@
 @import './fonts.scss';
 @import './variables.scss';
 
+// CELINE: you can put your custom styles in this file
+// it only gets loaded on the multipage template
+
 #multipage {
   margin-top: 2em;
   border: 1px solid rgba(0,0,0,0.2);
@@ -77,5 +80,20 @@
         }
       }
     }
+  }
+}
+
+.season {
+  // CELINE: season styles go here
+  &-spring {
+  }
+
+  &-summer {
+  }
+
+  &-fall {
+  }
+
+  &-winter {
   }
 }
