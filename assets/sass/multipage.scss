@@ -1,0 +1,81 @@
+@import './fonts.scss';
+@import './variables.scss';
+
+#multipage {
+  margin-top: 2em;
+  border: 1px solid rgba(0,0,0,0.2);
+  background: white;
+
+  .content {
+    padding: 1em;
+  }
+
+  pre, code {
+    background: inherit;
+    padding: 0;
+  }
+
+  .list-unstyled {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      padding-bottom: 0.5em;
+    }
+  }
+
+  .pagination {
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+
+      li {
+        display: inline-flex;
+        list-style-type: none;
+        flex: 1 1 auto;
+        padding: 0;
+        height: 3px;
+        position: relative;
+        background: $compost-primary;
+
+
+        .dot {
+          position: absolute;
+          top: -5px;
+          right: -1px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 12px;
+          height: 12px;
+          width: 12px;
+          top: -5px;
+          border: 1px solid white;
+          background: $compost-primary;
+          z-index: 1;
+
+          + .dot {
+            right: 4px;
+            z-index: 0;
+          }
+        }
+
+        a {
+          height: 100%;
+          width: 100%;
+        }
+
+        &.future {
+          visibility: hidden;
+        }
+
+        &.past {
+          background: $compost-primary;
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,7 @@
+{{ define "custom-stylesheet" }}
+<link rel="stylesheet" href="{{ (resources.Get "sass/multipage.scss" | resources.ToCSS).Permalink }}">
+{{ end }}
+
 {{ define "body-class" }}
 grey-background
 {{ end }}
@@ -35,7 +39,14 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     <div class="author-name">{{ $author.name }}</div>
 
-    <div class="multipage">
+    <div id="multipage" class="season-{{ .Params.season }}">
+      {{ if isset .Params "post-count" }}
+        <p>Post count: {{ .Params.Get "post-count" }}</p>
+      {{ end }}
+
+      {{ if isset .Params "rank" }}
+        <p>Rank: {{ .Params.Get "rank" }}</p>
+      {{ end }}
       <div class="content">
 
         {{ .Content }}
@@ -44,7 +55,7 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
           <ul class="list-unstyled">
           {{ range .Params.links }}
               <li>
-                  <a href="{{.to}}">{{.text}}</a>
+                  <a href="{{.to}}#multipage">{{.text}} &#9656;</a>
               </li>
           {{ end }}
           </ul>

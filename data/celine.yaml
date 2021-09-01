@@ -4,19 +4,67 @@
   link: /pieces/celine/002/
 - title: '003'
   link: /pieces/celine/003/
+  multichoice: true
 - title: '004a'
   link: /pieces/celine/004a/
 - title: '004b'
   link: /pieces/celine/004b/
-- title: '005'
-  link: /pieces/celine/005/
+- title: '005a'
+  link: /pieces/celine/005a/
+- title: '005b'
+  link: /pieces/celine/005b/
 - title: '006'
   link: /pieces/celine/006/
-- title: '007'
-  link: /pieces/celine/007/
+  multichoice: true
+- title: '007a'
+  link: /pieces/celine/007a/
+- title: '007b'
+  link: /pieces/celine/007b/
 - title: '008'
   link: /pieces/celine/008/
+  multichoice: true
+- title: '008a'
+  link: /pieces/celine/008a/
+- title: '008b'
+  link: /pieces/celine/008b/
 - title: '009'
   link: /pieces/celine/009/
+  multichoice: true
 - title: '010'
   link: /pieces/celine/010/
+  multichoice: true
+- title: '011a'
+  link: /pieces/celine/011a/
+- title: '011b'
+  link: /pieces/celine/011b/
+- title: '012'
+  link: /pieces/celine/012/
+- title: '013'
+  link: /pieces/celine/013/
+- title: '014'
+  link: /pieces/celine/014/
+- title: '015'
+  link: /pieces/celine/015/
+  multichoice: true
+- title: '016a'
+  link: /pieces/celine/016a/
+- title: '016b'
+  link: /pieces/celine/016b/
+- title: '017a'
+  link: /pieces/celine/017a/
+  multichoice: true
+- title: '017b'
+  link: /pieces/celine/017b/
+  multichoice: true
+- title: '018a'
+  link: /pieces/celine/018a/
+- title: '018b'
+  link: /pieces/celine/018b/
+- title: '018d'
+  link: /pieces/celine/018d/
+- title: '019a'
+  link: /pieces/celine/019a/
+- title: '019b'
+  link: /pieces/celine/019b/
+
+

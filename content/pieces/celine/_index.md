@@ -1,20 +1,14 @@
 ---
 title: Morels are a good first mushroom
-chapter: '001'
 author: Celine
 layout: multipage
 order: celine
+chapter: '001'
 links:
   - text: Read the discussion
     to: '002'
----
-```
----
 season: spring
-post-count: hidden
-rank: hidden
 ---
-```
 
 When you check your phone you have three notifications: your Amazon delivery is arriving today, Uber Eats is giving you $20 off for the weekend, and your best friend is in distress. I'm doing this quiz and it's making me rethink my life tbh. A minute later, she sends another text: It's asking me if I know any edible plants or native grasses in our area! I'm not sure if I even know the difference between oregano and thyme at the grocery store.
 She was reading a novel, she explains, and it referenced a quiz to see how grounded you are in the natural world, how rooted you are in place. She sends you a few:
