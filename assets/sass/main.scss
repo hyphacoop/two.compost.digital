@@ -354,6 +354,7 @@ main {
           margin-bottom: 60px;
           color: black;
           text-decoration: none;
+          max-width: 350px;
 
           @include homepage-desktop {
             margin-bottom: 40px;
@@ -569,7 +570,7 @@ main {
   width: 100%;
   
   background-image:
-    url('../images/COMPOST_Assets_Footer_faded.png');
+    url('../images/footer_test.png');
   background-position: center top;
   background-size: cover;
   
@@ -579,8 +580,8 @@ main {
   padding-top: 40px;
 
   @include desktop {
-    padding-top: 150px;
-    height: 500px;
+    padding-top: 220px;
+    // height: 500px;
   }
 
   a {
@@ -655,7 +656,7 @@ main {
       margin-bottom: 10px;
 
       .donation-button {
-        background: $compost-green;
+        background: $compost-primary-dark;
         font-family: $title-sans-serif;
         border-radius: 6px;
         color: white;
@@ -684,7 +685,7 @@ main {
         }
 
         &:hover {
-          background: scale-color($compost-green, $lightness: -30%, $saturation: 10%);
+          background: $compost-primary;
         }
       }
     }
@@ -721,7 +722,7 @@ main {
         left: 0px;
         bottom: 0px;
         width: 0px;
-        background: $compost-green;
+        background: $compost-primary;
         opacity: 0.3;
         z-index: -1;
         transition: width 0.5s ease-out;

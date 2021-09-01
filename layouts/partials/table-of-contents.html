@@ -40,24 +40,20 @@
       {{ range $pageName := $pieceSequence }}
           {{ $page := $.Site.GetPage $pageName }}
           <a href="{{$page.Permalink}}" class="toc-piece-tile" title="{{$page.Title}}">
-            <div class="toc-piece-image">
-              {{ if isset $page.Params "tableofcontentsimageurl" }}
-                <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}" alt="{{ $page.Params.tableOfContentsImageAlt }}">
-              {{ else }}
-                <img src="{{ "./images/defaults/default-toc-image-2.jpg" | relURL }}">
-              {{ end }}
-            </div>
-            <div class="toc-piece-title">{{$page.Title}}</div>
-            <div class="toc-piece-author">{{$page.Params.author}}</div>
+            <div>
+              <div class="toc-piece-image">
+                {{ if isset $page.Params "tableofcontentsimageurl" }}
+                  <img src="{{ $page.Params.tableOfContentsImageUrl | relURL }}" alt="{{ $page.Params.tableOfContentsImageAlt }}">
+                {{ else }}
+                  <img src="{{ "./images/defaults/default-toc-image-3.jpg" | relURL }}">
+                {{ end }}
+              </div>
+              <div class="toc-piece-title">{{$page.Title}}</div>
+              <div class="toc-piece-author">{{$page.Params.author}}</div>
+          </div>
           </a>
       {{ end }}
     </div>
-
-    <!-- <div class="toc-footer-container">
-      {{ partial "footer-content.html" . }}
-    </div> -->
-
-    <div class="mushrooms-container"></div>
 
   </div>
 
