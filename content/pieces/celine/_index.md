@@ -3,10 +3,13 @@ title: Morels are a good first mushroom
 author: Celine
 layout: multipage
 order: celine
+# CELINE: add your custom frontmatter here
+# I omitted the post-count and rank when they are hidden
+# all the other pages are in this directory
 chapter: '001'
 links:
   - text: Read the discussion
-    to: '002'
+    to: '/pieces/celine/002'
 season: spring
 weight: 5
 ---
