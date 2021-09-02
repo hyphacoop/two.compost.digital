@@ -1,6 +1,9 @@
 ---
-title: The Blue Marbles Smile Project
-author: Andi Wong & Margaret Warren
+title: A Confluence of Waters
+subtitle: Exploring Connections with The Blue Marbles Project
+author: Andi Wong and Margaret Warren
+description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
+weight: 9
 ---
 
 In the Summer of 2019, we - Andi Wong and Margaret Warren met for the first time at one of the Friday lunches at the Internet Archive on Funston Street in San Francisco. The context of their meeting was in planning art activities for the upcoming Decentralized Web Camp to be held at The Mushroom Farm.

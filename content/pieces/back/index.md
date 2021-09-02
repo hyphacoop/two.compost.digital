@@ -5,6 +5,7 @@ tableOfContentsImageUrl: ./images/title-images/back-cover.jpg
 titleImageUrl: ./images/title-images/back-cover.jpg
 endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
 endingImageAlt: A vintage Macintosh computer with leaves growing from it
+weight: 12
 ---
 
 ---

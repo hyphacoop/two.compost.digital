@@ -55,13 +55,13 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
           <ul class="list-unstyled">
           {{ range .Params.links }}
               <li>
-                  <a href="{{.to}}#multipage">{{.text}} &#9656;</a>
+                  <a href="{{.to}}" class="page-link">{{.text}} &#9656;</a>
               </li>
           {{ end }}
           </ul>
         {{ end }}
       </div>
-      {{ partial "pagination.html" . }}
+      {{ partial "multichoice-pagination.html" . }}
     </div>
 
     {{ if isset .Params "endingimageurl" }}
@@ -76,7 +76,7 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
-    {{ partial "prev-and-next-buttons.html" . }}
+    {{ partial "page-navigation.html" . }}
 
     <!-- Footnotes -->
     <div class="footnotes-container"></div>
@@ -99,4 +99,5 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
 {{ define "scripts" }}
   <script src="{{ (resources.Get "js/footnotes.js").RelPermalink }}"></script>
+  <script src="{{ (resources.Get "js/celine.js").RelPermalink }}"></script>
 {{ end }}

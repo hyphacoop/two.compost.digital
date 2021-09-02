@@ -1,6 +1,7 @@
 ---
 title: Growth Through Replication
 author: Author
+weight: 10
 ---
 
 >_For Judy_
