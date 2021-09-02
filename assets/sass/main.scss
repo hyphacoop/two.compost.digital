@@ -231,10 +231,12 @@ main {
 
         .cover-image-container {
           width: 100%;
+          padding: 20px;
 
           @include small {
             height: 90%;
             width: auto;
+            padding: 0;
           }
 
           img {
@@ -263,7 +265,6 @@ main {
           font-family: $title-sans-serif;
           padding: 40px 20px;
           border-bottom: 1px solid;
-          border-top: 1px solid;
 
           // Fixes a weird gap on mobile
           position: relative;
@@ -571,17 +572,23 @@ main {
   
   background-image:
     url('../images/footer_test.png');
-  background-position: center top;
+  background-position: top left;
   background-size: cover;
   
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
-  padding-top: 40px;
 
   @include desktop {
-    padding-top: 220px;
-    // height: 500px;
+    background-position: top center;
+  }
+
+  .footer-content {
+    padding-top: 40px;
+
+    @include desktop {
+      padding-top: 180px;
+    }
   }
 
   a {
