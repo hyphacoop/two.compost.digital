@@ -2,6 +2,8 @@
 title: A Confluence of Waters
 subtitle: Exploring Connections with The Blue Marbles Project
 author: Andi Wong and Margaret Warren
+tableOfContentsImageUrl: ./images/title-images/bluemarbles-700x350.jpg
+titleImageUrl: ./images/title-images/bluemarbles-700x350.jpg
 description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
 weight: 9
 ---
