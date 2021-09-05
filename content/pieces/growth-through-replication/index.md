@@ -1,6 +1,9 @@
 ---
 title: Growth Through Replication
-author: Author
+subtitle: 'the .GIF PRAXIS of LIAIZON WAKEST'
+tableOfContentsImageUrl: ./images/title-images/wakest-cover-700x350.gif
+titleImageUrl: ./images/title-images/wakest-cover-700x350.gif
+author: Liaizon Wakest
 weight: 10
 ---
 
