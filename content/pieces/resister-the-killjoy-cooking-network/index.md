@@ -1,5 +1,6 @@
 ---
-title: 'Re: Sister - Killjoy Cooking Network'
+title: 'Re: Sister'
+subtitle: Killjoy Cooking Network
 author: Eeshita Kapadiya and Mrinalini Sebastian
 customClass: openseadragon-map-container
 description: What happens when two women write to each other about food?
