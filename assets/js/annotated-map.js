@@ -18,7 +18,8 @@ async function initMap(id, imagePath, annotationsPath, iconPath) {
   const renderInfo = (annotation) => {
     const makeMediaElement = (item) => {
       if (item.type === 'image') {
-        return html`<img src="../${item.url}">`
+        const size = item.size || "default"
+        return html`<img src="../${item.url}" class="size-${size}">`
       } else if (item.type === 'audio') {
         return html`<audio controls src="../${item.url}">`
       }

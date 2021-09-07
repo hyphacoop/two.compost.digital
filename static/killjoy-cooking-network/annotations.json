@@ -24,7 +24,8 @@
     "media": [
       {
         "type": "image",
-        "url": "../../killjoy-cooking-network/assets/2.png"
+        "url": "../../killjoy-cooking-network/assets/2.png",
+        "size": "fullwidth"
       }
     ]
   },
@@ -34,11 +35,13 @@
     "y": 1182.1007080078125,
     "w": 372.291015625,
     "h": 310.24267578125,
-    "text": "",
+    "title": "Coffee Cake by Lisa",
+    "text": "“Original tagline read : The olive oil in this recipe will help maintain the cakes moisture, having it melt in your mouth for hours! LOL” \n\nIngredients:\n220g castor sugar\n50ml strong espresso coffee (your best brew)\n5 eggs\n350g almond or hazelnut meal\n2 tsp. vanilla extract  \n1 tsp baking powder\n150ml virgin olive oil\n*icing sugar + more coffee\n\nMethod:\n\nWe usually just did half the recipe which we could eat happily in 2 days.\nPreheat the oven at 180C. Grease + line 23cm round cake pan with baking paper.\nCombine eggs, sugar and oil together. Whisking lightly, then add vanilla extract + coffee. Then the almond meal + baking soda. We just did this with a handheld whisk. Doesn’t need that much mixing, just until all combined.\nPour into the cake pan and cook for 45 minutes or centre slightly firm to touch. \n\nCool ~~~\n\nWe just made a simple icing with icing sugar, adding coffee until desired consistency. It’s so freaking delicious. Make extra so you can eat as you go.\nLet me know how this goes for you and what you think, how many times you make it in 2 weeks. Looking forward to receiving your correspondence! Lol.\n\n<3<3<3 Lisa xx\n26 June, 2021 ",
     "media": [
       {
         "type": "image",
-        "url": "../../killjoy-cooking-network/assets/3.png"
+        "url": "../../killjoy-cooking-network/assets/3.png",
+        "size": "fullwidth"
       }
     ]
   },
@@ -67,6 +70,7 @@
     "media": [
       {
         "type": "image",
+        "size": "fullwidth",
         "url": "../../killjoy-cooking-network/assets/5.png"
       }
     ]
@@ -124,6 +128,7 @@
     "media": [
       {
         "type": "image",
+        "size": "fullwidth",
         "url": "../../killjoy-cooking-network/assets/9.jpg"
       }
     ]
