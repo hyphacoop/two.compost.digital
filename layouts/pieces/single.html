@@ -37,6 +37,15 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     {{ .Content }}
 
+    {{ if isset .Params "markdown" }}
+      {{ $markdownUrl := .Params.markdown | relURL }}
+      <script src="{{ (resources.Get "js/fetch-markdown.js").RelPermalink }}"></script>
+      <script>
+        fetchMarkdown({{$markdownUrl}})
+      </script>
+      <a href="#/" onclick="navigator.clipboard.writeText(markdownText)">COPY MARKDOWN</a>
+    {{ end }}
+
     {{ if isset .Params "endingimageurl" }}
       <div class="gif-ending">
         <img src="{{ .Params.endingImageUrl | relURL }}" alt="{{ .Params.endingImageAlt }}">
