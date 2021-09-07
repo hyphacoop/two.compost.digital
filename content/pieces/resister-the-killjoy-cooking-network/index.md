@@ -2,6 +2,8 @@
 title: 'Re: Sister'
 subtitle: Killjoy Cooking Network
 author: Eeshita Kapadiya and Mrinalini Sebastian
+tableOfContentsImageUrl: ./images/title-images/eeshita.png
+titleImageUrl: ./images/title-images/eeshita.png
 customClass: openseadragon-map-container
 description: What happens when two women write to each other about food?
 weight: 3
