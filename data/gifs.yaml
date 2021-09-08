@@ -1,39 +1,45 @@
 bamboo:
   alt: Bamboo
   url: ./images/dividers/bamboo-tiny.gif
-blackberries:
-  alt: Blackberries
-  url: ./images/dividers/black-berries-tiny.gif
-nettles_solid:
-  alt: Nettles
-  url: ./images/dividers/nettles-solid-tiny.gif
-nettles:
-  alt: Nettles
-  url: ./images/dividers/nettles-small-clear.gif
-stick_1:
-  alt: Stick
-  url: ./images/dividers/stick1.gif
-stick_2:
-  alt: Stick
-  url: ./images/dividers/stick2.gif
 bamboo_slow:
   alt: Bamboo
   url: ./images/dividers/bamboo-slow.gif
 berries_on_stem:
   alt: Berries on a stem
   url: ./images/dividers/berries-on-stem.gif
-black_berry:
+blackberry_large:
   alt: Blackberry
   url: ./images/dividers/black-berry.gif
+blackberry_small:
+  alt: Blackberry
+  url: ./images/dividers/black-berries-tiny.gif
+currant_stem:
+  alt: Animated currant stem
+  url: ./images/dividers/72-currentstem.gif
 flower:
   alt: Flower
   url: ./images/dividers/flower.gif
-stacked:
-  alt: Stacked
+grape_stems:
+  alt: Grape stems
   url: ./images/dividers/stacked.gif
+nettles:
+  alt: Nettles
+  url: ./images/dividers/72-bw-nettles.gif
+nettles_green:
+  alt: Green animated nettles
+  url: ./images/dividers/72-colornettles.gif
+nettles_solid:
+  alt: Nettles
+  url: ./images/dividers/nettles-solid-tiny.gif
 star_leaf:
   alt: Star leaf
   url: ./images/dividers/star-leaf.gif
+stick_1:
+  alt: Stick
+  url: ./images/dividers/stick1.gif
+stick_2:
+  alt: Stick
+  url: ./images/dividers/stick2.gif
 waving_stick:
   alt: Stick
   url: ./images/dividers/waving-stick.gif
