@@ -134,6 +134,4 @@ weight: 10
 
 <p>All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest.</p>
 
-<img src="gif-praxis-22.gif" alt="Willow branches" class="center" />
-
 {{</rawhtml>}}

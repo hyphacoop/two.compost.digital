@@ -323,9 +323,6 @@ main {
 
     .home-toc-pieces-container {
       padding-top: 60px;
-      // background-image:
-      //   linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)),
-      //   url('../images/COMPOST_Pattern_A2.jpg');
 
       @include homepage-desktop {
         padding-top: 80px;
@@ -336,14 +333,9 @@ main {
         padding: 0px 20px;
         width: 100%;
         box-sizing: border-box;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-        &::after {
-          content: "";
-          flex-basis: 350px;
-        }
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 1rem;
 
         @include homepage-desktop {
           width: $desktop-homepage-width;
@@ -352,10 +344,10 @@ main {
         }
 
         .toc-piece-tile {
-          margin-bottom: 60px;
+          margin-bottom: 40px;
           color: black;
           text-decoration: none;
-          max-width: 350px;
+          padding: 8px;
 
           @include homepage-desktop {
             margin-bottom: 40px;
@@ -392,11 +384,6 @@ main {
 
             @include homepage-desktop {
               margin-bottom: 20px;
-            }
-
-            @media (min-width: 370px) {
-              width: 350px;
-              height: 175px;
             }
 
             img {
@@ -507,8 +494,10 @@ main {
     .gif-ending {
       text-align: center;
       margin: 40px 0px;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: pixelated;
+
+      img {
+        max-height: 120px;
+      }
 
       @include desktop {
         margin: 60px 0px;
@@ -571,7 +560,7 @@ main {
   width: 100%;
   
   background-image:
-    url('../images/footer_test.png');
+    url('../images/footer.png');
   background-position: top left;
   background-size: cover;
   
@@ -753,12 +742,14 @@ main {
 }
 
 .animated-gif {
-  margin: 80px 0px;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: pixelated;
+  margin: 60px 0px;
 
   figure {
     text-align: center;
+  }
+
+  img {
+    max-height: 100px;
   }
 
   &.inline {

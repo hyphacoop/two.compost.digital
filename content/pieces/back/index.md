@@ -3,14 +3,14 @@ title: Back Cover
 description: Tangents, fragments, and shoutouts!
 tableOfContentsImageUrl: ./images/title-images/back-cover.jpg
 titleImageUrl: ./images/title-images/back-cover.jpg
-endingImageUrl: ./images/angelica-gifs/old_macintosh.gif
+endingImageUrl: ./images/dividers/waving-stick.gif
 endingImageAlt: A vintage Macintosh computer with leaves growing from it
 weight: 12
 ---
 
 ---
 
-{{< anigif name="worm_computer" >}}
+{{< anigif name="berries_on_stem" >}}
 
 
 ## ･༓☾our other projects + writings☽༓･ 
