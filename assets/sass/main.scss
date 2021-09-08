@@ -767,6 +767,67 @@ main {
   }
 }
 
+figure, img, div {
+  &.float {
+    &-right {
+      float: right;
+    }
+    &-left {
+      float: left;
+    }
+  }
+
+  &.width {
+    &-15 {
+      width: 15%;
+    }
+    &-25 {
+      width: 25%;
+    }
+    &-33 {
+      width: 33%;
+    }
+    &-50 {
+      width: 50%;
+    }
+    &-66 {
+      width: 66%;
+    }
+    &-75 {
+      width: 75%;
+    }
+    &-100 {
+      width: 100%;
+    }
+  }
+}
+
+.clear-float {
+  clear: both;
+}
+
+.position {
+  &-absolute {
+    position: absolute;
+  }
+  &-relative {
+    position: relative;
+  }
+}
+
+.display {
+  &-flex {
+    display: flex;
+    align-items: flex-start;
+  }
+  &-inline-flex {
+    display: inline-flex;
+  }
+  &-block {
+    display: block;
+  }
+}
+
 @import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';
 @import './footer-content.scss';
