@@ -1,16 +1,19 @@
-var markdownText = ''
-
 async function fetchMarkdown(markdownUrl) {
-  console.log('Fetch markdown from: ' + markdownUrl)
-  
   try {
-    markdownText = await fetch(markdownUrl).then(res => res.text())
+    var markdownText = await fetch(markdownUrl).then(res => res.text())
     if (markdownText !== undefined && markdownText.length > 0) {
-      console.log('Fetched markdown text')
+      navigator.clipboard.writeText(markdownText)
+      document.getElementById('copy-button-text').innerText = "Markdown copied!"
+      document.getElementById('copy-icon').src = "/images/done-icon.svg"
     } else {
-      console.error('Failed to fetch markdown text')
+      document.getElementById('copy-error').innerText = "Failed to fetch markdown text."
+      document.getElementById('copy-button-text').innerText = "Copy markdown"
+      document.getElementById('copy-icon').src = "/images/copy-icon.svg"
     }
   } catch (e) {
     console.error('Failed to fetch markdown text: ', e)
+    document.getElementById('copy-error').innerText = "Failed to fetch markdown text."
+    document.getElementById('copy-button-text').innerText = "Copy markdown"
+    document.getElementById('copy-icon').src = "/images/copy-icon.svg"
   }
 }

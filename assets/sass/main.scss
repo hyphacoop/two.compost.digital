@@ -767,6 +767,47 @@ main {
   }
 }
 
+#copy-button {
+  font-family: $monospace;
+
+  img {
+    height: 18px;
+    width: 18px;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+}
+
+.theme-button {
+  background: $compost-primary-dark;
+  border-radius: 6px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  flex-grow: 0;
+  padding: 0.5em 1em;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 2px solid $compost-primary-dark;
+  transition: all 250ms ease-in-out;
+
+  &:hover {
+    background: $compost-primary;
+    border-color: $compost-primary;
+  }
+
+  &:focus {
+    background: $compost-primary;
+    border-color: $compost-primary-dark;
+  }
+}
+
 @import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';
 @import './footer-content.scss';
