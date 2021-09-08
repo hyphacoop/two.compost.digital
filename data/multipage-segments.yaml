@@ -4,7 +4,7 @@
 - chapters:
     - title: '002'
       link: /pieces/celine/002/
-- multichoice: true
+- choices: 2
   chapters:
     - title: '003'
       link: /pieces/celine/003/
@@ -18,7 +18,7 @@
       link: /pieces/celine/005a/
     - title: '005b'
       link: /pieces/celine/005b/
-- multichoice: true
+- choices: 2
   chapters:
     - title: '006'
       link: /pieces/celine/006/
@@ -27,7 +27,7 @@
       link: /pieces/celine/007a/
     - title: '007b'
       link: /pieces/celine/007b/
-- multichoice: true
+- choices: 2
   chapters:
     - title: '008'
       link: /pieces/celine/008/
@@ -36,11 +36,11 @@
       link: /pieces/celine/008a/
     - title: '008b'
       link: /pieces/celine/008b/
-- multichoice: true
+- choices: 3
   chapters:
     - title: '009'
       link: /pieces/celine/009/
-- multichoice: true
+- choices: 2
   chapters:
     - title: '010'
       link: /pieces/celine/010/
@@ -61,7 +61,7 @@
 - chapters:
     - title: '015'
       link: /pieces/celine/015/
-  multichoice: true
+  choices: 2
 - chapters:
   - title: '016a'
     link: /pieces/celine/016a/
@@ -70,11 +70,11 @@
 - chapters:
   - title: '017a'
     link: /pieces/celine/017a/
-  multichoice: true
+  choices: 2
 - chapters:
   - title: '017b'
     link: /pieces/celine/017b/
-  multichoice: true
+  choices: 2
 - chapters:
   - title: '018a'
     link: /pieces/celine/018a/

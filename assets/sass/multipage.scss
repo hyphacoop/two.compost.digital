@@ -58,10 +58,15 @@
           top: -5px;
           border: 1px solid white;
           background: $compost-primary;
-          z-index: 1;
+          z-index: 2;
 
-          + .dot {
+          &:nth-of-type(2) {
             right: 4px;
+            z-index: 1;
+          }
+
+          &:nth-of-type(3) {
+            right: 9px;
             z-index: 0;
           }
         }

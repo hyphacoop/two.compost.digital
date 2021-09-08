@@ -13,7 +13,7 @@
 <div class="pagination">
   <ul class="list-unstyled">
     {{ range $index, $item := $segments }}
-      {{ $multichoice := cond (isset $item "multichoice") "multichoice" "" }}
+      {{ $multichoice := cond (isset $item "choices") "multichoice" "" }}
 
       {{ $liClass := "" }}
       {{ if (lt $index $selectedIndex) }}
@@ -24,21 +24,25 @@
         {{ $liClass = "selected" }}
       {{ end }}
 
-      {{ $page := index $item.chapters 0 }}
-
       <li class="{{$liClass}} timeline-segment" data-segment="{{$index}}">
           {{ if eq $liClass "past" }}
             <a id="segment-{{$index}}" href="/pieces/celine/">
-              <div class="dot"></div>
               {{ if $multichoice }}
-                <div class="dot"></div>
+                {{ range seq $item.choices}}
+                  <div class="dot"></div>
+                {{ end }}
+              {{ else }}
+                 <div class="dot"></div>
               {{ end }}
             </a>
           {{ else }}
-            <div class="dot"></div>
             {{ if $multichoice }}
-              <div class="dot"></div>
-            {{ end }}
+                {{ range seq $item.choices}}
+                  <div class="dot"></div>
+                {{ end }}
+              {{ else }}
+                 <div class="dot"></div>
+              {{ end }}
           {{ end }}
         </li>
 
