@@ -1,93 +1,139 @@
 ---
 title: Growth Through Replication
-author: Author
+subtitle: 'the .GIF PRAXIS of LIAIZON WAKEST'
+tableOfContentsImageUrl: ./images/title-images/wakest-cover-700x350.gif
+titleImageUrl: ./images/title-images/wakest-cover-700x350.gif
+author: Liaizon Wakest
+weight: 10
 ---
 
->_For Judy_
->_For Rose_
+{{<rawhtml>}}
 
-1.  The Google image search for Salar de Uyuni is dazzling. The pictures are so white your eyes hurt. The spaciousness is almost terrifying. You can’t help but think that a place so full of emptiness must contain mirages: tricks of the light, secret delusions, passages to indeterminate places and unruly desires. The dried up lake looks like it could go on forever and ever. Everything here is in your head.{{< footnote "[1]" >}}
+<div class="display-flex" style="align-items: center;">
+    <p class="pt-40">Walking through the woods I stop and pick up a leaf, and then another. I have a handful of leaves; each is a frame of a tiny film starring Leaf.</p>
+    <img src="gif-praxis-1.gif" alt="Animated leaf" class="float-right width-25" />
+</div>
 
-2.  Lithium (Li) is the third element on the periodic table, sitting right behind hydrogen and helium. With an atomic mass of 6.941u, the soft silver-white metal is the lightest of all the alkalis and, under ordinary conditions, floats on the surface of water.{{< footnote "[2]" >}} Naturally-occurring lithium is impure; found in magmatic rocks and mineral springs, the highly reactive raw material must be extracted from the earth in order to become useful.
+<div class="clear-float"></div>
 
-3.  The first petalite, a transparent crystal made of lithium aluminium phyllosilicate, was discovered in the early 1800s on a Swedish island by Brazilian statesman and naturalist José Bonifácio de Andrada e Silva. Half a century later, the military surgeon and professor of Diseases of the Mind and Nervous System at Bellevue Hospital Medical College, William Hammond, became the first physician to prescribe lithium for psychiatric purposes.{{< footnote "[3]" >}}
+<div class="position-relative display-flex" style="align-items: flex-end;">
+    <img src="gif-praxis-2.jpg" alt="Scanned leaves" class="float-left width-50" />
+    <p>Leaves stack up next to the scanner, waiting to be made static. Beginning a life without the natural entropy of decomposition. A permanent stillness. Their digital reflection is the first step to a new movement.</p>
+</div>
 
-    By the early 20th century, the salt compound had made its way into the growing field of modern medicine: used as a hypnotic and an anticonvulsant as well as to treat abnormal levels of uric acid in the body. But early literature largely erased this history and, for over five decades, lithium was used mostly in craftwork and for machine grease.{{< footnote "[4]" >}} In 1949, at a veterans’ hospital in a Melbourne suburb, the Australian psychiatrist John Cade came to be credited with reintroducing lithium as a treatment for what was then known as “manic depression.”
+<div class="position-relative display-flex" style="align-items: center; justify-content: flex-end;">
+    <img src="gif-praxis-3.gif" alt="Scanned leaves" class="width-50" />
+    <p class="position-absolute">Laying out a series of semi-living artifacts on the open eye of a mid-millennium scanning apparatus feels ritualistic. Protecting a memory of the moment I acknowledge their inherent importance.</p>
+</div>
 
-    Over a few isolated studies throughout the following years, the salt compound became the “gold standard” for treating manic episodes — what Cade referred to as “psychotic excitement” and Google today defines as “periods of great euphoria, delusions, and overactivity.” (An alternate definition reads, simply, “an obsession.”) In a tug-of-war between scientific observation and pharmaceutical marketing, the United States stalled on trading in treatments like electroconvulsive shock therapy for lithium carbonate.{{< footnote "[5]" >}} In the 1970s, with physicians already skirting federal approval to prescribe the salt, the U.S. became the 50th country to admit lithium into the marketplace.
+<div class="clear-float"></div>
 
-4.  The potential of the lithium electrode — a high working voltage that allows lithium-ion batteries to charge faster and last longer than those made from other elements — was first discovered in 1912 by American chemist, Gilbert Lewis. If lithium was initially an overlooked resource, the decades following World War II witnessed its increasing strategic importance: in a post-war landscape of massive tech developments and loose corporate regulations, lithium mining became one of the most rapidly expanding mineral industries.
+<div class="position-relative display-flex">
+    <img src="gif-praxis-4.gif" alt="Animated red raspberry" class="width-25 float-left" style="margin-right: 20px; margin-top: 20px;"/>
+    <div>
+        <p>This animation of black raspberries only has three frames because the other frames were too juicy not to eat.</p>
+        <img src="gif-praxis-5.gif" alt="Animated black raspberry" class="width-50" style="margin-top: -10%; margin-left: -21%;" />
+    </div>
+</div>
 
-    China began producing the salt in the 1960s, when geologists first discovered high concentrations of it in evaporated lakes of western Tibet.{{< footnote "[6]" >}} In the 1970s, mining began in the “lithium triangle” — a region of the Andes which contains about 54% of the world’s reserves and spans from Bolivia’s Salar De Uyuni to Chile’s Salar de Atacama to Argentina’s Salar del Hombre Muerto and Salar de Olaroz. Today, lithium is bought by automakers to run electric cars, pharmaceutical companies to flatten manic episodes, and technology manufacturers to power computers and cell phones.{{< footnote "[7]" >}} With international corporations spending billions a year to extract the salt, and a market set to surpass $60 billion USD by 2024, investors await the big lithium boom — a surge in stocks as the “white gold” hits the peak of its business cycle.
+<div class="display-inline-flex" style="align-items: flex-start;">
+    <img src="gif-praxis-6.gif" alt="Grape tendrils" class="float-left width-33" style="margin-right:  20px;" />
+    <p>The grape tendrils reach for anything they can hold onto, including the passing humans who want only to harvest them for curvature of their lines.</p>
+</div>
 
-5.  What stories are hidden in a computer’s motherboard? What myths unravel when we break open our digital infrastructures?{{< footnote "[8]" >}} In the dried up lake, salt accumulates because there is no outlet to the sea. Caterpillar tractors cut horizontally through the salt crusts, carving out artificial pools of water where, over the course of several months or years, liquid from the brine evaporates. As you scroll through the images of the salt flats online, the pictures gesture towards industrialization: workers, machinery, processing plants, power lines. In some images, the salt pools into perfect hexagons. In others, the tiny crystals form mounds that remind you of the dirt piles next to construction sites off of freeway overpasses, or near the cul-de-sacs of new suburban neighborhoods.
+<div class="position-relative" style="text-align: right;">
+    <p>I scanned 42 milkweed flowers in one go.</p>
+    <img
+        src="gif-praxis-7.png"
+        alt="42 milkweed flowers"
+        class="float-right width-33"
+        style="margin-left: 20px;"
+    />
+    <div style="margin-top: 60px">
+        <p>I always scan at very large resolutions.</p>
+        <img src="gif-praxis-8.png" alt="4 milkweed flowers" class="width-33" style="margin-right: -10%" />
+    </div>
+    <img
+        src="gif-praxis-13.gif"
+        alt="Animated milkweed"
+        class="float-right width-25"
+        style="position: absolute; bottom: 0; right: 0;"
+    />
+    <img
+        src="gif-praxis-9.png"
+        alt="Milkweed closeup"
+        class="float-left width-50"
+        style="margin-top: -60px; position: relative; z-index: 1;"
+    />
+    <div class="clear-float"></div>
+</div>
+<div class="width-50">
+    <p>But as you can see, I don't use anywhere near all of that resolution in the final output.</p>
+</div>
 
-6.  In his theorizing of augmented reality, Nathan Jurgenson suggests that there is no “IRL”: the digital and the physical co-constitute each other, with the world away from keyboard (“AFK”) shaping digital infrastructures and online socializing informing our physical selves. The internet, in other words, is wrapped up in the ongoing affective crises of capital and empire. The genocide and destitution of the tactile is mirrored in digital life. The artist and cyber-healer, Tabita Rezaire, offers the term “e-colonialism” for the web’s reification of the legitimacy of the West. The physical structure of the internet, Rezaire argues, provides routes through which systems of surveillance, dependency, and extraction can be traced. First built as a U.S. military network, the internet’s foundational architecture — submarine fiber optic cables which transmit our digital data — is laid along former colonial trade routes.{{< footnote "[9]" >}}
+<div style="text-align: right;">
+    <img
+        src="gif-praxis-10.gif"
+        alt="Animated milkweed"
+        class="width-33"
+        style="margin-right: 30%;" />
+</div>
 
-7.  The lost dreams of cyber-utopia flail in the salt flats. Charging quickly and dying slowly, lithium-ion batteries are bought and sold across international lines to make life more convenient. But “convenience” props up the West’s exportation of language, rituals, and sensibilities. If the internet is global, its reach is bound by its emergence from a particular way of knowing and relating. The hierarchies of knowledge inherited from a colonial world order — the American exceptionalism that continues to fuel the very notion of an imperial “core” — are built into our digital infrastructures. Put another way, computer power is just part of a geography and history of domination. The technologies that first promised connectivity and equality have proven themselves to be intrinsically racist, exclusionary, and militaristic.
+<p>I wonder why I do this. I worry I'll miss something important if I don't capture their full detail. What if there is a hidden world on every surface that I just can't see with my naked eye?</p>
+<center>
+    <img src="gif-praxis-11.gif" alt="Animated milkweed" class="width-33" />
+    <img src="gif-praxis-12.gif" alt="Animated milkweed" class="width-33" />
+</center>
+<div class="clear-float"></div>
 
-8.  Someone I meet on Twitter tells me that they think about diagnoses, and medication, as “tools to help interface with a world designed for abled folks.” Another tells me: “I think my diagnoses are ‘right’ to the extent that none of them are ‘wrong’.” In the fifth edition of the American Psychiatric Association’s _Diagnostic and Statistical Manual of Mental Disorders_ (DSM-5), the chapter on bipolar sits between schizophrenia and depressive disorders — a discursive bridge between two supposedly opposite states. Further codifying bipolar’s swinging moods, the DSM divides the disorder into various subcategories: “depressive,” “hypomanic,” “manic,” and “with psychotic features.” In one swoop, the manual explains indeterminate experiences by their perceived severity.
+<p>These animations were merely waiting for someone to curate their existence.</p>
 
-9.  “Stigma isn’t an attribute, it’s a relationship; one is normal against another person who is not,” writes scholar Saidiya Hartman.{{< footnote "[10]" >}} There is no rational without the bipolar; no stable without the borderline; no real without the psychotic. As the poet Fred Moten generously offers, no thingliness without nothingness; no nothingness without blackness; no order without disorder. To be brought into being — to have a singular self that emotes uniformly, empathizes properly, and proves its humanity neatly — is to position yourself against the Other; to understand your being in opposition to those who you find illegible. Nothing can exist without something else.{{< footnote "[11]" >}}
+<center><img src="gif-praxis-14.gif" alt="Animated willow branch" class="width-75" /></center>
 
-10. The ancestral land in the lithium triangle no longer has clean water. Atacameñxs witness pollution, ruined soil, and air contamination first hand. Some, already fighting water shortages and privatization, are paid cash sums for land rights where international plants are based. Others who work in the mines report irritable respiratory tracts and risk pulmonary edema if they breathe in too deeply. Patients prescribed lithium are monitored for toxicity, as high levels of the salt in the bloodstream can result in vomiting, tremors, seizures, blurred speech, and death. Still, lithium batteries, stuffed with cobalt, have successfully been marketed as “green.”{{< footnote "[12]" >}}
+<p>Half of the curly willow tree on the edge of the yard of my childhood home fell during a storm this month. It had died long ago but had stayed upright for many years, waiting until I was present to let go.</p>
 
-11. It’s difficult to write about the moods that lithium treats because diagnoses obscure actual emotional experiences. The DSM is a book of labels but, as the theorist and curator Legacy Russell reminds, “symbols are very, very real.” However soft they may be, the social sciences assemble the frameworks that determine how we relate to each other and understand ourselves. Psychiatry has saved lives — perhaps yours, and perhaps mine; the DSM, too, arises out of the very conditions that make us sick. What is sane when shaped by power and use?{{< footnote "[13]" >}} The study of the mind — of the individual human — is an assertion of what is good and true; the DSM’s ever-expanding list of disorders an attempt at cataloguing capacity in an economy run on functionality.
+<img src="gif-praxis-15.png" alt="Willow branches" class="float-right width-33" style="margin-left: 20px; margin-bottom: 20px;" />
+<p>I watched the neighbor, annoyed as they avoided mowing a large part of their yard where this tree had fallen. Around they went on a riding mower, the sound of the machine echoing throughout all four blocks of the sleepy town. I went with a hand saw after the neighbor left and sawed the tree into many pieces. While raking up the last remnants in preparation for the neighbor's biweekly mowing ritual, I collected a large handful of especially curly sticks and brought them inside...</p>
 
-12. A friend tells me that they seek out the internet when they’re “not feeling OK” — that digital space allows them to feel cared for when they have nowhere else to go. They add: “but when I am feeling the most depersonalized — grasping for pieces of a self that I don’t know exist — the internet can feel extremely scary and expansive.” If you’ve discarded the idea of a core self, if you flit between unrealities, the observation of a digital platform becomes _too much_.
+<p>While working on this project it became clear that a story behind the animations would help bring out their full depth. As one of the three organizers of COMPOST magazine, Mai emailed me a number of questions to encourage a written addition to the animations I was working on. I decided to include them directly in this piece because it accentuated the collaborative tone that has been central to this project from the beginning.</p>
 
-13. Mania has been described to me as the most severe form of depression: an affective surplus so intense that it must end in combustion. Too much energy, too much desire, too much sensation, too much connection, too much capacity. _So much, actually, that your “I” disappears_.
+<div class="position-relative">
+    <img src="gif-praxis-16.gif" alt="Willow branches" class="position-absolute" />
+    <div style="padding-left: 20%; padding-top: 20%;">
+        <strong> Mai Ishikawa Sutton asked: How do these walks, your collection of these artifacts, and your scanning and transforming them into animated pixels reflect a relationship between yourself, your natural surroundings, and the web where these end up?</strong>
+        <p>I feel as if any action I take is akin to a hyperlink, one through space and time. Deciding that a stick needs to come home with me, to be carefully laid out on the scanner, is quite silly. There is no reason why one stick is better than any other, but you can't take every stick, so a choice is necessary. But in that moment of decision, I've also chosen to preserve a link back to the point in time of making this decision. Maybe the stick chose me.</p>
+        <p>I don't think the web that we make digitally is really all that different from the webs of nature. We are the spiders. If only we could take the time to formulate our own webs, and not succumb to the homogenization that capitalist platforms exert on our virtual formations. The web of our own making has existed this whole time, but has been quite overshadowed by the behemoths of capital.</p>
+    </div>
+</div>
 
-    The cache of pictures of the salt mines on my computer feels like an archive of the oblivion that holds me together — a state of what Johanna Hedva calls a “de-person”{{< footnote "[14]" >}} and which some Buddhists might refer to as Anattā.{{< footnote "[15]" >}} I wonder what the expansiveness of the salt flats holds. Does the abyss speak back? Does nothingness have an answer? I have the same question for digital space, and for the batteries that power it. When there is no outside, when digitality bleeds into the material and the material shapes the digital; all of it is precarious and unlivable, crumbling as I write. The only possibility left is to recover what is fertile in painful ruins.
+<div class="clear-float"></div>
 
-    Of course digital space is a trap. It surveills, flattens, and hollows out our complex selves; it degrades sociality. But it’s no more of a trap than the legacy it grows out of. _Too much_ of what? Expansiveness is horrifying, I think, because _too much_ exists against all of our “healthier” impulses: a nowhere to give in to multiplicity, to avoid blowing up.{{< footnote "[16]" >}}
+<strong>Mai: I think about how intentional you are with the tools you use and the considerations you make as you decide where to put your energy online. What does it mean to intentionally connect physical places (the woods where you're taking walks, the garden of your childhood) and where you put your attention in digital space?</strong>
 
-14. All of my beautiful, insane friends convene on the internet. Crowdfunding pays medical bills that the state ignores. Reddit threads circulate wisdom discarded by the authority of “expertise.” Anonymous chat rooms provide care for those dismissed by eurocentric medical research. If for a fleeting moment, the expansiveness of the digital commons opens up new possibilities for those scrutinized as deviant, disordered, and pathological. Together, we dance between identities without having to get out of bed, socialize without having to summon language, and enter into community without the risk of physical violence.{{< footnote "[17]" >}}
+<center>
+    <img src="gif-praxis-17.gif" alt="Nettles" class="width-15" />
+    <img src="gif-praxis-18.gif" alt="Nettles" class="width-15" style="margin-left: -7%" />
+</center>
 
-    The mad refuse the myth of the utopic internet (the very nature of insanity refuses the myth of utopic anything). But, in its transformation of what we understand to be both acceptable sociality and legitimate governance, augmented reality itself is a reconstitution of what is possible and knowable — material and digital proof that we can call into existence new ways of being. Wandering through lithium-powered spaces is a flirtation with the possibility of escaping the tidy capture of a regime intent on determining normality and value. In the cyber-shadows, we refuse psychiatry’s program of order:{{< footnote "[18]" >}} existing in multiple places at once, replicating our no-selves, and mutating into new forms.{{< footnote "[19]" >}}
+<p>I strive to be intentional with my tools, including the tools of my words and my time. I have been fascinated by technology of all kinds for as long as I can remember. I spent much of my digital life residing in the ecosystem controlled by Apple. In the last five years, I've tried very hard to remove my reliance on software that's under the control of corporations.   I've found that it's so utterly intertwined and messy, it's near impossible to perceive the human labor that this technology is entirely made from.</p>
 
-15. In July of 2020, CEO of electric vehicle manufacturer Tesla and aerospace company SpaceX, Elon Musk, admitted to involvement in the U.S.-backed coup of Bolivia the previous year. In November of 2020, the country’s first Indigenous president, Evo Morales, read to a crowd Musk’s tweets, which exclaimed: “We will coup whoever we want! Deal with it!” The Socialist, Luis Arce, had recently won the 2020 general election. Morales had just returned home out of the exile imposed on him by the right-wing interim government — what he referred to as the “lithium coup.” “Go online to verify it right now,” Morales told the crowd.{{< footnote "[20]" >}}
+<strong>Mai: Maybe this GIF praxis is about paying more attention? Both how we impact our physical environments (as humans impacting the ecosystems, and as people who are or are not indigenous to the land) and how we also take up space online and what it means to pay attention there too.</strong>
 
-16. mine(noun): an excavation in the earth for extracting coal or other minerals
+<center>
+    <img src="gif-praxis-19.gif" alt="Willow branches" class="width-75" />
+</center>
 
-    >(WE WILL COUP WHOEVER WE WANT!)
+<p>I think about why things are the way they are most moments of the day. But when it comes to understanding the reasons *I* do things, it feels much more remote. We are all just a chaotic mess of connections. Maybe there is a direct path that explains how I got here and what led me to this moment, but I don’t think anyone would feel clarity from that story. I am content with leaving that ambiguity in the air.</p>
 
-    mine(pronoun): a thing that belongs to me
+<div class="position-relative">
+    <img src="gif-praxis-20.gif" alt="Waving stick" class="width-33 position-absolute" />
+    <center>
+        <img src="gif-praxis-21.png" alt="Dithered landscape image" style="margin-top: 40px" />
+    </center>
+</div>
 
-    >(DEAL WITH IT!)
+<p>All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest.</p>
 
-    _Mine as in the entitlement of self, the ownership embedded in personhood._
+<img src="gif-praxis-22.gif" alt="Willow branches" class="center" />
 
-17. The times that I have known most deeply what is true and beautiful and important — when I understand how all of the little things are connected to the overwhelmingness of being — have been the times in which I forget the demands of a self. When I move between affects; when I’m flying between futures and pasts.{{< footnote "[21]" >}} Often, when I can’t speak; or when I speak too much. These are also the times that I am the least legible. A friend advises: “You have to stay grounded in this world, while knowing that the world that you saw exists. You have to choose what realm you want to play in and, if you choose the reality of your deep consciousness, of your hallucination, you will face consequences.” _If you choose multiplicity, you will face consequences._
-
-18. To talk about the consequences of medicalization is to untangle the story of what it means to be human, and to untangle the story of what it means to be human is to confront the colonization of knowledge. The history of the manual is a history of calamity: the Enlightenment's insistence on rationality and scientific progress, European philosophy’s suspicion of the senses as sites of authoritative knowledge, liberal democracy’s turn to the white man as the basis for a universal human.{{< footnote "[22]" >}} _“I think, therefore I am,_” someone once uttered, lighting a match.{{< footnote "[23]" >}}
-
-    The entanglements of order and disorder rely on the regulation of humanness. And the regulation of humanness — the hierarchies of knowledge that emerged alongside values like “rational” and “reasonable” — are reinscribed through the consecration of “wellness” and “care.” Self-mastery contours capitalism’s demands of productivity. Self-control maintains the austerity of neoliberalism. The very notion of a “healthy” self emerges from the universalism that seeks to classify the unknown. We are, like lithium, useful material — to be extracted, filtered, separated, and re-formed.{{< footnote "[24]" >}}
-
-19. How do you treat an illness that is produced by the degradation of humanness, and which itself reproduces a certain set of subhumans? How do you treat a disorder that emerges out of the state’s incarcerating, biologizing, and classifying?
-
-    In August of 2019, the Bargersville Indiana police department put a Tesla Model 3 patrol car on the streets. A few months later, police in Westport, Connecticut paid $52,290 to include one of the same lithium-powered vehicles in their automotive fleet. As activists call for a full-government mobilization to respond to the climate crisis and abolitionists call for an end to systems of imprisonment and policing, cops are turning to the “clean air” vehicles as a “cost-saving” measure. Blue is backing green; and Musk is backing Blue.
-
-20. I have no doubt that the hallucinations of psychosis are proof of ways of being beyond the liberal democratic human. The destabilizing experience of ever-shifting moods is evidence that the “self” is neither singular nor fixed. The expansive nothingness of dissociation — the inability to speak, the refusal to function — an assertion of those beautiful socialites that persist in the face of extinction. I’m not here to romanticize this but, if “stable” emerges out of the conditions which produce its opposite and “sanity” is a stand-in for being brought into subjecthood, then for most of us “I” will never materialize.
-
-    There is no treatment for a subject-position that relies on everything that it is not; no “wellness” to be found in manuals that produce the self in relation to the Other. Medicalization, I think, splits open the promise of the “we.” Ushering in a ward of “I’s,” the DSM eradicates the potential of existing in intimate relationships with ourselves, or the world around. In this sense, medicalization makes possible not only the pathology of bipolar but also the extraction of lithium to begin with.
-
-21. I’m worried that I’m theorizing about experiences which are meant to be left untouched. Anthropology, the instinct to uncover, dissect, and pedestal the mystical, is a colonial invention after all. The West has nothing to say. No moral authority or historical accuracy about what ought to be preserved. _The task now is to undo the basis of what we agree constitutes truth, value, and self._
-
-22. Tabita Rezaire’s practice draws on the decolonial tools which arise out of colonial institutions.{{< footnote "[25]" >}} Blending virtual technologies and traditional African “cosmological knowledge,” Rezaire turns towards her “inner data” in order to “bypass western authority and download directly from source.” Technologies, Rezaire insists, are all of the networks available to us: electronic, organic, and spiritual. How do you acknowledge the truths of your being when you sever life from the technologies that nourish it? Why care for the land, the water, the sky, the salt, when your personhood is extricated from history, space, and place?
-
-    Feeling is a historical narrative and a raw material; the most ordinary of online experiences are entangled with the domains of catastrophe and collapse.{{< footnote "[26]" >}} The constriction of the DSM, the drudgery of the Tesla factory, the surveillance of social media — all infrastructure grows out of the colonial pathways that power digital life. But Rezaire suggests that new technologies are rich ground for reconnecting to the expanse of the cosmos: passages to decipher interlaced systems of domination and then “peel off the layers of this coercive history.” In tying Indigenous knowledges and digital technologies, Rezaire proposes, we can recover from the “manufactured amnesia” of the Enlightenment. The blending of the past and the future — the physical and the cyber — is a process of healing from the state’s on-going project of hierarchizing life. In the violence of the digital, which is to say the violence of the everyday, there is the possibility of transformation.
-
-23. mine(verb): to obtain units of a cryptocurrency by running a computer process to solve specific computational problems
-
-    >(In November of 2017, online magazine The New Inquiry released Bail Bloc — a mining software that generates secure and untraceable cryptocurrency and then redirects that exchanged money to bail funds on a rotational basis.)
-
-    _Mine as in a cryptocurrency scheme against ownership.{{< footnote "[27]" >}} Mine as in the possibility of a decentralized future invested in non-carceral care._
-
-24. What is the reality of the existence of those who remain grounded in the physical world while knowing that other sensations, textures, and feelings exist?
-
-    A friend describes mania to me as “like getting Google downloads into my brain for hours.” A tumblr made in one of their bouts becomes a “private portal service”: a digital collection of what they describe as a “gift” — their tapping into a level of flow so beautiful that they are able to “interpret things often obscured by the status quo.” I think about the task of speaking in a language that the present does not even recognize. The indeterminacy housed in nothingness; those non-linguistic realms in which our airy, unyielding selves reside. I think of the Zoom support groups from which the best poetry emerges; the corners of the internet that double as an archive of the cracks between diagnostic categories.
-
-    My friend tells me about the unprocessed trauma, the conflict with beloveds, the debilitating paranoia. They say: “the way I am being perceived is so wrong. The disconnect between my being and mind makes my behavior come out in ways that do not make sense to those perceiving it.” I ask a mad friend if they want children, and they respond, “No, I don’t want to pass this on.” I wonder about the ungovernability that allows for shifting moods. Those wild, unruly ways of being that have no interest in fighting to be included in the category of the sane. I think about the expansiveness of the salt flats: the promise of openness, connection, and renewal. The nowhereness of digital space: the ephemerality in which mad communities might comfortably exist with multiple/no-selves.{{< footnote "[28]" >}}
-
-25. How do you feel a full feeling? I imagine: by touching the salt with your toes, sobbing at the furthest reaches of the expanse. I imagine: by letting yourself replicate throughout digital space, stretching out in opacity, emerging at the end of the narrative. When I’m moving between emotional worlds, feeling _too much_, I repeat to myself, over and over and over, _moods make room for the expanse_, and then _the expanse makes room for moods_. In nothingness, it is not a threat if “I” never materializes — or if, when it does, it shines in and out of focus, a trick of the light, something only in our heads and never felt in our flesh. Excess, crisis, and collapse: all breakage is a lesson in renewal. “I” write from a place that believes undoing the human will allow for more mutual social relations. Writing from a place that believes, when the self ceases to exist, our digital infrastructures will bloom out of a respectful entanglement of culture and nature. A place that understands the web as a creative un-doing and an anti-epistemology: an expanse in which the insane can safely exist as _too much_.
+{{</rawhtml>}}

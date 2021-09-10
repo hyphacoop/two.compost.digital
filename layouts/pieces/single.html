@@ -49,7 +49,7 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
     
     <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
-    {{ partial "prev-and-next-buttons.html" . }}
+    {{ partial "page-navigation.html" . }}
 
     <!-- Footnotes -->
     <div class="footnotes-container"></div>

@@ -16,3 +16,27 @@ stick_1:
 stick_2:
   alt: Stick
   url: ./images/dividers/stick2.gif
+bamboo_slow:
+  alt: Bamboo
+  url: ./images/dividers/bamboo-slow.gif
+berries_on_stem:
+  alt: Berries on a stem
+  url: ./images/dividers/berries-on-stem.gif
+black_berry:
+  alt: Blackberry
+  url: ./images/dividers/black-berry.gif
+flower:
+  alt: Flower
+  url: ./images/dividers/flower.gif
+stacked:
+  alt: Stacked
+  url: ./images/dividers/stacked.gif
+star_leaf:
+  alt: Star leaf
+  url: ./images/dividers/star-leaf.gif
+waving_stick:
+  alt: Stick
+  url: ./images/dividers/waving-stick.gif
+wiggly_stick:
+  alt: Stick
+  url: ./images/dividers/wiggly-stick.gif

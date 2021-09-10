@@ -17,7 +17,8 @@
     <link rel="icon" href="{{ "./favicon-32.png" | relURL }}" sizes="32x32">
 
     <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ToCSS).Permalink }}">
-    
+    {{ block "custom-stylesheet" . }}{{ end }}
+
     {{ block "head" . }}{{ end }}
 
     <title>
@@ -42,7 +43,6 @@
     <main>
       {{ block "main" . }}{{ end }}
     </main>
-    <div class="mushrooms-container"></div>
     <div class="footer-container">
       {{ partial "footer-content.html" . }}
     </div>

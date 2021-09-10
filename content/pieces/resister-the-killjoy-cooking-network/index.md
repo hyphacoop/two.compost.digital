@@ -1,7 +1,12 @@
 ---
-title: Re:Sister - The Killjoy Cooking Network
-author: Eeshita Kapadiya
+title: 'Re: Sister'
+subtitle: Killjoy Cooking Network
+author: Eeshita Kapadiya and Mrinalini Sebastian
+tableOfContentsImageUrl: ./images/title-images/eeshita.png
+titleImageUrl: ./images/title-images/eeshita.png
 customClass: openseadragon-map-container
+description: What happens when two women write to each other about food?
+weight: 3
 ---
 
 Dear Reader,
@@ -40,4 +45,4 @@ Mrinalini Sebastian
 
 We would like to welcome you to the many kitchens that are settings for the recipes in this repository. Below is a kitchen maze, map, landscape, whichever way you’d like to see it. You’ll find recipes and conversations tucked in corners and the kitchen paraphernalia.
 
-{{< annotated-map id="killjoy-kitchen-map" title="Killjoy Cooking Network" alt="Killjoy Cooking Network annotated map" imagePath="/killjoy-cooking-network/map-image.png" annotationsPath="/killjoy-cooking-network/annotations.json">}}
+{{< annotated-map id="killjoy-kitchen-map" title="Killjoy Cooking Network" alt="Killjoy Cooking Network annotated map" imagePath="/killjoy-cooking-network/map-image.png" annotationsPath="/killjoy-cooking-network/annotations.json" iconPath="/killjoy-cooking-network/icon.png">}}

@@ -1,0 +1,49 @@
+$mobile-header-height: 160px;
+$desktop-header-height: 200px;
+$mobile-logo-height: 60px;
+$desktop-logo-height: 90px;
+$desktop-homepage-width: 1200px;
+$desktop-column-width: 780px;
+$footnote-column-width: 220px;
+$compost-green: #336633;
+$title-sans-serif: 'Open Sans', sans-serif;
+$skinny-italic-sans-serif: 'Work Sans', sans-serif;
+$monospace: 'Roboto Mono', monospace;
+$bg-img-path: '../images/background/background-dithered.png';
+$compost-primary: #9995ef;
+$compost-secondary: #e7beda;
+$compost-primary-dark: #564FE3;
+$compost-primary-light: #564FE3;
+$link-color: $compost-primary-dark;
+
+$header-z-index: 10;
+$toc-z-index: 20;
+
+@mixin small {
+  @media (min-width: 800px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+
+@mixin homepage-desktop {
+  @media (min-width: calc(#{$desktop-homepage-width} + 40px)) {
+    @content;
+  }
+}
+
+@mixin title-style {
+  font-family: $title-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@mixin skinny-italic-style {
+  font-family: $skinny-italic-sans-serif;
+  font-weight: 100;
+}
