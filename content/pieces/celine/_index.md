@@ -5,10 +5,10 @@ layout: multipage
 order: celine
 # custom frontmatter
 customClass: cn-foraging-piece
-season: spring
 links:
   - text: Read the discussion
     to: '/pieces/celine/002'
+season: spring
 weight: 5
 ---
 
