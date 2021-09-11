@@ -1,9 +1,6 @@
 @import './fonts.scss';
 @import './variables.scss';
 
-// CELINE: you can put your custom styles in this file
-// it only gets loaded on the multipage template
-
 #multipage {
   margin-top: 2em;
   border: 1px solid rgba(0,0,0,0.2);
@@ -83,17 +80,132 @@
   }
 }
 
-.season {
-  // CELINE: season styles go here
-  &-spring {
+@mixin type-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+#multipage .content {
+  // inside narrative, style usernames + forum titles
+  // excludes posts, DMs where <strong> is for usernames + headers
+  > p > strong {
+    @include type-sans;
+    font-size: .90rem;
+    letter-spacing: .2px;
+    line-height: 1;
   }
 
-  &-summer {
+  // inside narrative, style pauses
+  hr {
+    border: 0;
+    margin: 2rem auto;
+    width: 20%;
   }
 
-  &-fall {
+  // for forum posts + private messages
+  blockquote {
+    @include type-sans;
+    // remove existing styles
+    border-left: 0;
+    // add styles specific to this piece
+    background: rgba(0, 0, 0, .05);
+    border-radius: 5px;
+    font-size: .9rem;
+    margin: 1.5rem;
+    padding: .1rem 1rem;
+
+    // inside forum posts, style user who posted
+    strong:first-child {
+      display: block;
+      margin-bottom: .5rem;
+
+      // style moderator tags
+      > code {
+        @include type-sans;
+        background-color: rgba(0, 0, 0, .1);
+        border-radius: 3px;
+        color: rgba(0, 0, 0, .7);
+        display: inline-block;
+        font-size: .7em;
+        letter-spacing: .5px;
+        margin-left: .1rem;
+        text-transform: uppercase;
+        padding: 0 .3rem;
+      }
+    }
+
+    // inside forum posts, style username mentions
+    strong:not(:first-child) {
+      color: rgba(0, 0, 0, .7);
+
+      // add @ before username mentions
+      &::before {
+        color: rgba(0, 0, 0, .4);
+        content: '@';
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+#multipage .frontmatter {
+  .forum-statistics {
+    @include type-sans;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    padding: .3em 1em;
+
+    .posts,
+    .rank {
+      color: rgba(0, 0, 0, .8);
+      font-size: 0.8em;
+      margin: 0;
+      width: 45%;
+
+      span {
+        color: rgba(0, 0, 0, .5);
+        font-weight: bold;
+        // text-transform: uppercase;
+      }
+      span::after {
+        content: ':';
+      }
+    }
+
+    .posts {
+      text-align: right;
+    }
+  }
+  @mixin season-icon {
+    color: rgba(0, 0, 0, .1);
+    display: block;
+    font-size: 3em;
+    margin: .5em auto;
+    text-align: center;
   }
 
-  &-winter {
+  .season-spring::before {
+    // ✿
+    @include season-icon;
+    content: '\273F';
+  }
+
+  .season-summer::before {
+    // ☀︎
+    @include season-icon;
+    content: '\2600';
+  }
+
+  .season-fall::before {
+    // ❦
+    @include season-icon;
+    content: '\2766';
+  }
+
+  .season-winter {
+    // ❄︎
+    @include season-icon;
+    content: '\2744';
   }
 }
