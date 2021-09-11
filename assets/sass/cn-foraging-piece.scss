@@ -1,4 +1,36 @@
 .cn-foraging-piece {
-  background-color: red !important;
-  // just to test styling
+  @mixin type-sans {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  // for usernames and forum titles in the narrative
+  strong {
+    @include type-sans;
+    font-size: .95rem;
+    letter-spacing: .2px;
+    line-height: 1;
+  }
+
+  // for pauses in the narrative
+  hr {
+    border: 0;
+    margin: 2rem auto;
+    width: 20%;
+  }
+  // for forum posts and private messages
+  blockquote {
+    @include type-sans;
+    // remove existing styles
+    border-left: 0;
+    // add styles specific to this piece
+    background: rgba(0, 0, 0, .05);
+    font-size: .9rem;
+    margin: 1.5rem;
+    padding: .25rem 1rem;
+
+    strong:first-child {
+      display: block;
+      margin-bottom: .5rem;
+    }
+  }
 }
