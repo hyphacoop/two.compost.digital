@@ -652,25 +652,8 @@ main {
       margin-bottom: 10px;
 
       .donation-button {
-        background: $compost-primary-dark;
-        font-family: $title-sans-serif;
-        border-radius: 6px;
-        color: white;
-        text-transform: uppercase;
-        cursor: pointer;
-        flex-grow: 0;
-        padding: 14px 20px;
-        text-align: center;
-        margin-right: 10px;
-        font-size: 0.8em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        box-sizing: border-box;
         height: 63px;
         width: 50%;
-        text-decoration: none;
 
         // @include desktop {
         //   width: 160px;

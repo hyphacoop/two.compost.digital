@@ -3,7 +3,7 @@ async function fetchMarkdown(markdownUrl) {
     var markdownText = await fetch(markdownUrl).then(res => res.text())
     if (markdownText !== undefined && markdownText.length > 0) {
       navigator.clipboard.writeText(markdownText)
-      document.getElementById('copy-button-text').innerText = "Markdown copied!"
+      document.getElementById('copy-button-text').innerText = "Markdown copied"
       document.getElementById('copy-icon').src = "/images/done-icon.svg"
     } else {
       document.getElementById('copy-error').innerText = "Failed to fetch markdown text."
