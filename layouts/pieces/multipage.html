@@ -42,8 +42,7 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
     {{/* CELINE: this is where I am using the season param as a class */}}
 
     <div id="multipage" >
-      <div class="frontmatter">
-        <div class="season-{{ .Params.season }}"></div>
+      <div class="frontmatter season-{{ .Params.season }}">
         {{ if and (isset .Params "post-count") (isset .Params "rank") }}
           <div class="forum-statistics">
             <p class="posts"><span>Posts</span> {{ .Params.Get "post-count" }}</p>
