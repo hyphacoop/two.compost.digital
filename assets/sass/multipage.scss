@@ -102,7 +102,7 @@
   }
 
   // for forum posts + private messages
-  blockquote {
+  > blockquote {
     @include type-sans;
     // remove existing styles
     border-left: 0;
@@ -114,27 +114,27 @@
     padding: .1rem 1rem;
 
     // inside forum posts, style user who posted
-    strong:first-child {
+    > p:first-child > strong:first-child {
       display: block;
-      margin-bottom: .5rem;
+      margin-bottom: .3rem;
+    }
 
-      // style moderator tags
-      > code {
-        @include type-sans;
-        background-color: rgba(0, 0, 0, .1);
-        border-radius: 3px;
-        color: rgba(0, 0, 0, .7);
-        display: inline-block;
-        font-size: .7em;
-        letter-spacing: .5px;
-        margin-left: .1rem;
-        text-transform: uppercase;
-        padding: 0 .3rem;
-      }
+    // inside forum posts and private messages, style moderator tags
+    strong > code {
+      @include type-sans;
+      background-color: rgba(0, 0, 0, .1);
+      border-radius: 3px;
+      color: rgba(0, 0, 0, .7);
+      display: inline-block;
+      font-size: .7em;
+      letter-spacing: .5px;
+      margin-left: .1rem;
+      text-transform: uppercase;
+      padding: 0 .3rem;
     }
 
     // inside forum posts, style username mentions
-    strong:not(:first-child) {
+    > p > strong:not(:first-child) {
       color: rgba(0, 0, 0, .7);
 
       // add @ before username mentions
@@ -142,6 +142,26 @@
         color: rgba(0, 0, 0, .4);
         content: '@';
         font-weight: normal;
+      }
+    }
+
+    // inside private messages, style message headers
+    > blockquote {
+      border-left: 0;
+      margin: 1em 0 0;
+      padding: 0;
+
+      // message headers split by paragraph
+      p {
+        border-left: 0;
+        color: rgba(0, 0, 0, .5);
+        margin: 0 auto .1em;
+        padding: 0;
+      }
+
+      // usernames inside message headers
+      strong {
+        color: rgba(0, 0, 0, .8);
       }
     }
   }
@@ -155,6 +175,7 @@
     display: flex;
     justify-content: space-between;
     padding: .3em 1em;
+    margin-top: .8em;
 
     .posts,
     .rank {
@@ -166,8 +187,8 @@
       span {
         color: rgba(0, 0, 0, .5);
         font-weight: bold;
-        // text-transform: uppercase;
       }
+
       span::after {
         content: ':';
       }
@@ -181,7 +202,7 @@
     color: rgba(0, 0, 0, .1);
     display: block;
     font-size: 3em;
-    margin: .5em auto;
+    margin: .6em auto 0;
     text-align: center;
   }
 
@@ -203,7 +224,7 @@
     content: '\2766';
   }
 
-  .season-winter {
+  .season-winter::before {
     // ❄︎
     @include season-icon;
     content: '\2744';
