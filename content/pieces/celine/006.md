@@ -1,5 +1,5 @@
 ---
-title: Morels are a good first mushroom
+title: Logging Off
 author: Celine Nguyen
 layout: multipage
 order: celine
