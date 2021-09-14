@@ -7,6 +7,7 @@ titleImageUrl: ./images/title-images/eeshita.jpg
 customClass: openseadragon-map-container
 description: What happens when two women write to each other about food?
 weight: 3
+customClass: killjoy
 ---
 
 Dear Reader,
@@ -45,6 +46,11 @@ Mrinalini Sebastian
 
 We would like to welcome you to the many kitchens that are settings for the recipes in this repository. Below is a kitchen maze, map, landscape, whichever way you’d like to see it. You’ll find recipes and conversations tucked in corners and the kitchen paraphernalia.
 
-You are also welcome to download the [Killjoy Cooks Recipe Book \[PDF\]](killjoy_cooks_recipe_book.pdf).
 
 {{< annotated-map id="killjoy-kitchen-map" title="Killjoy Cooking Network" alt="Killjoy Cooking Network annotated map" imagePath="/killjoy-cooking-network/map-image.png" annotationsPath="/killjoy-cooking-network/annotations.json" iconPath="/killjoy-cooking-network/icon.png">}}
+
+You can download all the recipes shared on the kitchen map here:
+
+[![Killjoy Cooks Recipe Book](killjoy_cooks_recipe_book_cover.jpg)](killjoy_cooks_recipe_book.pdf)
+
+If you are printing the Killjoy Cooks Recipe Book, print as an A5 size booklet for best results.
