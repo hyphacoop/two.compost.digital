@@ -11,7 +11,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: 'Source Serif Pro', serif;
+  font-family: $serif-font;
 
   .animated-gif {
     margin: 80px 0px;
@@ -97,6 +97,20 @@ body {
   &.pattern-background {
     background-image: url($bg-img-path);
     background-size: contain;
+  }
+}
+
+.font {
+  &-monospace {
+    font-family: $monospace-font;
+  }
+
+  &-serif {
+    font-family: $serif-font;
+  }
+
+  &-sans-serif {
+    font-family: $sans-serif-font;
   }
 }
 
@@ -262,7 +276,7 @@ main {
         }
 
         .compost-description {
-          font-family: $title-sans-serif;
+          font-family: $sans-serif-font;
           padding: 40px 20px;
           border-bottom: 1px solid;
 
@@ -445,7 +459,7 @@ main {
       font-size: 0.8rem;
       background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
-      font-family: $monospace;
+      font-family: $monospace-font;
       border-radius: 8px;
     }
 
@@ -456,7 +470,7 @@ main {
       background: scale-color($compost-primary, $lightness: 50%);
       word-wrap: normal;
       border-radius: 8px;
-      font-family: $monospace;
+      font-family: $monospace-font;
     }
 
     h1 {
@@ -482,7 +496,7 @@ main {
     }
 
     .author-name {
-      font-family: $title-sans-serif;
+      font-family: $sans-serif-font;
       text-transform: uppercase;
       letter-spacing: 0.3em;
     }
@@ -610,7 +624,7 @@ main {
 /* support us page styles */
 
 .support-us-page {
-  font-family: $title-sans-serif;
+  font-family: $sans-serif-font;
 }
 
 .header-with-icon {
@@ -639,7 +653,7 @@ main {
 
 .donation-callout {
   .donation-callout-content {
-    font-family: $title-sans-serif;
+    font-family: $sans-serif-font;
     font-size: 1.2em;
   }
 
@@ -672,7 +686,7 @@ main {
 }
 
 .fundraising-goals {
-  font-family: $title-sans-serif;
+  font-family: $sans-serif-font;
 
   .goal-container {
     margin-bottom: 20px;
@@ -803,8 +817,6 @@ figure, img, div {
 }
 
 #copy-button {
-  font-family: $monospace;
-
   img {
     height: 18px;
     width: 18px;
@@ -813,10 +825,10 @@ figure, img, div {
   }
 }
 
-.theme-button {
+button.theme-button, a.theme-button {
   background: $compost-primary-dark;
   border-radius: 6px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
   flex-grow: 0;
@@ -833,13 +845,19 @@ figure, img, div {
   transition: all 250ms ease-in-out;
 
   &:hover {
-    background: $compost-primary;
+    background-color: $compost-primary;
     border-color: $compost-primary;
+    color: #ffffff;
   }
 
   &:focus {
-    background: $compost-primary;
+    background-color: $compost-primary;
     border-color: $compost-primary-dark;
+    color: #ffffff;
+  }
+
+  &:visited {
+    color: #ffffff;
   }
 }
 

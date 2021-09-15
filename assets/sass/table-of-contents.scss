@@ -90,7 +90,7 @@
       .toc-nav-links {
         display: flex;
         flex-direction: column;
-        font-family: $title-sans-serif;
+        font-family: $sans-serif-font;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 30px;
@@ -168,7 +168,7 @@
         .toc-piece-title {
           width: 350px;
           margin-top: 8px;
-          font-family: $title-sans-serif;
+          font-family: $sans-serif-font;
           @include title-style;
           font-weight: bold;
           font-size: 1.4em;
