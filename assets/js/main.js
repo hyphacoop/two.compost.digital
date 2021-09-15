@@ -103,3 +103,23 @@ let squiggles = document.querySelectorAll('.squiggles')
 squiggles.forEach(squiggle => {
   squiggle.style.transform = `rotate(${Math.random() * 360}deg)`
 })
+
+//
+// Transform URLs to use current protocol
+//
+
+const linksToTransform = document.querySelectorAll('.transform-url')
+linksToTransform.forEach(link => {
+  let protocol = 'https:'
+  if (window.location.protocol === 'ipfs:' || window.location.protocol === 'ipns:') {
+    protocol = 'ipns:'
+  } else if (window.location.protocol === 'hyper:') {
+    protocol = 'hyper:'
+  }
+
+  let url = new URL(link.href)
+  url.protocol = protocol
+
+  link.href = url.toString()
+})
+
