@@ -867,6 +867,18 @@ figure, img, div {
   }
 }
 
+.copy-markdown {
+  border: 1px solid transparentize(black, 0.95);
+  background-color: transparentize(black, 0.95);
+  padding: 20px;
+  font-family: $monospace;
+  font-size: 0.8em;
+
+  .copy-error {
+    margin-bottom: 0
+  }
+}
+
 @import './prev-and-next-buttons.scss';
 @import './table-of-contents.scss';
 @import './footer-content.scss';
