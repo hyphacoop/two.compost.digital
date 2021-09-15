@@ -60,7 +60,10 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
           <ul class="list-unstyled">
           {{ range .Params.links }}
               <li>
-                  <a href="{{.to}}" class="page-link">{{ .text | markdownify }}</a>
+                <a href="{{.to}}" class="page-link">
+                  <span>{{ .text | markdownify }}</span>
+                  <span class="icon">&#8250;</span>
+                </a>
               </li>
           {{ end }}
           </ul>
