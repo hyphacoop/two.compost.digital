@@ -37,6 +37,18 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     {{ .Content }}
 
+    {{ if isset .Params "endingimageurl" }}
+      <div class="gif-ending">
+        <img src="{{ .Params.endingImageUrl | relURL }}" alt="{{ .Params.endingImageAlt }}">
+      </div>
+    {{ else }}
+      <div class="gif-ending">
+        <img src="{{ "./images/dividers/72pixelstick.gif" | relURL }}" alt="A small stick of bamboo">
+      </div>
+    {{ end }}
+
+    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
+
     {{ if isset .Params "markdown" }}
       {{ $markdownUrl := .Params.markdown | relURL }}
       {{ $license := cond (isset .Params "license") .Params.license "Copyright 2021" }}
@@ -51,18 +63,6 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
         <p id="copy-error"></p>
       </div>
     {{ end }}
-
-    {{ if isset .Params "endingimageurl" }}
-      <div class="gif-ending">
-        <img src="{{ .Params.endingImageUrl | relURL }}" alt="{{ .Params.endingImageAlt }}">
-      </div>
-    {{ else }}
-      <div class="gif-ending">
-        <img src="{{ "./images/dividers/72pixelstick.gif" | relURL }}" alt="A small stick of bamboo">
-      </div>
-    {{ end }}
-    
-    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
     {{ partial "page-navigation.html" . }}
 

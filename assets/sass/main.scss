@@ -870,9 +870,11 @@ figure, img, div {
 .copy-markdown {
   border: 1px solid transparentize(black, 0.95);
   background-color: transparentize(black, 0.95);
-  padding: 20px;
+  padding: 1.5em 1.5em 1em 1.5em;
   font-family: $monospace;
   font-size: 0.8em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   .copy-error {
     margin-bottom: 0
