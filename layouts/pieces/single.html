@@ -37,16 +37,6 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     {{ .Content }}
 
-    {{ if isset .Params "markdown" }}
-      {{ $markdownUrl := .Params.markdown | relURL }}
-      <script src="{{ (resources.Get "js/fetch-markdown.js").RelPermalink }}"></script>
-      <button onclick="fetchMarkdown({{$markdownUrl}})" id="copy-button" class="theme-button font-monospace">
-        <span id="copy-button-text">Copy markdown</span>
-        <img src="/images/copy-icon.svg" id="copy-icon" />
-      </button>
-      <p id="copy-error"></p>
-    {{ end }}
-
     {{ if isset .Params "endingimageurl" }}
       <div class="gif-ending">
         <img src="{{ .Params.endingImageUrl | relURL }}" alt="{{ .Params.endingImageAlt }}">
@@ -56,8 +46,23 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
         <img src="{{ "./images/dividers/72pixelstick.gif" | relURL }}" alt="A small stick of bamboo">
       </div>
     {{ end }}
-    
+
     <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
+
+    {{ if isset .Params "markdown" }}
+      {{ $markdownUrl := .Params.markdown | relURL }}
+      {{ $license := cond (isset .Params "license") .Params.license "Copyright 2021" }}
+      <script src="{{ (resources.Get "js/fetch-markdown.js").RelPermalink }}"></script>
+      <div class="copy-markdown">
+        <strong>{{ $license }}</strong>
+        <p>If you would like to share this piece elsewhere, you are welcome to re-publish it with attribution. Click below to copy the markdown.</p>
+        <button onclick="fetchMarkdown({{$markdownUrl}})" id="copy-button" class="theme-button">
+          <span id="copy-button-text">Copy markdown</span>
+          <img src="/images/copy-icon.svg" id="copy-icon" />
+        </button>
+        <p id="copy-error"></p>
+      </div>
+    {{ end }}
 
     {{ partial "page-navigation.html" . }}
 

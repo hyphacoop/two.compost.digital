@@ -404,6 +404,7 @@ main {
               box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
               width: 100%;
               max-height: 100%;
+              aspect-ratio: 2/1;
             }
           }
 
@@ -587,10 +588,10 @@ main {
   }
 
   .footer-content {
-    padding-top: 40px;
+    padding-top: 100px;
 
     @include desktop {
-      padding-top: 180px;
+      padding-top: 150px;
     }
   }
 
@@ -858,6 +859,26 @@ button.theme-button, a.theme-button {
 
   &:visited {
     color: #ffffff;
+  }
+}
+
+.piece-container.killjoy {
+  p img {
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  }
+}
+
+.copy-markdown {
+  border: 1px solid transparentize(black, 0.95);
+  background-color: transparentize(black, 0.95);
+  padding: 1.5em 1.5em 1em 1.5em;
+  font-family: $monospace;
+  font-size: 0.8em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .copy-error {
+    margin-bottom: 0
   }
 }
 
