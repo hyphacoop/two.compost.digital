@@ -16,10 +16,12 @@ weight: 10
 
 <div class="clear-float"></div>
 
-<div class="position-relative display-flex" style="align-items: flex-end;">
-    <img src="gif-praxis-2.jpg" alt="Scanned leaves" class="float-left width-50" />
-    <p>Leaves stack up next to the scanner, waiting to be made static. Beginning a life without the natural entropy of decomposition. A permanent stillness. Their digital reflection is the first step to a new movement.</p>
+<div class="display-flex" style="align-items: flex-end; flex-wrap: wrap;">
+    <img src="gif-praxis-2.jpg" alt="Scanned leaves" class="float-left width-50" style="min-width: 160px; flex: 1 1 50%;" />
+    <p style="flex: 1 1 50%;">Leaves stack up next to the scanner, waiting to be made static. Beginning a life without the natural entropy of decomposition. A permanent stillness. Their digital reflection is the first step to a new movement.</p>
 </div>
+
+<div class="clear-float"></div>
 
 <div class="position-relative display-flex" style="align-items: center; justify-content: flex-end;">
     <img src="gif-praxis-3.gif" alt="Scanned leaves" class="width-50" />
@@ -133,7 +135,5 @@ weight: 10
 </div>
 
 <p>All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest.</p>
-
-<img src="gif-praxis-22.gif" alt="Willow branches" class="center" />
 
 {{</rawhtml>}}

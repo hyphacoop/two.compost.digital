@@ -5,7 +5,9 @@ author: Andi Wong and Margaret Warren
 tableOfContentsImageUrl: ./images/title-images/bluemarbles-700x350.jpg
 titleImageUrl: ./images/title-images/bluemarbles-700x350.jpg
 description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
+markdown: ../../markdown/a-confluence-of-waters.md
 weight: 9
+license: Copyright 2021 Andi Wong and Margaret Warren
 ---
 
 In the Summer of 2019, we - Andi Wong and Margaret Warren met for the first time at one of the Friday lunches at the Internet Archive on Funston Street in San Francisco. The context of their meeting was in planning art activities for the upcoming Decentralized Web Camp to be held at The Mushroom Farm.
@@ -73,4 +75,3 @@ On the 100th Anniversary Celebration of Locke, California, The Blue Marble was a
 {{< /imgflip >}}
 
 The town was purchased by a Hong Kong developer in 1977, with big plans to create a Chinese “theme park,” complete with yacht marina and condominiums. The plan was abandoned after a special zoning ordinance was established by the Sacramento Board of Supervisors to preserve the historic town in 1979. But by 2001, the town of Locke was slated to be condemned, due to water and sewer problems. Connie King, the unofficial “Mayor of Locke” was determined to save the town. She lobbied the Board, saying “if you remember the Chinese helped build the railroad, the Chinese built the levee, the Chinese start agriculture in California, and the Chinese built the town of Locke. You cannot condemn the town of Locke.”  In 2004, the citizens of Locke, including Auntie Connie, were finally able to purchase the land beneath their homes. When she passed away, volunteers paid tribute by turning her garden plot into a Chinese vegetable demonstration garden to educate the public about traditional Chinese vegetables and the history of the Pearl River Delta. Today, in 2021, Locke is one of 300 failing systems in California that routinely supply roughly 1 million people with contaminated drinking water. Testing has found that the town’s water supply is tainted with high levels of arsenic.
-

@@ -1,6 +1,6 @@
-# one.compost.digital
+# two.compost.digital
 
-The first issue of https://compost.digital. A static site built with [hugo](https://https://gohugo.io/).
+The second issue of https://compost.digital. A static site built with [hugo](https://https://gohugo.io/).
 
 ## First-time setup
 
