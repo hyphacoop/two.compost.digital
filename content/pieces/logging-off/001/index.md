@@ -11,7 +11,7 @@ links:
 season: spring
 weight: 5
 aliases:
-  - /pieces/logging-off/
+  - /logging-off/
 ---
 
 When you check your phone you have three notifications: your Amazon delivery is arriving today, Uber Eats is giving you $20 off for the weekend, and your best friend Alice is in distress. *I'm doing this quiz and it's making me rethink my life tbh.* A minute later, she sends another text:* It's asking me if I know any edible plants in our area. I'm not sure if I even know the difference between oregano and thyme at the grocery store.*

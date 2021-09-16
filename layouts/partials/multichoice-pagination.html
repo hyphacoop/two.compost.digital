@@ -1,5 +1,5 @@
 {{ $order := .Params.order }}
-{{ $chapter := .File.BaseFileName }}
+{{ $chapter := .File.ContentBaseName }}
 {{ $segments := index .Site.Data "multipage-segments" }}
 
 {{ $selectedIndex := 0 }}
@@ -13,7 +13,7 @@
 <div class="pagination">
   <ul class="list-unstyled">
     {{ range $index, $item := $segments }}
-      {{ $multichoice := cond (isset $item "choices") "multichoice" "" }}
+      {{ $multichoice := cond (isset $item "choices") true false }}
 
       {{ $liClass := "" }}
       {{ if (lt $index $selectedIndex) }}
@@ -25,8 +25,8 @@
       {{ end }}
 
       <li class="{{$liClass}} timeline-segment" data-segment="{{$index}}">
-<!--           {{ if eq $liClass "past" }}
-            <a id="segment-{{$index}}" href="/pieces/celine/">
+           {{ if eq $liClass "past" }}
+            <a id="segment-{{$index}}" href="/logging-off">
               {{ if $multichoice }}
                 {{ range seq $item.choices}}
                   <div class="dot"></div>
@@ -35,7 +35,7 @@
                  <div class="dot"></div>
               {{ end }}
             </a>
-          {{ else }} -->
+          {{ else }}
             {{ if $multichoice }}
                 {{ range seq $item.choices}}
                   <div class="dot"></div>
@@ -43,7 +43,7 @@
               {{ else }}
                  <div class="dot"></div>
               {{ end }}
-<!--           {{ end }} -->
+           {{ end }}
         </li>
 
     {{ end }}

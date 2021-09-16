@@ -107,5 +107,5 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
 {{ define "scripts" }}
   <script src="{{ (resources.Get "js/footnotes.js").RelPermalink }}"></script>
-  <!-- <script src="{{ (resources.Get "js/celine.js").RelPermalink }}"></script> -->
+  <script src="{{ (resources.Get "js/celine.js").RelPermalink }}"></script>
 {{ end }}
