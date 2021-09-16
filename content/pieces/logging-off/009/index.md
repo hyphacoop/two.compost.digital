@@ -4,9 +4,9 @@ author: Celine Nguyen
 layout: multipage
 order: celine
 links:
-  - text: Read "What can I grow in a north-facing garden?"
+  - text: Read **What can I grow in a north-facing garden?**
     to: '../008a'
-  - text: Read "[Meta] Can we have more pinned posts about mycology?"
+  - text: Read **[Meta] Can we have more pinned posts about mycology?**
     to: '../008b'
   - text: Go to bed
     to: '../010'
