@@ -31,6 +31,8 @@ We called this network of women and recipes the Killjoy Cooking Network. Through
 
 We recently came across the words: ‘The tongue is an archive’. So what did it mean for us to write about our everyday lives, labour and experiences? The Killjoy cooks’ letter exchange is an invitation to think deeply about the web of relationships we are a part of, and the wisdom we receive and impart in the process of caring and being cared for. Which memories stay and which ones leave? There are echoes, notions, that reverberate among us - contributing to a shared consciousness, a community. These stories have often travelled orally - hidden in cautionary tales, family secrets or kitchen banter. What better way to help us jog our memory then, than the sensory-laden act of cooking and eating.
 
+{{< anigif name="berries_on_stem" >}}
+
 Dear reader, this is our invitation to you.
 To tell our stories is a feminist act, perhaps even revolutionary.
 Can a recipe, the language of food, become our language of resistance, resilience and solidarity?

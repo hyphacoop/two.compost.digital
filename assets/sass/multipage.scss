@@ -1,6 +1,10 @@
 @import './fonts.scss';
 @import './variables.scss';
 
+@mixin type-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
 #multipage {
   margin-top: 2em;
   border: 1px solid rgba(0,0,0,0.2);
@@ -10,11 +14,6 @@
     padding: 1em;
   }
 
-  pre, code {
-    background: inherit;
-    padding: 0;
-  }
-
   .list-unstyled {
     list-style: none;
     padding-left: 0;
@@ -22,6 +21,34 @@
 
     li {
       padding-bottom: 0.5em;
+    }
+
+    .page-link {
+      @include type-sans;
+      border: 1px solid lighten($link-color, 20%);
+      display: flex;
+      font-size: .85em;
+      justify-content: space-between;
+      margin-bottom: .3em;
+      padding: .3em .7em;
+      text-decoration: none;
+      transition: all .1s;
+
+      &:last-child {
+        margin-bottom: none;
+      }
+
+      &:hover, &:focus {
+        background-color: lighten($link-color, 35%);
+        border-color: $link-color;
+        color: $link-color;
+      }
+
+      .icon {
+        font-size: 1.5em;
+        margin-top: -3px;
+        margin-left: 8px;
+      }
     }
   }
 
@@ -55,10 +82,20 @@
           top: -5px;
           border: 1px solid white;
           background: $compost-primary;
-          z-index: 1;
+          z-index: 2;
+          display: none;
 
-          + .dot {
+          @include small {
+            display: block;
+          }
+
+          &:nth-of-type(2) {
             right: 4px;
+            z-index: 1;
+          }
+
+          &:nth-of-type(3) {
+            right: 9px;
             z-index: 0;
           }
         }
@@ -77,5 +114,152 @@
         }
       }
     }
+  }
+}
+
+#multipage .content {
+  // inside narrative, style usernames + forum titles
+  // excludes posts, DMs where <strong> is for usernames + headers
+  > p > strong {
+    @include type-sans;
+    font-size: .90rem;
+    letter-spacing: .2px;
+    line-height: 1;
+  }
+
+  // inside narrative, style pauses
+  hr {
+    border: 0;
+    margin: 2rem auto;
+    width: 20%;
+  }
+
+  // for forum posts + private messages
+  > blockquote {
+    @include type-sans;
+    // remove existing styles
+    border-left: 0;
+    // add styles specific to this piece
+    background: rgba(0, 0, 0, .05);
+    border-radius: 5px;
+    font-size: .9rem;
+    margin: 1.5rem;
+    padding: .1rem 1rem;
+
+    // inside forum posts, style user who posted
+    > p:first-child > strong:first-child {
+      display: block;
+      margin-bottom: .3rem;
+    }
+
+    // inside forum posts and private messages, style moderator tags
+    strong > code {
+      @include type-sans;
+      background-color: rgba(0, 0, 0, .1);
+      border-radius: 3px;
+      color: rgba(0, 0, 0, .7);
+      display: inline-block;
+      font-size: .7em;
+      letter-spacing: .5px;
+      margin-left: .1rem;
+      text-transform: uppercase;
+      padding: 0 .3rem;
+    }
+
+    // inside forum posts, style username mentions
+    > p > strong:not(:first-child) {
+      color: rgba(0, 0, 0, .7);
+
+      // add @ before username mentions
+      &::before {
+        color: rgba(0, 0, 0, .4);
+        content: '@';
+        font-weight: normal;
+      }
+    }
+
+    // inside private messages, style message headers
+    > blockquote {
+      border-left: 0;
+      margin: 1em 0 0;
+      padding: 0;
+
+      // message headers split by paragraph
+      p {
+        border-left: 0;
+        color: rgba(0, 0, 0, .5);
+        margin: 0 auto .1em;
+        padding: 0;
+      }
+
+      // usernames inside message headers
+      strong {
+        color: rgba(0, 0, 0, .8);
+      }
+    }
+  }
+}
+
+#multipage .frontmatter {
+  .forum-statistics {
+    @include type-sans;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    padding: .3em 1em;
+    margin-top: .8em;
+
+    .posts,
+    .rank {
+      color: rgba(0, 0, 0, .8);
+      font-size: 0.8em;
+      margin: 0;
+      width: 45%;
+
+      span {
+        color: rgba(0, 0, 0, .5);
+        font-weight: bold;
+      }
+
+      span::after {
+        content: ':';
+      }
+    }
+
+    .posts {
+      text-align: right;
+    }
+  }
+  @mixin season-icon {
+    color: rgba(0, 0, 0, .1);
+    display: block;
+    font-size: 3em;
+    margin: .6em auto 0;
+    text-align: center;
+  }
+
+  .season-spring::before {
+    // ✿
+    @include season-icon;
+    content: '\273F';
+  }
+
+  .season-summer::before {
+    // ☀︎
+    @include season-icon;
+    content: '\2600';
+  }
+
+  .season-fall::before {
+    // ❦
+    @include season-icon;
+    content: '\2766';
+  }
+
+  .season-winter::before {
+    // ❄︎
+    @include season-icon;
+    content: '\2744';
   }
 }
