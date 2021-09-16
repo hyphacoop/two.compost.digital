@@ -1,0 +1,56 @@
+{{ define "body-class" }}
+grey-background
+{{ end }}
+
+{{ define "og" }}
+  <meta property="og:title" content="COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}" />
+  <meta property="og:url" content="https://one.compost.digital{{ .Page.RelPermalink }}" />
+  <meta property="og:image" content="https://one.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
+  <meta property="og:description" content="{{ .Params.description }}" />
+{{ end }}
+
+{{ define "title" }}
+COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
+{{ end }}
+
+{{ define "main" }}
+  
+  <div class="piece-container clock-basket main-column {{ .Params.customClass }}">
+    {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
+
+    <h1>Clock Basket No. 1</h1>
+
+    <div class="author-name" style="font-size: 80%;">
+      <div style="margin-bottom: 4px;">Written and Animated by Benny Lichtner</div>
+      <div>Based on the graphic designs of Michael Sumner</div>
+    </div>
+
+    <div class="clock-basket-mount"></div>
+
+    <h2>Bibliography</h2>
+    
+    <p>The Benedictine Ethic and the Modern Spirit of Scheduling: on Schedules and Social Organization</p>
+
+    <p>The Week: an essay on Origin and Development of the Seven-Day Cycle</p>
+
+    <p>Empires of Time: Calendars, Clocks, and Cultures</p>
+
+    <p>Wikipedia entry on Coordinated Universal Time and Leap Second</p>
+
+    <p>The Moon slows the Earth's rotation, but how fast was it spinning billions of years ago? - http://curious.astro.cornell.edu/physics/37-our-solar-system/the-moon/the-moon-and-the-earth/147-the-moon-slows-the-earth-s-rotation-but-how-fast-was-it-spinning-billions-of-years-ago-intermediate</p>
+
+    <div class="gif-ending">
+      <img src="{{ "./images/dividers/72pixelstick.gif" | relURL }}" alt="A small stick of bamboo">
+    </div>
+
+    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
+
+    {{ partial "page-navigation.html" . }}
+  </div>
+
+{{ end }}
+
+{{ define "scripts" }}
+  <script src="{{ (resources.Get "js/pieces/clock-basket.js").RelPermalink }}"></script>
+  <script>mountClockBasket(document.querySelector('.clock-basket-mount'))</script>
+{{ end }}
