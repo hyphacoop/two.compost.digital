@@ -25,7 +25,7 @@
       {{ end }}
 
       <li class="{{$liClass}} timeline-segment" data-segment="{{$index}}">
-          {{ if eq $liClass "past" }}
+<!--           {{ if eq $liClass "past" }}
             <a id="segment-{{$index}}" href="/pieces/celine/">
               {{ if $multichoice }}
                 {{ range seq $item.choices}}
@@ -35,7 +35,7 @@
                  <div class="dot"></div>
               {{ end }}
             </a>
-          {{ else }}
+          {{ else }} -->
             {{ if $multichoice }}
                 {{ range seq $item.choices}}
                   <div class="dot"></div>
@@ -43,7 +43,7 @@
               {{ else }}
                  <div class="dot"></div>
               {{ end }}
-          {{ end }}
+<!--           {{ end }} -->
         </li>
 
     {{ end }}
