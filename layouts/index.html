@@ -8,7 +8,9 @@ pattern-background
     <div class="above-the-fold-container">
       <div class="above-the-fold-content">
         <div class="cover-image-container">
-          <img src="{{ "images/compost_02_cover.gif" | relURL }}" loading="lazy">
+          <div class="image-bg">
+            <img src="{{ "images/compost_02_cover.gif" | relURL }}" loading="lazy">
+          </div>
         </div>
         <div class="compost-description">
           {{ .Content }}
