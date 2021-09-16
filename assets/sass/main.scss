@@ -244,6 +244,9 @@ main {
         .cover-image-container {
           width: 100%;
           padding: 20px;
+          background-image: url('/images/compost_02_cover.jpg');
+          background-size: cover;
+          aspect-ratio: 0.8283;
 
           @include small {
             height: 90%;
