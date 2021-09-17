@@ -2291,9 +2291,9 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
     // Parse text snippets
     state.frames = (snippets.split('\n\n').map(s => {
       if (s.startsWith('// ')) {
-        return { storyEl: nanohtmlEs6`<div class="snippet voice-2">${s.slice(2)}</div>` }
+        return { storyEl: nanohtmlEs6`<div class="snippet voice-2"><p>${s.slice(2)}</p></div>` }
       } else {
-        return { storyEl: nanohtmlEs6`<div class="snippet voice-1">${s}</div>` }
+        return { storyEl: nanohtmlEs6`<div class="snippet voice-1"><p>${s}</p></div>` }
       }
     }));
 
