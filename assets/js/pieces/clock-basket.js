@@ -1730,8 +1730,11 @@
   }
 
   function randomize() {
-    setDiagramCodeAsInt(Math.floor(Math.random()*Math.pow(2, numDiagramBits)));
-    render();
+    // no randomization while in clock mode
+    if (state$1.mode !== 'clock') {
+      setDiagramCodeAsInt(Math.floor(Math.random()*Math.pow(2, numDiagramBits)));
+      render();
+    }
   }
 
   var diagram = {
