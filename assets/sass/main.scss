@@ -885,3 +885,8 @@ button.theme-button, a.theme-button {
 @import './footer-content.scss';
 @import './image-flip.scss';
 @import './openseadragon.scss';
+
+// Pieces
+.clock-basket {
+  @import './pieces/clock-basket.scss'
+}

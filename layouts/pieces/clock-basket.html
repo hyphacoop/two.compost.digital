@@ -1,0 +1,72 @@
+{{ define "body-class" }}
+grey-background
+{{ end }}
+
+{{ define "og" }}
+  <meta property="og:title" content="COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}" />
+  <meta property="og:url" content="https://two.compost.digital{{ .Page.RelPermalink }}" />
+  <meta property="og:image" content="https://two.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
+  <meta property="og:description" content="{{ .Params.description }}" />
+{{ end }}
+
+{{ define "title" }}
+COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
+{{ end }}
+
+{{ define "main" }}
+  
+  <div class="piece-container clock-basket main-column {{ .Params.customClass }}">
+    {{ $author := index (where .Site.Data.people "name" .Params.author) 0 }}
+
+    <h1>Clock Basket No. 1</h1>
+
+    <div class="author-name" style="font-size: 80%;">
+      <div style="margin-bottom: 4px;">Written and Animated by Benny Lichtner</div>
+      <div>Based on the graphic designs of Michael Sumner</div>
+    </div>
+
+    <div class="clock-basket-mount"></div>
+
+    <h2>Notes</h2>
+
+    <p>🕰️ I am really, really grateful for everyone who shared their thoughts about clocks and time with me over the last several months!</p>
+
+    <p>Special shout outs to Daniel, for supporting me with invaluable pdfs 📄, to everyone on the Berkeley Science & Technology Studies Working Group listserv, and to Margaret and Pat, for replying to a stranger's call for guidance ☎️, to Mai, for helping me to shape the text and write like a child 🐬, and to all the COMPOST editors for believing in my proposal and giving me a really rare opportunity to pursue it 😭. Thank you so much!</p>
+
+    <p>And a huge thank you to Michael for being unwaveringly encouraging and supportive, and welcoming my strange interpretations of his beautiful illustrations ⚫️⚪️. (Take a look at <a href="https://burningbooks.org/">https://burningbooks.org/</a> to see more of his and Melody's creations when you have a sec!)</p>
+
+    <p>Here is an alphabetical list of some of the writings I found helpful for understanding contemporary time, and how we got here:</p>
+
+    <p>Aveni, Anthony. <i>Empires of Time: Calendars, Clocks, and Cultures.</i> New York: Basic Books, 1989.</p>
+
+    <p>Bede. <i>The Reckoning of Time.</i> Translated by Faith Wallis. Liverpool: Liverpool University Press, 1999.</p>
+
+    <p>Bruton, Eric. <i>The History of Clocks and Watches.</i> New York : Rizzoli, 1979.</p>
+
+    <p>Colson, F.H. <i>The Week: an essay on Origin and Development of the Seven-Day Cycle.</i> Cambridge: Cambridge University Press, 1926, <a href="https://archive.org/details/1926-colson-the-week">https://archive.org/details/1926-colson-the-week</a>.</p>
+
+    <p>Maestro, Betsy. <i>The Story of Clocks and Calendars.</i> HarperCollins, 2004.</p>
+
+    <p>Scharringhausen, Britt. "The Moon slows the Earth's rotation, but how fast was it spinning billions of years ago?" Ask an Astronomer, last updated July 18, 2015, <a href="http://curious.astro.cornell.edu/physics/37-our-solar-system/the-moon/the-moon-and-the-earth/147-the-moon-slows-the-earth-s-rotation-but-how-fast-was-it-spinning-billions-of-years-ago-intermediate">http://curious.astro.cornell.edu/physics/37-our-solar-system/the-moon/the-moon-and-the-earth/147-the-moon-slows-the-earth-s-rotation-but-how-fast-was-it-spinning-billions-of-years-ago-intermediate</a>.</p>
+
+    <p>Zerubavel, Eviatar. "The Benedictine Ethic and the Modern Spirit of Scheduling: on Schedules and Social Organization." <i>Sociological Inquiry</i> 50, no. 2 (1980): 157-169.</p>
+
+    <p>"Coordinated Universal Time," Wikipedia, accessed August 2021, <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time">https://en.wikipedia.org/wiki/Coordinated_Universal_Time</a>.</p>
+
+    <p>"Leap Second," Wikipedia, accessed August 2021, <a href="https://en.wikipedia.org/wiki/Leap_second">https://en.wikipedia.org/wiki/Leap_second</a>.</p>
+
+    <div class="gif-ending">
+      <img src="{{ "./images/dividers/72pixelstick.gif" | relURL }}" alt="A small stick of bamboo">
+    </div>
+
+    <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
+
+    {{ partial "page-navigation.html" . }}
+  </div>
+
+{{ end }}
+
+{{ define "scripts" }}
+  <script src="{{ (resources.Get "js/pieces/clock-basket.js").RelPermalink }}"></script>
+  <script>mountClockBasket(document.querySelector('.clock-basket-mount'))</script>
+{{ end }}
