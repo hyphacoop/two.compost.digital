@@ -1500,6 +1500,30 @@
     }
   };
 
+  let timeElapsed = 0;
+  let timeOrigin = 0;
+  let resetRotationClock = false;
+
+  function applyRotation(circleState) {
+    let rotation = (timeElapsed / 10000 * 2 * Math.PI) % (2 * Math.PI);
+    return {
+      startAngle: circleState.startAngle + rotation,
+      endAngle: circleState.endAngle + rotation
+    }
+  }
+
+  let slowlyRotatingIndex = null; // 0 - 3, only tiny circles
+  let isASlowlyRotatingIndex = (idx) => state$1.mode !== 'clock' && idx === slowlyRotatingIndex;
+  let randomizeRotatingCircle = () => {
+    let possibleIndices = getHalfAndHalfIndices();
+    slowlyRotatingIndex = null;
+    if (possibleIndices.length > 0) {
+      if (Math.random() > 0.5) {
+        slowlyRotatingIndex = possibleIndices[Math.floor(Math.random() * possibleIndices.length)];
+      }
+    }
+  };
+
   function render() {
     let renderBlackCircleState = (fn, index, { startAngle, endAngle }) => {
       let color = 'black';
@@ -1533,8 +1557,13 @@
     });
 
     state$1.current.tiny.forEach((circleState, i) => {
-      renderBlackCircleState(tinyHemisphere, i, circleState.black);
-      renderWhiteCircleState(tinyHemisphere, i, circleState.white);
+      if (isASlowlyRotatingIndex(i)) {
+        renderBlackCircleState(tinyHemisphere, i, applyRotation(circleState.black));
+        renderWhiteCircleState(tinyHemisphere, i, applyRotation(circleState.white));
+      } else {
+        renderBlackCircleState(tinyHemisphere, i, circleState.black);
+        renderWhiteCircleState(tinyHemisphere, i, circleState.white);
+      }
     });
 
     // ctx.fillStyle = 'rgb(127, 127, 127)'
@@ -1547,10 +1576,16 @@
     // renderWhiteCircleState(tinyHemisphere, 3, state.current.tiny[3].white)
   }
 
-  function animate(time) {
-    exports$1.update(time);
+  function animate(timestamp) {
+    if (resetRotationClock && timestamp) {
+      timeOrigin = timestamp;
+      resetRotationClock = false;
+    }
+    
+    timeElapsed = timestamp - timeOrigin;
+    exports$1.update(timestamp);
     render();
-    window.requestAnimationFrame(() => animate());
+    window.requestAnimationFrame(animate);
   }
 
   // window.addEventListener('keydown', (e) => {
@@ -1643,6 +1678,19 @@
     let flattenedTargetStates = flattenStates(state$1.target);
     
     flattenedCurrentStates.forEach((state, idx) => {
+      let isRotated = idx >= 6 && isASlowlyRotatingIndex(idx - 6);
+      
+      // Make the tween starting position include any slow rotations
+      if (isRotated) {
+        let trueBlackState = applyRotation(state.black);
+        state.black.startAngle = trueBlackState.startAngle;
+        state.black.endAngle = trueBlackState.endAngle;
+
+        let trueWhiteState = applyRotation(state.white);
+        state.white.startAngle = trueWhiteState.startAngle;
+        state.white.endAngle = trueWhiteState.endAngle;
+      }
+      
       new exports$1.Tween(state.black)
         .to({
           startAngle: flattenedTargetStates[idx].black.startAngle,
@@ -1650,7 +1698,7 @@
         }, duration)
         .easing(easing)
         .start();
-
+      
       new exports$1.Tween(state.white)
         .to({
           startAngle: flattenedTargetStates[idx].white.startAngle,
@@ -1659,6 +1707,11 @@
         .easing(easing)
         .start();
     });
+
+    // Reset the slow rotation clock
+    resetRotationClock = true;
+
+    randomizeRotatingCircle();
   }
 
   function flattenStates(states) {
@@ -1671,6 +1724,18 @@
         (s.black.endAngle - s.black.startAngle > 1)
     })
   }
+  function getHalfAndHalfIndices() {
+    return state$1.target.tiny
+      .map((s, i) => {
+        if ((s.black.endAngle - s.black.startAngle < 6) && (s.black.endAngle - s.black.startAngle > 1)) {
+          return i
+        } else {
+          return null
+        }
+      })
+      .filter(x => x !== null)
+  }
+
   window.getHalfAndHalfStates = getHalfAndHalfStates;
 
   function diagramCodeFromInt(diagramCodeAsInt) {
