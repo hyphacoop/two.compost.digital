@@ -1738,49 +1738,57 @@
     init, tick, randomize, canvas, enterClockMode, state: state$1
   };
 
-  var snippets = `// Hey, let's play pretend!
+  var snippets = `// Hey!
+
+// Let's play pretend!
 
 Okay, little one.
 
-Let's pretend we're living in a world without clocks.
+Let's pretend we're living in a world exactly like this one—
 
-And there you are, in bed, nearing the end of a deep, deep sleep.
+—with one tiny little difference.
+
+// What’s that?
+
+In this world, there are no clocks.
+
+Early one morning, you’re in bed, nearing the end of a deep, deep sleep—
 
 // Like this?
 
-// zzzZzzz...zzZZzzzzzz....zzzZzzzz zzzzZ..zZzzzzzzZ....zzz....zzzZz.zzzzz
+// zzzZzzz...zzZZzzzzzz....zzzZzzzz
 
-Yes, exactly like that. Well snored, little one.
+// zzzzZ..zZzzZZZzzzzZ....zzz....zzzZz.zzzzz
 
-And now let’s imagine:
+Yes, just like that. Well snored, little one. Anyway, there you are, ready to return to your body—
 
-It’s a clockless world.
+—but there are no clocks, no tick-tocking or tock-ticking, no alarm ringing—
 
-Without tick-tocking or tock-ticking,
+—so what is it that wakes you from your sleep?
 
-what is it that wakes you from your sleep?
+// I dunno! Make something up!
 
-Is it the sweet smell-math of yesterday's compost —
+Could it be the sweet smell-math of yesterday's compost—
 
-— fragrant little shapes hoping to fit snugly inside the comfy caverns of your nostrils?
+—fragrant little shapes floating inside your cozy nostril caverns?
 
-// Ewww, not my nose!
+// Ewwwwww! Not my nose!
 
-Okay, okay. Then perhaps you wake because the Sun's rays have arrived for a playdate.
+Okay, okay. Then maybe you wake because the Sun's rays have arrived for a playdate.
 
-They sneak in through a gap in your curtains —
+They sneak in through a gap in your curtains—
 
-— and paint themselves in warm golden trapezoids around your room.
+—and paint themselves in warm golden trapezoids around your room.
 
-They want to play! They send streams of photons, tiny wavelets to jostle you awake —
+They want to play! They send streams of photons, tiny wavelets to jostle you awake—
 
-— like pebbles on a window pane. But instead of making sounds —
+—like pebbles on a window pane. But instead of making sounds—
 
-— they warm your body with millions of little jiggles —
+—they warm your body with millions of little jiggles—
 
-— until you start to sweat, and you wake up grumpy and moist.
+—until you start to sweat, and you wake up grumpy and moist.
 
-// Naw... I’m not grumpy and moist.
+// Naw... Grumpy and moist doesn’t sound like me.
 
 Well then, how about those big, spherical eyeballs of yours?
 
@@ -1826,7 +1834,7 @@ Oh and the sun and moon have to go too.
 
 Really any repeating cycle could be used to measure time.
 
-For example, when people say things like —
+For example, when people say things like—
 
 “It was only *nine moons ago* when your sister Moogus first encountered the tactile squizzle-glorb.”
 
@@ -1834,7 +1842,7 @@ For example, when people say things like —
 
 But you get the idea.
 
-If it happens over and over again, you can count and measure against it.
+If it happens over and over again, you can count it, and measure against it, like marks on a ruler.
 
 We even need to get rid of leaky faucets. Otherwise people would keep track of time in drips.
 
@@ -1844,7 +1852,7 @@ Yessss, exactly. Now you're getting the idea.
 
 
 
-// I don't know if I like this place anymore.
+// I don't know if I like this place.
 
 // I think it would be hard to live here without the moon or the stars or leaky faucets.
 
@@ -1854,25 +1862,27 @@ Hard, eh? Maybe impossible. We haven't even made it to heartbeats yet.
 
 Yet another pesky primordial clock. We can’t be having any of those.
 
-// But my heartbeat feels like it’s always changing. I hear it thumping when I’m running, but it’s so slow I forget it’s there when I’m reading. That's not a clock.
+// But my heartbeat feels like it’s always changing.
+
+// I hear it thumping when I’m running but it’s so slow I forget it’s there when I’m reading. That's not a clock.
 
 The motion of the earth and the stars is always changing too!
 
-// Nuh uh! The earth rotates 360 degrees every 24 hours,
+// No way! The Earth rotates 360 degrees every 24 hours,
 
-// and it takes 365 and a quarter rotations to go around the sun.
+// and it takes 365 and ¼ rotations to go around the sun.
 
-// (The quarter is why we have leap years — I learned this all in Astronomics class.) It's as regular as clockwork.
+// (The ¼ is why we have leap years — I learned this all in Astronomics class.) It's as regular as clockwork.
 
-They lied to you.
+They lied to you in Astronomics.
 
-Every day is *not* 24 hours, and a year is not exactly 365 and a quarter rotations.
+Every day is *not* 24 hours, and a year is not exactly 365 and ¼ rotations.
 
 It’s all clock propaganda. Clockaganda.
 
 // (⁰ ꓃ ⁰し) 
 
-A day is 24 hours on *average*. But each individual rotation is different by up to 30 seconds.
+A day is 24 hours on *average*. But each individual rotation is different, sometimes by 30 whole seconds.
 
 And that's because of the Earth's elliptical orbit. On top of that, the speed that the Earth spins is always changing.
 
@@ -1886,7 +1896,7 @@ Because humans put an enormous amount of effort into continuously correcting the
 
 Clocks and calendars have always been inaccurate, and humans are always working to correct them.
 
-The motion of the earth is just like your heartbeat — always changing, reflecting what's going on in your body at every moment.
+The motion of the Earth is just like your heartbeat — always changing, reflecting what's going on in your body at every moment.
 
 Your heart speeds up when you're anxious or flustered, and slows down when you're calm and relaxed.
 
@@ -1904,19 +1914,19 @@ I like to call them “The Big Ears,” because they're always listening to the 
 
 The Big Ears add seconds to the clock to account for changes in the speed of Earth's rotation.
 
-Sometimes the rotation speed changes because of a rare event, like a big earthquake, or a glacier melting —
+Sometimes the rotation speed changes because of a rare event, like a big earthquake, or a glacier melting—
 
-— or because someone decided to build a giant dam, changing the distribution of mass around the planet —
+—or because someone decided to build a giant dam, changing the distribution of mass around the planet—
 
 // Kind of like when a rollerblader pulls in their arms for a faster spin…?
 
-Exactly. And the rest of the time it’s regular daily life that influences Earth’s rotation —
+Exactly. And the rest of the time it’s regular daily life that influences Earth’s rotation—
 
-— like the constant, gentle tug of the Moon on Earth’s tidal swell —
+—like the constant, gentle tug of the Moon on Earth’s tidal swell—
 
-— or the friction of the wind blowing across its oceans and continents —
+—or the friction of the wind blowing across its oceans and continents—
 
-— or the oceans’ internal turbulence, sloshing around unfathomably large masses of water.
+—or the oceans’ internal turbulence, sloshing around unfathomably large masses of water.
 
 (Even Earth’s molten core has a say, although I hear that’s harder to measure.)
 
@@ -1924,9 +1934,9 @@ Exactly. And the rest of the time it’s regular daily life that influences Eart
 
 That’s what it takes to be a planet! It’s not an easy job.
 
-Each of these different motions affects Earth’s heartbeat, and if we didn't adjust our clocks —
+Each of these different motions affects Earth’s heartbeat, and if we didn't adjust our clocks—
 
-— eventually they would drift apart from reality and say it’s 9:00 AM when it’s actually the middle of the night.
+—eventually they would drift apart from reality and say it’s 9:00 AM when it’s actually the middle of the night.
 
 
 
@@ -1994,7 +2004,7 @@ Yes!
 
 // But how? How is that possible?
 
-Are you sure you want me to show you?
+Are you sure you want me to show you? Maybe you should try it again...
 
 // Wait, I want to think about it for a bit.
 
@@ -2028,11 +2038,11 @@ That's right.
 
 Yes. There's a bit of trickery involved.
 
-At first it was random, but if you let the basket rest for five seconds —
+At first it was random, but if you let the basket rest for five seconds—
 
 // — 5... 4... 3... 2... 1... —
 
-— it’s programmed so that the next image is generated from the current time.
+—it’s programmed so that the next image is generated from the current time.
 
 // A sneaky trick!
 
@@ -2056,15 +2066,15 @@ I'm actually not sure. I think anything that was important to do as a group, lik
 
 Through a different lens, the power to coordinate is the same as the power to control.
 
-Your nervous system coordinates the extension and contraction of all your muscles —
+Your nervous system coordinates the extension and contraction of all your muscles—
 
-— it gives you control over the movement of your body.
+—it gives you control over the movement of your body.
 
 // This is why I am so good at doing the moonwalk :)
 
-Similarly, the chime of a bell coordinates the actions of community members, like prayer, or lunch, or work —
+In the same way, the chime of a bell coordinates the actions of community members, like prayer, or lunch, or work—
 
-— it grants the bell-ringer control over the behavior of the community.
+—it grants the bell-ringer control over the behavior of the community.
 
 // Like when the bell rings at school, and everyone stands up like robots!
 
@@ -2072,7 +2082,7 @@ Or when it rings at work, and everyone takes a lunch break, or a summer vacation
 
 Clocks and calendars are very useful tools both for coordination *and* control.
 
-It is no surprise that both French revolutionaries and Soviet revolutionaries, as part of their campaigns for power and liberation, hoped to change the number of days in a week.
+It makes some sense that both French and Soviet revolutionaries, as part of their campaigns for power and liberation, tried to change the number of days in a week.
 
 Nowadays we use clocks to schedule nearly everything we do. Even the boring stuff, like meetings.
 
@@ -2100,19 +2110,17 @@ There are about a million combinations, and I wanted to show Michael all of them
 
 I thought I would make a movie that went through all the combinations, but then I found out the movie would take about twelve days to watch!
 
-// That’s like maybe the most boring movie.
+// That’s like, maybe the most boring movie.
 
 That’s what I thought too. And then I figured a boring movie might make a kind of interesting clock...
 
 // And here we are!
 
-And here we are. But not for much longer. I want to get started on the next clock basket! I already have several ideas I want to try out.
+Yep! But I can't stay much longer. I want to get started on the next clock basket! I already have several ideas I want to try out...
 
 // Oooooh. Can I come?
 
-Yes, of course! I couldn’t do it without you.
-
-// Let’s go!
+Only if you bring those superb snoring sounds :-P Come on! Let's go!
 
 `;
 
