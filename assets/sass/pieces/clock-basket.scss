@@ -32,7 +32,13 @@ body.no-scroll {
   max-width: 780px;
   height: 200px;
   text-align: center;
-  font-size: 21px;
+  font-size: 16px;
+}
+
+@media (min-width: 700px) {
+  .story {
+    font-size: 21px;
+  }
 }
 
 .clock-basket-overlay-container.started .story {
@@ -152,7 +158,7 @@ body.no-scroll {
 }
 
 .buttons {
-  height: 100px;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,16 +174,11 @@ body.no-scroll {
 
 .button {
   cursor: pointer;
-  padding: 12px;
+  padding: 12px 0px 4px 0px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-}
-
-@media (min-width: 700px) {
-  .button {
-    width: 200px;
-  }
+  border-bottom: 1px solid;
 }
 
 .story {
