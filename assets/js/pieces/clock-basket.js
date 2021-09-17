@@ -2220,7 +2220,9 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
         </div>
       </div>
       <div class="buttons">
-        <a href="#" class="button" onclick=${(e) => beginStory(e)}>Begin</a>
+        <a href="#" class="button" onclick=${(e) => beginStory(e)}>
+          <span style="font-weight: normal">🟆</span><span style="padding: 0px 10px">Begin</span><span style="font-weight: normal">🟆</span>
+        </a>
       </div>
     </div>
   `;
@@ -2342,7 +2344,7 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
     document.addEventListener('pointercancel', () => clearTimeout(longPressTimeout));
 
     function nextFrame(mouseEvent) {
-      mouseEvent.stopPropagation();
+      if (mouseEvent) mouseEvent.stopPropagation();
       stepDiagram();
 
       let prevIndex = state.frameIndex;
@@ -2352,6 +2354,10 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
       history.pushState({ frameIndex: state.frameIndex }, '');
     }
     document.querySelector('.story').addEventListener(pointerDown, nextFrame);
+
+    function previousFrame() {
+      history.back();
+    }
 
     // Parse text snippets
     state.frames = (snippets.split('\n\n').map(s => {
@@ -2381,6 +2387,14 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
         closeStory();
+      }
+
+      if (state.storyMode) {
+        if (e.key === 'ArrowRight') {
+          nextFrame();
+        } else if (e.key === 'ArrowLeft') {
+          previousFrame();
+        }
       }
     });
 

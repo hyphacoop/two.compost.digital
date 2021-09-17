@@ -161,17 +161,16 @@ body.no-scroll {
 
 @media (min-width: 700px) {
   .buttons {
-    font-size: 21px;
+    font-size: 24px;
   }
 }
 
 .button {
   cursor: pointer;
-  padding: 12px 0px 4px 0px;
+  padding: 4px 8px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  border-bottom: 1px solid;
 }
 
 .story {
