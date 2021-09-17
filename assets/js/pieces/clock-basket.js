@@ -2190,6 +2190,10 @@ Yep! But I can't stay much longer. I want to get started on the next clock baske
 
 Only if you bring those superb snoring sounds :-P Come on! Let's go!
 
+
+
+// the end
+
 `;
 
   let pointerDown;
@@ -2349,9 +2353,13 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
 
       let prevIndex = state.frameIndex;
       state.frameIndex += 1;
-      renderTextFrame(state.frameIndex, prevIndex);
-      
-      history.pushState({ frameIndex: state.frameIndex }, '');
+
+      if (state.frameIndex >= (state.frames.length - 1)) {
+        closeStory();
+      } else {
+        renderTextFrame(state.frameIndex, prevIndex);
+        history.pushState({ frameIndex: state.frameIndex }, '');
+      }
     }
     document.querySelector('.story').addEventListener(pointerDown, nextFrame);
 
