@@ -4,8 +4,8 @@ author: Celine Nguyen
 layout: multipage
 order: celine
 links:
-  - text: The end
-    to: '../resources'
+  - text: Notes and resources
+    to: '../notes'
 season: spring
 post-count: 1204
 rank: Moderator
@@ -33,7 +33,7 @@ It's too early for most of the other wildflowers, but you imagine what this land
 
 “Are you excited to be back?” you ask.
 
-“Maybe,” she says. “It’ll be different now. I used to worry so much about preserving the world we had, and now I feel like the task is so much bigger. It’s excavating the past and all the cruelties that made the environment so fragile. “I found out recently that a parking lot near my home used to be an Ohlone shellmound. It feels like an awful metaphor for civilization: we displaced an entire society and now people park minivans there.”
+“Maybe,” she says. “It’ll be different now. I used to worry so much about preserving the world we had, and now I feel like the task is so much bigger. It’s excavating the past and all the cruelties that made the environment so fragile. I found out recently that a parking lot near my home used to be an Ohlone shellmound. It feels like an awful metaphor for civilization: we displaced an entire society and now people park minivans there.”
 
 She looks at you, and when you nod she rushes on, sustained by the encouragement. “It feels impossible to solve climate change the way we’re going about it now. We’re erasing other ways of living, ways that didn’t see the earth as a commodity to parcel out and desecrate. And I want it to be *different*, somehow. A different way of remembering and changing and moving forward in the world.”
 
@@ -54,3 +54,5 @@ Someone has made their first post.
 > **eastofeden** How hard is it to learn how to identify mushrooms? I want to learn how to forage but I'm not sure where to start. I keep on reading about poisonous mushrooms and it's freaking me out.
 
 You sit up a little straighter and begin writing a response: something encouraging, something to ease their mind and make them feel welcome.
+
+*The end.*

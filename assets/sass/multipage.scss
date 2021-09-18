@@ -231,35 +231,43 @@
       text-align: right;
     }
   }
-  @mixin season-icon {
-    color: rgba(0, 0, 0, .1);
+}
+
+@mixin style-season($color, $icon) {
+  &::before {
+    color: $color;
+    content: $icon;
     display: block;
     font-size: 3em;
     margin: .6em auto 0;
     text-align: center;
   }
+}
 
-  .season-spring::before {
-    // ✿
-    @include season-icon;
-    content: '\273F';
-  }
+@mixin season-icon {
+  color: rgba(0, 0, 0, .1);
+  display: block;
+  font-size: 3em;
+  margin: .6em auto 0;
+  text-align: center;
+}
 
-  .season-summer::before {
-    // ☀︎
-    @include season-icon;
-    content: '\2600';
-  }
+.season-spring {
+  // ✿
+  @include style-season(#FFADBF, '\273F');
+}
 
-  .season-fall::before {
-    // ❦
-    @include season-icon;
-    content: '\2766';
-  }
+.season-summer {
+  // ☀︎
+  @include style-season(#F4D266, '\2600');
+}
 
-  .season-winter::before {
-    // ❄︎
-    @include season-icon;
-    content: '\2744';
-  }
+.season-fall {
+  // ❦
+  @include style-season(#D47943, '\2766');
+}
+
+.season-winter {
+  // ❄︎
+  @include style-season(#A0D7FB, '\2744');
 }

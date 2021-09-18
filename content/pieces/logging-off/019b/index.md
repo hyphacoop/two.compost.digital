@@ -6,8 +6,8 @@ order: celine
 # custom frontmatter
 customClass: cn-foraging-piece
 links:
-  - text: The end
-    to: '../resources'
+  - text: Notes and resources
+    to: '../notes'
 season: spring
 ---
 
@@ -46,3 +46,5 @@ It's a new thing for you, introducing your friends to each other. You are reliev
 But the idea of anticipating the future, and not just fearing it, lingers in the air. It’s hard to feel despairing tonight; you feel caught up in a communal sense of optimism. The feeling of spring, you think, or maybe it’s the second, third, and fourth drink. You are tipsy by the time you get home.
 
 You slip into the kitchen and get a glass of water, moving slowly around your apartment and packing a bag for tomorrow. You are taking Alice on her very first foraging trip, and you consider what’s growing at this time of year. Morels are a good first mushroom, you decide.
+
+*The end.*
