@@ -21,7 +21,7 @@ In January of 2020, we, Eeshita and Mrinalini, found ourselves in a new relation
 
 Separated by the pandemic and distance, we found space to connect over our shared joy for cooking. Two women bonding over their culinary interests is hardly radical, but two women speaking across generations, identities, faith, and geography has the potential to be. Circumstance introduced a new practice between us; a channel for our ideas.
 
-We began sharing a kitchen through a series of emails._ _Perhaps, through these episolatory exchanges, we were also trying to reminisce and relate; to get to know each other and to allay our intergenerational fears about our relationship. In these letters, we shared recipes that were special to us, and stories of the women who taught them to us; stories of our upbringing and the experiences that had shaped us into the women we are today. We called this exchange “Of Cooking and Conversations.” 
+We began sharing a kitchen through a series of emails. Perhaps, through these episolatory exchanges, we were also trying to reminisce and relate; to get to know each other and to allay our intergenerational fears about our relationship. In these letters, we shared recipes that were special to us, and stories of the women who taught them to us; stories of our upbringing and the experiences that had shaped us into the women we are today. We called this exchange “Of Cooking and Conversations.” 
 
 Cooking, for most of us, is a form of memory-laden inheritance. Our correspondence made evident that we had inherited the memories of not only our grandmothers and mothers but also of women who were not family members but domestic workers; their labour was integral to the well-being of our homes, families and selves.These letters became testament to the women who cared for us, fed us, and showed up for us in ways expected and unexpected, without whose labour we would not have the privilege of education and professional careers that we do.
 
@@ -31,15 +31,13 @@ As the pandemic progressed, we continued to write to each other and exchange rec
 
 In June of 2021, 16 months after our first email exchange, we asked friends and family to write letters and share recipes with women they knew or wanted to know better. The pandemic made it difficult for many of us to visit the post office, so we embraced digital technology, looking to our friend-foe, the email. Since then, more than 20 women in different parts of the world began to populate the inboxes of their friends, family, roommates, and mentors with letters and recipes.
 
-We called this network of women and recipes the Killjoy Cooking Network. Together, we explored the joy of cooking without losing sight of the fact that the kitchen, especially in the Indian context, has often become the site of killing. The word “killjoy” came to us from Sara Ahmed’s blog, “ Feminist Killjoy {{< footnote "feminist-killjoy" >}}—a feminist killjoy being someone who refuses to look the other way, or just is “in the way.” As Killjoy cooks, we remember the sustenance we receive with fondness, and refuse to forget the labour: the grief and grievances of aching legs, of aching hearts, of sweaty bodies and shattered dreams. Ahmed writes: “The history of feminist critiques of happiness could be translated into a manifesto: _Don't look over it: don't get over it.’”{{< footnote "1" >}} _What does the killjoy in the kitchen not look over then? Killjoy cooks tell stories of how far we have come and the many miles left to go. 
+We called this network of women and recipes the Killjoy Cooking Network. Together, we explored the joy of cooking without losing sight of the fact that the kitchen, especially in the Indian context, has often become the site of killing. The word “killjoy” came to us from Sara Ahmed’s blog, “ Feminist Killjoy {{< footnote "feminist-killjoy" >}} — a feminist killjoy being someone who refuses to look the other way, or just is “in the way.” As Killjoy cooks, we remember the sustenance we receive with fondness, and refuse to forget the labour: the grief and grievances of aching legs, of aching hearts, of sweaty bodies and shattered dreams. Ahmed writes: “The history of feminist critiques of happiness could be translated into a manifesto: _Don't look over it: don't get over it.’”_ {{< footnote "1" >}} What does the killjoy in the kitchen not look over then? Killjoy cooks tell stories of how far we have come and the many miles left to go. 
 
-{{< anigif name="star_leaf" >}}
-
-We recently came across the words: _“The tongue is an archive.”_{{< footnote "2" >}} So what did it mean for us to write about our everyday lives, labour, and experiences? The Killjoy cooks’ letter exchange is an invitation to think deeply about the web of relationships we are a part of, and the wisdom we receive and impart in the process of caring and being cared for. 
+We recently came across the words: _“The tongue is an archive.”_ {{< footnote "2" >}} So what did it mean for us to write about our everyday lives, labour, and experiences? The Killjoy cooks’ letter exchange is an invitation to think deeply about the web of relationships we are a part of, and the wisdom we receive and impart in the process of caring and being cared for. 
 
 Which memories stay and which ones leave? There are echoes, notions, that reverberate among us—contributing to a shared consciousness, a community. These stories have often travelled orally, hidden in cautionary tales, family secrets, or kitchen banter. What better way to help jog our memory then, than the sensory-laden act of cooking and eating?
 
-{{< anigif name="star_leaf" >}}
+{{< anigif name="nettles_green" >}}
 
 Dear reader, this is our invitation to you. 
 
@@ -65,7 +63,7 @@ Eeshita Kapadiya
 
 Mrinalini Sebastian
 
-{{< anigif name="nettles_green" >}}
+{{< anigif name="star_leaf" >}}
 
 We would like to welcome you to the many kitchens that serve as settings for the recipes in this repository. Below is a kitchen maze, map, landscape, whichever way you’d like to see it. You’ll find recipes and conversations tucked in corners, and in kitchen paraphernalia.
 
