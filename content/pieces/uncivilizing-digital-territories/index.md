@@ -7,13 +7,13 @@ titleImageUrl: ./images/title-images/luandro-700x350.jpg
 description: Digital technologies are the products of cultures which aren't aligned with nature and our DNA. Can we subvert them to enpower nature-based cultures and strenghten local communities?
 weight: 4
 ---
-There’s something very wrong with status-quo culture, starting with the fact that such a thing exists in the first place. How has a culture that directly conflicts with the very essence of being human — being part of planet Earth — become the default? Don’t worry, I won’t attempt to explore the history of patriarchy, the state, or capitalism. The fact is that this system has colonized most of humanity through tools that serve the centralization of power. That might be a very natural thing for animals such as ourselves, but it doesn’t really contribute much to gender and cultural diversity, the rest of the planet, survival, or quality of life, does it?
+There’s something very wrong with status-quo culture, starting with the fact that such a thing exists in the first place. How has a culture that directly conflicts with the very essence of being human—being part of planet Earth—become the default? Don’t worry, I won’t attempt to explore the history of patriarchy, the state, or capitalism. The fact is that this system has colonized most of humanity through tools that serve the centralization of power. That might be a very natural thing for animals such as ourselves, but it doesn’t really contribute much to gender and cultural diversity, the rest of the planet, survival, or quality of life, does it?
 
 It’s tempting to think that it’s always been like this: One culture to control them all. But it’s taken thousands of years of colonization for civilizations to develop themselves into this global coercion machine.
 
 Author Derrick Jensen defines civilization as a culture that both leads to and emerges from the growth of cities, with "cities'' defined as "people living more or less permanently in one place in densities high enough to require the routine importation of food and other necessities of life". This need for civilizations to import ever more resources, he argues, stems from their overexploitation and diminution of their own local resources. Therefore, civilizations inherently adopt imperialist and expansionist policies and, to maintain these highly militarized, hierarchically structured, and coercion-based cultures and lifestyles.{{< footnote "1" >}}
 
-It sure seems that we’re at the peak of it — power is more concentrated than ever, and the symptom is the collapse we are experiencing today. Due to the near ubiquity of this oppressive culture, we have almost no choice to operate outside of it.
+It sure seems that we’re at the peak of it—power is more concentrated than ever, and the symptom is the collapse we are experiencing today. Due to the near ubiquity of this oppressive culture, we have almost no choice to operate outside of it.
 
 > “_We know that Mother Nature has a culture, and it is a Native culture_” Yupiaq scholar, Oscar Kawagley{{< footnote "2" >}}
 
@@ -81,7 +81,7 @@ _Minimally Invasive Education_ {{< footnote "minimally-invasive-education-paper"
 
 We also use digital tools for reading, writing, texting, coding, designing, planning, playing, calculating, researching… But less-industrialized places have less access to devices that are appropriate for these tasks, such as a computer with a keyboard.
 
-Every community can have a publicly shared device so that all members can easily explore the digital world — the impact of this would be greater in low income places. Experiments such as Hole in the Wall{{< footnote "hole-in-the-wall" >}} show how powerful a public computer can be for self-learning and minimally invasive education {{< footnote "minimally-invasive-education" >}}.
+Every community can have a publicly shared device so that all members can easily explore the digital world—the impact of this would be greater in low income places. Experiments such as Hole in the Wall{{< footnote "hole-in-the-wall" >}} show how powerful a public computer can be for self-learning and minimally invasive education {{< footnote "minimally-invasive-education" >}}.
 
 People who depend on digital tools for their work would probably still need their own private device, although collective ownership should be greatly encouraged to lower the fetishism around end-user machines.
 
@@ -97,7 +97,7 @@ Collectively managed servers enable the creation of local digital territories, w
 
 ## Community-First Interaction Flows
 
-Today’s corporate platforms drive user experiences to become highly personalized, globalized, and market driven — systems which work to deteriorate local governance, cultural identity, and respectful connection to land.
+Today’s corporate platforms drive user experiences to become highly personalized, globalized, and market driven—systems which work to deteriorate local governance, cultural identity, and respectful connection to land.
 
 A very common problem, especially within traditional communities, is the disconnect between generations. Traditionally, elders have always held a key role in community governance, extra-community politics, and preservation of stories and ancestral knowledge. When youths start interacting with social media, this sort of archival work is threatened; the information that only elders can transmit is often left aside in favor of whatever is mainstream on commercial platforms such as Facebook or Youtube.
 
@@ -116,7 +116,7 @@ A strategy we’ve been using to construct community-first user flows has been t
 
 Programming languages and frameworks have become more accessible, but it might still be a far away dream to have community members building digital territories based on collective needs. That's mainly because of language barriers and the low level of tech literacy, which are common in land-based communities.
 
-It's common to find local mechanics and electricians in any remote community, as hardware can be torn apart and parts analyzed and re-assembled. The process of hands-on learning only requires a curious mind — communities usually have an abundance of those. We propose a similar experience for software: by using self-hosted web-based code editors, like Coder {{< footnote "coder">}}, to expose to anyone curious enough to modify, break, and build with the code.
+It's common to find local mechanics and electricians in any remote community, as hardware can be torn apart and parts analyzed and re-assembled. The process of hands-on learning only requires a curious mind—communities usually have an abundance of those. We propose a similar experience for software: by using self-hosted web-based code editors, like Coder {{< footnote "coder">}}, to expose to anyone curious enough to modify, break, and build with the code.
 
 By leaving the source code open for community members to mess with, we expect that in the long-term, some might learn and contribute to building, maintaining, and tweaking these applications and services themselves.
 
@@ -136,7 +136,7 @@ In the above experiments, the most difficult part wasn’t coding these services
 
 It’s a completely different paradigm to explore compared to corporate platforms. It’s challenging to have people produce content for their neighbors instead of a wide general audience. It’s much more personal.
 
-Such examples need to be replicated to other communities that seek to strengthen their women, identity, economy, self-governance — and overall autonomy. Having software and hardware platforms that enable networking between different communities that share these values can encourage this further.
+Such examples need to be replicated to other communities that seek to strengthen their women, identity, economy, self-governance—and overall autonomy. Having software and hardware platforms that enable networking between different communities that share these values can encourage this further.
 
 Protocols created for the World Wide Web don’t take into account the possibility of local digital territories, and the possibility that these territories might not exist online today or may not need to in the future. In the past decade, the complete takeover of the Internet by corporate actors has made it obvious that the global network's original vision of being a democratic space has been co-opted by huge centralizing for-profit platforms. 
 
@@ -179,6 +179,6 @@ But the fact is that most communities have already been exposed to the corporate
 
 {{< figure src="image11.jpg" alt="Image of Negro River Rapids, Amazon" caption="A photo of Negro River rapids, Amazon, via Luandro">}} 
 
-All that is much easier said than done, as encouraging alternatives to mainstream usage of technology is, many times, like trying to swim against a strong current. But we can build networks of communities where experiences are shared, and principles of autonomy — and livelihoods which operate in mutual relationship with Mother Earth’s complex, abundant world — can be valued and celebrated. Building these relationships with native-cultures without being extractive is fundamental for learning how to reconnect with our essence and understanding more about non-civilized practices and ways of life.
+All that is much easier said than done, as encouraging alternatives to mainstream usage of technology is, many times, like trying to swim against a strong current. But we can build networks of communities where experiences are shared, and principles of autonomy—and livelihoods which operate in mutual relationship with Mother Earth’s complex, abundant world—can be valued and celebrated. Building these relationships with native-cultures without being extractive is fundamental for learning how to reconnect with our essence and understanding more about non-civilized practices and ways of life.
 
 We might not be able to change the downhill course of civilization. But we can assist in strengthening our communities so that, when crises occur, we respond with our networks from a place of autonomy, solidarity, and resilience.
