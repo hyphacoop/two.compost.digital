@@ -31,6 +31,7 @@ The frontmatter of a piece should have all of these fields:
 ```yaml
 ---
 title: Seeding the Wild
+subtitle: # Optional
 author: Magma Collective # this needs to match an author name in data/people.yaml
 description: In which seeds are strewn into small spaces, while blindfolded, and holding three apricots between two butt cheeks.
 tableOfContentsImageUrl: ./images/angelica-gifs/mantis_computer.gif # must be 700x350
@@ -39,6 +40,7 @@ titleImageUrl: ./images/title-images/love-ya.png # this is optional
 titleImageAlt: # Alt text. this is weakly optional 
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif # this is optional
 endingImageAlt: # Alt text. this is weakly optional 
+weight: 1 # This determines the page order. Pages with lower weight will come first.
 ---
 ```
 
@@ -67,7 +69,9 @@ This is called a [hugo "shortcode"](https://gohugo.io/content-management/shortco
 
 #### Table of contents
 
-The sequence of pieces in the table of contents is determined by [`data/piece-sequence.yaml`](data/piece-sequence.yaml)
+The sequence of pieces in the table of contents is determined by the page weight, using Hugo's `.ByWeight` [ordering function](https://gohugo.io/templates/lists/#by-weight).
+
+You can update the sequence of pieces by changing the `weight` attribute in the front matter of the content pieces. The weight values start at 1.
 
 #### Fundraising goals
 
