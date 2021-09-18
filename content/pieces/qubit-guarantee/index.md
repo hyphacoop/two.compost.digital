@@ -6,8 +6,7 @@ titleImageUrl: ./images/title-images/kola-700x350.jpg
 description: A cybersecurity specialist named Kurt uses his employers' quantum computing platform to help corporations nullify ransomware attacks--but a routine job goes far off-script when he's sent to Raleigh, North Carolina.
 weight: 7
 ---
-
-Kurt was hesitant when a self-driving car, courtesy of his client, arrived to pick him up at the RDU airport at 10 in the morning. It made a soft ping when he shut the door. A voice welcomed him to North Carolina before peeling off from the terminal and gliding down the highway at a cool 65 miles per hour.
+Kurt was hesitant when a self-driving car, courtesy of his client, arrived to pick him up at the RDU airport at 10 in the morning. It made a soft _ping_ when he shut the door. A voice welcomed him to North Carolina before peeling off from the terminal and gliding down the highway at a cool 65 miles per hour.
 
 The sedan’s recessed steering wheel was a bold statement, and not one that engendered trust. In New York or Seattle, streets were flecked with RFID sensors and cameras, all monitored by an obscenely expensive smart grid. Where a hi-tech precedence was already established, an autonomous vehicle didn’t come off as an overeager appeal to the future — but not so much here in Raleigh, a town that had only just started going “smart.”
 
@@ -15,7 +14,7 @@ Kurt checked the navigation panel. Deciding that he wasn’t at risk of being vi
 
 Judging from the attack profile that had been sent to his bosses at the cybersecurity firm Quantus, this trip to the Research Triangle Park would be a quick and painless job. The scope of the data they’d been asked to recover was on the smaller side, barely half a terabyte, and the attackers’ MO implied that they were amateurs. The profile said that they probably used AES encryption when scrambling the target’s data, the type of rookie attack that could’ve been circumvented even before quantum cybersecurity solutions entered the market. There was a good chance the hackers were using some pre-packaged subscription ransomware suite, similar to the services REvil deployed on American infrastructure in the 2020s. Cookie cutter Hacking-as-a-Service shit that should really only be used on small orgs or individuals. That is, unless you were reckless like the attackers Kurt would be handling today. For them to target a company that could afford Quantus’ services, these guys were probably desperate.
 
-Kurt expected to get his bosses’ fix implemented on the client’s servers in a couple hours, so he had brought nothing but the clothes on his back and the Quantus laptop sitting beside him. He turned and flipped the metal hatches on the casing, cracking it open. Sure the case design was aggressive, but it was all part of the show he put on for the customers. Despite Quantum Security Specialists like Kurt being IT nerds deployed to help other IT nerds, the clients still ate up the theatrics of ridged metal and vulcanized rubber. Security was implied through the military-industrial decals.
+Kurt expected to get his bosses’ fix implemented on the client’s servers in a couple hours, so he had brought nothing but the clothes on his back and the Quantus laptop sitting beside him. He turned it over, flipped the metal hatches on the casing, and cracked it open. Sure the case design was aggressive, but it was all part of the show he put on for the customers. Despite Quantum Security Specialists like Kurt being IT nerds deployed to help other IT nerds, the clients still ate up the theatrics of ridged metal and vulcanized rubber. Security was implied through the military-industrial decals.
 
 Anyway, the attack. Inside the car, Kurt scrolled through the summary onscreen. The client: a local, mid-size logistics startup native to the region, helping with food distribution to restaurants. At least that was what Kurt assumed, with a name like SpeedEats LLC. It wasn’t his job to vet the clients; it was his job to keep them entertained while the Quantus computers recovered their data. But it was fun to overwork his imagination. The brief corporate summaries deserved some backstory.
 
@@ -23,13 +22,14 @@ The ransomware primarily affected the SpeedEats employees’ personal informatio
 
 Overall, pretty bad for SpeedEats. Great for Kurt though, since his job depended on corporate misfortune. This sort of debacle paid the rent; low- to mid- level attacks that required so little brain power he was reduced from a decryption expert to a human prop, running company software from his laptop and shooting SpeedEats’s jittery IT people glares so they knew he was engaging in Serious Work. Kurt never sugarcoated his role when confronting his position in cybersecurity. Once upon a time it required some talent, but now he was pretty much flown out by companies to press a button on his keyboard and look smart.
 
-*Ping*. “Route updated,” the car said in a soft voice. Kurt glanced over at the map on the dashboard, pinching the screen to see if the vehicle’s AI had decided to shave some time off his trip. He paused.
+_Ping._ “Route updated,” the car said in a soft voice. Kurt glanced over at the map on the dashboard, pinching the screen to see if the vehicle’s AI had decided to shave some time off his trip. He paused.
 
 It added fifteen minutes, and it was a radically different path through Raleigh.
 
 This was his first time visiting the city but Kurt had no doubt the map’s route had visibly changed. The new destination was a completely different street address. The car’s future path was marked by a snaking blue line, veering away from the gridded downtown to what seemed like a suburb, a nest of ranch houses branching into greenery. Wherever it was, it definitely didn’t seem like it was where Kurt was supposed to be heading.
 
 As he tried rerouting, his efforts were met with warning beeps. No alteration allowed. The car would let him do nothing except view its course on the map.
+
 “Maybe another office building,” Kurt muttered to himself, an attempt to bring focus back to his thoughts. It could’ve been that SpeedEats had a place on the outskirts of town, though it wouldn’t explain the car’s resistance to altering the route. He searched the startup for the first time with his attention present. When it came to his clients, Kurt preferred to let Quantus do all the background work. This problem called for further investigation. Yet not much on their website seemed out-of-character…the most noticeable omission was a lack of office locations or contact info.
 
 Quantus put these details in the attack report. Kurt flipped his attention between his phone and the blue line creeping along the car’s navigation display, trying to match up the address his bosses gave him for the SpeedEats HQ and the address he seemed to be heading to. They were different sections of Raleigh altogether.
@@ -46,13 +46,13 @@ Just as panic tightened in Kurt’s chest, a voice slid in through the speakers.
 
 “When someone says that twice in less than a minute, you start to wonder if they really mean it.”
 
-While he was talking, Kurt swiped through his phone and opened up the Quantus employee app. After the fingerprint ID check, he’s presented with his employee control panel. Sitting behind the Security tab was the Panic Button: a comically large red circle on his screen. Quantus played in global waters, and in preference to consistency — to keep botched deals that lead to violence as in-house secrets — the company trusted private security over local police. The company muscle was for internal use only. Quantus board members justified their existence by emphasizing the scores of bogeymen that could retaliate beyond digital means. Piss off the wrong ransomware gang and there could be actual, physical heat on them. The company’s private security force dealt in a real form of combat aggression that the IT guys like Kurt implied with their props and outfits. It was staffed with military vets who vacillated between private security firms and federal “signature reduction” contract jobs for three letter agencies. Once a platform service got large enough, their clandestine operations tended to be filled with those types: elite pockets of soldiers maneuvering around the edges of corporate bureaucracy to tamp down on any trouble.
+While he was talking, Kurt swiped through his phone and opened up the Quantus employee app. After the fingerprint ID check, he’s presented with his employee control panel. Sitting behind the Security tab was the Panic Button: a comically large red circle on his screen. Quantus played in global waters, and in preference to consistency — to keep botched deals that lead to violence as in-house secrets — the company trusted private security over local police. The company muscle was for internal use only. Quantus board members justified their existence by emphasizing the scores of bogeymen that could retaliate beyond digital means. Piss off the wrong ransomware gang and there could be actual, physical heat on them. The company’s private security force dealt in a real form of combat aggression that the IT guys like Kurt implied with their props and outfits. It was staffed with military vets who flitted between private security firms and federal “signature reduction” contract jobs for three letter agencies. Once a platform service got large enough, their clandestine operations tended to be filled with those types: elite pockets of soldiers maneuvering around the edges of corporate bureaucracy to tamp down on any trouble.
 
 Over the past three years that he’d worked the job, Kurt hadn’t ever needed to press that Panic Button. But this voice, this speeding car, this altered route — it lit his brain with worst case scenarios. If there was ever a time to ask for company backup, this was it. The speaker came alive right as Kurt’s thumb hovered above his phone screen.
 
 “We’d like it if you didn’t do anything too drastic, Mr. Leonard. There’s no need to call for help.”
 
-So they could see him. Kurt froze, gazing about the car’s interior searching for the dark scale of a camera lens.
+So they could see him. Kurt froze, gazing about the car’s interior, searching for the dark scale of a camera lens.
 
 “You haven’t even told me who you are.”
 
@@ -64,7 +64,7 @@ The voice sighed as if this was the response they’d been hoping for. “To do 
 
 Hackers calling themselves a “community” was one hell of a marketing gimmick.
 
-{{< anigif name="berries_on_stem" >}}
+{{< anigif name="bamboo_slow" >}}
 
 It turned out the new destination wasn’t in a suburb but the edge of downtown. As he approached the city, Kurt passed by his fair share of identical townhouses anyway. Raleigh was couched in a bed of blooming vegetation, its neighborhoods in a forest with swaths of trees cleared for flat lawns and asphalt. The unknown voice had gone quiet for most of the ride. They refused to clarify Kurt’s questions beyond emphatic reassurances that they’d cause him no harm, that his concerns would soon be addressed once he arrived. It was impossible to tell if they were being truthful. All Kurt had was the waver in their tone, which made them sound sincere, disarming. Also, of course, the promise of a commission triple the size of a Quantus check. He could end this at any time, anyway. Hit the Panic Button, even call the police. But he was curious enough at this point he figured he might as well see if these people were serious.
 
@@ -72,11 +72,11 @@ The car rolled past the North Carolina State campus, flanked by monstrous brick 
 
 “Mr. Leonard,” the man said, opening the door and trying a smile. “Thank you so much for your cooperation. I’m Connor, the main coordinator of the West Raleigh Neighborhood Smart Grid.” Connor outstretched his hand. Kurt, unmoving, glared at him over his sunglasses.
 
-“Great. So my recommendation is you start explaining this shit and fast.”
+“Great. Hi. So my recommendation is you start explaining this shit and fast.”
 
 Connor genuinely flinched. If there was one thing Kurt wasn’t feeling, it was intimidation. This man exuded the same nervous tics as any of the corporate ambassadors Kurt would’ve been meeting with anyway. And yet the trappings of an average job, like Quantus’ attack profile debriefings, didn’t apply here. No more script. Despite this sudden redirection, Kurt still felt he had the upper hand. He got out of the vehicle and put on the face of a grizzled specialist. He looked like a smartly dressed but jaded man you’d find on the cover of a paperback techno-thriller. As specialized expertise grew less important, the crucial aspect of Kurt’s job became the act of it. And, to him, this situation was no different.
 
-“Please, just follow me, Mr. Leonard,” Connor said, waving down the street. “I’d imagine there’s not much time before your employers notice your redirection, so let’s take a walk around the neighborhood and talk things over.”
+“Please just follow me, Mr. Leonard,” Connor said, waving down the street. “I’d imagine there’s not much time before your employers notice your redirection, so let’s take a walk around the neighborhood and talk things over.”
 
 Kurt could always turn back if he wanted. This was wide in the open, hemmed in by Raleigh’s passive surveillance. He didn’t have to see the camera systems and sensor networks to know they existed, but the thought of them made him feel safer…so he went for it and followed Connor’s lead.
 
@@ -88,7 +88,7 @@ When he took out his phone to get some background on the area Kurt realized it c
 
 “No point in searching for that Mr. Leonard,” the man commented, glancing at Kurt’s phone. “That’s part of the reason why we brought you here.”
 
-“I don’t know how to fix a sensor grid, man. I thought I was cracking through ransomware.”
+“I don’t know how to fix a sensor grid, man. You told me I’d be cracking through ransomware.”
 
 “You will be, in a sense. I’m just taking you to the park and we can walk through it all. Take it slow. Explain anything you’d like.”
 
@@ -108,7 +108,7 @@ They arrived in a modest park, a small square of greenery and a swing set, wedge
 
 “Well, it’s uh…what we voted on at the neighborhood meeting.” Connor winced. “We’re trying to carve something out for ourselves here, Kurt. We had to resort to this. We’re desperate to retain some peace and control of our homes.”
 
-He waved down the street at the kids, who actually had the gall to herd a cleaning robot out. It was dressed in colorful ribbons and paint so vivid that Kurt could see it from a couple feet away. This low, rainbow half-sphere rattled across the road, readjusting its path whenever it got interrupted by a well-placed sneaker.
+He waved down the street at the kids, who actually had the gall to herd a cleaning robot out. It was dressed in colorful ribbons and painted so vivid that Kurt could see it from down the block. This low, rainbow half-sphere rattled across the road, readjusting its path whenever it got interrupted by a well-placed sneaker.
 
 “The hell is going on there?” Kurt asked. “Isn’t that city property?”
 
@@ -116,9 +116,9 @@ He waved down the street at the kids, who actually had the gall to herd a cleani
 
 One of the kids snatched the robot from the ground and ran for a backyard, ignoring the screams of their playmates. Connor sighed.
 
-“We’ve built new things here. Well, partially new. The sensor grid, the robots — all that was established about two, three years back, and not by our community. Our integration with the city grid was a subtle thing. Trucks with telecom logos printed on the side, digging up sidewalks and planting threads of bright cabling. Sprucing up our telephone poles with cameras. A lot of the changes weren’t things you could actually see, but all of that labor was certainly visible. The workers and their bots flipping our street inside-out. Then Ms. Mwangi found a workaround to access some of the newly installed sensors’ meteorological data. It was a novelty thing, setting up a local ‘weather service’ for the block, putting updates on our community forum. Didn’t take long for others to start experimenting with the grid. Then, bit by bit, we’ve been able to make the neighborhood its own space.”
+“We’ve built new things here. Well, partially new. The sensor grid, the robots — all that was established about two, three years back, and not by our community. Our integration with the city grid was a subtle thing. Trucks with telecom logos printed on the side dug up sidewalks and planted threads of bright cabling. They spruced up our telephone poles with cameras. A lot of the changes weren’t things you could actually see, but all of that labor was certainly visible. The workers and their bots flipping our street inside-out. Then Ms. Mwangi found a workaround to access some of the newly installed sensors’ meteorological data. It was a novelty thing, setting up a local ‘weather service’ for the block, putting updates on our community forum. Didn’t take long for others to start experimenting with the grid. Then, bit by bit, we’ve been able to make the neighborhood its own space.”
 
-Redesigning city tech and data, snatched from the same platforms that mediate Raleigh’s web of embedded smart systems — to Kurt, this all sounded like an act of rebellion or performance art. Something that would be helmed by a hacktivist group trying to get some attention, perhaps a digital artist who’d “reclaim” the block for a week before returning it to the original state. This was absolutely mundane in comparison, a disorganized group of neighbors gradually chipping away at the integrity of the local smart grid.
+Redesigning city tech and data, snatched from the same platforms that mediated Raleigh’s web of embedded smart systems — to Kurt, this all sounded like an act of rebellion or performance art. Something that would be helmed by a hacktivist group trying to get some attention, perhaps a digital artist who’d “reclaim” the block for a week before returning it to the original state. This was absolutely mundane in comparison, a disorganized group of neighbors gradually chipping away at the integrity of the local smart grid.
 
 “The city’s caught on,” Connor said. “So you’re actually incorrect, Mr. Leonard — there is most certainly a ransomware situation. It’s just that it’s not instigated by hackers, but by state and private actors.”
 
@@ -156,7 +156,7 @@ One of the kids returned to the cleaning robot with a smartphone, tapping at the
 
 “The kids love to test route-finding algorithms on that thing. They’re crude programs, but it keeps them entertained. All they do is set it loose in our yards, drag it back to the street for everyone to get a try running their own circuits, and dump camera logs onto their phones.”
 
-“Sounds like you all have found a way to trick them into doing homework.”
+“Sounds like you guys have found a way to trick them into doing homework.”
 
 “We could only wish for such, Mr. Leonard! They don’t approach their actual studies with nearly the same excitement.”
 
@@ -180,6 +180,6 @@ It took both of them by surprise when Kurt placed his computer briefcase on his 
 
 “Fair…Okay.”
 
-Kurt propped up the laptop, and logged out of the Quantus app on his phone. The Panic Button was now locked away.
+Kurt propped up the laptop and logged out of the Quantus app on his phone. The Panic Button was now locked away.
 
 “I won’t help you with anything illegal,” Kurt muttered, disconnecting from Quantus servers along with the city’s Wi-Fi. “But why not a complimentary consultation on your stolen data?”
