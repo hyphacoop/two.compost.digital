@@ -71,19 +71,6 @@ Hanami, we're so lucky to have you as part of our team—you continue to blow us
 
 we have so much gratitude for our monthly supporters on Open Collective. Thank you for believing in this project and supporting us on this journey!
 
-so much gratitude for 
-
-## ༓༝̩̩̥͙⊹ check these out ⊹༝̩̩̥͙༓
-
-```
-https://disco.coop/
-https://logicmag.io/
-https://www.are.na/
-https://newart.city/
-https://alt-text-as-poetry.net/
-https://www.memory-work.com/
-```
-
 
 ## ＊✿❀ BIG thank you to our supporters + partners! ❀✿＊
 {{< rawhtml >}}
