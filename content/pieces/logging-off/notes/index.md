@@ -40,7 +40,7 @@ I believe, as Daniella does, that Indigenous issues are not confined to the past
 
 > We envision a Bay Area in which Ohlone language and ceremony are an active, thriving part of the cultural landscape, where Ohlone place names and history is known and recognized and where intertribal Indigneous communities have affordable housing, social services, cultural centers and land to live, work and pray on.
 
-To learn more about their work, I recommend Ryan Kost’s article, ‘[The Ohlone are building a new homeland in the East Bay, 1 half-acre at a time](https://www.sfchronicle.com/culture/article/The-Ohlone-are-building-a-new-homeland-in-the-15866001.php)’ in the SF Chronicle.
+To learn more about their work, I recommend Ryan Kost’s article, “[The Ohlone are building a new homeland in the East Bay, 1 half-acre at a time](https://www.sfchronicle.com/culture/article/The-Ohlone-are-building-a-new-homeland-in-the-15866001.php)” in the SF Chronicle.
 
 The work Sogorea Te’ is doing reminds me powerfully of the Anishinaabe scholar Deborah McGregor’s research on Indigenous ecological justice. In “[Coming Full Circle: Indigenous Knowledge, Environment, and Our Future](https://muse.jhu.edu/article/181500)”, she considers the important of Indigenous knowledge in addressing contemporary ecological issues:
 
