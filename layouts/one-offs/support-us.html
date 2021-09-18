@@ -17,13 +17,19 @@ pattern-background
   <section class="donation-callout support-us-section">
     <div class="donation-buttons">
       <div class="button-row">
-        <a class="donation-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
+        <a class="donation-button theme-button" href="https://opencollective.com/compost/contribute/backer-22573/checkout"
           target="_blank">Become a subscriber</a>
-        <a class="donation-button" href="#web-monetization">Get Web Monetization</a>
+        <a class="donation-button theme-button" href="#web-monetization">Get Web Monetization</a>
       </div>
       <div class="button-row">
-        <a class="donation-button" href="https://opencollective.com/compost" target="_blank">Contribute money</a>
-        <a class="donation-button" href="https://gitcoin.co/grants/1385/compost" target="_blank">Contribute crypto</a>
+        <a class="donation-button theme-button" href="https://opencollective.com/compost" target="_blank">Contribute money</a>
+        <a class="donation-button theme-button" href="https://gitcoin.co/grants/1385/compost" target="_blank">Support us on Gitcoin</a>
+      </div>
+      <div class="button-row">
+        <button onclick="copyText('copy-eth-text', 'copy-eth-icon', 'compostmag.eth copied', 'compostmag.eth')" id="copy-button"  class="donation-button theme-button">
+          <span id="copy-eth-text">Contribute ETH or tokens</span>
+          <img src="/images/copy-icon.svg" id="copy-eth-icon" />
+        </button>
       </div>
     </div>
   </section>
@@ -91,6 +97,7 @@ pattern-background
 {{ end }}
 
 {{ define "scripts" }}
+<script src="{{ (resources.Get "js/copy-text.js").RelPermalink }}"></script>
 <script>
   var goals = JSON.parse({{ (index .Site.Data "fundraising-goals") | jsonify }})
 </script>

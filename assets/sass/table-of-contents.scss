@@ -83,6 +83,7 @@
   .toc-body {
     max-width: $desktop-homepage-width;
     margin: 0px auto;
+    padding: 20px;
     
     .toc-nav-container {
       display: flex;
@@ -90,7 +91,7 @@
       .toc-nav-links {
         display: flex;
         flex-direction: column;
-        font-family: $title-sans-serif;
+        font-family: $sans-serif-font;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 30px;
@@ -162,13 +163,14 @@
             width: 100%;
             max-height: 100%;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            aspect-ratio: 2/1;
           }
         }
 
         .toc-piece-title {
           width: 350px;
           margin-top: 8px;
-          font-family: $title-sans-serif;
+          font-family: $sans-serif-font;
           @include title-style;
           font-weight: bold;
           font-size: 1.4em;

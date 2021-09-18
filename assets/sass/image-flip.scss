@@ -34,7 +34,7 @@
         width: 100%;
         background: rgba(0,0,0,0.75);
         padding: 6px;
-        font-family: $monospace;
+        font-family: $monospace-font;
         font-size: 0.75em;
         color: white;
         text-align: center;
@@ -69,7 +69,7 @@
         .metadata {
           padding: 20px;
           font-size: 0.9em;
-          font-family: $monospace;
+          font-family: $monospace-font;
 
           .title {
             font-weight: bold;

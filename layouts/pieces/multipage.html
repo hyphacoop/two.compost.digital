@@ -39,14 +39,19 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
 
     <div class="author-name">{{ $author.name }}</div>
 
-    <div id="multipage" class="season-{{ .Params.season }}">
-      {{ if isset .Params "post-count" }}
-        <p>Post count: {{ .Params.Get "post-count" }}</p>
-      {{ end }}
+    {{/* CELINE: this is where I am using the season param as a class */}}
 
-      {{ if isset .Params "rank" }}
-        <p>Rank: {{ .Params.Get "rank" }}</p>
-      {{ end }}
+    <div id="multipage" >
+      <div class="frontmatter">
+        <div class="season-{{ .Params.season }}"></div>
+        {{ if and (isset .Params "post-count") (isset .Params "rank") }}
+          <div class="forum-statistics">
+            <p class="posts"><span>Posts</span> {{ .Params.Get "post-count" }}</p>
+            <p class="rank"><span>Rank</span> {{ .Params.Get "rank" }}</p>
+          </div>
+        {{ end }}
+      </div>
+
       <div class="content">
 
         {{ .Content }}
@@ -55,7 +60,10 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
           <ul class="list-unstyled">
           {{ range .Params.links }}
               <li>
-                  <a href="{{.to}}" class="page-link">{{.text}} &#9656;</a>
+                <a href="{{.to}}" class="page-link">
+                  <span>{{ .text | markdownify }}</span>
+                  <span class="icon">&#8250;</span>
+                </a>
               </li>
           {{ end }}
           </ul>
