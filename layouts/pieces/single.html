@@ -55,7 +55,7 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
       <script src="{{ (resources.Get "js/fetch-markdown.js").RelPermalink }}"></script>
       <div class="copy-markdown">
         <strong>{{ $license }}</strong>
-        <p>If you would like to share this piece elsewhere, you are welcome to re-publish it under the terms of the license. Click below to copy the markdown.</p>
+        <p>We built this little tool for you to inoculate other web spaces with the ideas and stories contained in this issue. To re-publish this piece under the terms of the license, click below to copy the markdown.</p>
         <button onclick="fetchMarkdown({{$markdownUrl}})" id="copy-button" class="theme-button font-monospace">
           <span id="copy-button-text">Copy markdown</span>
           <img src="/images/copy-icon.svg" id="copy-icon" />
