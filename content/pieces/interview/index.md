@@ -9,7 +9,7 @@ weight: 11
 
 Influencers, Instagram, the proliferation of state propaganda—today’s political economy runs on attention. “Value” is abstracted; speculation determines worth. The incalculable messiness of the world is flattened by predictable capitalist logic. But for Sultana Zana, the tools of the market also hold the possibility of subverting the market. As the digital world births new hydras of monopoly, the global finance machine can become a spore itself: seeding authentic entanglements, cultivating an economy of slowness, and redirecting our attention to wilderness everywhere.
 
-Based in Bangalore, [Zana](https://whattt.cargo.site/) is a performer, painter, sound artist, researcher, media artist, physicist, former nano-technologist, mycelial-enthusiast, insect-fanatic, and network-inoculator. Their home is a lab where everything is inoculated with everything else—and they take the same approach to the rest of their work. In [Heaven 2.0](https://www.youtube.com/watch?v=eHzXXu9elUk), an intelligent assistant teaches a time traveling soil expert about a future cyber-based world, invoking the metaphor of a mycelial network to meditate on the critical threats to our common future. [Landscapes](https://www.youtube.com/watch?v=xlYnBqTkQps) scales up the elegant complexity of our belowgrounds, compiling field recordings from various patches of the Earth in order to transport us to a perceptual world 300 times smaller than our own. (“Unpredictable chaos is beautiful by its very nature because it fails systemic opression,” they write. “This unpredicatble chaos might kill me, but its beauty is not lost to me.”)
+Based in Bangalore, [Zana](https://whattt.cargo.site/) is a performer, painter, sound artist, researcher, media artist, physicist, former nano-technologist, mycelial-enthusiast, insect-fanatic, and network-inoculator. Their home is a lab where everything is inoculated with everything else—and they take the same approach to the rest of their work. In [Heaven 2.0](https://www.youtube.com/watch?v=eHzXXu9elUk), an intelligent assistant teaches a time traveling soil expert about a future cyber-based world, invoking the metaphor of a mycelial network to meditate on the critical threats to our common future. [Landscapes](https://www.youtube.com/watch?v=xlYnBqTkQps) scales up the elegant complexity of our belowgrounds, compiling field recordings from various patches of the Earth in order to transport us to a perceptual world 300 times smaller than our own. (“Unpredictable chaos is beautiful by its very nature because it fails systemic opression,” they write. “This unpredicatble chaos might kill me, but its beauty is not lost to me.”){{< figure src="fieldness.jpg" alt="A screenshot of the fieldness frontend." class="has-shadow" caption="Screenshot of the fieldness frontend via Sultana Zana" >}}
 
 The polymath’s current project, [Fieldness](https://sultanazana.github.io/fieldness.io/), is their most notable experiment yet: an open-source blockchain and ecological database converting experiences with non-human beings into crypto-assets. “Tap into wilderness that is everywhere,” Zana urges, “even though the capitalistic monoculture has really killed the vibe.”
 
@@ -21,7 +21,7 @@ Stemming from our commitment to collaborative and decentralized forms of knowled
 <p style="text-align: right"><em>—COMPOST</em></p>
 {{< /rawhtml >}}
 
-{{< anigif name="flower" >}}
+{{< anigif name="bamboo_slow" >}}
 
 **Mai:** Where do you come from, both in terms of life experiences and creative shaping?
 
@@ -34,6 +34,8 @@ Stemming from our commitment to collaborative and decentralized forms of knowled
 Our social behaviour—sitting in a certain way, talking in a certain way—are traditional, cultural; these habits and learnings influence certain boundaries on us. And our cognitive plasticity eats all of this learning, imprinting these things in our mind. 
 
 In my work I attempt to shift this, or break this. This is possible only momentarily, but that is enough. A moment can transform one. That leaves something with the viewer, in experiencing whatever form of work that I make. 
+
+{{< figure src="fieldness.jpg" alt="A screenshot of the fieldness frontend." class="has-shadow" caption="Screenshot of the fieldness frontend via Sultana Zana" >}}
 
 **Mai**: To come to this sort of practice by way of an engineering background, you must have reached a certain level of disillusionment. What was your [Matrix moment](https://www.urbandictionary.com/define.php?term=Matrix%20Moment )? 
 
@@ -55,11 +57,11 @@ In government universities in India, there are huge sprawling areas that are mos
 
 **Sultana**: The space that I'm occupying right now is not very different from the kind of spaces that you are occupying, but of course there will be differences. In my experience of being in the West, what is understood to be okay and not okay between people is quite different. Here, because we're so densely populated, or maybe it is just cultural, it is a lot more porous. At the same time—if we look at caste, at the segregation of neighborhoods and villages and towns, between Hindus and Muslims—it is not. But that's not my day-to-day; everybody's day-to-day is their own sort of microcosm. This porosity is not geographically bound. In the West, there's a lot more distance between people. It will be a lot of time before I can ask you a personal question. But these bubbles we live in are not bound by geography alone anymore. 
 
+{{< figure src="banner.png" alt="A banner image for Fieldness." class="has-shadow" caption="A banner image for Fieldness via Sultana Zana" >}}
+
 **Tal**: As we’ve been thinking up inoculation together, we’ve been talking about your project [Fieldness](https://sultanazana.github.io/fieldness.io/), which so beautifully expands this issue’s conversations about value, networks, crypto-schemes for connection. Can you unpack the project for us? 
 
 **Sultana**: “Fieldness” comes from two different ideas I was sitting on. One of them is the question of what is value and what is valuable. It doesn’t make sense. To cut down a one thousand year old Amazon rainforest to plant palm oil trees? Even with the cost benefit analysis, which is a capitalist way of seeing, it doesn't make sense. One can see this, and yet we continue to strive for things which actually are not that valuable.
-
-{{< figure src="fieldness.jpg" alt="A screenshot of the fieldness frontend." class="has-shadow" caption="Screenshot of the fieldness frontend via Sultana Zana" >}}
 
 The other thing that I was looking at is this idea of paranodality. There’s a book called _[Off the Network](https://www.upress.umn.edu/book-division/books/off-the-network)_ by Ulises Ali Mejias that explains this idea, and which really speaks to what I mean when I say my practice is looking at what is hidden. 
 
@@ -67,7 +69,7 @@ If I say “network,” you'll imagine dots and edges, the standard diagram, or 
 
 Whenever we open a map, for Uber or whatever, we see roads, malls, shops, restaurants, coffee shops, other kinds of places to buy things, maybe a park or two. We see the map and it makes us believe that we are seeing almost everything, but that can almost never be true. What we don't see, what doesn't make it to the map, is what I'm interested in. 
 
-Even in the middle of Delhi—the most dense city, which has been occupied for hundreds of years—I can still find places which are quiet, where there are birds and trees, where it's actually wild. There’s a book called _[Trees of Delhi](https://www.thriftbooks.com/w/trees-of-delhi-a-field-guide/12484346/item/44435170/?gclid=Cj0KCQjwpreJBhDvARIsAF1_BU2tqpGLltzzPLTvuwKoFruy-4QEPQivEwy9kn4_2BmR2kt0Nqao0XEaAo2jEALw_wcB#idiq=44435170&edition=59106690)_ by [Pradip Krishen](https://www.google.com/search?q=Pradip+Krishen&stick=H4sIAAAAAAAAAOPgE-LRT9c3NErKNcsqNktT4tTP1TdIqygwztWSyU620k_Kz8_WLy_KLClJzYsvzy_KtkosLcnIL1rEyhdQlJiSWaDgXZRZnJGat4OVEQCnVgqKTQAAAA&sa=X&ved=2ahUKEwjwwcrLrtzyAhVlS98KHQjsDHEQmxMoAHoECEsQAg) who has written about all the trees in this city. They exist everywhere; everywhere this non-human life flourishes. Fieldness is meant for these margins. It is a queerness of sorts, because there are always margins of all kinds. _That _is what Fieldness is. 
+Even in the middle of Delhi—the most dense city, which has been occupied for hundreds of years—I can still find places which are quiet, where there are birds and trees, where it's actually wild. There’s a book called _[Trees of Delhi](https://www.thriftbooks.com/w/trees-of-delhi-a-field-guide/12484346/item/44435170/?gclid=Cj0KCQjwpreJBhDvARIsAF1_BU2tqpGLltzzPLTvuwKoFruy-4QEPQivEwy9kn4_2BmR2kt0Nqao0XEaAo2jEALw_wcB#idiq=44435170&edition=59106690)_ by [Pradip Krishen](https://www.google.com/search?q=Pradip+Krishen&stick=H4sIAAAAAAAAAOPgE-LRT9c3NErKNcsqNktT4tTP1TdIqygwztWSyU620k_Kz8_WLy_KLClJzYsvzy_KtkosLcnIL1rEyhdQlJiSWaDgXZRZnJGat4OVEQCnVgqKTQAAAA&sa=X&ved=2ahUKEwjwwcrLrtzyAhVlS98KHQjsDHEQmxMoAHoECEsQAg) who has written about all the trees in this city. They exist everywhere; everywhere this non-human life flourishes. Fieldness is meant for these margins. It is a queerness of sorts, because there are always margins of all kinds. _That_ is what Fieldness is. 
 
 {{< figure src="walk.jpg" alt="Walking inside Delhi's Sanjay Van." class="has-shadow" caption="A picture of a walk inside Delhi's Sanjay Van via Sultana Zana" >}}
 
@@ -116,6 +118,7 @@ But for something which is not a centralized network like we are, which is mycel
 **Wakest**: “I have so many fruiting bodies,” wow! The idea of our thoughts and activity online being our fruiting body is beautiful. There is never such a thing as a static network. It is always messy and chaotic and alive. Permanent entropy and growth.
 
 {{< figure src="dissolving.jpg" alt="A moth in camouflage" class="has-shadow" caption="A photo of a moth in camouflage via Sultana Zana" >}}
+{{< figure src="awareness.jpg" alt="A moth in camouflage" class="has-shadow" caption="Another photo of a moth in camouflage via Sultana Zana" >}}
 
 **Sultana**: We are unable to think of a sort of decentralized thing; we haven't and I don't think it's possible. But it's nice to try to dissipate the center, to question where the attention is. For mycelium, there’s a sense of time, a sense of night and day, of when the moon comes, of when monsoon summer comes—because it’s all related to how mushrooms sprout. Mycelium might not know the earth is round, but that’s irrelevant here. It's irrelevant to me, also; it doesn't give me anything. What does it mean to have multiple points of attention at the same time? How does a network make decisions? How do we transfer intelligences amongst each other? That’s what fascinates me. 
 
@@ -127,7 +130,7 @@ You alluded to this a bit in your answer just now, but can you elaborate on your
 
 **Sultana**: We are in the middle of this huge shift. We’re changing who we are. One hundred years ago, one individual would function in certain social patterns and species, and we evolved for that sort of local social structure. Now we’re moving into both a global web structure as well as an individualistic one. And in this process we are terraforming the planet, we're losing our species, we're going through mass extinction. I don't think I can answer your question, but I can say what my observations are, about why it seems impossible to slow down, or to not become obsolete. 
 
-**TK**: It seems like the centrality of a node is related to the perception of time. 
+**Udit**: It seems like the centrality of a node is related to the perception of time. 
 
 **Sultana**: We need to be active to keep being in the nodal space of the world. The sort of feeling like, “Oh, it’s been a while, I should put an Instagram story today, otherwise people will forget me.” I’ll just drop into the darkness of the binodal space, where the networks we’re in we are not considered to be in. We created the web, and now we're creating lots of worlds on top of the web—and, on a planet of 7 billion people, about a billion people are working to do that every single day. Every bit of food I have eaten with my own money has been given to me because I created something which went on the web. 
 
