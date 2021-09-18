@@ -2,6 +2,7 @@
 title: Growth Through Replication
 subtitle: 'the .GIF PRAXIS of LIAIZON WAKEST'
 tableOfContentsImageUrl: ./images/title-images/wakest-cover-700x350.gif
+description: Ritualistic curation of nature into the digital realm.
 titleImageUrl: ./images/title-images/wakest-cover-700x350.gif
 author: Liaizon Wakest
 weight: 10
@@ -134,6 +135,6 @@ weight: 10
     </center>
 </div>
 
-<p>All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest.</p>
+<p>_All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest._</p>
 
 {{</rawhtml>}}
