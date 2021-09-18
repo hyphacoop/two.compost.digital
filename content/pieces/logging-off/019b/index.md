@@ -6,7 +6,7 @@ order: celine
 # custom frontmatter
 customClass: cn-foraging-piece
 links:
-  - text: The end
+  - text: The end (and resources)
     to: '../resources'
 season: spring
 ---

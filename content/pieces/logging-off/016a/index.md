@@ -35,7 +35,7 @@ You are so relieved that Daniella’s text comes as a surprise: *I can’t stand
 
 You watch her texts come in, line after line, filling up your screen.
 
-*It’s just very obvious that the whole thing seemed irrelevant to people. Not worth talking about. It’s just this inexplicable, historical accident that we live here and others have been pushed to the margins. This ambiguous, distant tragedy that’s completely irrelevant to our lives today, strolling through the forest and seeing how small and impoverished it becomes every year.*
+*It’s very obvious that the whole thing seemed irrelevant to people. Not worth talking about. They act like it's this inexplicable, historical accident that we live here and others have been pushed to the margins. An ambiguous, distant tragedy that’s completely irrelevant to our lives today, strolling through the forest and seeing how small and impoverished it becomes every year.*
 
 *And if all I’m doing is posting on a forum of ten thousand strangers about Indigenous erasure—then what? I write these performative, pointless comments and wallow in guilt, and everything stays the same.*
 
