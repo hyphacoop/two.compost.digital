@@ -8,7 +8,7 @@ footnotesUrl: "footnotes.json"
 description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
 markdown: ../../markdown/a-confluence-of-waters.md
 weight: 9
-license: Copyright 2021 Andi Wong and Margaret Warren
+license: CC-BY-SA
 ---
 
 In the Summer of 2019, we — Andi Wong and Margaret Warren — met for the first time at one of the Friday lunches at the Internet Archive headquarters on Funston Street in San Francisco. We met while planning art activities for the Decentralized Web Camp, and it was there that Andi first shared a blue marble with Margaret. But that is not where this story begins, and it’s certainly not where it will end. 

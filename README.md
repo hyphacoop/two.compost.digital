@@ -41,6 +41,9 @@ titleImageAlt: # Alt text. this is weakly optional
 endingImageUrl: ./images/angelica-gifs/mantis_computer.gif # this is optional
 endingImageAlt: # Alt text. this is weakly optional 
 weight: 1 # This determines the page order. Pages with lower weight will come first.
+markdown: # Optional: relative link to the markdown file corresponding to this piece.
+license: # Optional: specify the license that appears in the copy markdown section. Default is CC-BY-SA.
+customClass: # Optional: a custom class that will be applied to the main container of the piece.
 ---
 ```
 
