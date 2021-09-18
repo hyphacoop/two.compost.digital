@@ -65,11 +65,15 @@ https://getdweb.net/
 
 ## SHOUT OUTS  ＼(＾▽＾)／
 
-Thank you Sharon! (Add more here)
+Huge thank you to Sharon of Nomadic Labs for building our website so thoughtfully and beautifully.
+
+The gifs scattered throughout this issue were madey by liaizon wakest. Thank you for bringing a little part of Kickapoo to our magazine!
+
+Thanks for working away behind the scenes, Elon and Yurko! We truly appreciate all your support.
 
 Hanami, we're so lucky to have you as part of our team—you continue to blow us away with your skills.
 
-we have so much gratitude for our monthly supporters on Open Collective. Thank you for believing in this project and supporting us on this journey!
+We have so so so much gratitude for our monthly supporters on Open Collective. Thank you for believing in this project and supporting us on this journey!
 
 
 ## ＊✿❀ BIG thank you to our supporters + partners! ❀✿＊
