@@ -4,6 +4,7 @@ subtitle: Exploring Connections with The Blue Marbles Project
 author: Andi Wong and Margaret Warren
 tableOfContentsImageUrl: ./images/title-images/bluemarbles-700x350.jpg
 titleImageUrl: ./images/title-images/bluemarbles-700x350.jpg
+footnotesUrl: "footnotes.json"
 description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
 markdown: ../../markdown/a-confluence-of-waters.md
 weight: 9
@@ -73,7 +74,7 @@ J often asks people the question: ‘Where is your water?’ to kick off a conve
 
 Scientists and teachers spend a lot of time crafting thoughtful, open-ended questions when they want more than a simple “yes” or “no” answer. 
 
-In 2010, Andi went to hear J talk about sea turtles, after an introductory email exchange about water. She wrote to ask J about his view of the changing waters of the Gulf of Mexico, after seeing his CNN video report about the Deepwater Horizon oil spill online.[^1] When J asked Andi this question, she really had to think before answering. 
+In 2010, Andi went to hear J talk about sea turtles, after an introductory email exchange about water. She wrote to ask J about his view of the changing waters of the Gulf of Mexico, after seeing his CNN video report about the Deepwater Horizon oil spill online.{{< footnote "1" >}} When J asked Andi this question, she really had to think before answering. 
 
 ## Andi’s Water
 
@@ -135,17 +136,41 @@ My water continues beyond Angel Island, flowing past the Golden Gate Bridge to S
 
 For the past twenty years, I’ve worked in San Francisco public schools, as a teaching artist — a phrase coined to describe “an active artist who chooses to also develop the skills of teaching in order to activate a variety of learning experiences that are catalyzed by artistic engagement.” When the COVID-19 pandemic shuttered both schools and theaters, I focused on supporting two groups that struggled to adapt to the pandemic, often with limited access and experiences with technology: artists and elders. 
 
-Now I’m serving as project manager, researcher/archivist, and community liaison for a project called “Angel Island Insight,” with the Del Sol String Quartet and The Last Hoisan Poets. My work with poets Genny Lim, Flo Oy Wong, and Nellie Wong, also descendents of Angel Island immigrants, has filled me with a richer understanding and gratitude for the survival instinct and wisdom exhibited by the Chinese American diaspora. These vibrant elders taught me _“haw meong suey,_” an expression that literally means “Good Life’s Water” in Hoisan-wa, the dialect spoken by early Chinese immigrants.[^2] By writing new poems in Hoisan-wa, they are keeping the history and language of our ancestors alive and vibrant, in a time when intercultural understanding and cooperation are needed more than ever. Del Sol, unable to perform for audiences in concert venues, struggled with latency issues while streaming on Zoom. They pivoted to playing free outdoor pop-up concerts and commissioning composers to write new short musical works to inspire joy. 
+Now I’m serving as project manager, researcher/archivist, and community liaison for a project called “Angel Island Insight,” with the Del Sol String Quartet and The Last Hoisan Poets. My work with poets Genny Lim, Flo Oy Wong, and Nellie Wong, also descendents of Angel Island immigrants, has filled me with a richer understanding and gratitude for the survival instinct and wisdom exhibited by the Chinese American diaspora. These vibrant elders taught me _“haw meong suey,_” an expression that literally means “Good Life’s Water” in Hoisan-wa, the dialect spoken by early Chinese immigrants.{{< footnote "2">}}} By writing new poems in Hoisan-wa, they are keeping the history and language of our ancestors alive and vibrant, in a time when intercultural understanding and cooperation are needed more than ever. Del Sol, unable to perform for audiences in concert venues, struggled with latency issues while streaming on Zoom. They pivoted to playing free outdoor pop-up concerts and commissioning composers to write new short musical works to inspire joy. 
 
 The history of the Chinese on Angel Island, America’s own immigration history, remains unknown to many. But when audiences board the ferry to Angel Island for performances by Del Sol in October, this artistic exploration of the history of immigration and exclusion will be presented with _“haw meong suey,”_ a healing dose of ocean. For me, this was yet another surprising chapter in an epic voyage that began with the gift of a blue marble from Dr. Wallace J. Nichols at Gray Area Foundation for the Arts on July 29, 2010.
 
 At that event, four large water coolers were lined up on a table, each filled with a colorful flotsam of plastic demonstrating the increasing levels of plastic pollution accumulating in our oceans from 1910, 1960, 2010, to 2030 — an ominous depiction of the future, if no interventions were taken. Neat rows of stacked glass tumblers issued a silent dare to drink. _Plastic Century_ was an experiential art installation created for World Oceans Day and the 100th anniversary of Jacques Cousteau’s birth. J and his project’s co-creators wished to convey the “feeling of strangeness, discovery, disgust, and delight… what we want to remain with people as they walk out into the great big plastic world.” 
 
-image 09 - nichols at gray area foundation [https://imgsnp.co/6vlkb](https://imgsnp.co/6vlkb) 
+{{< imgflip
+  file="nichols_gray_area.jpeg"
+  alt="Seated in the art gallery, Dr. Wallace J. Nichols holds up one blue marble as he explains The Blue Marbles Project."
+  title="The Blue Marbles Project: Wallace J. Nichols (2010)"
+  copyright_notice="2010 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+Dr. Wallace J. Nichols gave everyone one blue marble and shared the simple instructions for playing the "blue game." 
 
-image 10 - schoolchildren with coolers  [https://imgsnp.co/t7kpx](https://imgsnp.co/t7kpx) 
+The marble has to be blue (any shade, and preferably made of recycled glass). When you get one, you should think of someone that you would like to give the marble to as a token of gratitude (whenever and wherever you like). Share your story with the world (however you like). 
 
-      
+I received my Blue Marble and learned about The Blue Marbles Project on July 29, 2010 when I went to hear J talk about his first-hand look at the oil spill in the Gulf at the Gray Area Foundation for the Arts. 
+
+Earlier in the year, my school served as collection center for Mel Chin's Fundred Project, a national collaborative art project, designed to allow the nation’s children to be a part of the solution to eliminate the devastating effects of lead-contaminated soil in New Orleans and other cities. On February 17, 2010, an armored truck drove from New Orleans to Rooftop Alternative School in San Francisco to pick up a bank box filled with artistic currency created by schoolchildren.
+{{< /imgflip >}}
+
+{{< imgflip
+  file="plastic_century.jpeg"
+  alt="A young boy eagerly fills his glass cup from the fourth water cooler, which jam packed with colorful jetsam representing the amount of plastic pollution in our oceans in 2030, as a concerned parent looks on."
+  title="Open House: Plastic Century (2010)"
+  copyright_notice="2010 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+Everyone is welcome to drink from the Century of their choice.
+
+Plastic Century is a hybrid science, art and futures project, created to make visible a phenomenon so widespread that it has become virtually invisible. The piece was created by a team of futurists, scientists, and artists, Jake Dunagan, Stuart Candy, Wallace J. Nichols and Sarah Kornfeld. 
+
+The installation consists of a series of water dispensers, each of which contains an amount of plastic that is indexed to the cumulative total produced on the planet so far.  They start from Cousteau’s birth year of 1910, run through the present 2010, and project out to 2030. Would you dare to drink?
+{{< /imgflip >}}
 
 J was there to speak about his first-hand impressions of the Deep Water Horizon disaster, the largest marine oil spill in history. He had just returned from New Orleans after filming apocalyptic scenes of the ocean on fire from a helicopter. In Louisiana, he had walked on beaches littered with tar balls; filming and describing the details to his daughters. When I came across his report on CNN, I was sickened by his images of waters roiling in an oily sheen of sickly hues of yellows, reds, and white. “The Gulf,” he said,  had become “the world’s largest petri dish.” with the unprecedented use of the chemical dispersant, COREXIT.
 
@@ -155,7 +180,7 @@ Noting that scientists are not often known for speaking about love, J spoke open
 
 I had just taken a new position at school: working in the computer lab. Excited to find ways that the arts might be integrated with technology, I soon discovered that all the kids really wanted to do in the lab was play a computer game called Marble Blast, where players roll a small marble through a variety of obstacles courses, without falling “Out of Bounds.” If you made it to the end, you were rewarded with a big burst of fireworks. 
 
-![alt_text](images/image2.gif "image_tooltip")
+![images of a game called marbled blast](game.gif "images of a game called marbled blast")
 
 When I asked the kids why they liked playing the game, I learned that they knew that if they kept playing the game, they would improve. And one boy told me that he liked this game because he knew he could never die in it.
 
@@ -163,33 +188,104 @@ It was then that I decided what I would do that fall with my class. We would pla
 
 When very young children draw their blue marbles close to their eyes while looking into the light, they will tell you that they see a whole menagerie of creatures, both real and imaginary — dolphins and whales, sea turtles and fish, merpeople and pirate ships. The children are eager to share what they see, and their eyes shine bright with wonder. 
 
-image 11 - menagerie [https://imgsnp.co/9nqig](https://imgsnp.co/9nqig)
+{{< imgflip
+  file="menagerie.jpeg"
+  alt="One blue marble is surrounded by a colorful collection of glass animals displayed on a protective bed of white bubble wrap."
+  title="The Blue Marbles Project: The Glass Menagerie (2013)"
+  copyright_notice="2013 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+The Glass Menagerie on display in the Japantown Mall: An eclectic mix of land and sea creatures and one Blue Marble. The word, ménagerie, comes from a 16th century Old French term, manage, referring to a household or family dwelling.
+{{< /imgflip >}}
 
 When I asked the children if it might be possible to pass a blue marble through the hands of everyone on Earth, they answered enthusiastically, “Yes!” The follow up question, “Can you do it by yourself?” made it clear that we would need to ask others for help. 
 
 At first, we only had one blue marble to play with. I asked the class, if they could send the Blue Marble anywhere on Earth, where would they like to see the marble go? After much discussion, the children decided that they wanted to see the Blue Marble at The World Series. We had to figure out a way. Incredibly, within minutes, we discovered Mr. Rogers, a fourth grade teacher, would help. 
 
-image 12 - children mapping [https://imgsnp.co/a5lxg](https://imgsnp.co/a5lxg)
+{{< imgflip
+  file="mapping.jpeg"
+  alt="The children point at a map of the world marked with blue sticker dots."
+  title="The Blue Marbles Project: Mapping (2011)"
+  copyright_notice="2011 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+The children gather, pointing at the map of the world, posted on the wall in the computer lab. They mark the places that they have virtually visited with blue sticker dots, while pointing out the new places that they wish to see.
+{{< /imgflip >}}
 
 The next stop was Cuba, a place that was near impossible for most children to visit. The children’s imaginations caught fire. We bought a case of marbles and the game was on. Together, we traveled with Blue Marble to see the world beyond the United States. The Colosseum in Rome. The Berlin Wall. The Eiffel Tower. The Taj Mahal. The Great Wall of China! Family and friends helped the children to see the world by sharing their adventures through photographs and correspondence on Facebook. 
 
 It took three years, but the children finally achieved their goal to visit every continent on Earth, when a Blue Marble made it to Antarctica. Blue Marble followed the water, traveled across the Sahara Desert by camel, crossed the Alaskan frontier on the Iditarod, via gondola, rickshaw, airplane, and submarine.
 
-![alt_text](images/image3.gif "image_tooltip")
+![images of blue marbles around the world](around_the_world.gif "images of blue marbles around the world")
 
 As the children learned about the Ocean and her importance to all life on Earth, they grew eager to apply their knowledge. They learned how to reduce, reuse, recycle, and ultimately refuse the plastic that soils their beaches by sewing their own cloth lunch bags. We sponsored a nest in the Yucatan Peninsula and celebrated the birth of sea turtle hatchlings. The third graders premiered _Chelonia’s Story_, an original opera about a young sea turtle and an ocean scientist who gently sings that captive turtles should be returned to the sea. On International Biodiversity Day 2016, the children used a new technology called Zoom, which was still relatively unknown then, to broadcast their sustainability fair celebration to a classmate in Saint Petersburg, Russia. 
 
-image 13 - vivazul [https://imgsnp.co/g1y6i](https://imgsnp.co/g1y6i)		
+{{< imgflip
+  file="vivazul.jpeg"
+  alt="One blue marble bathed in sunlight rests in the sand below a sign shaped like a sea turtle that reads, “Gracias por adopter mi nida! - Rooftop’s True Blue Angels - Vivazul.”"
+  title="The Blue Marbles Project: Vivazul Sea Turtles (2012)"
+  creator="Enriqueta Ramirez" >}}
+ViVAZUL El Salvador cared for this turtle nest, sponsored with proceeds earned from recycling waste gathered at school by students - old toothbrushes, juice bags, ziploc bags, used printer cartridges, broken cell phones and cameras. The children enjoyed knowing that they could help sea turtles by keeping these items out of the garbage with Terracycle.org. Although the main season for sea turtles is during El Salvador's "winter" in July- November, this nest was saved from an olive ridley mom on January 14th. Coincidentally, the nest has 72 eggs. Since Rooftop School was founded in 1972, this sea turtle nest was a great way to celebrate the school's 40th Birthday
+{{< /imgflip >}}
 
-image 14 - sea turtle hatchlings  [https://imgsnp.co/71pni](https://imgsnp.co/71pni)		
+{{< imgflip
+  file="sea_turtle_hatchlings.jpg"
+  alt="Three newly hatched sea turtles swim in glistening water in an orange tub."
+  title="Three newly hatched sea turtles swim in glistening water in an orange tub."
+  copyright_notice="2012 Enriqueta Ramirez"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Enriqueta Ramirez" >}}
+First photos of the sea turtles hatchling from the sponsored nest in El Salvador. The nest with 72 eggs was saved from an olive ridley sea turtle on January 14, 2012. The students received the news that their sea turtles had hatched on March 4, 2012.
 
-image 15 - sea turtle welcome [https://imgsnp.co/av0d5](https://imgsnp.co/av0d5)
+The nest was sponsored, thanks to the efforts of the students who held a recycling drive to get "Cash for Trash." The students raised funds by recycling plastic bags, juice bags, toothbrushes and cell phones through Terracycle's free recycling programs.
+{{< /imgflip >}}
+
+{{< imgflip
+  file="sea_turtle_welcome.jpg"
+  alt="A student types a welcome message to a baby sea turtle named Jessica in the computer lab."
+  title="Sea Turtle Welcome (2012)"
+  copyright_notice="2012 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+Dear Jessica,
+
+Welcome to the Earth
+I am sorry there is so much trash
+I am doing all I can to help.
+Live a happy and long life.
+Love, Elena
+    Feels like you come from heaven.
+
+The students in the computer lab were invited to name their sea turtle hatchlings and use Google Translate to write a letter. These letters were sent to ViVAZUL El Salvador.
+{{< /imgflip >}}
 
 The project provided an opportunity for adults and children to learn together through play. When we made new connections between people and places, our planet felt a little smaller and nicer. There was a marble for everyone, so there was no worry about being left out. If a child lost a marble, we would ask what they might do differently and give them another to practice with. We all need to practice taking better care of our one Blue Marble. We are all in this together.
 
-image 16 - one cubic foot [https://imgsnp.co/j5487](https://imgsnp.co/j5487)    	
+{{< imgflip
+  file="one_cubic_foot.jpg"
+  alt="One blue marble rests on an upturned palm in front of a photographic print of 'One Cubic Foot of Sea Water' by David Liittschwager."
+  title="The Blue Marbles Project: One Cubic Foot (2012)"
+  copyright_notice="2012 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+One Blue Marble, held in front of a photograph by David Liittschwager depicting the organisms found in one cubic foot of sea water. The photograph by David Liittschwager was on display at Fort Point for For-Site's "International Orange," an art exhibit celebrating the 75th anniversary of the Golden Gate Bridge. David Liittschwager photographed organisms found in seawater collected directly below the bridge, continuing his One Cubic Foot series, which observes the density and diversity of life that exists within a 12-inch cube of soil, air, or sea. https://www.for-site.org/project/international-orange-david-liittschwager-one-cubic-foot-life-under-the-golden-gate-bridge/ http://www.liittschwager.com/
+{{< /imgflip >}}	
 
-image 17 - ocean mural  [https://imgsnp.co/l2r12](https://imgsnp.co/l2r12)
+{{< imgflip
+  file="ocean_mural.jpeg"
+  alt="The Ocean Mural, depicting the diverse sea life of the Channel Islands, was painted on the side of Bungalow B203."
+  title="The Ocean Mural (2018)"
+  copyright_notice="2018 Andi Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Andi Wong" >}}
+The Ocean Mural, depicting the ocean life of the Channel Islands, brought a splash of Blue Mind to the playground located high on a hill in the geographic center of San Francisco. Painted in 2000 by Ashley Wolff and Ms. Whitcomb's fourth grade class, the mural was painted in conjunction with class reading of Scott O'Dell's book, "The Island of the Blue Dolphins." 
+
+The students loved all of the creatures. Sea turtles, sharks, whales and fish became friends, but the humpback whale was a particular favorite for many. The children said that the mural made them feel as if they were really swimming in the sea. The ocean mural made them feel special, even more beautiful.
+
+With schoolyard renovation and installation of new portable classrooms, the B203 Ocean Mural was demolished on June 14, 2018. https://imgsnp.co/o4zus
+
+A bit of the flotsam was salvaged, and "The Holy Mackerel" resurfaced at the 2018 Decentralized Web Summit. https://imgsnp.co/p3ml2
+{{< /imgflip >}}	
 
 As time passed, the photo album of Blue Marble images grew, but with each school year, we also became more and more aware of the accelerating speed of environmental change. Would our photos eventually become a record of places transformed beyond recognition? Would the stories and information attached to the images be useful in the future? Social media platforms were being used to manipulate public opinion and spread disinformation, and I was looking for another way to work with my images. That’s when I met Margaret.
 
@@ -197,35 +293,79 @@ As if we were guided by two rivers headed towards a confluence, we met in 2019 w
 
 This is when I first learned of Margaret and her project: ImageSnippets. It was then that I asked her the question: “Where is YOUR water?”
 
-![alt_text](images/image4.jpg "image_tooltip")
+{{< imgflip
+  file="andi_gg.jpg"
+  alt="Andi Wong holding a blue marble on the Golden Gate Bridge"
+  title="The Blue Marbles Project: Andi Wong (2014)"
+  copyright_notice="2014 Young Wong"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Young Wong" >}}
+Andi with a very big smile holds a blue marble on the Golden Gate bridge. 
+{{< /imgflip >}}
 
-image 18 - Andi GG [https://imgsnp.co/j7cji](https://imgsnp.co/j7cji)  \
-image 19 - Margaret atlantic ocean [https://imgsnp.co/sshm7](https://imgsnp.co/sshm7)
+{{< imgflip
+  file="margaret_atlantic.jpeg"
+  alt="Margaret Warren on the Melbourne Florida Beach boardwalk with a blue marble and with the Atlantic ocean in the background."
+  title="Margaret in Indiatlantic"
+  copyright_notice="Margaret Warren"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Margaret Warren on the Central East Coast of Florida - Melbourne Beach, with a blue marble and with the Atlantic Ocean in the background. 
+{{< /imgflip >}}
 
-
-## **Margaret’s Water **
+## Margaret’s Water
 
 When I was a very little girl, my father would play marbles with me, but not in the traditional way with shooters and circles. Instead, we would take a big thick quilt, spread it out in a haphazard way and give it hills and valleys. Then we would take the marbles and move them around the quilted landscape. Maybe to my dad they were like little ‘troops,’ but I wanted to organize and study them. I grouped them by colors and types; categorized and counted. Later on, when our family would go flea market shopping, I so loved the marbles, it gave me my own little thing to seek out and collect while my parents collected cameras or other gadgets they were passionate about.
 
-image 20 marbles on quilt [https://imgsnp.co/125kq](https://imgsnp.co/125kq)
+{{< imgflip
+  file="marbles_on_quilt.jpeg"
+  alt="two blue marbles sitting on a ruffled quilt"
+  title="Blue Marbles on a Quilt"
+  copyright_notice="Margaret Warren"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Blue Marbles on a quilt made by a relative of Margaret Warren. This image was made for the Compost Magazine article about the Blue Marbles project. When Margaret was a little girl, her father used to play marbles with her when they would lay out quilts on the floor (probably this one was one of the actual quilts) and move marbles around the hills and valleys of the quilt in groups. 
+{{< /imgflip >}}
 
-image 21 marbles  [https://imgsnp.co/vsy82](https://imgsnp.co/vsy82)
+{{< imgflip
+  file="marbles.jpeg"
+  alt="marbles illuminated by light coming from behind them"
+  title="Marbles"
+  copyright_notice="Margaret Warren (2020)"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Backlighting on some marbles in Margaret Warren's marble collection.
+{{< /imgflip >}}
 
 Over the years, I have created many projects and professions, but most often I say I am an artist, a creator, a researcher and a technologist — even though I feel like these labels keep overlapping and meandering. Looking back, I can now see I’ve spent most of my life responding to an inner curiosity for things like making art and photographs, describing images, discovering synchronicities, and building networks of people and machinery. Rolling and tumbling from one eddy to another, my life itself has felt both fluid and yet also deliberately and persistently guided by a much deeper current. 
 
 My water begins in the very far western tip of Kentucky, where I was born within ten miles of the Mississippi River. I was born in the county seat in a little town called Clinton, not far from an even smaller town called Columbus, which sits on a bluff overlooking the river. In the 1800’s, Columbus was much larger; a busy port for trains, barges, steamboats and all kind of river traffic on North-South trade routes. From Chicago, Illinois to Mobile, Alabama to New Orleans, Louisiana, ferries moved travelers across the nearly mile-wide Mississippi as they journeyed westward seeking fame, fortune, and new opportunities. 
 
-Some of my ancestors started out to be some of those westward seekers, but they just didn’t make it past the river. In fact, one story told in my family is that they decided to settle in Kentucky because one of my great-great-great grandmothers had taken one look at the river and said, “I’m not crossing that!”[^3] (_Audio of this story, as told by Margaret’s great aunt recorded by Margaret’s father in 1976 ) _
+Some of my ancestors started out to be some of those westward seekers, but they just didn’t make it past the river. In fact, one story told in my family is that they decided to settle in Kentucky because one of my great-great-great grandmothers had taken one look at the river and said, “I’m not crossing that!”{{< footnote "3" >}}
 
-_[https://archive.org/details/mississippi_river_story](https://archive.org/details/mississippi_river_story)_
-
-image 22 - mississippi [https://imgsnp.co/4yrrw](https://imgsnp.co/4yrrw)
+{{< imgflip
+  file="mississippi.jpeg"
+  alt="Sunset over the Mississippi after the total eclipse"
+  title="...and yet it moves.."
+  copyright_notice="Margaret Warren (2017)"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+The westward sky. Sun setting over the Mississippi River later in the day after the total eclipse. August 21, 2017. At Columbus-Belmont State Park.
+{{< /imgflip >}}
 
 As a young child, my story continued south to the Gulf of Mexico when my parents moved to Northwest Florida, to an area called the Big Bend. 
 
 The waters of this part of Florida are quite special. This area is home to both the largest diveable underwater cave formation in the world (Wakulla Springs) and also to one of the oldest National wildlife refuges in the United States. Established in 1931, the coastal area of St. Mark’s was founded as a protection for migratory birds. The wetlands and estuaries of this area are also referred to as the ‘Forgotten Coast’ or ‘the Other Florida,’ because this area is so different from the white sandy beaches, palm trees, and condos that most people think of when they think of the state. The refuge protects longleaf pine savannas and coastal marshes as far as the eye can see. Made up of salt waters from the gulf and freshwater from nearby springs and rivers, this ecoregion is known as the southern coastal plain and is home to an amazing array of flora and fauna. 
 
-image 23 - st. marks [https://imgsnp.co/yxip7](https://imgsnp.co/yxip7)  (can replace with a photo of same place with blue marble)
+{{< imgflip
+  file="st_marks.jpeg"
+  alt="landscape of the estuary near St. Marks lighthouse"
+  title="St. Marks"
+  copyright_notice="Margaret Warren (2014-2021)"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Estuary near St. Mark's Lighthouse
+{{< /imgflip >}}
 
 Unlike the fishermen and other inhabitants of these coastal towns, my parents were young artists interested in astronomy, nature, and wildlife. We regularly went canoeing and hiking in the area. Through my father’s work as a photojournalist, we circulated around the coast learning about the people and the environment. My father would often pull me out of school to bring me along on his feature photography days to take photos of places like St. Mark’s for the Tallahassee Democrat, the local newspaper.
 
@@ -237,9 +377,25 @@ Electronics study in the Coast Guard led to computer science in college, and the
 
 Being raised by artists, naturalists and photographers had undoubtedly inspired me; but I had also been the seven year old making encyclopedias of bird pictures matched to their scientific names. I made all of my school writing projects about images. When I would print my own photographs in the darkroom with my father, I always made sure I had written all of the ‘metadata’ (the who, what, why, where, how, when) on the back of the print:
 
-image 24 - metadata [https://imgsnp.co/6fvb3](https://imgsnp.co/6fvb3)
+{{< imgflip
+  file="metadata.jpeg"
+  alt="an illustration of metadata on the back of an image"
+  title="St. Marks"
+  copyright_notice="Margaret Warren (2020)"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Metadata on the back of the photo written by a young Margaret Warren.
+{{< /imgflip >}}
 
-image 25 - coast_guard  [https://imgsnp.co/64zj6](https://imgsnp.co/64zj6)
+{{< imgflip
+  file="coast_guard.jpeg"
+  alt="Margaret Warren and her Grandfather Earl Warren"
+  title="A Pair"
+  copyright_notice="Margaret Warren (2020)"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Earl J. Warren in his Air Force uniform and Margaret Warren in her Coast Guard Uniform.
+{{< /imgflip >}}
 
 As my technology career evolved with the web, I strived to find the best ways to publish my images online with their metadata. But to my dismay, the web was actually evolving in such a way as to de-value publishing and curation methods that would have handled image metadata more appropriately. 
 
@@ -261,15 +417,25 @@ Instead of requiring images to be held in centralized data stores, the tool is d
 
 At the 2019 DWeb Camp, I worked as a volunteer to build out the local mesh network, as well as to design a collaborative art project. When I met Andi through this work and showed ImageSnippets to her, she immediately embraced the vision of ImageSnippets. Extending the idea of network nodes to the blue marbles, we both excitedly saw how it could be used to connect the stories of the photographs collected between all those people she and her students gifted with blue marbles.  
 
-image 26 - imagesnippets_and_blue_marble [https://imgsnp.co/d3idu](https://imgsnp.co/d3idu) \
- \
+{{< imgflip
+  file="is_and_bm.jpeg"
+  alt="A blue marble with ImageSnippets in the background"
+  title="The Blue Marble Game goes to ImageSnippets"
+  copyright_notice="Margaret Warren (2019)"
+  copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
+  creator="Margaret Warren" >}}
+Part of the Blue Game project!
+
+About ImageSnippets: This fully operational web application empowers archivist and curators, who can use it to annotate and publish images on the web with industry standard structured linked-data. Perhaps more interestingly, however, it functions as a system for ontology engineering based on visual prompts for subject matter experts. In this mode, it is a pioneering human-in-the-loop interface using AI-augmented image labeling for knowledge graph construction and can be highly useful for training AI models in scene graph prediction. The included search module, which is based on a custom ontology of relations, functions as a novel way of tracing semantic explainability over knowledge graph inference graphs using visual cues.
+{{< /imgflip >}}
+
 Publishing these images here on COMPOST with Distributed Press, we are fortunate to see this experiment come alive. But we are just at the beginning of this next phase of our story. This article represents a next step in taking image and metadata publishing techniques to decentralized protocols. 
 
 Computer scientist Admiral Grace Hopper said, “If you do something once, people will call it an accident. If you do it twice, they call it a coincidence. But do it a third time and you’ve just proven a natural law!” When a blue marble is passed it is a gift of gratitude for the good work that you do. When we share our gratitude in this way, we are building understanding, empathy, and love in our interconnected world. The blue marble opens up pathways through which we can learn and understand one another through a shared connection with our waters.  
 
 GIF: Wakulla Springs, Florida
 
-![alt_text](images/image6.gif "image_tooltip")
+![wakulla springs through a blue marble](wakulla_springs.gif "wakulla springs through a blue marble")
 
 _The images in this piece flip to reveal their metadata and the images themselves also contain the embedded metadata. This functionality is provided by ImageSnippets, a project by Margaret Warren. Image metadata allows others to understand the context and provenance of images when they are shared and published._
 
