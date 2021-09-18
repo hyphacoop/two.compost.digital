@@ -77,10 +77,8 @@ If you are printing the Killjoy Cooks Recipe Book, print as an A5 size booklet f
 
 {{< anigif name="blackberry_large" >}}
 
-Shout outs:
+_A big thank you to the COMPOST team and all the contributors for issue 02 for their encouragement and precious insights that brought this piece together._
 
-A big thank you to the COMPOST team and all the contributors for issue 02 for their encouragement and precious insights that brought this piece together. 
+_A special thank you to Micah Alex, Shreyas Srivastav (Living Labs Network and Forum) and Neeraj Sebastian for the constant support along the way._
 
-A special thank you to Micah Alex, Shreyas Srivastav (Living Labs Network and Forum) and Neeraj Sebastian for the constant support along the way.
-
-And lastly, a shout out to all the women who exchanged recipes and letters over the last 2 months, for making the process their own, for getting uncomfortable (especially by committing to the herculean task of writing) and for breathing life into the Killjoy Cooking Network. 
+_And lastly, a shout out to all the women who exchanged recipes and letters over the last 2 months, for making the process their own, for getting uncomfortable (especially by committing to the herculean task of writing) and for breathing life into the Killjoy Cooking Network._
