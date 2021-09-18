@@ -22,7 +22,7 @@ As we continue to experiment, we’re closely observing what is working and what
 
 If you enjoy this issue, please consider supporting us by becoming a subscriber or sending us a one-time donation (we offer several ways to do this, including through crypto). We also encourage you to share this issue via the World Wide Web or Decentralized Web. You can follow us on Twitter (@COMPOSTmag), Mastodon (social.coop/@COMPOST), Are.na, or join our _very_ low traffic mailing list, to hear about any upcoming events and announcements. 
 
-Thanks for checking us out.  (.❛ ᴗ ❛.)
+Thanks for checking us out.  (´• ω •`)ﾉ
 
 In solidarity,  
 
