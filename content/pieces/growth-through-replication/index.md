@@ -135,6 +135,6 @@ weight: 10
     </center>
 </div>
 
-<p>_All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest._</p>
+<p><em>All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest.</em></p>
 
 {{</rawhtml>}}
