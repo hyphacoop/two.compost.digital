@@ -6,6 +6,6 @@ title: Compost Issue Two
 
 `ISSUE 02`
 
-Even as existing digital infrastructure fails to embolden truth or bring people together, we are hopeful. In _Fertile Grounds_ we explore how our decaying web can help new networks flourish.
+As dominant platforms continue to construct an unimaginative reality of sleekness, convenience, and extraction, we wonder: How do we _Inoculate_ networks with our consideration and attention, against the flattening, homogenizing forces of the internet?
 
-This debut issue of COMPOST magazine features writing and art about technologies, protocols, and communities that enable authentic and trustful connections.
+This second issue of COMPOST magazine takes a step back; widening our scope and probing how we shape digital networks and how they shape us back.
