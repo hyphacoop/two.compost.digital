@@ -33,8 +33,8 @@ Digital experiences start with hardware. Default options are market-driven perso
 
 Devices and infrastructures with the goal of providing autonomy for communities must have  accessibility, distribution of responsibility, and of data guardianship as priorities. And special care must be taken not to force patterns of assimilation.
 
-![alt_text](image1.png "image_tooltip")
-_Source: Rak Wireless_ {{< footnote "rak-wireless">}}
+{{< figure src="image1.png" alt="A blown up diagram of a wireless device" class="has-shadow" caption="Image via Rak Wireless ">}} 
+_Rak Wireless_ {{< footnote "rak-wireless">}}
 
 Accessible networking devices must be low-cost as well as easy to learn, use, and be appropriated by communities. A great start in this direction is the LibreRouter Project{{< footnote "libre-router">}}, an open hardware Wi-Fi router running open source software. It's made by and for communities with the objective of facilitating the creation and maintenance of autonomous communication networks using mesh topologies. But it can be an overkill in cases, and many communities have limited access to financial resources.
 
@@ -52,8 +52,8 @@ Interaction with the digital world happens through our: hands, ears, mouth, and 
 
 Electronics are becoming more modular and cheaper, and knowledge on how to tinker with them more accessible. Groups that work close to communities, such as Janastu {{< footnote "janastu" >}}, have done experiments with end-user devices designed for local contexts. And hardware development social-networks, such as Hackaday{{< footnote "hackaday" >}}, have plenty of examples from around the globe with inspirations on what's possible.
 
-![alt_text](image2.png "image_tooltip")
-_Source: Hackaday - ESP32 walkie-talkie_{{< footnote "esp32-walkie-talkie" >}}
+{{< figure src="image2.png" alt="A photo of the insides of a DIY walki talkie" class="has-shadow" caption="Image via Hackaday - ESP32 Walkie Talkie">}} 
+_Hackaday - ESP32 Walkie Talkie_ {{< footnote "esp32-walkie-talkie" >}}
 
 Voice communication has emerged as one of the most common uses for smartphones especially in less industrially developed parts of the world where oral cultures are common and there are lower levels of text literacy.
 
@@ -61,8 +61,8 @@ Walkie-talkies are cheap, simple, easy to interact with and require no Internet;
 
 This can be achieved using microcontrollers, such as the ESP32{{< footnote "esp32" >}}, enabling a very low price tag, between 30 to 50 USD, making it much more affordable than most phones. Such devices can enable communication in places where no connectivity exists; as well as promote community ownership of data and a less addictive use of communication devices.
 
-![alt_text](image3.jpg "image_tooltip")
-_Photo by Raiz das Imagens_{{< footnote "raizdasimagens" >}}
+{{< figure src="image3.jpg" alt="A photo of people watching a film projection outside at night" class="has-shadow" caption="Photo by Raiz das Imagens">}}
+_Raiz das Imagens_ {{< footnote "raizdasimagens" >}}
 
 Television has long promoted to the masses the consumption of audiovisual content. Today the medium is transferred not through analog, but digital devices, and is an equally popular use for these devices as voice communication. The almost infinite quantity of content available through online vendors, such as Youtube, can be amazing for learning, given one knows how to filter through it.
 
@@ -70,15 +70,14 @@ But the popularity and accessibility of small screen devices, and the user-cente
 
 This individualistic way of consuming media unravels communities. The first thing to do in order to reverse this trend is to present alternatives. By tracing the origins of video to cinema and cine-clubs, we can learn alot about collective ways of curating and consuming content while also opening up for a process of reflection. This sort of experience enables different perspectives to be shared through an educational process, which can be much more fun, then consuming content alone. All that’s required is a projector (or large screen), an open space for people to gather, and some resources on how to organize the screenings.
 
-![alt_text](image4.png "image_tooltip")
-_Source: Radio Yandê_ {{< footnote "radioyande" >}}
+{{< figure src="image4.png" alt="A photo of a person using a computer to run a community radio" class="has-shadow" caption="Image via Radio Yandê ">}}
 
 Music and podcasts have also become an important part of our digital lives. Again, we’re drawn to self-centered ways of consuming them because of the Internet’s corporate nature. Community radios are an incredible way of bringing neighbors together and strengthening cultural identities, be it through discussing relevant topics, listening to songs together or telling stories. 
 
 Digital technology has, in many cases, created a sense that radio is a thing of the past. But there’s no reason why we shouldn’t use digital tools to create a more interactive and participatory radio experience. Analog radio stations are amazing, but the equipment can be very expensive and complex to operate. Digital radio requires only a computer, the right software, and a network connection to your listeners. It's up to the community to choose what’s right for them.
 
-![alt_text](image5.jpg "image_tooltip")
-_Source: Minimally Invasive Education for mass computer literacy_ {{< footnote "minimally-invasive-education-paper" >}}
+{{< figure src="image5.jpg" alt="School children using a computer" class="has-shadow" caption="Photo via Minimally Invasive Education for mass computer literacy">}} 
+_Minimally Invasive Education_ {{< footnote "minimally-invasive-education-paper" >}}
 
 We also use digital tools for reading, writing, texting, coding, designing, planning, playing, calculating, researching… But less-industrialized places have less access to devices that are appropriate for these tasks, such as a computer with a keyboard.
 
@@ -86,8 +85,7 @@ Every community can have a publicly shared device so that all members can easily
 
 People who depend on digital tools for their work would probably still need their own private device, although collective ownership should be greatly encouraged to lower the fetishism around end-user machines.
 
-![alt_text](image6.jpg "image_tooltip")
-_Photo by Luandro_
+{{< figure src="image6.jpg" alt="Photo of a device using a raspberry pi computer" class="has-shadow" caption="Photo via Luandro">}} 
 
 Storage and computation devices have become widespread, with each phone today having the power and memory of super-computers of the past. For the reasons above, we should refrain from encouraging the use of smartphones for communal purposes. Instead, we can experiment with the options presented above or better yet, experiment with something entirely new.
 
@@ -109,9 +107,8 @@ Nature-based communities have been for centuries flooded with alcohol incentiviz
 
 Unfortunately, it’s becoming more and more rare to find a community which is tied by cultural identity. But what every local community has in common is the connection to a physical territory, even if there’s no deeper cultural connection to the land.
 
-
-![alt_text](image7.jpg "image_tooltip")
-_Source: Coolab_ {{< footnote "coolab" >}}
+{{< figure src="image7.jpg" alt="Screenshots of a website showing a map and location icons" class="has-shadow" caption="Image via Coolab">}} 
+_Coolab_ {{< footnote "coolab" >}}
 
 By bringing back the focus to the land itself, we revert the decaying of cultural identity, increasing the sense of community and autonomy. Identifying ourselves in a larger, local context works in alignment with our thirst for communal belonging.
 
@@ -123,15 +120,15 @@ It's common to find local mechanics and electricians in any remote community, as
 
 By leaving the source code open for community members to mess with, we expect that in the long-term, some might learn and contribute to building, maintaining, and tweaking these applications and services themselves.
 
-![alt_text](image8.jpg "image_tooltip")
-_Source: moinho.app_ {{< footnote "moinho-app" >}}
+{{< figure src="image8.jpg" alt="Screenshot of a website" class="has-shadow" caption="Image via moinho.app">}} 
+_moinho.app_ {{< footnote "moinho-app" >}}
 
 In Moinho, a community in central Brazil, for example, a market service has been developed. It serves the purpose of strengthening the local economy, which has taken a hit from the pandemic recession, as well as reinforcing local cultural identity. It gives visibility, both for neighbors and visitors, to the cultural artifacts that are commercialized in the village.
 
 This is a simple example, but shows the potential for community-centered flows. The sharing of open source code enables development groups, focused on creating application ecosystems that are aligned with solidarity and collectively-owned digital territories.
 
-![alt_text](image9.png "image_tooltip")
-_Source: Portal Sem Porteiras_ {{< footnote "portal-sem-porteiras" >}}
+{{< figure src="image9.png" alt="Screenshot showing the cover of an audio book" class="has-shadow" caption="Image via Portal Sem Porteiras">}} 
+_Portal Sem Porteiras_ {{< footnote "portal-sem-porteiras" >}}
 
 In South-East Brazil, the Portal Sem Porteiras Association has developed an audio-soap opera produced by and for the neighborhood. As the women got together, evidence of patriarchal violence in the community was unearthed. They created a work of fiction to expose it, while also knitting together their cultural identity. The use of local references, narrators, and characters made it easy for the neighborhood to identify with the story and feel drawn to it.
 
@@ -157,8 +154,7 @@ There are different ways communities can engage with the digital world. Most oft
 
 This exclusion leads communities to seek access to communication and information tools themselves. At times, the assistance comes from the state or satellite companies, which are interested in control and profit respectively, not really caring how the corporate web can negatively impact communities.
 
-![alt_text](image10.jpg "image_tooltip")
-_Photo by Luandro_
+{{< figure src="image10.jpg" alt="Photo of people gathering over a table and drawing a map" caption="Photo via Luandro">}} 
 
 We come from experiences of living our day-to-day life with community networks and sharing those experiences with larger regional and global networks of people and organizations. We work towards collective management and co-creation of communication and information technologies with local communities.
 
@@ -181,8 +177,7 @@ It’s important to take into account that many communities might not need or wa
 
 But the fact is that most communities have already been exposed to the corporate web. These approaches can be used to revert the damage, hopefully assisting the turn of individualizing experiences into those of solidarity and collective construction.
 
-![alt_text](image11.jpg "image_tooltip")
-_Negro River rapids, Amazon_
+{{< figure src="image11.jpg" alt="Image of Negro River Rapids, Amazon" caption="A photo of Negro River rapids, Amazon, via Luandro">}} 
 
 All that is much easier said than done, as encouraging alternatives to mainstream usage of technology is, many times, like trying to swim against a strong current. But we can build networks of communities where experiences are shared, and principles of autonomy — and livelihoods which operate in mutual relationship with Mother Earth’s complex, abundant world — can be valued and celebrated. Building these relationships with native-cultures without being extractive is fundamental for learning how to reconnect with our essence and understanding more about non-civilized practices and ways of life.
 
