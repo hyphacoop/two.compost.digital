@@ -4,8 +4,8 @@ author: Celine Nguyen
 layout: multipage
 order: celine
 links:
-  - text: The end (and resources)
-    to: '../resources'
+  - text: Notes and resources
+    to: '../notes'
 season: spring
 post-count: 1204
 rank: Moderator
@@ -54,3 +54,5 @@ Someone has made their first post.
 > **eastofeden** How hard is it to learn how to identify mushrooms? I want to learn how to forage but I'm not sure where to start. I keep on reading about poisonous mushrooms and it's freaking me out.
 
 You sit up a little straighter and begin writing a response: something encouraging, something to ease their mind and make them feel welcome.
+
+*The end.*
