@@ -2,6 +2,16 @@ body.no-scroll {
   overflow: hidden;
 }
 
+.clock-basket-mount {
+  margin-bottom: 140px;
+}
+
+@media (min-width: 700px) {
+  .clock-basket-mount {
+    margin-bottom: 300px;
+  }
+}
+
 .clock-basket-container {
   max-width: 780px;
   box-sizing: border-box;

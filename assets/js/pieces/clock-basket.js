@@ -2225,7 +2225,7 @@ Only if you bring those superb snoring sounds :-P Come on! Let's go!
       </div>
       <div class="buttons">
         <a href="#" class="button" onclick=${(e) => beginStory(e)}>
-          <span style="font-weight: normal">🟆</span><span style="padding: 0px 10px">Begin</span><span style="font-weight: normal">🟆</span>
+          <span style="font-weight: normal">◠</span><span style="padding: 0px 10px">Begin</span><span style="font-weight: normal">◡</span>
         </a>
       </div>
     </div>
