@@ -53,7 +53,7 @@ Tell them your story of how you’ve been fed, nourished, and nurtured, and exch
 
 Join us, Mrinalini and Eeshita, in writing letters with the Killjoy Cooking Network and contributing to a shared repository of recipes and our stories of food, labour and care.
 
-[Here’s how.]https://killjoycooking.network)
+{{< rawhtml >}}<a href="https://killjoycooking.network" target="_blank">Here's how.</a>{{< /rawhtml >}}
 
 Together, let us build a network of sustenance and solidarity.
 
