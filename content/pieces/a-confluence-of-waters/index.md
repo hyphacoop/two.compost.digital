@@ -177,7 +177,7 @@ J was there to speak about his first-hand impressions of the Deep Water Horizon 
 
 Noting that scientists are not often known for speaking about love, J spoke openly of his love for the ocean and his commitment to care for a world that his two daughters would grow to inherit. He discussed the value of using new tools and technologies to reach hearts and minds. Then, at the end of the evening, J gave each person in the room one blue marble. He explained the simple rules of the “blue game,” a ritual that has since become an integral part of my story, connecting me to thousands of others since that Summer in 2010.
 
-**Around the World with the Blue Marbles**
+### Around the World with the Blue Marbles
 
 I had just taken a new position at school: working in the computer lab. Excited to find ways that the arts might be integrated with technology, I soon discovered that all the kids really wanted to do in the lab was play a computer game called Marble Blast, where players roll a small marble through a variety of obstacles courses, without falling “Out of Bounds.” If you made it to the end, you were rewarded with a big burst of fireworks. 
 
@@ -408,7 +408,7 @@ We are still a very long way from mastering what it would mean to be able to for
 
 In general, it can be said that sharing images properly on the web requires a human-centered thoughtfulness — a theory not embraced by advertising revenues. 
 
-## ImageSnippets
+### ImageSnippets
 
 Thus I started building ImageSnippets. ImageSnippets is a web based system that has now been in development for over 11 years with ideas stretching back almost 20. 
 
@@ -433,8 +433,6 @@ About ImageSnippets: This fully operational web application empowers archivist a
 Publishing these images here on COMPOST with Distributed Press, we are fortunate to see this experiment come alive. But we are just at the beginning of this next phase of our story. This article represents a next step in taking image and metadata publishing techniques to decentralized protocols. 
 
 Computer scientist Admiral Grace Hopper said, “If you do something once, people will call it an accident. If you do it twice, they call it a coincidence. But do it a third time and you’ve just proven a natural law!” When a blue marble is passed it is a gift of gratitude for the good work that you do. When we share our gratitude in this way, we are building understanding, empathy, and love in our interconnected world. The blue marble opens up pathways through which we can learn and understand one another through a shared connection with our waters.  
-
-GIF: Wakulla Springs, Florida
 
 ![wakulla springs through a blue marble](wakulla_springs.gif "wakulla springs through a blue marble")
 
