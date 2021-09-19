@@ -87,3 +87,6 @@
     link: ../019a/
   - title: '019b'
     link: ../019b/
+- chapters:
+    - title: 'notes'
+      link: ../notes
