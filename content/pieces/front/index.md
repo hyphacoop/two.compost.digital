@@ -1,6 +1,6 @@
 ---
 title: Foreword
-description: A letter from the editors
+description: A letter from the editors.
 tableOfContentsImageUrl: ./images/title-images/foreword.jpg
 titleImageUrl: ./images/title-images/foreword.jpg
 weight: 1
