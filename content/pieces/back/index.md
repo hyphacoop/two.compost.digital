@@ -25,7 +25,7 @@ https://www.kolaheywardrotimi.com/
 https://eeshitakapadiya.blogspot.com/
 ```
 
-### ℂ𝕖𝕝𝕚𝕟𝕖
+### ℂ𝕖𝕝𝕚𝕟𝕖 ✿
 ```
 https://celinenguyen.com/
 https://www.are.na/celine-nguyen
@@ -67,7 +67,7 @@ https://getdweb.net/
 
 Huge thank you to Sharon of Nomadic Labs for building our website so thoughtfully and beautifully.
 
-The gifs scattered throughout this issue were madey by liaizon wakest. Thank you for bringing a little part of Kickapoo to our magazine!
+The gifs scattered throughout this issue were made by Liaizon Wakest. Thank you for bringing a little part of Kickapoo to our magazine!
 
 Thanks for working away behind the scenes, Elon and Yurko! We truly appreciate all your support.
 
