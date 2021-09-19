@@ -130,7 +130,7 @@ Successful passage through Angel Island's Immigration Station opened the doors t
   copyright_notice="2011 Andi Wong"
   copyright_terms="Attribution-NonCommercial-NoDerivs Creative Commons"
   creator="Andi Wong" >}}
-Marble collectors know that the smaller white unglazed marbles are called "Chinas," marbles made of china or porcelain clay. The larger blue marble is called a "Bennington," a a type of glazed clay marble identifiable by both the coloring and the little “eyes” that they have on them. These are spots where the marbles were touching each other while they were being fired, resulting in those spots being uncolored and unglazed.
+Marble collectors know that the smaller white unglazed marbles are called "Chinas," marbles made of china or porcelain clay. The larger blue marble is called a "Bennington," a type of glazed clay marble identifiable by both the coloring and the little “eyes” that they have on them. These are spots where the marbles were touching each other while they were being fired, resulting in those spots being uncolored and unglazed.
 {{< /imgflip >}}
 
 My water continues beyond Angel Island, flowing past the Golden Gate Bridge to San Francisco, where my two now-grown children built sandcastles on Ocean Beach and learned “you never turn your back on the Ocean.” It is a long oceanic journey from the farmlands of the Pearl River Delta of Southern Guangdong Province to reach “Gum Saan,” meaning “Gold Mountain,” what the Chinese called San Francisco, California. Much like Adelita the sea turtle, my immigrant ancestors needed both fortitude and good fortune to cross the Pacific Ocean. 
