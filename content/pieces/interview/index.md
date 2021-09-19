@@ -3,7 +3,7 @@ title: Reverence for the Spaces In-Between
 subtitle: An Interview with Sultana Zana
 tableOfContentsImageUrl: ./images/title-images/sultana-700x394.png
 titleImageUrl: ./images/title-images/sultana-700x394.png
-description: Zana is a performer, painter, sound artist, researcher, media artist, physicist, former nano-technologist, mycelial-enthusiast, insect-fanatic, and network-inoculator. We talked to them about redefining value, the dynamism of paranodal space, and learning to see and appreciate what has been made invisible.
+description: Sultana Zana is an artist, researcher, mycelial-enthusiast, insect-fanatic, and network-inoculator. We talked to them about redefining value, the dynamism of paranodal space, and learning to see and appreciate what has been made invisible.
 weight: 11
 ---
 
