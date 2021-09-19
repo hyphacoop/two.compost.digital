@@ -5,7 +5,7 @@ tableOfContentsImageUrl: ./images/title-images/sultana-700x394.png
 footnotesUrl: "footnotes.json"
 titleImageUrl: ./images/title-images/sultana-700x394.png
 description: Sultana Zana is an artist, researcher, mycelial-enthusiast, insect-fanatic, and network-inoculator. We talked to them about redefining value, the dynamism of paranodal space, and learning to see and appreciate what has been made invisible.
-weight: 11
+weight: 9
 ---
 
 Influencers, Instagram, the proliferation of state propaganda—today’s political economy runs on attention. “Value” is abstracted; speculation determines worth. The incalculable messiness of the world is flattened by predictable capitalist logic. But for Sultana Zana, the tools of the market also hold the possibility of subverting the market. As the digital world births new hydras of monopoly, the global finance machine can become a spore itself: seeding authentic entanglements, cultivating an economy of slowness, and redirecting our attention to wilderness everywhere.

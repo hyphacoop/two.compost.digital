@@ -7,7 +7,7 @@ titleImageUrl: ./images/title-images/bluemarbles-700x350.jpg
 footnotesUrl: "footnotes.json"
 description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
 markdown: ../../markdown/a-confluence-of-waters.md
-weight: 9
+weight: 6
 license: CC-BY-SA
 ---
 
