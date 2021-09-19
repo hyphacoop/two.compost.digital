@@ -7,7 +7,7 @@ titleImageUrl: ./images/title-images/bluemarbles-700x350.jpg
 footnotesUrl: "footnotes.json"
 description: Two friends build fairy rings with their art, stories and technology. Playing for keeps with The Blue Marbles Project.
 markdown: ../../markdown/a-confluence-of-waters.md
-weight: 9
+weight: 6
 license: CC-BY-SA
 ---
 
@@ -181,7 +181,7 @@ Noting that scientists are not often known for speaking about love, J spoke open
 
 I had just taken a new position at school: working in the computer lab. Excited to find ways that the arts might be integrated with technology, I soon discovered that all the kids really wanted to do in the lab was play a computer game called Marble Blast, where players roll a small marble through a variety of obstacles courses, without falling “Out of Bounds.” If you made it to the end, you were rewarded with a big burst of fireworks. 
 
-![images of a game called marbled blast](game.gif "images of a game called marbled blast")
+{{< figure src="game.gif" alt="Screenshots of a game called Marble Blast" class="has-shadow" caption="Image via Andi Wong">}} 
 
 When I asked the kids why they liked playing the game, I learned that they knew that if they kept playing the game, they would improve. And one boy told me that he liked this game because he knew he could never die in it.
 
@@ -217,7 +217,7 @@ The next stop was Cuba, a place that was near impossible for most children to vi
 
 It took three years, but the children finally achieved their goal to visit every continent on Earth, when a Blue Marble made it to Antarctica. Blue Marble followed the water, traveled across the Sahara Desert by camel, crossed the Alaskan frontier on the Iditarod, via gondola, rickshaw, airplane, and submarine.
 
-![images of blue marbles around the world](around_the_world.gif "images of blue marbles around the world")
+{{< figure src="around_the_world.gif" alt="Images of blue marbles around the world" class="has-shadow" caption="Gif via Andi Wong">}} 
 
 As the children learned about the Ocean and her importance to all life on Earth, they grew eager to apply their knowledge. They learned how to reduce, reuse, recycle, and ultimately refuse the plastic that soils their beaches by sewing their own cloth lunch bags. We sponsored a nest in the Yucatan Peninsula and celebrated the birth of sea turtle hatchlings. The third graders premiered _Chelonia’s Story_, an original opera about a young sea turtle and an ocean scientist who gently sings that captive turtles should be returned to the sea. On International Biodiversity Day 2016, the children used a new technology called Zoom, which was still relatively unknown then, to broadcast their sustainability fair celebration to a classmate in Saint Petersburg, Russia. 
 
@@ -434,7 +434,7 @@ Publishing these images here on COMPOST with Distributed Press, we are fortunate
 
 Computer scientist Admiral Grace Hopper said, “If you do something once, people will call it an accident. If you do it twice, they call it a coincidence. But do it a third time and you’ve just proven a natural law!” When a blue marble is passed it is a gift of gratitude for the good work that you do. When we share our gratitude in this way, we are building understanding, empathy, and love in our interconnected world. The blue marble opens up pathways through which we can learn and understand one another through a shared connection with our waters.  
 
-![wakulla springs through a blue marble](wakulla_springs.gif "wakulla springs through a blue marble")
+{{< figure src="wakulla_springs.gif" alt="360 view of Wakulla springs through a blue marble" class="has-shadow" caption="Image via Andi Wong and Margaret Warren">}} 
 
 _The images in this piece flip to reveal their metadata and the images themselves also contain the embedded metadata. This functionality is provided by ImageSnippets, a project by Margaret Warren. Image metadata allows others to understand the context and provenance of images when they are shared and published._
 

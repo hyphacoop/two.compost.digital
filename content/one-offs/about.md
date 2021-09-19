@@ -9,7 +9,7 @@ COMPOST is a magazine about the digital commons. We curate art, reflections, and
 
 We approach COMPOST as a process to metabolize and renew our relationships with the web, to imagine and build interdependent, equitable, and solidarity-based systems of communication and knowledge sharing.
 
-If you like what we’re doing, please consider becoming a {{< rawhtml >}}<a href="https://opencollective.com/compost/contribute/backer-22573/checkout" target="_blank">subscriber</a>{{< /rawhtml >}}, contributing {{< rawhtml >}}<a href="https://opencollective.com/compost" target="_blank">money</a>{{< /rawhtml >}} (or {{< rawhtml >}}<a href="https://gitcoin.co/grants/1385/compost" target="_blank">crypto on Gitcoin</a>{{< /rawhtml >}} and directly to `compostmag.eth`), and supporting us through [Web Monetization]({{<relref "support-us#web-monetization">}}).
+If you like what we’re doing, please consider becoming a {{< rawhtml >}}<a href="https://opencollective.com/compost/contribute/backer-22573/checkout" target="_blank">subscriber</a>{{< /rawhtml >}}, contributing {{< rawhtml >}}<a href="https://opencollective.com/compost" target="_blank">money</a>{{< /rawhtml >}} (or crypto through {{< rawhtml >}}<a href="https://gitcoin.co/grants/1385/compost" target="_blank">Gitcoin</a>{{< /rawhtml >}} or directly to `compostmag.eth`), and supporting us through [Web Monetization]({{<relref "support-us#web-monetization">}}).
 
 ## Experiments with Publishing
 
@@ -30,7 +30,7 @@ In order to find us on the DWeb, you will need a compatible browser. For example
 
 ### Issue Two Contributors
 
-Andi Wong, Benny Lichtner, Celine Nguyen, Eeshita Kapadiya, Kola Heyward-Rotimi, Luandro, Margaret Warren, Mrinalini Sebastian, Liaizon Wakest, Sultana Zana
+Andi Wong, Benny Lichtner, Celine Nguyen, Eeshita Kapadiya, Kola Heyward-Rotimi, Liaizon Wakest, Luandro, Margaret Warren, Mrinalini Sebastian, Sultana Zana
 
 ### Editorial
 

@@ -33,7 +33,7 @@ You’re now in a group chat with the other moderators, where the tone is somewh
 
 *I'm locking this thread unless anyone has concerns.*
 
-*Weirdly hostile comment. Shall I remove it and give the user a warning?* And then a response, two minutes later: *I’d just ban them at this point, they’ve had 10 warnings.  *
+*Weirdly hostile comment. Shall I remove it and give the user a warning?* And then a response, two minutes later: *I’d just ban them at this point, they’ve had 10 warnings.*
 
 It's a funny mix of people: a forty-something woman living in the woods with fiber broadband; a college student who patiently explains viral Tiktoks to everyone else; and office workers, like you, who spend their idle work hours tending to the forum.
 
