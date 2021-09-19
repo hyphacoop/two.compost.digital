@@ -30,7 +30,7 @@ In order to find us on the DWeb, you will need a compatible browser. For example
 
 ### Issue Two Contributors
 
-Andi Wong, Benny Lichtner, Celine Nguyen, Eeshita Kapadiya, Kola Heyward-Rotimi, Luandro, Margaret Warren, Mrinalini Sebastian, Liaizon Wakest, Sultana Zana
+Andi Wong, Benny Lichtner, Celine Nguyen, Eeshita Kapadiya, Kola Heyward-Rotimi, Liaizon Wakest, Luandro, Margaret Warren, Mrinalini Sebastian, Sultana Zana
 
 ### Editorial
 
