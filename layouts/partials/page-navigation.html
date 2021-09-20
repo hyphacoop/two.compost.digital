@@ -7,10 +7,13 @@
         <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
       </a>
     {{ end }}
-  {{ else if isset .Parent.Params "prev_piece"  }}
-    <a href="{{ .Parent.Params.prev_piece }}">
-      <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
-    </a>
+  {{ else }}
+    {{ $firstWeightedPageInSection := index (where $.Parent.Pages "Params.weight" "!=" nil) 0 }}
+    {{ with $pieces.Next $firstWeightedPageInSection }}
+      <a href="{{ .Permalink }}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
+      </a>
+    {{ end }}
   {{ end }}
 
   <a href="{{ relref . "/" }}">
@@ -23,9 +26,12 @@
         <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
       </a>
     {{ end }}
-  {{ else if isset .Parent.Params "next_piece" }}
-    <a href="{{.Parent.Params.next_piece}}">
-      <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
-    </a>
+  {{ else }}
+    {{ $firstWeightedPageInSection := index (where $.Parent.Pages "Params.weight" "!=" nil) 0 }}
+    {{ with $pieces.Prev $firstWeightedPageInSection }}
+      <a href="{{ .Permalink }}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
+      </a>
+    {{ end }}
   {{ end }}
 </div>
