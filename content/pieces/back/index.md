@@ -66,7 +66,7 @@ https://whattt.cargo.site/
 ### ʍǟɨ
 ```
 https://maisutton.net/
-https://getdweb.net/
+
 ```
 
 ## SHOUT OUTS  ＼(＾▽＾)／
