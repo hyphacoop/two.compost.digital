@@ -2,6 +2,7 @@
 title: Logging Off
 author: Celine Nguyen
 description: A gentle choose-your-own-adventure story about mushroom foraging, coming to terms with Indigenous displacement, and sustaining online community. What happens when the internet brings you closer to nature?
+tableOfContentsImageUrl: ./images/title-images/celine-700x350.png
 layout: multipage
 order: celine
 # custom frontmatter
