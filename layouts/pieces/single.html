@@ -58,7 +58,7 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
         <p>We built this little tool for you to inoculate other web spaces with the ideas and stories contained in this issue. To re-publish this piece under the terms of the license, click below to copy the markdown.</p>
         <button onclick="fetchMarkdown({{$markdownUrl}})" id="copy-button" class="theme-button font-monospace">
           <span id="copy-button-text">Copy markdown</span>
-          <img src="/images/copy-icon.svg" id="copy-icon" />
+          <img src="{{ "./images/copy-icon.svg" | relURL }}" id="copy-icon" />
         </button>
         <p id="copy-error"></p>
       </div>
