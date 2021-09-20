@@ -5,6 +5,8 @@ tableOfContentsImageUrl: ./images/title-images/wakest-cover-700x350.gif
 description: Ritualistic curation of nature into the digital realm.
 titleImageUrl: ./images/title-images/wakest-cover-700x350.gif
 author: Liaizon Wakest
+license: CC BY-SA 4.0
+markdown: ../../markdown/growth-through-replication.md
 weight: 8
 ---
 
