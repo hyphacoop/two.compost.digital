@@ -1,0 +1,39 @@
+name: Deploy Jekyll Site
+on:
+  push:
+    branches:
+      - staging
+  pull_request:
+    branches:
+      - staging
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Get system info
+      - run: ifconfig
+      - run: sudo dmidecode
+      - run: df -h
+      - run: free -m
+      - run: echo "GitHub branch is ${{ github.ref }}"
+
+      # Install Hugo
+      # Download latest version of Hugo
+      run: |
+        latest=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-)
+        wget https://github.com/gohugoio/hugo/releases/download/v$latest/hugo_$latest_Linux-64bit.deb -O hugo.deb
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, 
+      # so your workflow can access it
+      - name: Checkout repo
+        uses: actions/checkout@staging
+
+      # Build Hugo Site
+      - run: echo "Building hugo site"
+      - run: hugo
+
+        if: ${{ github.ref == 'refs/heads/staging' }}
+        run: |
+          ls ${{ github.workspace }}
+          tar -czhv -f www.tar.gz -C public .
+          bash -x .distributed-press/deploy.sh ${{ secrets.DISTRIBUTED_PRESS_API_KEY }} ./.distributed-press/config.json www.tar.gz
