@@ -28,7 +28,7 @@ https://eeshitakapadiya.blogspot.com/
 ### ℂ𝕖𝕝𝕚𝕟𝕖 ✿
 ```
 https://celinenguyen.com/
-https://www.are.na/celine-nguyen
+https://www.are.na/celine-nguyen/
 
 ```
 
@@ -39,13 +39,19 @@ https://artsed4all.blog/
 
 ### 𝕄𝓪𝐫Ⓖå𝚛ε𝓽
 ```
-https://margaretwarren.us  
-https://imagesnippets.com 
+https://margaretwarren.us/ 
+https://imagesnippets.com/
 ```
 
 ### b⃣ . e⃣ . n⃣ . n⃣ . y⃣ .
 ```
-http://ifiaar.org
+http://ifiaar.org/
+
+```
+
+### L̳I̳ᗩᎥƶꄲꋊ
+```
+https://wake.st/
 
 ```
 
