@@ -35,7 +35,7 @@ Andi Wong, Benny Lichtner, Celine Nguyen, Eeshita Kapadiya, Kola Heyward-Rotimi,
 ### Editorial
 
 **Lead Editor:** Mai Ishikawa Sutton  
-**Editors:** Tal Milovina, Udit Vira, Benedict Lau
+**Editors:** Tal Milovina, Udit Vira
 
 ### Publishing Tools
 
