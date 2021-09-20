@@ -2,10 +2,10 @@ name: Deploy Jekyll Site
 on:
   push:
     branches:
-      - staging
+      - master
   pull_request:
     branches:
-      - staging
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
       - run: hugo
 
       - name: Deploying site
-        if: ${{ github.ref == 'refs/heads/staging' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         run: |
           ls ${{ github.workspace }}
           tar -czhv -f www.tar.gz -C public .
