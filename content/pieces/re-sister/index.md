@@ -71,7 +71,7 @@ We would like to welcome you to the many kitchens that serve as settings for the
 
 For smoother navigation and a better viewing experience, click on the last button on the top-left-hand side of the map for a fullscreen view.
 
-{{< annotated-map id="killjoy-kitchen-map" title="Killjoy Cooking Network" alt="Killjoy Cooking Network annotated map" imagePath="/killjoy-cooking-network/map-image.png" annotationsPath="/killjoy-cooking-network/annotations.json" iconPath="/killjoy-cooking-network/icon.png">}}
+{{< annotated-map id="killjoy-kitchen-map" title="Killjoy Cooking Network" alt="Killjoy Cooking Network annotated map" imagePath="./killjoy-cooking-network/map-image.png" annotationsPath="./killjoy-cooking-network/annotations.json" iconPath="./killjoy-cooking-network/icon.png">}}
 
 You can download all the recipes shared on the kitchen map here:
 

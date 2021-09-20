@@ -2,9 +2,9 @@
 {{ $title := .Get "title" }}
 {{ $alt := .Get "alt" }}
 {{ $class := .Get "class" }}
-{{ $imagePath := .Get "imagePath" }}
-{{ $annotationsPath := .Get "annotationsPath" }}
-{{ $iconPath := .Get "iconPath" }}
+{{ $imagePath := .Get "imagePath" | relURL }}
+{{ $annotationsPath := .Get "annotationsPath" | relURL }}
+{{ $iconPath := .Get "iconPath" | relURL }}
 
 <div class="mesh-map {{$class}}" id="{{$id}}" title="{{$title}}" alt="{{$alt}}"></div>
 
