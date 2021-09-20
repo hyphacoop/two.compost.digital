@@ -4,7 +4,7 @@
 ## Exploring Connections with The Blue Marbles Project
 _Andi Wong and Margaret Warren_
 
-In the Summer of 2019, we — Andi Wong and Margaret Warren — met for the first time at one of the Friday lunches at the Internet Archive headquarters on Funston Street in San Francisco. We met while planning art activities for the Decentralized Web Camp, and it was there that Andi first shared a blue marble with Margaret. But that is not where this story begins, and it’s certainly not where it will end. 
+In the Summer of 2019, we—Andi Wong and Margaret Warren—met for the first time at one of the Friday lunches at the Internet Archive headquarters on Funston Street in San Francisco. We met while planning art activities for the Decentralized Web Camp, and it was there that Andi first shared a blue marble with Margaret. But that is not where this story begins, and it’s certainly not where it will end. 
 
 This story is non-linear and organically expanding. Like mushrooms in a Fairy Circle. Like when websites used to have web rings. Like BuckyBalls: nano particles of carbon atoms in a spherical structure. Like the new vision of the web: decentralized and linked through nodes and edges. A synchronistic murmuration of inspirations and enchantment. 
 
@@ -37,7 +37,7 @@ Copyright notice: 2014 Andi Wong
 Copyright terms: Attribution-ShareAlike Creative Commons
 ```
 
-Now jump to 2009, when a marine biologist, Dr. Wallace J. Nichols, known simply as “J” had an ambitious idea to hand his friend LeBaron Myers a blue marble. That simple act became an idea, which then became a movement. A low-tech-slow-motion global art project with a seemingly staggering goal of passing a blue marble through the hands of every (yes, every) person on OUR blue marble Earth, and along with each passing — a simple message of gratitude and reminder that everything we do on our water planet matters.
+Now jump to 2009, when a marine biologist, Dr. Wallace J. Nichols, known simply as “J” had an ambitious idea to hand his friend LeBaron Myers a blue marble. That simple act became an idea, which then became a movement. A low-tech-slow-motion global art project with a seemingly staggering goal of passing a blue marble through the hands of every (yes, every) person on OUR blue marble Earth, and along with each passing—a simple message of gratitude and reminder that everything we do on our water planet matters.
 
 **Dr. Nichols holding a blue marble**
 
@@ -60,7 +60,7 @@ In 2010, Andi went to hear J talk about sea turtles, after an introductory email
 
 My water begins in a small town in the California Delta called Locke, a historic rural Chinese-American community in the United States. The town of Locke was built in 1915 by Chinese residents, after the Chinatown in nearby Walnut Grove was destroyed by fire. I enjoyed lazy childhood summers in Locke, staying with my grandparents in their home on Main Street. My cousins and I had the run of the wooden plank walkways and the back alleys of this tiny four-block town. Locke was a place where we could roam and play until sundown, and while we children grew up with very little knowledge of the extreme challenges faced by our families: The Page Act of 1875, The Chinese Exclusion Act of 1882, The Geary Act of 1892, The Alien Law of 1913 which prohibited the Chinese from owning land. There, in this isolated town, my mother’s family made it through the Great Depression and World War II.
 
-In the 1940’s and 50’s, most young people — including my mother — left Locke, searching for greater opportunity and better living conditions. Today, in 2021, few residents of Chinese ancestry remain, and Locke has one of 300 failing systems in California that routinely supply roughly 1 million people with contaminated drinking water.
+In the 1940’s and 50’s, most young people—including my mother—left Locke, searching for greater opportunity and better living conditions. Today, in 2021, few residents of Chinese ancestry remain, and Locke has one of 300 failing systems in California that routinely supply roughly 1 million people with contaminated drinking water.
 
 **The Blue Marbles Project: Locke Chinese School (2015)**
 
@@ -80,7 +80,7 @@ Copyright notice: 2015 Andi Wong
 Copyright terms: Attribution-NonCommercial-NoDerivs Creative Commons
 ```
 
-The river flows past my hometown of Sacramento, where I went to school, worked and got married, before moving to San Francisco. There the Bay waters swirl around Angel Island, where my grandmother, five months pregnant, landed on September 13, 1929, accompanied by my grandfather after a 31-day ocean crossing on the Tenyo Maru. Ye Ye, my grandfather, was free to depart, having taken up residency in California in 1911, as the son of a merchant, but Yin Yin, my grandmother, was held on the island for processing. The Angel Island Immigration Station transcripts document hours of intense interrogation. These records also revealed that Ye Ye was manager at United Meat Market for 36 firm members, and perhaps the cooperative’s pooling of investments explains how he was able to post the $1000 bail for Yin Yin’s temporary release eight days later. As ordered by the court, my grandmother returned to Angel Island carrying proof of childbirth: her 3-month old son Edmund — my father — and she was officially admitted to the United States as the wife of a domiciled Chinese merchant on March 17, 1930.
+The river flows past my hometown of Sacramento, where I went to school, worked and got married, before moving to San Francisco. There the Bay waters swirl around Angel Island, where my grandmother, five months pregnant, landed on September 13, 1929, accompanied by my grandfather after a 31-day ocean crossing on the Tenyo Maru. Ye Ye, my grandfather, was free to depart, having taken up residency in California in 1911, as the son of a merchant, but Yin Yin, my grandmother, was held on the island for processing. The Angel Island Immigration Station transcripts document hours of intense interrogation. These records also revealed that Ye Ye was manager at United Meat Market for 36 firm members, and perhaps the cooperative’s pooling of investments explains how he was able to post the $1000 bail for Yin Yin’s temporary release eight days later. As ordered by the court, my grandmother returned to Angel Island carrying proof of childbirth: her 3-month old son Edmund—my father—and she was officially admitted to the United States as the wife of a domiciled Chinese merchant on March 17, 1930.
 
 **The Blue Marbles Project: Angel Island (2012)**
 
@@ -93,7 +93,7 @@ Copyright terms: Attribution-NonCommercial-NoDerivs Creative Commons
 
 **Angel Island Suitcase: Clay Marbles (2011)**
 
-![Six hand-formed clay marbles — one large speckled blue marble and five smaller mottled white marbles — rest upon the white corduroy jacket with the brown cotton collar, packed for travel in the suitcase on display at the Angel Island Immigration Station.](https://two.compost.digital/a-confluence-of-waters/clay_marbles.jpeg)
+![Six hand-formed clay marbles—one large speckled blue marble and five smaller mottled white marbles—rest upon the white corduroy jacket with the brown cotton collar, packed for travel in the suitcase on display at the Angel Island Immigration Station.](https://two.compost.digital/a-confluence-of-waters/clay_marbles.jpeg)
 ```
 Creator: Andi Wong
 Copyright notice: 2011 Andi Wong
@@ -102,13 +102,13 @@ Copyright terms: Attribution-NonCommercial-NoDerivs Creative Commons
 
 My water continues beyond Angel Island, flowing past the Golden Gate Bridge to San Francisco, where my two now-grown children built sandcastles on Ocean Beach and learned “you never turn your back on the Ocean.” It is a long oceanic journey from the farmlands of the Pearl River Delta of Southern Guangdong Province to reach “Gum Saan,” meaning “Gold Mountain,” what the Chinese called San Francisco, California. Much like Adelita the sea turtle, my immigrant ancestors needed both fortitude and good fortune to cross the Pacific Ocean. 
 
-For the past twenty years, I’ve worked in San Francisco public schools, as a teaching artist — a phrase coined to describe “an active artist who chooses to also develop the skills of teaching in order to activate a variety of learning experiences that are catalyzed by artistic engagement.” When the COVID-19 pandemic shuttered both schools and theaters, I focused on supporting two groups that struggled to adapt to the pandemic, often with limited access and experiences with technology: artists and elders. 
+For the past twenty years, I’ve worked in San Francisco public schools, as a teaching artist—a phrase coined to describe “an active artist who chooses to also develop the skills of teaching in order to activate a variety of learning experiences that are catalyzed by artistic engagement.” When the COVID-19 pandemic shuttered both schools and theaters, I focused on supporting two groups that struggled to adapt to the pandemic, often with limited access and experiences with technology: artists and elders. 
 
 Now I’m serving as project manager, researcher/archivist, and community liaison for a project called “Angel Island Insight,” with the Del Sol String Quartet and The Last Hoisan Poets. My work with poets Genny Lim, Flo Oy Wong, and Nellie Wong, also descendents of Angel Island immigrants, has filled me with a richer understanding and gratitude for the survival instinct and wisdom exhibited by the Chinese American diaspora. These vibrant elders taught me _“haw meong suey,_” an expression that literally means “Good Life’s Water” in Hoisan-wa, the dialect spoken by early Chinese immigrants. [[2]](#Footnotes) By writing new poems in Hoisan-wa, they are keeping the history and language of our ancestors alive and vibrant, in a time when intercultural understanding and cooperation are needed more than ever. Del Sol, unable to perform for audiences in concert venues, struggled with latency issues while streaming on Zoom. They pivoted to playing free outdoor pop-up concerts and commissioning composers to write new short musical works to inspire joy. 
 
 The history of the Chinese on Angel Island, America’s own immigration history, remains unknown to many. But when audiences board the ferry to Angel Island for performances by Del Sol in October, this artistic exploration of the history of immigration and exclusion will be presented with _“haw meong suey,”_ a healing dose of ocean. For me, this was yet another surprising chapter in an epic voyage that began with the gift of a blue marble from Dr. Wallace J. Nichols at Gray Area Foundation for the Arts on July 29, 2010.
 
-At that event, four large water coolers were lined up on a table, each filled with a colorful flotsam of plastic demonstrating the increasing levels of plastic pollution accumulating in our oceans from 1910, 1960, 2010, to 2030 — an ominous depiction of the future, if no interventions were taken. Neat rows of stacked glass tumblers issued a silent dare to drink. _Plastic Century_ was an experiential art installation created for World Oceans Day and the 100th anniversary of Jacques Cousteau’s birth. J and his project’s co-creators wished to convey the “feeling of strangeness, discovery, disgust, and delight… what we want to remain with people as they walk out into the great big plastic world.” 
+At that event, four large water coolers were lined up on a table, each filled with a colorful flotsam of plastic demonstrating the increasing levels of plastic pollution accumulating in our oceans from 1910, 1960, 2010, to 2030—an ominous depiction of the future, if no interventions were taken. Neat rows of stacked glass tumblers issued a silent dare to drink. _Plastic Century_ was an experiential art installation created for World Oceans Day and the 100th anniversary of Jacques Cousteau’s birth. J and his project’s co-creators wished to convey the “feeling of strangeness, discovery, disgust, and delight… what we want to remain with people as they walk out into the great big plastic world.” 
 
 **The Blue Marbles Project: Wallace J. Nichols (2010)**
 
@@ -132,7 +132,7 @@ J was there to speak about his first-hand impressions of the Deep Water Horizon 
 
 Noting that scientists are not often known for speaking about love, J spoke openly of his love for the ocean and his commitment to care for a world that his two daughters would grow to inherit. He discussed the value of using new tools and technologies to reach hearts and minds. Then, at the end of the evening, J gave each person in the room one blue marble. He explained the simple rules of the “blue game,” a ritual that has since become an integral part of my story, connecting me to thousands of others since that Summer in 2010.
 
-### Around the World with the Blue Marbles
+## Around the World with the Blue Marbles
 
 I had just taken a new position at school: working in the computer lab. Excited to find ways that the arts might be integrated with technology, I soon discovered that all the kids really wanted to do in the lab was play a computer game called Marble Blast, where players roll a small marble through a variety of obstacles courses, without falling “Out of Bounds.” If you made it to the end, you were rewarded with a big burst of fireworks. 
 
@@ -267,7 +267,7 @@ Copyright notice: Margaret Warren (2020)
 Copyright terms: Attribution-NonCommercial-NoDerivs Creative Commons
 ```
 
-Over the years, I have created many projects and professions, but most often I say I am an artist, a creator, a researcher and a technologist — even though I feel like these labels keep overlapping and meandering. Looking back, I can now see I’ve spent most of my life responding to an inner curiosity for things like making art and photographs, describing images, discovering synchronicities, and building networks of people and machinery. Rolling and tumbling from one eddy to another, my life itself has felt both fluid and yet also deliberately and persistently guided by a much deeper current. 
+Over the years, I have created many projects and professions, but most often I say I am an artist, a creator, a researcher, and a technologist—even though I feel like these labels keep overlapping and meandering. Looking back, I can now see I’ve spent most of my life responding to an inner curiosity for things like making art and photographs, describing images, discovering synchronicities, and building networks of people and machinery. Rolling and tumbling from one eddy to another, my life itself has felt both fluid and yet also deliberately and persistently guided by a much deeper current. 
 
 My water begins in the very far western tip of Kentucky, where I was born within ten miles of the Mississippi River. I was born in the county seat in a little town called Clinton, not far from an even smaller town called Columbus, which sits on a bluff overlooking the river. In the 1800’s, Columbus was much larger; a busy port for trains, barges, steamboats and all kind of river traffic on North-South trade routes. From Chicago, Illinois to Mobile, Alabama to New Orleans, Louisiana, ferries moved travelers across the nearly mile-wide Mississippi as they journeyed westward seeking fame, fortune, and new opportunities. 
 
@@ -323,19 +323,19 @@ Copyright terms: Attribution-NonCommercial-NoDerivs Creative Commons
 
 As my technology career evolved with the web, I strived to find the best ways to publish my images online with their metadata. But to my dismay, the web was actually evolving in such a way as to de-value publishing and curation methods that would have handled image metadata more appropriately. 
 
-In fact, to this day, many content producers continue to exercise poor metadata habits with images, and these habits — whether learned or ignored — have actually led to much more severe problems as a result. The serious problems associated with misinformation and disinformation on the web are now widely recognized and widespread. In particular, images stripped of their original metadata have been re-contextualized to manipulate emotion and used to polarize viewpoints. 
+In fact, to this day, many content producers continue to exercise poor metadata habits with images, and these habits—whether learned or ignored—have actually led to much more severe problems as a result. The serious problems associated with misinformation and disinformation on the web are now widely recognized and widespread. In particular, images stripped of their original metadata have been re-contextualized to manipulate emotion and used to polarize viewpoints. 
 
 Yet it can be challenging to write metadata. Many people just don’t want to write it, as they often don’t want to take the time to add context and intention to images, and don’t think about what will happen to the metadata once an image gets on the web. The technology behind centralized social media photo sharing has deliberately made it difficult to keep metadata attached to images, while at the same time retaining your image collections to keep you further tied to a platform. 
 
 We are still a very long way from mastering what it would mean to be able to formally record the context around the making of an image, as well as the intention with which that image is being shared. Though computer vision can produce some interesting demonstrations of image classification, language is very ambiguous and subjective, and artificial intelligence is a long way off from capturing the subtleties of image metadata. 
 
-In general, it can be said that sharing images properly on the web requires a human-centered thoughtfulness — a theory not embraced by advertising revenues. 
+In general, it can be said that sharing images properly on the web requires a human-centered thoughtfulness—a theory not embraced by advertising revenues. 
 
 ### ImageSnippets
 
 Thus I started building ImageSnippets. ImageSnippets is a web based system that has now been in development for over 11 years with ideas stretching back almost 20. 
 
-I call ImageSnippets a metadata management system, but it’s designed to be so much more. It can be used to curate image collections, and be an interface for images to be linked in interoperable ways to other data on the web using linked data. It’s also being used as part of research projects for modeling formalized image descriptions, with descriptions by subject matter experts. All of this can be done in such a way that the descriptions can be machine-readable, and thus assembled into image-based knowledge graphs — also known as image graphs — in the process. In this way, ImageSnippets is also a research tool for knowledge representation. 
+I call ImageSnippets a metadata management system, but it’s designed to be so much more. It can be used to curate image collections, and be an interface for images to be linked in interoperable ways to other data on the web using linked data. It’s also being used as part of research projects for modeling formalized image descriptions, with descriptions by subject matter experts. All of this can be done in such a way that the descriptions can be machine-readable, and thus assembled into image-based knowledge graphs—also known as image graphs—in the process. In this way, ImageSnippets is also a research tool for knowledge representation. 
 
 Instead of requiring images to be held in centralized data stores, the tool is designed to sit as a layer over the images. That means the data can be held anywhere on any server, and the data is openly available and queryable using the SPARQL query language. 
 
