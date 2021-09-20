@@ -11,6 +11,7 @@ links:
   - text: Read the discussion
     to: '../002'
 season: spring
+license: CC BY-SA 4.0
 weight: 5
 aliases:
   - /logging-off/
