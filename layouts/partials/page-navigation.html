@@ -27,8 +27,8 @@
       </a>
     {{ end }}
   {{ else }}
-    {{ $firstWeightedPageInSection := index (where $.Parent.Pages "Params.weight" "!=" nil) 0 }}
-    {{ with $pieces.Prev $firstWeightedPageInSection }}
+    {{ $lastWeightedPageInSection := index (last 1 (where $.Parent.Pages "Params.weight" "!=" nil)) 0 }}
+    {{ with $pieces.Prev $lastWeightedPageInSection }}
       <a href="{{ .Permalink }}">
         <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
       </a>
