@@ -22,6 +22,7 @@ jobs:
       - run: |
           latest=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-)
           wget https://github.com/gohugoio/hugo/releases/download/v${latest}/hugo_${latest}_Linux-64bit.deb -O hugo.deb
+          sudo dpkg -i hugo.deb
 
       # Checks-out your repository under $GITHUB_WORKSPACE, 
       # so your workflow can access it
