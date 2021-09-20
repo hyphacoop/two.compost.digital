@@ -1,7 +1,14 @@
 <div class="prev-and-next-buttons" role="navigation">
+  {{ $pieces := where (where $.Site.Pages.ByWeight "Section" "pieces") "Params.weight" "!=" nil }}
   
-  {{ with .Site.Pages.ByWeight.Next . }}
-    <a href="{{.Permalink}}">
+  {{ if $pieces.Next .}}
+    {{ with $pieces.Next . }}
+      <a href="{{.Permalink}}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
+      </a>
+    {{ end }}
+  {{ else if isset .Parent.Params "prev_piece"  }}
+    <a href="{{ .Parent.Params.prev_piece }}">
       <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
     </a>
   {{ end }}
@@ -10,9 +17,15 @@
     <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}" alt="Home" aria-label="Home">
   </a>
 
-  {{ with .Site.Pages.ByWeight.Prev . }}
-    <a href="{{.Permalink}}">
-      <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Previous Piece">
+  {{ if $pieces.Prev .}}
+    {{ with $pieces.Prev . }}
+      <a href="{{.Permalink}}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
+      </a>
+    {{ end }}
+  {{ else if isset .Parent.Params "next_piece" }}
+    <a href="{{.Parent.Params.next_piece}}">
+      <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
     </a>
   {{ end }}
 </div>
