@@ -1,18 +1,37 @@
 <div class="prev-and-next-buttons" role="navigation">
+  {{ $pieces := where (where $.Site.Pages.ByWeight "Section" "pieces") "Params.weight" "!=" nil }}
   
-  {{ with .Site.Pages.ByWeight.Next . }}
-    <a href="{{.Permalink}}">
-      <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
-    </a>
+  {{ if $pieces.Next .}}
+    {{ with $pieces.Next . }}
+      <a href="{{.Permalink}}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
+      </a>
+    {{ end }}
+  {{ else }}
+    {{ $firstWeightedPageInSection := index (where $.Parent.Pages "Params.weight" "!=" nil) 0 }}
+    {{ with $pieces.Next $firstWeightedPageInSection }}
+      <a href="{{ .Permalink }}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowLft_Black.png" | relURL }}" alt="Previous page" aria-label="Previous Piece">
+      </a>
+    {{ end }}
   {{ end }}
 
   <a href="{{ relref . "/" }}">
     <img class="home-icon" src="{{ "images/COMPOST_Assets_HOME_500.png" | relURL }}" alt="Home" aria-label="Home">
   </a>
 
-  {{ with .Site.Pages.ByWeight.Prev . }}
-    <a href="{{.Permalink}}">
-      <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Previous Piece">
-    </a>
+  {{ if $pieces.Prev .}}
+    {{ with $pieces.Prev . }}
+      <a href="{{.Permalink}}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
+      </a>
+    {{ end }}
+  {{ else }}
+    {{ $lastWeightedPageInSection := index (last 1 (where $.Parent.Pages "Params.weight" "!=" nil)) 0 }}
+    {{ with $pieces.Prev $lastWeightedPageInSection }}
+      <a href="{{ .Permalink }}">
+        <img class="arrow-icon" src="{{ "images/COMPOST_Assets_ArrowRt_Black.png" | relURL }}" alt="Next page" aria-label="Next Piece">
+      </a>
+    {{ end }}
   {{ end }}
 </div>
