@@ -19,7 +19,7 @@ jobs:
 
       # Install Hugo
       # Download latest version of Hugo
-        run: |
+      - run: |
           latest=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-)
           wget https://github.com/gohugoio/hugo/releases/download/v$latest/hugo_$latest_Linux-64bit.deb -O hugo.deb
 
