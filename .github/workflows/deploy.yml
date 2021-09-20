@@ -32,6 +32,7 @@ jobs:
       - run: echo "Building hugo site"
       - run: hugo
 
+      - name: Deploying site
         if: ${{ github.ref == 'refs/heads/staging' }}
         run: |
           ls ${{ github.workspace }}
