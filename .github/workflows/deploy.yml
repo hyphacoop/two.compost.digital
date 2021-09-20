@@ -1,4 +1,4 @@
-name: Deploy Jekyll Site
+name: Deploy Site
 on:
   push:
     branches:
