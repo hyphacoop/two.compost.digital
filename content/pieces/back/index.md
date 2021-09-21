@@ -22,7 +22,7 @@ https://www.kolaheywardrotimi.com/
 
 ### ЄЄꌚ𝕙𝖎Ƭα
 ```
-https://eeshitakapadiya.blogspot.com/
+https://killjoycooking.network/
 ```
 
 ### ℂ𝕖𝕝𝕚𝕟𝕖 ✿

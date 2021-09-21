@@ -24,9 +24,9 @@ As the pandemic progressed, we continued to write to each other and exchange rec
 
 In June of 2021, 16 months after our first email exchange, we asked friends and family to write letters and share recipes with women they knew or wanted to know better. The pandemic made it difficult for many of us to visit the post office, so we embraced digital technology, looking to our friend-foe, the email. Since then, more than 20 women in different parts of the world began to populate the inboxes of their friends, family, roommates, and mentors with letters and recipes.
 
-We called this network of women and recipes the Killjoy Cooking Network. Together, we explored the joy of cooking without losing sight of the fact that the kitchen, especially in the Indian context, has often become the site of killing. The word “killjoy” came to us from Sara Ahmed’s blog, “Feminist Killjoy" {{< footnote "feminist-killjoy" >}} —a feminist killjoy being someone who refuses to look the other way, or just is “in the way.” As Killjoy cooks, we remember the sustenance we receive with fondness, and refuse to forget the labour: the grief and grievances of aching legs, of aching hearts, of sweaty bodies and shattered dreams. Ahmed writes: “The history of feminist critiques of happiness could be translated into a manifesto: _"Don't look over it: don't get over it.”_ {{< footnote "1" >}} What does the killjoy in the kitchen not look over then? Killjoy cooks tell stories of how far we have come and the many miles left to go. 
+We called this network of women and recipes the Killjoy Cooking Network. Together, we explored the joy of cooking without losing sight of the fact that the kitchen, especially in the Indian context, has often become the site of killing. The word “killjoy” came to us from Sara Ahmed’s blog, “Feminist Killjoy" [[1]](#Footnotes) —a feminist killjoy being someone who refuses to look the other way, or just is “in the way.” As Killjoy cooks, we remember the sustenance we receive with fondness, and refuse to forget the labour: the grief and grievances of aching legs, of aching hearts, of sweaty bodies and shattered dreams. Ahmed writes: “The history of feminist critiques of happiness could be translated into a manifesto: _"Don't look over it: don't get over it.”_ [[2]](#Footnotes) What does the killjoy in the kitchen not look over then? Killjoy cooks tell stories of how far we have come and the many miles left to go. 
 
-We recently came across the words: _“The tongue is an archive.”_ {{< footnote "2" >}} So what did it mean for us to write about our everyday lives, labour, and experiences? The Killjoy cooks’ letter exchange is an invitation to think deeply about the web of relationships we are a part of, and the wisdom we receive and impart in the process of caring and being cared for. 
+We recently came across the words: _“The tongue is an archive.”_ [[3]](#Footnotes) So what did it mean for us to write about our everyday lives, labour, and experiences? The Killjoy cooks’ letter exchange is an invitation to think deeply about the web of relationships we are a part of, and the wisdom we receive and impart in the process of caring and being cared for. 
 
 Which memories stay and which ones leave? There are echoes, notions, that reverberate among us—contributing to a shared consciousness, a community. These stories have often travelled orally, hidden in cautionary tales, family secrets, or kitchen banter. What better way to help jog our memory then, than the sensory-laden act of cooking and eating?
 
@@ -77,6 +77,14 @@ _A big thank you to the COMPOST team and all the contributors for issue 02 for t
 _A special thank you to Micah Alex, Shreyas Srivastav (Living Labs Network and Forum) and Neeraj Sebastian for the constant support along the way._
 
 _And lastly, a shout out to all the women who exchanged recipes and letters over the last 2 months, for making the process their own, for getting uncomfortable (especially by committing to the herculean task of writing) and for breathing life into the Killjoy Cooking Network._
+
+***
+
+## Footnotes
+
+1. https://feministkilljoys.com/
+1. Sara Ahmed, “Feminist Killjoys (And Other Willful Subjects)”, The Scholar and Feminist Online, Issue 8.3 (2010)
+1. Words Eeshita found on Instagram used to describe the work of Jasleen Kaur (http://jasleenkaur.co.uk/about-2/), an artist based in London. Jasleen Kaur’s practice explores social histories, gender roles, and care in diasporic communities, often through the lens of food and eating.
 
 ***
 
