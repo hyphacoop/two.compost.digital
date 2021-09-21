@@ -109,7 +109,7 @@ Nature-based communities have been for centuries flooded with alcohol incentiviz
 Unfortunately, it’s becoming more and more rare to find a community which is tied by cultural identity. But what every local community has in common is the connection to a physical territory, even if there’s no deeper cultural connection to the land.
 
 {{< figure src="image7.jpg" alt="Screenshots of a website showing a map and location icons" class="has-shadow" caption="Image via Coolab">}} 
-_Coolab_ {{< footnote "coolab" >}}
+_Coolab_ {{< footnote "coolab-2" >}}
 
 By bringing back the focus to the land itself, we revert the decaying of cultural identity, increasing the sense of community and autonomy. Identifying ourselves in a larger, local context works in alignment with our thirst for communal belonging.
 
