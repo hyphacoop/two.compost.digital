@@ -46,13 +46,11 @@ https://imagesnippets.com/
 ### b⃣ . e⃣ . n⃣ . n⃣ . y⃣ .
 ```
 http://ifiaar.org/
-
 ```
 
 ### L̳I̳ᗩᎥƶꄲꋊ
 ```
 https://wake.st/
-
 ```
 
 ### S̊⫶ů⫶l̊⫶t̊⫶å⫶n̊⫶å⫶
@@ -60,7 +58,6 @@ https://wake.st/
 https://sultanazana.github.io/dreams.io/
 https://sultanazana.github.io/fieldness.io/
 https://whattt.cargo.site/
-
 ```
 
 ### ʍǟɨ
@@ -80,6 +77,8 @@ Thanks for working away behind the scenes, Elon and Yurko! We truly appreciate a
 Hanami, we're so lucky to have you as part of our team—you continue to blow us away with your skills.
 
 We have so so so much gratitude for our monthly supporters on Open Collective. Thank you for believing in this project and supporting us on this journey!
+
+I want a shout out to Andi for so much inspiration; Mai, Benedict, Udit and team for great guidance and the willingness to experiment with the metadata on the images. Benny, Kola, Luandro, Eeshita, and Wakest for all the exciting ideas and connections. — Margaret
 
 
 ## ＊✿❀ BIG thank you to our supporters + partners! ❀✿＊
