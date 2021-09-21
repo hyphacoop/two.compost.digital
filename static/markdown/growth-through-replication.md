@@ -86,3 +86,11 @@ I think about why things are the way they are most moments of the day. But when 
 ![Dithered landscape image](https://two.compost.digital/growth-through-replication/gif-praxis-21.png)
 
 _All .gifs lovingly collected from the Kickapoo region of Wisconsin in July of 2021, in and around the childhood home of Liaizon Wakest._
+
+***
+
+_**Liaizon Wakest** grew up on an anarchist commune in rural USA. They can be found climbing into dumpsters from Mexico to Kazakhstan looking for trash to make art with. In recent years they have been focused on research into alternative technology and infrastructural anarchism. Find out more about them on [wake.st](https://wake.st)._
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-SA 4.0 license._

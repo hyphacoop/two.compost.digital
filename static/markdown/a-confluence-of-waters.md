@@ -370,3 +370,13 @@ _If you would like to join their project, please visit [bluemarble.pics](https:/
 1. YouTube: “CNN: Sea turtle expert surveys Gulf oil spill” https://www.youtube.com/watch?v=8ClZ0QcneAQ
 1. Audio recording of the first read through of “Haw Meong Suey,” a collaborative poem written by poets Nellie Wong, Flo Oy Wong, and Genny Lim, recorded on May 13, 2021 via Zoom. https://archive.org/details/the-last-hoisan-poets-haw-meong-suey-good-lifes-water-20210513
 1. Audio of this story, as told by Margaret’s great aunt recorded by Margaret’s father in 1976: https://archive.org/details/mississippi_river_story
+
+***
+
+_Artist/educator **Andi Wong** enjoys connecting dots and coloring outside the lines. She is project coordinator for ArtsEd4All._
+
+_Artist/technologist **Margaret Warren** collects synchronicities and tells stories with metadata. She is the creator of ImageSnippets._
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-SA 4.0 license._

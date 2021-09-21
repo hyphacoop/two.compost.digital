@@ -180,3 +180,11 @@ It took both of them by surprise when Kurt placed his computer briefcase on his 
 Kurt propped up the laptop and logged out of the Quantus app on his phone. The Panic Button was now locked away.
 
 “I won’t help you with anything illegal,” Kurt muttered, disconnecting from Quantus servers along with the city’s Wi-Fi. “But why not a complimentary consultation on your stolen data?”
+
+***
+
+_**Kola** is a writer and new media artist/scholar from Durham, NC. He is currently a Faculty Research Assistant at the University of Maryland's African American History, Culture, and Digital Humanities initiative (AADHum), where he studies how different societies engage with and create virtual spaces._
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-ND 4.0 license._

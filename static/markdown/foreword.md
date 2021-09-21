@@ -29,3 +29,9 @@ Mai Ishikawa Sutton
 Tal Milovina  
 Udit Vira  
 Benedict Lau  
+
+***
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-SA 4.0 license._

@@ -224,3 +224,11 @@ We might not be able to change the downhill course of civilization. But we can a
 1. https://en.wikipedia.org/wiki/Rocket_stove
 1. https://www.earthdefenderstoolkit.com/
 1. https://www.redesac.org.mx/publicaciones
+
+***
+
+_**Luandro** is a technologist, forester, and admirer of originary cultures. Works in collaboration with communities on projects to support local autonomy and strenghten cultural identity. Active in the community-networks movement and in distributed protocols cypherspaces._
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-SA 4.0 license._

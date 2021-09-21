@@ -77,3 +77,13 @@ _A big thank you to the COMPOST team and all the contributors for issue 02 for t
 _A special thank you to Micah Alex, Shreyas Srivastav (Living Labs Network and Forum) and Neeraj Sebastian for the constant support along the way._
 
 _And lastly, a shout out to all the women who exchanged recipes and letters over the last 2 months, for making the process their own, for getting uncomfortable (especially by committing to the herculean task of writing) and for breathing life into the Killjoy Cooking Network._
+
+***
+
+_**Eeshita** is an artist and designer based in Bangalore. She mostly likes to cook, sew and dream up ways to smash the patriarchy._
+
+_**Mrinalini Sebastian** from Puttur, Karnataka, is an independent researcher who is interested in questions of history, community, gender, and critical theories. She works part-time as the Site Coordinator of Harcum College Partnership Site at Grace-Trinity UCC, Philadelphia and mentors a small group of pre-school teachers who are working towards their Associate degree._
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-SA 4.0 license._

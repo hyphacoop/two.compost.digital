@@ -166,3 +166,9 @@ My question is about the roots which are pumping all of this. Everything from th
 1. https://en.wikipedia.org/wiki/Pradip_Krishen
 1. https://sultanazana.github.io/dreams.io/notaat.html
 1. https://sultanazana.github.io/fieldness.io/tiem3.html
+
+***
+
+_This piece was first published in Issue 02 of COMPOST magazine. Visit the magazine on the World Wide Web at [two.compost.digital](https://two.compost.digital)._
+
+_You may republish the piece under the terms of the CC BY-SA 4.0 license._
