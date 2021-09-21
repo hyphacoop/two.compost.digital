@@ -5,7 +5,7 @@ tableOfContentsImageUrl: ./images/title-images/kola-700x350.jpg
 titleImageUrl: ./images/title-images/kola-700x350.jpg
 description: A cybersecurity specialist named Kurt uses his employers' quantum computing platform to help corporations nullify ransomware attacks--but a routine job goes far off-script when he's sent to Raleigh, North Carolina.
 license: CC BY-ND 4.0
-markdown: ../../markdown/qubit-guarantee.md
+markdown: ../markdown/qubit-guarantee.md
 weight: 2
 ---
 Kurt was hesitant when a self-driving car, courtesy of his client, arrived to pick him up at the RDU airport at 10 in the morning. It made a soft _ping_ when he shut the door. A voice welcomed him to North Carolina before peeling off from the terminal and gliding down the highway at a cool 65 miles per hour.

@@ -50,13 +50,12 @@ COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}
     <div class="bio"><p>{{ $author.bio | markdownify }}</p></div>
 
     {{ if isset .Params "markdown" }}
-      {{ $license := cond (isset .Params "license") .Params.license "CC-BY-SA" }}
-      {{ $markdownUrl := .Params.markdown | relURL }}
+      {{ $license := cond (isset .Params "license") .Params.license "CC BY-SA 4.0" }}
       <script src="{{ (resources.Get "js/fetch-markdown.js").RelPermalink }}"></script>
       <div class="copy-markdown">
         <strong>Content License: {{ $license }}</strong>
         <p>We built this little tool for you to inoculate other web spaces with the ideas and stories contained in this issue. To re-publish this piece under the terms of the license, click below to copy the markdown.</p>
-        <button onclick="fetchMarkdown({{$markdownUrl}})" id="copy-button" class="theme-button font-monospace">
+        <button onclick="fetchMarkdown({{ .Params.markdown }})" id="copy-button" class="theme-button font-monospace">
           <span id="copy-button-text">Copy markdown</span>
           <img src="{{ "./images/copy-icon.svg" | relURL }}" id="copy-icon" />
         </button>
