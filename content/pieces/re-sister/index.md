@@ -7,8 +7,7 @@ footnotesUrl: "footnotes.json"
 titleImageUrl: ./images/title-images/eeshita.jpg
 customClass: openseadragon-map-container
 description: What happens when two women write to each other about food?
-license: CC BY-SA 4.0
-markdown: ../../markdown/re-sister.md
+markdown: ../markdown//re-sister.md
 weight: 3
 customClass: killjoy
 ---

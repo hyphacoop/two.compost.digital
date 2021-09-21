@@ -3,6 +3,7 @@ title: Foreword
 description: A letter from the editors.
 tableOfContentsImageUrl: ./images/title-images/foreword.jpg
 titleImageUrl: ./images/title-images/foreword.jpg
+markdown: ../markdown/foreword.md
 weight: 1
 ---
 Hi, and welcome to the second issue of COMPOST!

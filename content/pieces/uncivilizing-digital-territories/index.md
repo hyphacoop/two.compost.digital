@@ -5,8 +5,7 @@ footnotesUrl: "footnotes.json"
 tableOfContentsImageUrl: ./images/title-images/luandro-700x350.jpg
 titleImageUrl: ./images/title-images/luandro-700x350.jpg
 description: Current digital technologies are the products of cultures that aren't aligned with nature. Can we subvert them to empower nature-based cultures and strenghten local communities?
-license: CC BY-SA 4.0
-markdown: ../../markdown/uncivilizing-digital-territories.md
+markdown: ../markdown/uncivilizing-digital-territories.md
 weight: 4
 ---
 There’s something very wrong with status-quo culture, starting with the fact that such a thing exists in the first place. How has a culture that directly conflicts with the very essence of being human—being part of planet Earth—become the default? Don’t worry, I won’t attempt to explore the history of patriarchy, the state, or capitalism. The fact is that this system has colonized most of humanity through tools that serve the centralization of power. That might be a very natural thing for animals such as ourselves, but it doesn’t really contribute much to gender and cultural diversity, the rest of the planet, survival, or quality of life, does it?
