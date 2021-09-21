@@ -8,9 +8,11 @@ grey-background
 
 {{ define "og" }}
   <meta property="og:title" content="COMPOST Issue 02: {{ .Params.title }} by {{ .Params.author }}" />
-  <meta property="og:url" content="https://one.compost.digital{{ .Page.RelPermalink }}" />
-  <meta property="og:image" content="https://one.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
+  <meta property="og:url" content="https://two.compost.digital{{ .Page.RelPermalink }}" />
+  <meta property="og:image" content="https://two.compost.digital{{ .Params.tableOfContentsImageUrl | relURL }}" />
   <meta property="og:description" content="{{ .Params.description }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="COMPOST Issue 02" />
 {{ end }}
 
 {{ define "title" }}
