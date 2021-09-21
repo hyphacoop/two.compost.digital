@@ -5,16 +5,15 @@ tableOfContentsImageUrl: ./images/title-images/sultana-700x394.png
 footnotesUrl: "footnotes.json"
 titleImageUrl: ./images/title-images/sultana-700x394.png
 description: Sultana Zana is an artist, researcher, mycelial-enthusiast, insect-fanatic, and network-inoculator. We talked to them about redefining value, the dynamism of paranodal space, and learning to see and appreciate what has been made invisible.
+markdown: ../markdown/reverence-for-the-spaces-in-between.md
 weight: 9
 ---
 
 Influencers, Instagram, the proliferation of state propaganda—today’s political economy runs on attention. “Value” is abstracted; speculation determines worth. The incalculable messiness of the world is flattened by predictable capitalist logic. But for Sultana Zana, the tools of the market also hold the possibility of subverting the market. As the digital world births new hydras of monopoly, the global finance machine can become a spore itself: seeding authentic entanglements, cultivating an economy of slowness, and redirecting our attention to wilderness everywhere.
 
-Based in Bangalore, Zana {{< footnote "zana" >}} is a performer, painter, sound artist, researcher, media artist, physicist, former nano-technologist, mycelial-enthusiast, insect-fanatic, and network-inoculator. Their home is a lab where everything is inoculated with everything else—and they take the same approach to the rest of their work. In "Heaven 2.0"{{< footnote "heaven" >}}, an intelligent assistant teaches a time traveling soil expert about a future cyber-based world, invoking the metaphor of a mycelial network to meditate on the critical threats to our common future. "Landscapes" {{< footnote "landscapes" >}} scales up the elegant complexity of our belowgrounds, compiling field recordings from various patches of the Earth in order to transport us to a perceptual world 300 times smaller than our own. (“Unpredictable chaos is beautiful by its very nature because it fails systemic opression,” they write. “This unpredicatble chaos might kill me, but its beauty is not lost to me.”)
+Based in Bangalore, Zana {{< footnote "zana" >}} is a performer, painter, sound artist, researcher, media artist, physicist, former nano-technologist, mycelial-enthusiast, insect-fanatic, and network-inoculator. Their home is a lab where everything is inoculated with everything else—and they take the same approach to the rest of their work. In "Heaven 2.0" {{< footnote "heaven" >}}, an intelligent assistant teaches a time traveling soil expert about a future cyber-based world, invoking the metaphor of a mycelial network to meditate on the critical threats to our common future. "Landscapes" {{< footnote "landscapes" >}} scales up the elegant complexity of our belowgrounds, compiling field recordings from various patches of the Earth in order to transport us to a perceptual world 300 times smaller than our own. (“Unpredictable chaos is beautiful by its very nature because it fails systemic opression,” they write. “This unpredicatble chaos might kill me, but its beauty is not lost to me.”)
 
-{{< figure src="fieldness.jpg" alt="A screenshot of the fieldness frontend." class="has-shadow" caption="Screenshot of the fieldness frontend via Sultana Zana" >}}
-
-The polymath’s current project, "Fieldness"{{< footnote "fieldness-2" >}}, is their most notable experiment yet: an open-source blockchain and ecological database converting experiences with non-human beings into crypto-assets. “Tap into wilderness that is everywhere,” Zana urges, “even though the capitalistic monoculture has really killed the vibe.”
+The polymath’s current project, "Fieldness" {{< footnote "fieldness" >}}, is their most notable experiment yet: an open-source blockchain and ecological database converting experiences with non-human beings into crypto-assets. “Tap into wilderness that is everywhere,” Zana urges, “even though the capitalistic monoculture has really killed the vibe.”
 
 Zana’s practice is playful, but they’re no utopian.  The world is “contaminated,” and so are we; a crypto-conspiracy to celebrate life and propagate joy is inherently tainted too. How might we build architectures of symbiosis, porousness, and connection within a sterile world? What can a practice of deep listening {{< footnote "deep-listening" >}} and careful observation offer in the face of mass extinction and climate collapse? Their probings bring to mind Robin D. G. Kelley’s line {{< footnote "line" >}}: “no one’s hands are completely clean.”
 
@@ -62,7 +61,7 @@ In government universities in India, there are huge sprawling areas that are mos
 
 {{< figure src="banner.png" alt="A banner image for Fieldness." class="has-shadow" caption="A banner image for Fieldness via Sultana Zana" >}}
 
-**Tal**: As we’ve been thinking up inoculation together, we’ve been talking about your project "Fieldness" {{< footnote "fieldness" >}}, which so beautifully expands this issue’s conversations about value, networks, crypto-schemes for connection. Can you unpack the project for us? 
+**Tal**: As we’ve been thinking up inoculation together, we’ve been talking about your project "Fieldness" {{< footnote "fieldness-2" >}}, which so beautifully expands this issue’s conversations about value, networks, crypto-schemes for connection. Can you unpack the project for us? 
 
 **Sultana**: “Fieldness” comes from two different ideas I was sitting on. One of them is the question of what is value and what is valuable. It doesn’t make sense. To cut down a one thousand year old Amazon rainforest to plant palm oil trees? Even with the cost benefit analysis, which is a capitalist way of seeing, it doesn't make sense. One can see this, and yet we continue to strive for things which actually are not that valuable.
 

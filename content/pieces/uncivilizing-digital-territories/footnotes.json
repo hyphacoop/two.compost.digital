@@ -6,13 +6,13 @@
     "text" : "https://clas.osu.edu/sites/clas.osu.edu/files/Tuck%20and%20Yang%202012%20Decolonization%20is%20not%20a%20metaphor.pdf"
   },
   "3" : {
-    "text" : " https://theanarchistlibrary.org/library/ran-prieur-the-critique-of-civilization"
+    "text" : "https://theanarchistlibrary.org/library/ran-prieur-the-critique-of-civilization"
   },
   "4" : {
     "text" : "https://www.theguardian.com/global/2021/aug/22/how-digital-media-turned-us-all-into-dopamine-addicts-and-what-we-can-do-to-break-the-cycle"
   },
   "5" : {
-    "text" : " https://www.nytimes.com/2021/07/25/world/europe/disinformation-social-media.html"
+    "text" : "https://www.nytimes.com/2021/07/25/world/europe/disinformation-social-media.html"
   },
   "6" : {
     "text" : "https://neuroscience.stanford.edu/news/just-how-bad-kids-smartphone-addiction"
@@ -50,14 +50,11 @@
   "raizdasimagens" : {
     "text" : "https://vimeo.com/raizdasimagens"
   },
-  "radioyande" : {
-    "text" : "https://radioyande.com/"
-  },
   "minimally-invasive-education-paper" : {
     "text" : "http://www.hole-in-the-wall.com/docs/Paper01.pdf"
   },
   "hole-in-the-wall" : {
-    "text" : "ttps://www.ted.com/talks/sugata_mitra_kids_can_teach_themselves"
+    "text" : "https://www.ted.com/talks/sugata_mitra_kids_can_teach_themselves"
   },
   "minimally-invasive-education" : {
     "text" : "https://en.wikipedia.org/wiki/Minimally_invasive_education"
@@ -67,6 +64,9 @@
   },
   "pi-zero" : {
     "text" : "https://aliexpress.com/item/32566751770.html"
+  },
+  "coolab-2" : {
+    "text" : "https://www.coolab.org/"
   },
   "coder" : {
     "text" : "https://coder.com/"
