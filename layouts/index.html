@@ -9,7 +9,7 @@ pattern-background
       <div class="above-the-fold-content">
         <div class="cover-image-container">
           <div class="image-bg">
-            <img src="{{ "images/compost_02_cover.gif" | relURL }}" loading="lazy">
+            <img src="{{ "images/compost_02_cover.gif" | relURL }}">
           </div>
         </div>
         <div class="compost-description">
@@ -30,9 +30,9 @@ pattern-background
           <a class="toc-piece-tile" href="{{.Permalink}}">
             <div class="toc-piece-image">
               {{ if isset .Params "tableofcontentsimageurl" }}
-                <img src="{{ .Params.tableOfContentsImageUrl | relURL }}">
+                <img loading="lazy" src="{{ .Params.tableOfContentsImageUrl | relURL }}">
               {{ else }}
-                <img src="{{ "./images/defaults/default-toc-image-3.jpg" | relURL }}">
+                <img loading="lazy" src="{{ "./images/defaults/default-toc-image-3.jpg" | relURL }}">
               {{ end }}
             </div>
             <div class="toc-piece-title">{{.Title}}</div>
