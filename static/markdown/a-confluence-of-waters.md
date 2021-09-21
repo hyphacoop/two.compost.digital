@@ -58,7 +58,7 @@ In 2010, Andi went to hear J talk about sea turtles, after an introductory email
 
 ## Andi’s Water
 
-My water begins in a small town in the California Delta called Locke, a historic rural Chinese-American community in the United States. The town of Locke was built in 1915 by Chinese residents, after the Chinatown in nearby Walnut Grove was destroyed by fire. I enjoyed lazy childhood summers in Locke, staying with my grandparents in their home on Main Street. My cousins and I had the run of the wooden plank walkways and the back alleys of this tiny four-block town. Locke was a place where we could roam and play until sundown, and while we children grew up with very little knowledge of the extreme challenges faced by our families: The Page Act of 1875, The Chinese Exclusion Act of 1882, The Geary Act of 1892, The Alien Law of 1913 which prohibited the Chinese from owning land. There, in this isolated town, my mother’s family made it through the Great Depression and World War II.
+My water begins in a small town in the California Delta called Locke, a historic rural Chinese-American community in the United States. The town of Locke was built in 1915 by Chinese residents, after the Chinatown in nearby Walnut Grove was destroyed by fire. I enjoyed lazy childhood summers in Locke, staying with my grandparents in their home on Main Street. My cousins and I had the run of the wooden plank walkways and the back alleys of this tiny four-block town. Locke was a place where we could roam and play until sundown, and we children grew up with very little knowledge of the extreme challenges faced by our families: The Page Act of 1875, The Chinese Exclusion Act of 1882, The Geary Act of 1892, The Alien Law of 1913 which prohibited the Chinese from owning land. There, in this isolated town, my mother’s family made it through the Great Depression and World War II.
 
 In the 1940’s and 50’s, most young people—including my mother—left Locke, searching for greater opportunity and better living conditions. Today, in 2021, few residents of Chinese ancestry remain, and Locke has one of 300 failing systems in California that routinely supply roughly 1 million people with contaminated drinking water.
 
@@ -141,7 +141,7 @@ _Image via Andi Wong_
 
 When I asked the kids why they liked playing the game, I learned that they knew that if they kept playing the game, they would improve. And one boy told me that he liked this game because he knew he could never die in it.
 
-It was then that I decided what I would do that fall with my class. We would play Marble Blast, away from the keyboard, in real-life. 
+It was then that I decided what I would do with my class. We would play Marble Blast, away from the keyboard, in real-life. 
 
 When very young children draw their blue marbles close to their eyes while looking into the light, they will tell you that they see a whole menagerie of creatures, both real and imaginary — dolphins and whales, sea turtles and fish, merpeople and pirate ships. The children are eager to share what they see, and their eyes shine bright with wonder. 
 
