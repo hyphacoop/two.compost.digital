@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Next
-    to: '../006'
+    to: '../006/'
 season: spring
 post-count: 2
 rank: Newbie

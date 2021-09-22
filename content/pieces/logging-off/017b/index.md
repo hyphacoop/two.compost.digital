@@ -5,9 +5,9 @@ layout: multipage
 order: celine
 links:
   - text: Accept the moderator position
-    to: '../018a'
+    to: '../018a/'
   - text: Decline the moderator position
-    to: '../018b'
+    to: '../018b/'
 season: winter
 post-count: 799
 rank: Veteran

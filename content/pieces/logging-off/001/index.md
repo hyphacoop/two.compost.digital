@@ -9,7 +9,7 @@ order: celine
 customClass: cn-foraging-piece
 links:
   - text: Read the discussion
-    to: '../002'
+    to: '../002/'
 season: spring
 weight: 5
 aliases:

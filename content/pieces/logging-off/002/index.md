@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Next
-    to: '../003'
+    to: '../003/'
 season: spring
 ---
 

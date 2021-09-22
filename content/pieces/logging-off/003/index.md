@@ -5,9 +5,9 @@ layout: multipage
 order: celine
 links:
   - text: Register for an account
-    to: '../004a'
+    to: '../004a/'
   - text: You'd rather figure it out yourself
-    to: '../004b'
+    to: '../004b/'
 season: spring
 ---
 

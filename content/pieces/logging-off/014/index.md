@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Next
-    to: '../015'
+    to: '../015/'
 season: fall
 post-count: 502
 rank: Veteran

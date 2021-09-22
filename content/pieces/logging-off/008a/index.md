@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Go back to the forum home page
-    to: '../009'
+    to: '../009/'
 season: summer
 post-count: 163
 rank: Member

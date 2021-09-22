@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Go forage for morels
-    to: '../005a'
+    to: '../005a/'
 season: spring
 post-count: 1
 rank: Newbie

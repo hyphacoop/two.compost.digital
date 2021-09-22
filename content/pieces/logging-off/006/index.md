@@ -5,9 +5,9 @@ layout: multipage
 order: celine
 links:
   - text: Tell him you’ve heard about them from a friend
-    to: '../007a'
+    to: '../007a/'
   - text: Tell him you’ve heard about them through…an online forum…
-    to: '../007b'
+    to: '../007b/'
 season: summer
 post-count: 16
 rank: Member

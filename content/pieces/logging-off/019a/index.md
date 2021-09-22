@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Notes and resources
-    to: '../notes'
+    to: '../notes/'
 season: spring
 post-count: 1204
 rank: Moderator
