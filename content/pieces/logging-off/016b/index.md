@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Next
-    to: '../017b'
+    to: '../017b/'
 season: winter
 post-count: 799
 rank: Veteran

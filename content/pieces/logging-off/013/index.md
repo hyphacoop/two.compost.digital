@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Next
-    to: '../014'
+    to: '../014/'
 season: fall
 post-count: 359
 rank: Member

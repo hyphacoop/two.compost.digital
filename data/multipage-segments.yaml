@@ -1,6 +1,6 @@
 - chapters:
     - title: '001'
-      link: ../001
+      link: ../001/
 - chapters:
     - title: '002'
       link: ../002/
@@ -89,4 +89,4 @@
     link: ../019b/
 - chapters:
     - title: 'notes'
-      link: ../notes
+      link: ../notes/

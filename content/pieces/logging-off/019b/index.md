@@ -7,7 +7,7 @@ order: celine
 customClass: cn-foraging-piece
 links:
   - text: Notes and resources
-    to: '../notes'
+    to: '../notes/'
 season: spring
 ---
 

@@ -5,11 +5,11 @@ layout: multipage
 order: celine
 links:
   - text: Read **What can I grow in a north-facing garden?**
-    to: '../008a'
+    to: '../008a/'
   - text: Read **[Meta] Can we have more pinned posts about mycology?**
-    to: '../008b'
+    to: '../008b/'
   - text: Go to bed
-    to: '../010'
+    to: '../010/'
 season: summer
 post-count: 163
 rank: Member

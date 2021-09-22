@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Next
-    to: '../019a'
+    to: '../019a/'
 season: winter
 post-count: 933
 rank: Moderator

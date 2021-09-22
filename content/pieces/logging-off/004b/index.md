@@ -5,7 +5,7 @@ layout: multipage
 order: celine
 links:
   - text: Go forage for morels
-    to: '../005b'
+    to: '../005b/'
 season: spring
 ---
 

@@ -5,9 +5,9 @@ layout: multipage
 order: celine
 links:
   - text: Post to support your friend
-    to: '../016a'
+    to: '../016a/'
   - text: Try not to get sucked into an argument
-    to: '../016b'
+    to: '../016b/'
 season: winter
 post-count: 799
 rank: Veteran
