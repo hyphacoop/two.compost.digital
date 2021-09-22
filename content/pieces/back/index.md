@@ -45,7 +45,8 @@ https://imagesnippets.com/
 
 ### b⃣ . e⃣ . n⃣ . n⃣ . y⃣ .
 ```
-http://ifiaar.org/
+https://www.instagram.com/twicetunatuna/
+https://newart.city
 ```
 
 ### L̳I̳ᗩᎥƶꄲꋊ
