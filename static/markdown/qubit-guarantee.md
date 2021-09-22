@@ -61,7 +61,7 @@ The voice sighed as if this was the response they’d been hoping for. “To do 
 
 Hackers calling themselves a “community” was one hell of a marketing gimmick.
 
-{{< anigif name="bamboo_slow" >}}
+***
 
 It turned out the new destination wasn’t in a suburb but the edge of downtown. As he approached the city, Kurt passed by his fair share of identical townhouses anyway. Raleigh was couched in a bed of blooming vegetation, its neighborhoods in a forest with swaths of trees cleared for flat lawns and asphalt. The unknown voice had gone quiet for most of the ride. They refused to clarify Kurt’s questions beyond emphatic reassurances that they’d cause him no harm, that his concerns would soon be addressed once he arrived. It was impossible to tell if they were being truthful. All Kurt had was the waver in their tone, which made them sound sincere, disarming. Also, of course, the promise of a commission triple the size of a Quantus check. He could end this at any time, anyway. Hit the Panic Button, even call the police. But he was curious enough at this point he figured he might as well see if these people were serious.
 
