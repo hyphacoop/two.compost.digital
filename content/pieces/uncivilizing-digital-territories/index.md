@@ -12,7 +12,7 @@ There’s something very wrong with status-quo culture, starting with the fact t
 
 It’s tempting to think that it’s always been like this: One culture to control them all. But it’s taken thousands of years of colonization for civilizations to develop themselves into this global coercion machine.
 
-Author Derrick Jensen defines civilization as a culture that both leads to and emerges from the growth of cities, with "cities'' defined as "people living more or less permanently in one place in densities high enough to require the routine importation of food and other necessities of life". This need for civilizations to import ever more resources, he argues, stems from their overexploitation and diminution of their own local resources. Therefore, civilizations inherently adopt imperialist and expansionist policies and, to maintain these highly militarized, hierarchically structured, and coercion-based cultures and lifestyles.{{< footnote "1" >}}
+Some argue that the need for civilizations to import ever more resources stems from their overexploitation and diminution of their own local resources. Therefore, civilizations adopt imperialist and expansionist policies and, to maintain these highly militarized, hierarchically structured, and coercion-based cultures and lifestyles.
 
 It sure seems that we’re at the peak of it—power is more concentrated than ever, and the symptom is the collapse we are experiencing today. Due to the near ubiquity of this oppressive culture, we have almost no choice to operate outside of it.
 
@@ -183,3 +183,5 @@ But the fact is that most communities have already been exposed to the corporate
 All that is much easier said than done, as encouraging alternatives to mainstream usage of technology is, many times, like trying to swim against a strong current. But we can build networks of communities where experiences are shared, and principles of autonomy—and livelihoods which operate in mutual relationship with Mother Earth’s complex, abundant world—can be valued and celebrated. Building these relationships with native-cultures without being extractive is fundamental for learning how to reconnect with our essence and understanding more about non-civilized practices and ways of life.
 
 We might not be able to change the downhill course of civilization. But we can assist in strengthening our communities so that, when crises occur, we respond with our networks from a place of autonomy, solidarity, and resilience.
+
+_Editors' Note: This piece has been edited to remove a mention and citation of a figure who has aligned themselves with an organization that has expressed violent, transphobic beliefs. Therefore we have retracted the reference as to not signal support of this group._
