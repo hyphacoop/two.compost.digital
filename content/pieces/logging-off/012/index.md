@@ -42,8 +42,8 @@ When you mention the quiz you took — *What were the primary subsistence techni
 > > To: **chaparral**
 >
 > Some of the foraging books I’ve read discuss this a bit. Prior to colonization and European settlement, the Ohlone lived off of mussels, clams, various roots and berries, acorns…  
-
-They cared for the land in such a different way, probably a lot more sustainably than what we’re doing now. I can send you some readings if you’re interested!
+>
+> They cared for the land in such a different way, probably a lot more sustainably than what we’re doing now. I can send you some readings if you’re interested!
 
 She sends you a PDF of a 182-page book, which you make an effort to read. It describes an environment of incredible abundance, but in a somber, elegiac tone. *Some birds and animals*, the book reports, *are now totally exterminated, while others survived by greatly increasing the distance between themselves and people. Today we are the heirs of that distance, and we take it entirely for granted.*
 
