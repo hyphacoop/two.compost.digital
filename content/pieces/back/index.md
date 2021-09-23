@@ -46,8 +46,8 @@ https://imagesnippets.com/
 ### b⃣ . e⃣ . n⃣ . n⃣ . y⃣ .
 ```
 https://www.instagram.com/twicetunatuna/
-https://newart.city
-https://gentleplants.com
+https://newart.city/
+https://gentleplants.com/
 ```
 
 ### L̳I̳ᗩᎥƶꄲꋊ
