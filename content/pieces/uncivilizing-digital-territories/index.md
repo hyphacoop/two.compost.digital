@@ -184,4 +184,4 @@ All that is much easier said than done, as encouraging alternatives to mainstrea
 
 We might not be able to change the downhill course of civilization. But we can assist in strengthening our communities so that, when crises occur, we respond with our networks from a place of autonomy, solidarity, and resilience.
 
-_Editors' Note: This piece has been edited to remove a mention and citation of a figure who has aligned themselves with an organization that has expressed violent, transphobic beliefs. Therefore we have retracted the reference as to not signal support of this group._
+_Editors' Note: This piece has been edited to remove mention of a figure who has aligned themselves with violent, transphobic beliefs. We retract any reference that inadvertently signaled support of him, or affiliated groups._
