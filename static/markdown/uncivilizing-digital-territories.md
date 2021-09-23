@@ -7,21 +7,21 @@ There’s something very wrong with status-quo culture, starting with the fact t
 
 It’s tempting to think that it’s always been like this: One culture to control them all. But it’s taken thousands of years of colonization for civilizations to develop themselves into this global coercion machine.
 
-Author Derrick Jensen defines civilization as a culture that both leads to and emerges from the growth of cities, with "cities'' defined as "people living more or less permanently in one place in densities high enough to require the routine importation of food and other necessities of life". This need for civilizations to import ever more resources, he argues, stems from their overexploitation and diminution of their own local resources. Therefore, civilizations inherently adopt imperialist and expansionist policies and, to maintain these highly militarized, hierarchically structured, and coercion-based cultures and lifestyles. [[1]](#Footnotes)
+Some argue that the need for civilizations to import ever more resources stems from their overexploitation and diminution of their own local resources. Therefore, civilizations adopt imperialist and expansionist policies and, to maintain these highly militarized, hierarchically structured, and coercion-based cultures and lifestyles.
 
 It sure seems that we’re at the peak of it—power is more concentrated than ever, and the symptom is the collapse we are experiencing today. Due to the near ubiquity of this oppressive culture, we have almost no choice to operate outside of it.
 
-> “_We know that Mother Nature has a culture, and it is a Native culture_” Yupiaq scholar, Oscar Kawagley [[2]](#Footnotes)
+> “_We know that Mother Nature has a culture, and it is a Native culture_” Yupiaq scholar, Oscar Kawagley [[1]](#Footnotes)
 
 Alternatives to the civil monoculturing still exist and resist even in the face of states and corporations that work to extinguish and assimilate them. Contrary to civilization, many Cultures of the Earth still operate in harmony with larger systems. Such cultures thrive and build systems of abundance, such as forests. Indigenous cultures teach us that living with cultural and biological diversity is not only possible, but also the best way to survive long term.
 
 We, civilized people, have been brought up to understand ourselves in relation to nations that are built on stolen land, mass genocide, and the exploitation of human and non-human life; but, given a chance, can we choose to contribute to building tools of solidarity and community, rather than individualism and coercion?
 
-> "Our familiar “technologies” were developed in the context of conquest and central control and runaway exploitation and the numbness to make it all tolerable. We have the ones we have because they fed back into these habits, and they would continue to do so." Ran Prieur [[3]](#Footnotes)
+> "Our familiar “technologies” were developed in the context of conquest and central control and runaway exploitation and the numbness to make it all tolerable. We have the ones we have because they fed back into these habits, and they would continue to do so." Ran Prieur [[2]](#Footnotes)
 
-Digital technologies are perhaps too powerful. They are used for connecting distant loved ones and learning, while also for turning people into dopamine junkies [[4]](#Footnotes) and spreading disinformation. [[5]](#Footnotes) But they can also help strengthen communities and their resistances.
+Digital technologies are perhaps too powerful. They are used for connecting distant loved ones and learning, while also for turning people into dopamine junkies [[3]](#Footnotes) and spreading disinformation. [[4]](#Footnotes) But they can also help strengthen communities and their resistances.
 
-We have been involved for years with the community-networks [[6]](#Footnotes) movement and with organizations like Coolab [[7]](#Footnotes) and Digital-Democracy [[8]](#Footnotes). We work closely with local communities developing communication and information technologies in collaboration with them. By identifying and understanding needs and cultural traits that are specific to each locality, we can develop practices, software, and hardware that are aligned with their values. 
+We have been involved for years with the community-networks [[5]](#Footnotes) movement and with organizations like Coolab [[6]](#Footnotes) and Digital-Democracy [[7]](#Footnotes). We work closely with local communities developing communication and information technologies in collaboration with them. By identifying and understanding needs and cultural traits that are specific to each locality, we can develop practices, software, and hardware that are aligned with their values. 
 
 ## Collective Digital Networks
 
@@ -31,37 +31,37 @@ Devices and infrastructures with the goal of providing autonomy for communities 
 
 ![A blown up diagram of a wireless device](https://two.compost.digital/uncivilizing-digital-territories/image1.png)
 _Image via Rak Wireless_
-_Rak Wireless_ [[9]](#Footnotes)
+_Rak Wireless_ [[8]](#Footnotes)
 
-Accessible networking devices must be low-cost as well as easy to learn, use, and be appropriated by communities. A great start in this direction is the LibreRouter Project [[10]](#Footnotes), an open hardware Wi-Fi router running open source software. It's made by and for communities with the objective of facilitating the creation and maintenance of autonomous communication networks using mesh topologies. But it can be an overkill in cases, and many communities have limited access to financial resources.
+Accessible networking devices must be low-cost as well as easy to learn, use, and be appropriated by communities. A great start in this direction is the LibreRouter Project [[9]](#Footnotes), an open hardware Wi-Fi router running open source software. It's made by and for communities with the objective of facilitating the creation and maintenance of autonomous communication networks using mesh topologies. But it can be an overkill in cases, and many communities have limited access to financial resources.
 
-Ideally we would develop something that’s modular. Despite being commercial, Rak’s Wisblocks [[11]](#Footnotes) are a good source of inspiration, with options of several cheap, energy efficient little wireless modules that can be assembled together like Lego blocks. We can use them to build networks using many different transport options, such as long range modulation (LoRa) or Wi-Fi.
+Ideally we would develop something that’s modular. Despite being commercial, Rak’s Wisblocks [[10]](#Footnotes) are a good source of inspiration, with options of several cheap, energy efficient little wireless modules that can be assembled together like Lego blocks. We can use them to build networks using many different transport options, such as long range modulation (LoRa) or Wi-Fi.
 
 It would be amazing if we could have open hardware products that enable mixing different communication technologies such as high frequency radio (HF), Global System for Mobile Communications (GSM), fiber-optic cables, etc. Each of these technologies differ in levels of power consumption, bandwidth throughput, signal range, and technical and financial accessibility. Communities should be able to understand, choose, and adapt this kind of hardware to serve their collective needs.
 
 ## Collective Digital Interfaces
 
-Mobile phones have become the symbol of this historical moment. Their screens are small enough to force a one-person use of the device, yet large, bright, and colorful enough to keep a person sucked into whatever shiny thing it’s displaying. The brain’s reward pathways, mediated by dopamine, respond to screens in a very similar way to opioids. [[12]](#Footnotes)
+Mobile phones have become the symbol of this historical moment. Their screens are small enough to force a one-person use of the device, yet large, bright, and colorful enough to keep a person sucked into whatever shiny thing it’s displaying. The brain’s reward pathways, mediated by dopamine, respond to screens in a very similar way to opioids. [[11]](#Footnotes)
 
 Phones are made cheap enough to guarantee that almost any working-class person can have one as their ultimate private property, only comparable to personal documents, toothbrushes, and underwear (which aren’t shared for obvious reasons).
 
 Interaction with the digital world happens through our: hands, ears, mouth, and eyes. Modern phones activate these senses all in one central device, but have a limited ability to enable a collective and non-addictive experience that maintains and grows trust and solidarity within and between communities.
 
-Electronics are becoming more modular and cheaper, and knowledge on how to tinker with them more accessible. Groups that work close to communities, such as Janastu [[13]](#Footnotes), have done experiments with end-user devices designed for local contexts. And hardware development social-networks, such as Hackaday [[14]](#Footnotes), have plenty of examples from around the globe with inspirations on what's possible.
+Electronics are becoming more modular and cheaper, and knowledge on how to tinker with them more accessible. Groups that work close to communities, such as Janastu [[12]](#Footnotes), have done experiments with end-user devices designed for local contexts. And hardware development social-networks, such as Hackaday [[13]](#Footnotes), have plenty of examples from around the globe with inspirations on what's possible.
 
 ![A photo of the insides of a DIY walki talkie](https://two.compost.digital/uncivilizing-digital-territories/image2.png)
 _Image via Hackaday - ESP32 Walkie Talkie_
-_Hackaday - ESP32 Walkie Talkie_ [[15]](#Footnotes)
+_Hackaday - ESP32 Walkie Talkie_ [[14]](#Footnotes)
 
 Voice communication has emerged as one of the most common uses for smartphones especially in less industrially developed parts of the world where oral cultures are common and there are lower levels of text literacy.
 
 Walkie-talkies are cheap, simple, easy to interact with and require no Internet; but they are limited by distance, the number of devices communicating, and they only work for real-time communication. An ideal device would have the best of both worlds: have a simple, sturdy body with few buttons; communicate both over the Internet through Wi-Fi, as well as other radio frequencies; and store voice messages for the familiar asynchronous (store-and-forward) experience.
 
-This can be achieved using microcontrollers, such as the ESP32 [[16]](#Footnotes), enabling a very low price tag, between 30 to 50 USD, making it much more affordable than most phones. Such devices can enable communication in places where no connectivity exists; as well as promote community ownership of data and a less addictive use of communication devices.
+This can be achieved using microcontrollers, such as the ESP32 [[15]](#Footnotes), enabling a very low price tag, between 30 to 50 USD, making it much more affordable than most phones. Such devices can enable communication in places where no connectivity exists; as well as promote community ownership of data and a less addictive use of communication devices.
 
 ![A photo of people watching a film projection outside at night](https://two.compost.digital/uncivilizing-digital-territories/image3.jpg)
 _Photo by Raiz das Imagens_
-_Raiz das Imagens_ [[17]](#Footnotes)
+_Raiz das Imagens_ [[16]](#Footnotes)
 
 Television has long promoted to the masses the consumption of audiovisual content. Today the medium is transferred not through analog, but digital devices, and is an equally popular use for these devices as voice communication. The almost infinite quantity of content available through online vendors, such as Youtube, can be amazing for learning, given one knows how to filter through it.
 
@@ -78,11 +78,11 @@ Digital technology has, in many cases, created a sense that radio is a thing of 
 
 ![School children using a computer](https://two.compost.digital/uncivilizing-digital-territories/image5.jpg)
 _Photo via Minimally Invasive Education for mass computer literacy_
-_Minimally Invasive Education_ [[18]](#Footnotes)
+_Minimally Invasive Education_ [[17]](#Footnotes)
 
 We also use digital tools for reading, writing, texting, coding, designing, planning, playing, calculating, researching… But less-industrialized places have less access to devices that are appropriate for these tasks, such as a computer with a keyboard.
 
-Every community can have a publicly shared device so that all members can easily explore the digital world—the impact of this would be greater in low income places. Experiments such as Hole in the Wall [[19]](#Footnotes) show how powerful a public computer can be for self-learning and minimally invasive education [[20]](#Footnotes).
+Every community can have a publicly shared device so that all members can easily explore the digital world—the impact of this would be greater in low income places. Experiments such as Hole in the Wall [[18]](#Footnotes) show how powerful a public computer can be for self-learning and minimally invasive education [[19]](#Footnotes).
 
 People who depend on digital tools for their work would probably still need their own private device, although collective ownership should be greatly encouraged to lower the fetishism around end-user machines.
 
@@ -91,9 +91,9 @@ _Photo via Luandro_
 
 Storage and computation devices have become widespread, with each phone today having the power and memory of super-computers of the past. For the reasons above, we should refrain from encouraging the use of smartphones for communal purposes. Instead, we can experiment with the options presented above or better yet, experiment with something entirely new.
 
-Single-board computers (SBCs) have gained a lot of momentum in the past decade. There are loads of different options, like the popular Raspberry Pi [[21]](#Footnotes). They are small, energy efficient, and cheap, making them great candidates for being used as community-servers.
+Single-board computers (SBCs) have gained a lot of momentum in the past decade. There are loads of different options, like the popular Raspberry Pi [[20]](#Footnotes). They are small, energy efficient, and cheap, making them great candidates for being used as community-servers.
 
-They can be delegated the task of processing and storing data, which reduces dependency on powerful end-user devices. Making a 20 USD device, such as the Raspberry Pi Zero [[22]](#Footnotes) with a touchscreen and power supply, enough for basic interactions.The lower price consequently increases the accessibility to information.
+They can be delegated the task of processing and storing data, which reduces dependency on powerful end-user devices. Making a 20 USD device, such as the Raspberry Pi Zero [[21]](#Footnotes) with a touchscreen and power supply, enough for basic interactions.The lower price consequently increases the accessibility to information.
 
 Collectively managed servers enable the creation of local digital territories, where services can be curated, created, and hosted by the community itself. That's an example of community data sovereignty, which is a fundamental topic in digital literacy, but usually too abstract to be conveyed properly without a practical case.
 
@@ -111,7 +111,7 @@ Unfortunately, it’s becoming more and more rare to find a community which is t
 
 ![Screenshots of a website showing a map and location icons](https://two.compost.digital/uncivilizing-digital-territories/image7.jpg)
 _Image via Coolab_
-_Coolab_ [[23]](#Footnotes)
+_Coolab_ [[22]](#Footnotes)
 
 By bringing back the focus to the land itself, we revert the decaying of cultural identity, increasing the sense of community and autonomy. Identifying ourselves in a larger, local context works in alignment with our thirst for communal belonging.
 
@@ -119,13 +119,13 @@ A strategy we’ve been using to construct community-first user flows has been t
 
 Programming languages and frameworks have become more accessible, but it might still be a far away dream to have community members building digital territories based on collective needs. That's mainly because of language barriers and the low level of tech literacy, which are common in land-based communities.
 
-It's common to find local mechanics and electricians in any remote community, as hardware can be torn apart and parts analyzed and re-assembled. The process of hands-on learning only requires a curious mind—communities usually have an abundance of those. We propose a similar experience for software: by using self-hosted web-based code editors, like Coder [[24]](#Footnotes), to expose to anyone curious enough to modify, break, and build with the code.
+It's common to find local mechanics and electricians in any remote community, as hardware can be torn apart and parts analyzed and re-assembled. The process of hands-on learning only requires a curious mind—communities usually have an abundance of those. We propose a similar experience for software: by using self-hosted web-based code editors, like Coder [[23]](#Footnotes), to expose to anyone curious enough to modify, break, and build with the code.
 
 By leaving the source code open for community members to mess with, we expect that in the long-term, some might learn and contribute to building, maintaining, and tweaking these applications and services themselves.
 
 ![Screenshot of a website](https://two.compost.digital/uncivilizing-digital-territories/image8.jpg)
 _Image via moinho.app_
-_moinho.app_ [[25]](#Footnotes)
+_moinho.app_ [[24]](#Footnotes)
 
 In Moinho, a community in central Brazil, for example, a market service has been developed. It serves the purpose of strengthening the local economy, which has taken a hit from the pandemic recession, as well as reinforcing local cultural identity. It gives visibility, both for neighbors and visitors, to the cultural artifacts that are commercialized in the village.
 
@@ -133,7 +133,7 @@ This is a simple example, but shows the potential for community-centered flows. 
 
 ![Screenshot showing the cover of an audio book](https://two.compost.digital/uncivilizing-digital-territories/image9.png)
 _Image via Portal Sem Porteiras_
-_Portal Sem Porteiras_ [[26]](#Footnotes)
+_Portal Sem Porteiras_ [[25]](#Footnotes)
 
 In South-East Brazil, the Portal Sem Porteiras Association has developed an audio-soap opera produced by and for the neighborhood. As the women got together, evidence of patriarchal violence in the community was unearthed. They created a work of fiction to expose it, while also knitting together their cultural identity. The use of local references, narrators, and characters made it easy for the neighborhood to identify with the story and feel drawn to it.
 
@@ -147,11 +147,11 @@ Protocols created for the World Wide Web don’t take into account the possibili
 
 This has led to the research and development of many decentralized protocols, with the goal of distributing the web of data, as the web was originally intended, and dreaming beyond our old imaginations. As they mature, local digital territories can benefit from features of some of these distributed protocols in order to promote shared responsibility over data sovereignty and to increase data accessibility.
 
-Some of these protocols enable data to be transported by unusual mediums, such as sneakernets [[27]](#Footnotes) (physically moving data), in ways that are secure and take privacy seriously. Making them compatible with transports that communities have come to use, such as LoRa, is also fundamental.
+Some of these protocols enable data to be transported by unusual mediums, such as sneakernets [[26]](#Footnotes) (physically moving data), in ways that are secure and take privacy seriously. Making them compatible with transports that communities have come to use, such as LoRa, is also fundamental.
 
 Last but not least, software should be performant, as efficient programs require less from the hardware, making digital machines cheaper and more accessible. Of course, inefficient coding languages such as Javascript are amazing for fast prototyping but they require more computation. That’s why some distributed protocols have been putting a lot of effort into moving their codebases to more efficient languages such as Rust or Go, if they haven’t been using them to start with.
 
-More efficiency means less waste. An efficient stove, like a rocket stove [[28]](#Footnotes), requires less wood and cooks food faster. Same goes for code and programs. Communities can greatly benefit from development in that direction and, as these languages develop, they become more accessible and mature.
+More efficiency means less waste. An efficient stove, like a rocket stove [[27]](#Footnotes), requires less wood and cooks food faster. Same goes for code and programs. Communities can greatly benefit from development in that direction and, as these languages develop, they become more accessible and mature.
 
 ## Methods of Engaging
 
@@ -172,7 +172,7 @@ It’s important to bring about understanding on how the community currently see
 
 In most cases we’ll leave the community and can only hope to have left behind a seed of what could eventually become a community network — an alternative to the usual individualistic way of consuming technology. It’s always up to the community to germinate and cultivate that seed. It’s a very challenging path that requires key actors in the community to pull the wagon forward.
 
-If you’d like to learn more about methodologies of approaching technology with communities there are some great resources published by the Earth Defenders Toolkit Seed Bank [[29]](#Footnotes) and by Redes por la Diversidad, Equidad y Sustentabilidad A.C. [[30]](#Footnotes)
+If you’d like to learn more about methodologies of approaching technology with communities there are some great resources published by the Earth Defenders Toolkit Seed Bank [[28]](#Footnotes) and by Redes por la Diversidad, Equidad y Sustentabilidad A.C. [[29]](#Footnotes)
 
 
 ## Conclusion
@@ -190,11 +190,12 @@ All that is much easier said than done, as encouraging alternatives to mainstrea
 
 We might not be able to change the downhill course of civilization. But we can assist in strengthening our communities so that, when crises occur, we respond with our networks from a place of autonomy, solidarity, and resilience.
 
+_Editors' Note: This piece has been edited to remove mention of a figure who has aligned themselves with violent, transphobic beliefs. We retract any reference that inadvertently signaled support of him, or affiliated groups._
+
 ***
 
 ## Footnotes
 
-1. https://derrickjensen.org/endgame/civilization/
 1. https://clas.osu.edu/sites/clas.osu.edu/files/Tuck%20and%20Yang%202012%20Decolonization%20is%20not%20a%20metaphor.pdf
 1. https://theanarchistlibrary.org/library/ran-prieur-the-critique-of-civilization
 1. https://www.theguardian.com/global/2021/aug/22/how-digital-media-turned-us-all-into-dopamine-addicts-and-what-we-can-do-to-break-the-cycle
