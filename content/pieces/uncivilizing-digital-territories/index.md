@@ -24,7 +24,7 @@ We, civilized people, have been brought up to understand ourselves in relation t
 
 > "Our familiar “technologies” were developed in the context of conquest and central control and runaway exploitation and the numbness to make it all tolerable. We have the ones we have because they fed back into these habits, and they would continue to do so." Ran Prieur{{< footnote "3" >}}
 
-Digital technologies are perhaps too powerful. They are used for connecting distant loved ones and learning, while also for turning people into dopamine junkies{{< footnote "4" >}} and spreading disinformation.{{< footnote "5" >}} But they can also help strengthen communities and their resistances.
+Digital technologies are perhaps too powerful. They are used for connecting distant loved ones and learning, while also for turning people into dopamine junkies{{< footnote "4" >}} and spreading disinformation{{< footnote "5" >}}. But they can also help strengthen communities and their resistances.
 
 We have been involved for years with the community-networks {{< footnote "community-networks" >}} movement and with organizations like Coolab {{< footnote "coolab" >}} and Digital-Democracy {{< footnote "digital-democracy" >}}. We work closely with local communities developing communication and information technologies in collaboration with them. By identifying and understanding needs and cultural traits that are specific to each locality, we can develop practices, software, and hardware that are aligned with their values. 
 
@@ -45,7 +45,7 @@ It would be amazing if we could have open hardware products that enable mixing d
 
 ## Collective Digital Interfaces
 
-Mobile phones have become the symbol of this historical moment. Their screens are small enough to force a one-person use of the device, yet large, bright, and colorful enough to keep a person sucked into whatever shiny thing it’s displaying. The brain’s reward pathways, mediated by dopamine, respond to screens in a very similar way to opioids.{{< footnote "6" >}}
+Mobile phones have become the symbol of this historical moment. Their screens are small enough to force a one-person use of the device, yet large, bright, and colorful enough to keep a person sucked into whatever shiny thing it’s displaying. The brain’s reward pathways, mediated by dopamine, respond to screens in a very similar way to opioids{{< footnote "6" >}}.
 
 Phones are made cheap enough to guarantee that almost any working-class person can have one as their ultimate private property, only comparable to personal documents, toothbrushes, and underwear (which aren’t shared for obvious reasons).
 
@@ -178,7 +178,7 @@ It’s important to take into account that many communities might not need or wa
 
 But the fact is that most communities have already been exposed to the corporate web. These approaches can be used to revert the damage, hopefully assisting the turn of individualizing experiences into those of solidarity and collective construction.
 
-{{< figure src="image11.jpg" alt="Image of Negro River Rapids, Amazon" caption="A photo of Negro River rapids, Amazon, via Luandro">}} 
+{{< figure src="image11.jpg" alt="Image of Negro River Rapids, Amazon" caption="A photo of Negro River rapids, Amazon, via Clóvis Miranda/Amazonastur">}} 
 
 All that is much easier said than done, as encouraging alternatives to mainstream usage of technology is, many times, like trying to swim against a strong current. But we can build networks of communities where experiences are shared, and principles of autonomy—and livelihoods which operate in mutual relationship with Mother Earth’s complex, abundant world—can be valued and celebrated. Building these relationships with native-cultures without being extractive is fundamental for learning how to reconnect with our essence and understanding more about non-civilized practices and ways of life.
 
