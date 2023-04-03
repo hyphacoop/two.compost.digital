@@ -33,9 +33,11 @@ jobs:
       - run: echo "Building hugo site"
       - run: hugo
 
-      - name: Deploying site
+      - name: Publish to Distributed Press
         if: ${{ github.ref == 'refs/heads/master' }}
-        run: |
-          ls ${{ github.workspace }}
-          tar -czhv -f www.tar.gz -C public .
-          bash -x .distributed-press/deploy.sh ${{ secrets.DISTRIBUTED_PRESS_API_KEY }} ./.distributed-press/config.json www.tar.gz
+        uses: hyphacoop/actions-distributed-press@v1.1.0
+        with:
+          publish_dir: ./public
+          dp_url: https://srv2.distributed.press
+          refresh_token: ${{ secrets.DISTRIBUTED_PRESS_API_KEY }}
+          site_url: two.compost.digital
