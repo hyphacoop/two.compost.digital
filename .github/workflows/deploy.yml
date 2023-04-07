@@ -8,7 +8,7 @@ on:
     branches:
       - master
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       # Get system info
@@ -20,10 +20,11 @@ jobs:
 
       # Install Hugo
       # Download latest version of Hugo
-      - run: |
-          latest=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-)
-          wget https://github.com/gohugoio/hugo/releases/download/v${latest}/hugo_extended_${latest}_Linux-64bit.deb -O hugo.deb
-          sudo dpkg -i hugo.deb
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.80.0'
+          extended: true
 
       # Checks-out your repository under $GITHUB_WORKSPACE, 
       # so your workflow can access it
