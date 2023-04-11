@@ -3,11 +3,12 @@ on:
   push:
     branches:
       - master
+      - v1-prod
   pull_request:
     branches:
       - master
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       # Get system info
@@ -19,10 +20,11 @@ jobs:
 
       # Install Hugo
       # Download latest version of Hugo
-      - run: |
-          latest=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/' | cut -c2-)
-          wget https://github.com/gohugoio/hugo/releases/download/v${latest}/hugo_extended_${latest}_Linux-64bit.deb -O hugo.deb
-          sudo dpkg -i hugo.deb
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.80.0'
+          extended: true
 
       # Checks-out your repository under $GITHUB_WORKSPACE, 
       # so your workflow can access it
@@ -33,9 +35,11 @@ jobs:
       - run: echo "Building hugo site"
       - run: hugo
 
-      - name: Deploying site
+      - name: Publish to Distributed Press
         if: ${{ github.ref == 'refs/heads/master' }}
-        run: |
-          ls ${{ github.workspace }}
-          tar -czhv -f www.tar.gz -C public .
-          bash -x .distributed-press/deploy.sh ${{ secrets.DISTRIBUTED_PRESS_API_KEY }} ./.distributed-press/config.json www.tar.gz
+        uses: hyphacoop/actions-distributed-press@v1.1.0
+        with:
+          publish_dir: ./public
+          dp_url: https://srv2.distributed.press
+          refresh_token: ${{ secrets.DISTRIBUTED_PRESS_API_KEY }}
+          site_url: two.compost.digital
