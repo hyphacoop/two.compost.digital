@@ -2,6 +2,8 @@
 
 The second issue of https://compost.digital. A static site built with [hugo](https://https://gohugo.io/).
 
+Published via [Distributed.Press](https://distributed.press)
+
 ## First-time setup
 
 1. Clone this repo
