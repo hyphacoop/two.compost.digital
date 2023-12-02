@@ -1,89 +1,95 @@
 {
-  "2" : {
-    "text" : "https://clas.osu.edu/sites/clas.osu.edu/files/Tuck%20and%20Yang%202012%20Decolonization%20is%20not%20a%20metaphor.pdf"
+  "2": {
+    "text": "https://clas.osu.edu/sites/clas.osu.edu/files/Tuck%20and%20Yang%202012%20Decolonization%20is%20not%20a%20metaphor.pdf"
   },
-  "3" : {
-    "text" : "https://theanarchistlibrary.org/library/ran-prieur-the-critique-of-civilization"
+  "3": {
+    "text": "https://theanarchistlibrary.org/library/ran-prieur-the-critique-of-civilization"
   },
-  "4" : {
-    "text" : "https://www.theguardian.com/global/2021/aug/22/how-digital-media-turned-us-all-into-dopamine-addicts-and-what-we-can-do-to-break-the-cycle"
+  "4": {
+    "text": "https://www.theguardian.com/global/2021/aug/22/how-digital-media-turned-us-all-into-dopamine-addicts-and-what-we-can-do-to-break-the-cycle"
   },
-  "5" : {
-    "text" : "https://www.nytimes.com/2021/07/25/world/europe/disinformation-social-media.html"
+  "5": {
+    "text": "https://www.nytimes.com/2021/07/25/world/europe/disinformation-social-media.html"
   },
-  "6" : {
-    "text" : "https://neuroscience.stanford.edu/news/just-how-bad-kids-smartphone-addiction"
+  "6": {
+    "text": "https://neuroscience.stanford.edu/news/just-how-bad-kids-smartphone-addiction"
+  },
+  "7": {
+    "text": "https://archive.org/details/graeber-wengrow-dawn"
   },
   "community-networks": {
-    "text" : "https://communitynetworks.group/"
+    "text": "https://communitynetworks.group/"
   },
   "coolab": {
-    "text" : "https://www.coolab.org/"
-  }, 
-  "digital-democracy" : {
-    "text" : "https://www.digital-democracy.org/"
+    "text": "https://www.coolab.org/"
   },
-  "rak-wireless" : {
-    "text" : "https://www.rakwireless.com/en-us/company/wisblock-series"
+  "digital-democracy": {
+    "text": "https://www.digital-democracy.org/"
   },
-  "libre-router" : {
-    "text" : "https://librerouter.org/"
+  "rak-wireless": {
+    "text": "https://www.rakwireless.com/en-us/company/wisblock-series"
   },
-  "rak-wisblock" : {
-    "text" : "https://store.rakwireless.com/pages/wisblock"
+  "libre-router": {
+    "text": "https://librerouter.org/"
   },
-  "janastu" : {
-    "text" : "https://blog.janastu.org"
+  "rak-wisblock": {
+    "text": "https://store.rakwireless.com/pages/wisblock"
   },
-  "hackaday" : {
-    "text" : "https://hackaday.io/"
+  "janastu": {
+    "text": "https://blog.janastu.org"
   },
-  "esp32-walkie-talkie" : {
-    "text" : "https://hackaday.com/2021/04/07/an-esp32-walkie-talkie-for-those-spy-radio-moments/"
+  "hackaday": {
+    "text": "https://hackaday.io/"
   },
-  "esp32" : {
-    "text" : "https://en.wikipedia.org/wiki/ESP32"
+  "esp32-walkie-talkie": {
+    "text": "https://hackaday.com/2021/04/07/an-esp32-walkie-talkie-for-those-spy-radio-moments/"
   },
-  "raizdasimagens" : {
-    "text" : "https://vimeo.com/raizdasimagens"
+  "esp32": {
+    "text": "https://en.wikipedia.org/wiki/ESP32"
   },
-  "minimally-invasive-education-paper" : {
-    "text" : "http://www.hole-in-the-wall.com/docs/Paper01.pdf"
+  "raizdasimagens": {
+    "text": "https://vimeo.com/raizdasimagens"
   },
-  "hole-in-the-wall" : {
-    "text" : "https://www.ted.com/talks/sugata_mitra_kids_can_teach_themselves"
+  "minimally-invasive-education-paper": {
+    "text": "http://www.hole-in-the-wall.com/docs/Paper01.pdf"
   },
-  "minimally-invasive-education" : {
-    "text" : "https://en.wikipedia.org/wiki/Minimally_invasive_education"
+  "hole-in-the-wall": {
+    "text": "https://www.ted.com/talks/sugata_mitra_kids_can_teach_themselves"
   },
-  "raspberry-pi" : {
-    "text" : "https://www.raspberrypi.org/"
+  "minimally-invasive-education": {
+    "text": "https://en.wikipedia.org/wiki/Minimally_invasive_education"
   },
-  "pi-zero" : {
-    "text" : "https://aliexpress.com/item/32566751770.html"
+  "raspberry-pi": {
+    "text": "https://www.raspberrypi.org/"
   },
-  "coolab-2" : {
-    "text" : "https://www.coolab.org/"
+  "pi-zero": {
+    "text": "https://aliexpress.com/item/32566751770.html"
   },
-  "coder" : {
-    "text" : "https://coder.com/"
+  "coolab-2": {
+    "text": "https://www.coolab.org/"
   },
-  "moinho-app" : {
-    "text" : "http://moinho.app"
+  "coder": {
+    "text": "https://coder.com/"
   },
-  "portal-sem-porteiras" : {
-    "text" : "https://portalsemporteiras.github.io/nos-por-nos/novella"
+  "moinho-app": {
+    "text": "http://moinho.app"
   },
-  "sneakernets" : {
-    "text" : "https://en.wikipedia.org/wiki/Sneakernet"
+  "portal-sem-porteiras": {
+    "text": "https://portalsemporteiras.github.io/nos-por-nos/novella"
   },
-  "rocket-stove" : {
-    "text" : "https://en.wikipedia.org/wiki/Rocket_stove"
+  "sneakernets": {
+    "text": "https://en.wikipedia.org/wiki/Sneakernet"
   },
-  "seed-bank" : {
-    "text" : "https://www.earthdefenderstoolkit.com/"
+  "rocket-stove": {
+    "text": "https://en.wikipedia.org/wiki/Rocket_stove"
   },
-  "redesac" : {
-    "text" : "https://www.redesac.org.mx/publicaciones"
+  "seed-bank": {
+    "text": "https://www.earthdefenderstoolkit.com/"
+  },
+  "redesac": {
+    "text": "https://www.redesac.org.mx/publicaciones"
+  },
+  "tech-cartographies": {
+    "text": "https://www.cartografiasdainternet.org/en"
   }
 }
