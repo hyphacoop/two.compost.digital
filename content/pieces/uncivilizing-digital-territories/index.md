@@ -59,7 +59,7 @@ These services do create opportunities for networking, but because of their corp
 
 Nature-based communities have been for centuries flooded with alcohol incentivized by corporate and state actors interested in their land and resources; and they were raided by religious conversion campaigns interested in civilizing them. These have been extremely efficient weapons of cultural assimilation and disruption of community autonomy and self-governance.
 
-Unfortunately, it’s becoming rare for communities to be tied primarly by cultural identity. But what every local community has in common is the connection to a physical territory, even if there’s no deeper cultural connection to the land.
+Unfortunately, it’s becoming rare for communities to be tied primarily by cultural identity. But what every local community has in common is the connection to a physical territory, even if there’s no deeper cultural connection to the land.
 
 {{< figure src="image7.jpg" alt="Screenshots of a website showing a map and location icons" class="has-shadow" caption="Image via Coolab">}}
 _Coolab_ {{< footnote "coolab-2" >}}
