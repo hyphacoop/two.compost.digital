@@ -161,7 +161,7 @@ Collectively managed servers enable the creation of local digital territories, w
 
 Digital experiences start with hardware. Default options are market-driven personal devices, privately controlled wired and wireless networks, and huge centralized server warehouses.
 
-Devices and infrastructures with the goal of providing autonomy for communities must have accessibility, distribution of responsibility, and of data guardianship as priorities. And special care must be taken not to force patterns of assimilation, but rather to foster the qualities of flexibility and political creativity that were once more common in human societies. We must ask ourselves how we can recover the freedoms to move, to disobey, and to reimagine our societies, which are essential for resisting the normalization of violence and domination.
+Devices and infrastructures with the goal of providing autonomy for communities must have accessibility, distribution of responsibility, and of data guardianship as priorities. Special care must be taken not to force patterns of assimilation, but rather to foster the qualities of flexibility and political creativity that were once more common in human societies. We must ask ourselves how we can recover the freedoms to move, to disobey, and to re-imagine our societies. This is essential for resisting the normalization of violence and domination.
 
 {{< figure src="image1.png" alt="A blown up diagram of a wireless device" class="has-shadow" caption="Image via Rak Wireless">}}
 _Rak Wireless_ {{< footnote "rak-wireless">}}
