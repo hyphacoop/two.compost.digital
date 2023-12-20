@@ -27,7 +27,7 @@ We, the so-called civilized, have been raised to see ourselves in relation to na
 
 Digital technologies are a double-edged sword. They connect distant loved ones and facilitate learning but also turn people into dopamine addicts{{< footnote "4" >}} and spread disinformation{{< footnote "5" >}}. Yet, they also have the potential to strengthen communities and support their resistance. We'll be exploring some inspirational examples and thoughts on ways to engage with technology in a more communal way.
 
-We (Luandro and the various contradictions within) have been engaged for years with the community-networks {{< footnote "community-networks" >}} movement and organizations like Coolab {{< footnote "coolab" >}} and Digital Democracy {{< footnote "digital-democracy" >}}. Working closely with local communities, we develop communication and information technologies in collaboration with them. By recognizing and understanding the particular needs and cultural traits of a diverse range of territories in Brazil, we can create practices, software, and hardware that align with their values.
+I have been engaged for years with the community-networks {{< footnote "community-networks" >}} movement and organizations like Coolab {{< footnote "coolab" >}} and Digital Democracy {{< footnote "digital-democracy" >}}. We develop communication and information technologies in close collaboration with local communities. By recognizing and understanding the particular needs and cultural traits of a diverse range of territories in Brazil, we can create practices, software, and hardware that align with their values.
 
 ## Methods of Engaging
 
