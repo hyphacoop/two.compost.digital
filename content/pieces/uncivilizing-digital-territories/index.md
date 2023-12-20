@@ -25,7 +25,7 @@ Pockets of resistance persist, enduring campaigns by states, for-profits, and ev
 
 We, the so-called civilized, have been raised to see ourselves in relation to nations built on stolen land, mass genocide, and the exploitation of life. Yet from this limited perspective, can we choose to build tools of solidarity and community over individualism and coercion?
 
-Digital technologies are a double-edged sword. They connect distant loved ones and facilitate learning but also turn people into dopamine addicts{{< footnote "4" >}} and spread disinformation{{< footnote "5" >}}. Yet, they also have the potential to strengthen communities and support their resistance. We'll be exploring some inspirational examples and thoughts on ways to engage with technology in a more communal way.
+Digital technologies are a double-edged sword. They connect distant loved ones and facilitate learning but also turn people into dopamine addicts{{< footnote "4" >}} and spread disinformation{{< footnote "5" >}}. But they also have the potential to strengthen communities and support their resistance. In this piece, we'll be exploring some inspirational examples and thoughts on ways to engage with technology in a more communal way.
 
 I have been engaged for years with the community-networks {{< footnote "community-networks" >}} movement and organizations like Coolab {{< footnote "coolab" >}} and Digital Democracy {{< footnote "digital-democracy" >}}. We develop communication and information technologies in close collaboration with local communities. By recognizing and understanding the particular needs and cultural traits of a diverse range of territories in Brazil, we can create practices, software, and hardware that align with their values.
 
