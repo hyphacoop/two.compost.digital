@@ -17,7 +17,7 @@ It’s tempting to think that it’s always been like this: One culture to contr
 
 Despite being the reality for most people on the planet today, analyzing humanity solely through the lens of militarized, hierarchical, and coercive cultures can be overly narrow. This perspective simplifies the complexity of human societies and overlooks the existence of non-dominant forms of organization {{< footnote "7" >}}.
 
-We seem to be at the apex of the state/capitalist civilization model—power is more concentrated than ever, manifesting in the collapse we witness today. The modern state's origins are not deeply rooted but are instead tied to colonial violence, prompting us to rethink our development trajectory and the normalization of violence and domination within the dominant system.
+We seem to be at the apex of the capitalist civilization model—power is more concentrated than ever, manifesting in the collapse we witness today. The modern state's origins are not deeply rooted, but are instead tied to colonial violence. They prompt us to rethink our development trajectory and the normalization of violence and domination within the dominant system.
 
 > “_We know that Mother Nature has a culture, and it is a Native culture_” Yupiaq scholar, Oscar Kawagley{{< footnote "2" >}}
 
