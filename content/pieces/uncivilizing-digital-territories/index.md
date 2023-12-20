@@ -9,7 +9,9 @@ markdown: ../markdown/uncivilizing-digital-territories.md
 weight: 4
 ---
 
-There’s something fundamentally wrong with the dominant culture, which has become the default despite its direct conflict with the essence of being human—part of planet Earth. This system has colonized much of humanity with tools that centralize power, a natural tendency for animals like us, but one that does little to foster diversity in gender, spirituality, culture, or to support planetary survival and quality of life.
+_This piece has been updated since its publication. Last updated: 13 Dec 2023_
+
+There’s something fundamentally wrong with the dominant culture, which has become the default despite its direct conflict with the essence of being human and being part of planet Earth. This system has colonized much of humanity with tools that centralize power, a natural tendency for animals like us, but one that does little to foster diversity in gender, spirituality, culture, or to support planetary survival and quality of life.
 
 It’s tempting to think that it’s always been like this: One culture to control them all. However, historical evidence suggests otherwise. Human settlements, rural or urban, did not invariably lead to social freedoms' loss or the emergence of ruling elites. Documented cases of early cities show minimal evidence of social hierarchies, and some cities that began hierarchically later adopted more egalitarian systems {{< footnote "7" >}}.
 
