@@ -115,7 +115,7 @@ Electronics are becoming more modular and cheaper, and knowledge on how to tinke
 {{< figure src="image2.png" alt="A photo of the insides of a DIY walki talkie" class="has-shadow" caption="Image via Hackaday - ESP32 Walkie Talkie">}}
 _Hackaday - ESP32 Walkie Talkie_ {{< footnote "esp32-walkie-talkie" >}}
 
-Voice communication has emerged as one of the most common uses for smartphones especially in less industrially developed parts of the world where oral cultures are common and there are lower levels of text literacy.
+Voice communication has emerged as one of the most common uses for smartphones, especially in less industrially developed parts of the world where oral cultures are common and there are lower levels of text literacy.
 
 Text-to-speech (TTS) and speech-to-text (STT) technologies can be pivotal in crafting dialog-driven interfaces for oral-first users. By converting text into natural-sounding audio, TTS allows individuals who are more comfortable with spoken language to receive information and navigate digital spaces without the need for literacy. Conversely, STT enables users to interact with devices through their voice, making technology more accessible and intuitive for those who may find typing challenging. Together, these tools can facilitate a conversational user experience, where commands and information flow naturally as in a dialogue, bridging the gap between traditional oral communication and modern digital interfaces.
 
