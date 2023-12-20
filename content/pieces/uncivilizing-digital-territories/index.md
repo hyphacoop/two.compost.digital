@@ -153,7 +153,7 @@ Storage and computation devices have become widespread, with each phone today ha
 
 Single-board computers (SBCs) have gained a lot of momentum in the past decade. There are loads of different options, like the popular Raspberry Pi {{< footnote "raspberry-pi" >}}. They are small, energy efficient, and cheap, making them great candidates for being used as community-servers.
 
-They can be delegated the task of processing and storing data, which reduces dependency on powerful end-user devices. Making a 20 USD device, such as the Raspberry Pi Zero {{< footnote "pi-zero" >}} with a touchscreen and power supply, enough for basic interactions.The lower price consequently increases the accessibility to information.
+They can be delegated the task of processing and storing data, which reduces dependency on powerful end-user devices. Making a 20 USD device, such as the Raspberry Pi Zero {{< footnote "pi-zero" >}} with a touchscreen and power supply, can be enough for basic interactions. The lower price consequently increases the accessibility to information.
 
 Collectively managed servers enable the creation of local digital territories, where services can be curated, created, and hosted by the community itself. That's an example of community data sovereignty, which is a fundamental topic in digital literacy, but usually too abstract to be conveyed properly without a practical case.
 
